@@ -44,4 +44,3 @@
     "child": {"$ref": "https://legytma.com.br/schema/widget.schema.json"}
   }
 }
-
