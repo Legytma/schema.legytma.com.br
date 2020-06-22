@@ -1,8 +1,5 @@
 #!/bin/bash
 
-npm install -g @adobe/jsonschema2md
-npm install
-
 SOURCE_PATH=schema
 DOCS_PATH=docs/$1
 

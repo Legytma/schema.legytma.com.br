@@ -1,8 +1,5 @@
 @echo off
 
-call npm install -g @adobe/jsonschema2md
-call npm install
-
 set sourcePath=schema
 set docsPath=docs\%1
 
