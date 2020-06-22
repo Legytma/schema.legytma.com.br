@@ -1,0 +1,31 @@
+{
+  "name": "schema_documentation_builder",
+  "version": "1.0.0",
+  "description": "Schema Documentation Builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings --inspect index.js",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legytma/LegytmaSchemas.git"
+  },
+  "keywords": [
+    "Legytma",
+    "json-schema",
+    "LegytmaSchemas",
+    "Documentation"
+  ],
+  "author": "Alex Manoel Ferreira Silva <windol@legytma.com.br>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Legytma/LegytmaSchemas/issues"
+  },
+  "homepage": "https://github.com/Legytma/LegytmaSchemas#readme",
+  "devDependencies": {
+    "@adobe/jsonschema2md": "^4.1.5",
+    "standard-version": "^8.0.0"
+  }
+}
