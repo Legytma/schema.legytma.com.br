@@ -4,7 +4,6 @@
   "description": "Schema Documentation Builder",
   "main": "index.js",
   "scripts": {
-    "commit": "git-cz",
     "start": "node index.js",
     "prerelease": "node index.js",
     "release": "standard-version"
@@ -27,7 +26,7 @@
   "homepage": "https://github.com/Legytma/LegytmaSchemas#readme",
   "devDependencies": {
     "@adobe/jsonschema2md": "^4.1.5",
-    "git-cz": "^4.7.0",
+    "@commitlint/cli": "^9.0.1",
     "standard-version": "^8.0.0"
   }
 }
