@@ -10,17 +10,22 @@
       "$ref": "https://legytma.com.br/schema/widget.schema.json"
     }
   ],
-  "properties": {
-    "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type",
-      "const": "SizedBox"
-    },
+  "definitions": {
     "sizedBoxType": {
       "title": "Sized Box Type",
       "description": "",
       "$comment": "",
       "type": "string",
       "enum": ["expand", "fromSize", "shrink", "default"]
+    }
+  },
+  "properties": {
+    "type": {
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "const": "SizedBox"
+    },
+    "sizedBoxType": {
+      "$ref": "#/definitions/sizedBoxType"
     },
     "child": {"$ref": "https://legytma.com.br/schema/widget.schema.json"}
   },

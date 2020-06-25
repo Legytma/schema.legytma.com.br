@@ -8,7 +8,7 @@
   "allOf": [{"$ref": "https://legytma.com.br/schema/border_radius_object.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/border_radius_object.schema.json#/properties/type",
+      "$ref": "https://legytma.com.br/schema/border_radius_object.schema.json#/definitions/type",
       "const": "zero"
     }
   }

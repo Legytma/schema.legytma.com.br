@@ -12,7 +12,7 @@
   ],
   "properties": {
     "sizedBoxType": {
-      "$ref": "https://legytma.com.br/schema/widget/sized_box.schema.json#properties/sizedBoxType",
+      "$ref": "https://legytma.com.br/schema/widget/sized_box.schema.json#/definitions/sizedBoxType",
       "const": "expand"
     }
   }

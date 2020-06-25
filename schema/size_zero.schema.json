@@ -8,7 +8,7 @@
   "anyOf": [{"$ref": "https://legytma.com.br/schema/size.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/size.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/size.schema.json#/definitions/type",
       "const": "zero"
     }
   }

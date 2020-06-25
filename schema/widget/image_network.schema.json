@@ -12,7 +12,7 @@
   ],
   "properties": {
     "imageType": {
-      "$ref": "https://legytma.com.br/schema/widget/image.schema.json#properties/imageType",
+      "$ref": "https://legytma.com.br/schema/widget/image.schema.json#/definitions/imageType",
       "const": "network"
     },
     "src": {

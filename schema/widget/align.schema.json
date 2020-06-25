@@ -8,7 +8,7 @@
   "allOf": [{"$ref": "https://legytma.com.br/schema/widget.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
       "const": "Align"
     },
     "alignment": {"$ref": "https://legytma.com.br/schema/alignment.schema.json"},

@@ -8,7 +8,7 @@
   "allOf": [{"$ref": "https://legytma.com.br/schema/rect.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/rect.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/rect.schema.json#/definitions/type",
       "const": "fromLTRB"
     },
     "left": {"$ref": "https://legytma.com.br/schema/double.schema.json"},

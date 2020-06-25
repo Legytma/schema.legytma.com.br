@@ -7,8 +7,13 @@
   "type": "object",
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
       "enum": ["loose", "tightFor", "expand", "tightForFinite", "lerp", "default"]
+    }
+  },
+  "properties": {
+    "type": {
+      "$ref": "#/definitions/type"
     }
   }
 }

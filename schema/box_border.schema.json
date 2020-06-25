@@ -5,9 +5,14 @@
   "description": "",
   "$comment": "Created by Windol <windol@legytma.com.br> at 28/04/2020.\nCopyright (c) 2020 Legytma Soluções Inteligentes (https://legytma.com.br). All rights reserved.",
   "type": "object",
+  "definitions": {
+    "type": {
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type"
+    }
+  },
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type"
+      "$ref": "#/definitions/type"
     }
   }
 }

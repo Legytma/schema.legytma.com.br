@@ -5,11 +5,16 @@
   "description": "",
   "$comment": "Created by Windol <windol@legytma.com.br> at 23/04/2020.\nCopyright (c) 2020 Legytma Soluções Inteligentes (https://legytma.com.br). All rights reserved.",
   "type": "object",
-  "properties": {
+  "definitions": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
       "enum": ["BoxDecoration", "FlutterLogoDecoration", "UnderlineTabIndicator", "ShapeDecoration"],
       "examples": ["BoxDecoration", "FlutterLogoDecoration", "UnderlineTabIndicator", "ShapeDecoration"]
+    }
+  },
+  "properties": {
+    "type": {
+      "$ref": "#/definitions/type"
     }
   }
 }

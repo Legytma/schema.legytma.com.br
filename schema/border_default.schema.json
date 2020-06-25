@@ -8,7 +8,7 @@
   "allOf": [{"$ref": "https://legytma.com.br/schema/border.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/border.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/border.schema.json#/definitions/type",
       "const": "default"
     },
     "top": {

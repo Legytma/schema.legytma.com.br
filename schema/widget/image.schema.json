@@ -10,17 +10,22 @@
       "$ref": "https://legytma.com.br/schema/widget.schema.json"
     }
   ],
-  "properties": {
-    "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type",
-      "const": "Image"
-    },
+  "definitions": {
     "imageType": {
       "title": "Image Type",
       "description": "",
       "$comment": "",
       "type": "string",
       "enum": ["asset", "network", "file", "memory", "default"]
+    },
+  },
+  "properties": {
+    "type": {
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "const": "Image"
+    },
+    "imageType": {
+      "$ref": "#/definitions/imageType"
     },
     "frameBuilder": {"$ref": "https://legytma.com.br/schema/image_frame_builder.schema.json"},
     "semanticLabel": {

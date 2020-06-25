@@ -7,7 +7,7 @@
   "type": "object",
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
       "enum": ["scaling"]
     }
   }

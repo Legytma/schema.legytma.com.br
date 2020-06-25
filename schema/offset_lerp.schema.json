@@ -8,7 +8,7 @@
   "allOf": [{"$ref": "https://legytma.com.br/schema/offset.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/offset.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/offset.schema.json#/definitions/type",
       "const": "lerp"
     },
     "a": {"$ref": "https://legytma.com.br/schema/offset.schema.json"},

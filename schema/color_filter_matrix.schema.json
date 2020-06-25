@@ -8,7 +8,7 @@
   "allOf": [{"$ref": "https://legytma.com.br/schema/color_filter.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/color_filter.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/color_filter.schema.json#/definitions/type",
       "const": "matrix"
     },
     "matrix": {"$ref": "https://legytma.com.br/schema/list_double.schema.json"}

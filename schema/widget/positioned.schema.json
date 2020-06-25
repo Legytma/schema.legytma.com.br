@@ -12,7 +12,7 @@
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
       "const": "Positioned"
     },
     "child": {"$ref": "https://legytma.com.br/schema/widget.schema.json"},

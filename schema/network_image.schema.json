@@ -8,7 +8,7 @@
   "allOf": [{"$ref": "https://legytma.com.br/schema/image_provider_dynamic.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/image_provider_dynamic.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/image_provider_dynamic.schema.json#/definitions/type",
       "const": "NetworkImage"
     },
     "url": {"$ref": "https://legytma.com.br/schema/url.schema.json"},

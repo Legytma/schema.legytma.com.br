@@ -7,9 +7,14 @@
   "type": "object",
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
       "$comment": "TODO: Implement other types",
       "enum": ["NetworkImage"]
+    }
+  },
+  "properties": {
+    "type": {
+      "$ref": "#/definitions/type"
     }
   },
   "required": ["type"]

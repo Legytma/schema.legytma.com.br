@@ -5,11 +5,16 @@
   "description": "",
   "$comment": "Created by Windol <windol@legytma.com.br> at 27/04/2020.\nCopyright (c) 2020 Legytma Soluções Inteligentes (https://legytma.com.br). All rights reserved.",
   "type": "object",
-  "properties": {
+  "definitions": {
     "type": {
       "title": "Type",
       "description": "Define o tipo de Border Radius",
       "type": "string"
+    }
+  },
+  "properties": {
+    "type": {
+      "$ref": "#/definitions/type"
     }
   },
   "required": ["type"]

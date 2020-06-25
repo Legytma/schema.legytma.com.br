@@ -8,7 +8,7 @@
   "anyOf": [{"$ref": "https://legytma.com.br/schema/box_constraints.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/box_constraints.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/box_constraints.schema.json#/definitions/type",
       "const": "tightForFinite"
     },
     "width": {

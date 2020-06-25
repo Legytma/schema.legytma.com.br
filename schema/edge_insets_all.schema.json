@@ -8,7 +8,7 @@
   "allOf": [{"$ref": "https://legytma.com.br/schema/edge_insets_object.schema.json"}],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/edge_insets_object.schema.json#properties/type",
+      "$ref": "https://legytma.com.br/schema/edge_insets_object.schema.json#/definitions/type",
       "const": "all"
     },
     "all": {"$ref": "https://legytma.com.br/schema/double.schema.json"}

@@ -5,10 +5,15 @@
   "description": "",
   "$comment": "Created by Alex at 16/06/2020.\nCopyright (c) 2020 Legytma Soluções Inteligentes (https://legytma.com.br). All rights reserved.",
   "type": "object",
+  "definitions": {
+    "type": {
+      "$ref": "https://legytma.com.br/schema/border_radius_geometry.schema.json#/definitions/type",
+      "enum": ["string", "all", "circular", "horizontal", "lerp", "only", "vertical", "zero"]
+    }
+  },
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/border_radius_geometry.schema.json#properties/type",
-      "enum": ["string", "all", "circular", "horizontal", "lerp", "only", "vertical", "zero"]
+      "$ref": "#/definitions/type",
     }
   },
   "required": ["type"]
