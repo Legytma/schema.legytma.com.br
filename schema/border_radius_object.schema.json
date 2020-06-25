@@ -13,7 +13,7 @@
   },
   "properties": {
     "type": {
-      "$ref": "#/definitions/type",
+      "$ref": "#/definitions/type"
     }
   },
   "required": ["type"]

@@ -17,7 +17,7 @@
       "$comment": "",
       "type": "string",
       "enum": ["asset", "network", "file", "memory", "default"]
-    },
+    }
   },
   "properties": {
     "type": {

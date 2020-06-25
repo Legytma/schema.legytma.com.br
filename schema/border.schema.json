@@ -14,7 +14,7 @@
   },
   "properties": {
     "type": {
-      "$ref": "#/definitions/type",
+      "$ref": "#/definitions/type"
     }
   }
 }
