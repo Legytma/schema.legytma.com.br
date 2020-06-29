@@ -4,7 +4,7 @@ const path = require('path');
 const { spawn } = require( 'child_process' );
 
 const isWin = process.platform === "win32";
-const version = process.env.npm_package_version || require('./package.json').version;
+const version = require('./package.json').version;
 
 if (isWin) {
 	const generateDocs = spawn(path.join(__dirname, 'build.bat'), [version]);
