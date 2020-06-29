@@ -13,5 +13,11 @@
 	],
 	"skip": {
 		"tag": true
-	}
+	},
+	"bumpFiles": [
+		{
+			"filename": "docs/README.md",
+			"updater": "standard-version-updater.js"
+		}
+	]
 }
