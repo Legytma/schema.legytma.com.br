@@ -14,4 +14,4 @@ echo Building schema documentation...
 jsonschema2md -d $SOURCE_PATH -o $DOCS_PATH -x $SCHEMA_PATH
 
 git add $ROOT_PATH
-git commit -m "build: geração automatizada da documentação $1"
+git commit -m "build: automated documentation generation $1"

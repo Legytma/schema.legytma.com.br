@@ -16,4 +16,4 @@ echo Building schema documentation...
 call jsonschema2md -d %sourcePath% -o %docsPath% -x %schemaPath%
 
 git add %rootPath%
-git commit -m "build: geração automatizada da documentação %1"
+git commit -m "build: automated documentation generation %1"
