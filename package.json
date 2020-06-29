@@ -1,12 +1,12 @@
 {
   "name": "schema_documentation_builder",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Schema Documentation Builder",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "posrelease": "node index.js",
-    "release": "standard-version"
+    "release": "standard-version",
+    "postrelease": "node index.js"
   },
   "repository": {
     "type": "git",
