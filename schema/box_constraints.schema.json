@@ -5,7 +5,7 @@
   "description": "",
   "$comment": "Created by Windol <windol@legytma.com.br> at 01/05/2020.\nCopyright (c) 2020 Legytma Soluções Inteligentes (https://legytma.com.br). All rights reserved.",
   "type": "object",
-  "properties": {
+  "definitions": {
     "type": {
       "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
       "enum": ["loose", "tightFor", "expand", "tightForFinite", "lerp", "default"]
