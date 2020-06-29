@@ -1,19 +1,19 @@
 @echo off
 
 set sourcePath=schema
-set docsPath=docs\%1
+set rootPath=docs\%1
+set docsPath=%rootPath%\docs
+set schemaPath=%rootPath%\schema
 
-del /f /s /q %docsPath%
+del /f /s /q %rootPath%
 
-rmdir /s /q %docsPath%
+rmdir /s /q %rootPath%
 
 rem npm install -g @adobe/jsonschema2md
 
-mkdir %docsPath%\schema
-
 echo Building schema documentation...
 
-call jsonschema2md -d %sourcePath% -o %docsPath% -x %docsPath%\schema
+call jsonschema2md -d %sourcePath% -o %docsPath% -x %schemaPath%
 
-git add %docsPath%
+git add %rootPath%
 git commit -m "build: geração automatizada da documentação %1"
