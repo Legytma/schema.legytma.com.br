@@ -1,0 +1,383 @@
+# README
+
+## Top-level Schemas
+
+-   [Align Widget](./align.md) – `https://legytma.com.br/schema/widget/align.schema.json`
+-   [Alignment](./alignment.md) – `https://legytma.com.br/schema/alignment.schema.json`
+-   [Alignment Geometry](./alignment_geometry.md) – `https://legytma.com.br/schema/alignment_geometry.schema.json`
+-   [Animated Container Widget](./animated_container.md) – `https://legytma.com.br/schema/widget/animated_container.schema.json`
+-   [Animation Controller](./animation_controller.md) – `https://legytma.com.br/schema/animation_controller.schema.json`
+-   [App Bar](./app_bar.md) – `https://legytma.com.br/schema/widget/app_bar.schema.json`
+-   [App Bar Theme](./app_bar_theme.md) – `https://legytma.com.br/schema/app_bar_theme.schema.json`
+-   [Argument Callback Lat Lng](./argument_callback_lat_lng.md) – `https://legytma.com.br/schema/argument_callback_lat_lng.schema.json`
+-   [Aspect Ratio](./aspect_ratio.md) – `https://legytma.com.br/schema/widget/aspect_ratio.schema.json`
+-   [Async Widget Builder Dynamic](./async_widget_builder_dynamic.md) – `https://legytma.com.br/schema/async_widget_builder_dynamic.schema.json`
+-   [Axis](./axis.md) – `https://legytma.com.br/schema/axis.schema.json`
+-   [Base Line](./base_line.md) – `https://legytma.com.br/schema/widget/base_line.schema.json`
+-   [Behavior Subject String](./behavior_subject_string.md) – `https://legytma.com.br/schema/behavior_subject_string.schema.json`
+-   [Blend Mode](./blend_mode.md) – `https://legytma.com.br/schema/blend_mode.schema.json`
+-   [Boolean](./bool.md) – `https://legytma.com.br/schema/bool.schema.json`
+-   [Border](./border.md) – `https://legytma.com.br/schema/border.schema.json`
+-   [Border All](./border_all.md) – `https://legytma.com.br/schema/border_all.schema.json`
+-   [Border Default](./border_default.md) – `https://legytma.com.br/schema/border_default.schema.json`
+-   [Border From Border Side](./border_fromborderside.md) – `https://legytma.com.br/schema/border_fromBorderSide.schema.json`
+-   [Border Lerp](./border_lerp.md) – `https://legytma.com.br/schema/border_lerp.schema.json`
+-   [Border Merge](./border_merge.md) – `https://legytma.com.br/schema/border_merge.schema.json`
+-   [Border Radius](./border_radius.md) – `https://legytma.com.br/schema/border_radius.schema.json`
+-   [Border Radius All](./border_radius_all.md) – `https://legytma.com.br/schema/border_radius_all.schema.json`
+-   [Border Radius Circular](./border_radius_circular.md) – `https://legytma.com.br/schema/border_radius_circular.schema.json`
+-   [Border Radius Geometry](./border_radius_geometry.md) – `https://legytma.com.br/schema/border_radius_geometry.schema.json`
+-   [Border Radius Horizontal](./border_radius_horizontal.md) – `https://legytma.com.br/schema/border_radius_horizontal.schema.json`
+-   [Border Radius Lerp](./border_radius_lerp.md) – `https://legytma.com.br/schema/border_radius_lerp.schema.json`
+-   [Border Radius Object](./border_radius_object.md) – `https://legytma.com.br/schema/border_radius_object.schema.json`
+-   [Border Radius Only](./border_radius_only.md) – `https://legytma.com.br/schema/border_radius_only.schema.json`
+-   [Border Radius String](./border_radius_string.md) – `https://legytma.com.br/schema/border_radius_string.schema.json`
+-   [Border Radius Vertical](./border_radius_vertical.md) – `https://legytma.com.br/schema/border_radius_vertical.schema.json`
+-   [Border Radius Zero](./border_radius_zero.md) – `https://legytma.com.br/schema/border_radius_zero.schema.json`
+-   [Border Side](./border_side.md) – `https://legytma.com.br/schema/border_side.schema.json`
+-   [Border Side Default](./border_side_default.md) – `https://legytma.com.br/schema/border_side_default.schema.json`
+-   [Border Side Lerp](./border_side_lerp.md) – `https://legytma.com.br/schema/border_side_lerp.schema.json`
+-   [Border Side Merge](./border_side_merge.md) – `https://legytma.com.br/schema/border_side_merge.schema.json`
+-   [Border Side None](./border_side_none.md) – `https://legytma.com.br/schema/border_side_none.schema.json`
+-   [Border Style](./border_style.md) – `https://legytma.com.br/schema/border_style.schema.json`
+-   [Bottom App Bar Theme](./bottom_app_bar_theme.md) – `https://legytma.com.br/schema/bottom_app_bar_theme.schema.json`
+-   [Bottom Sheet Theme Data](./bottom_sheet_theme_data.md) – `https://legytma.com.br/schema/bottom_sheet_theme_data.schema.json`
+-   [Box Border](./box_border.md) – `https://legytma.com.br/schema/box_border.schema.json`
+-   [Box Constraints](./box_constraints.md) – `https://legytma.com.br/schema/box_constraints.schema.json`
+-   [Box Constraints Default](./box_constraints_default.md) – `https://legytma.com.br/schema/box_constraints_default.schema.json`
+-   [Box Constraints Expand](./box_constraints_expand.md) – `https://legytma.com.br/schema/box_constraints_expand.schema.json`
+-   [Box Constraints Lerp](./box_constraints_lerp.md) – `https://legytma.com.br/schema/box_constraints_lerp.schema.json`
+-   [Box Constraints Loose](./box_constraints_loose.md) – `https://legytma.com.br/schema/box_constraints_loose.schema.json`
+-   [Box Constraints Tight For](./box_constraints_tightfor.md) – `https://legytma.com.br/schema/box_constraints_tightFor.schema.json`
+-   [Box Constraints Tight For Finite](./box_constraints_tightforfinite.md) – `https://legytma.com.br/schema/box_constraints_tightForFinite.schema.json`
+-   [Box Decoration](./box_decoration.md) – `https://legytma.com.br/schema/box_decoration.schema.json`
+-   [Box Fit](./box_fit.md) – `https://legytma.com.br/schema/box_fit.schema.json`
+-   [Box Shadow](./box_shadow.md) – `https://legytma.com.br/schema/box_shadow.schema.json`
+-   [Box Shape](./box_shape.md) – `https://legytma.com.br/schema/box_shape.schema.json`
+-   [Brightness](./brightness.md) – `https://legytma.com.br/schema/brightness.schema.json`
+-   [Button Bar Layout Behavior](./button_bar_layout_behavior.md) – `https://legytma.com.br/schema/button_bar_layout_behavior.schema.json`
+-   [Button Bar Theme Data](./button_bar_theme_data.md) – `https://legytma.com.br/schema/button_bar_theme_data.schema.json`
+-   [Button Text Theme](./button_text_theme.md) – `https://legytma.com.br/schema/button_text_theme.schema.json`
+-   [Button Theme Data](./button_theme_data.md) – `https://legytma.com.br/schema/button_theme_data.schema.json`
+-   [Camera Position](./camera_position.md) – `https://legytma.com.br/schema/camera_position.schema.json`
+-   [Camera Position Callback](./camera_position_callback.md) – `https://legytma.com.br/schema/camera_position_callback.schema.json`
+-   [Camera Target Bounds](./camera_target_bounds.md) – `https://legytma.com.br/schema/camera_target_bounds.schema.json`
+-   [Card](./card.md) – `https://legytma.com.br/schema/widget/card.schema.json`
+-   [Card Theme](./card_theme.md) – `https://legytma.com.br/schema/card_theme.schema.json`
+-   [Center](./center.md) – `https://legytma.com.br/schema/widget/center.schema.json`
+-   [Chip Theme Data](./chip_theme_data.md) – `https://legytma.com.br/schema/chip_theme_data.schema.json`
+-   [Circle Avatar](./circle_avatar.md) – `https://legytma.com.br/schema/widget/circle_avatar.schema.json`
+-   [Clip](./clip.md) – `https://legytma.com.br/schema/clip.schema.json`
+-   [Clip R Rect](./clip_r_rect.md) – `https://legytma.com.br/schema/widget/clip_r_rect.schema.json`
+-   [Color](./color.md) – `https://legytma.com.br/schema/color.schema.json`
+-   [Color Filter](./color_filter.md) – `https://legytma.com.br/schema/color_filter.schema.json`
+-   [Color Filter Linear To Srgb Gamma](./color_filter_linear_to_srgb_gamma.md) – `https://legytma.com.br/schema/color_filter_linear_to_srgb_gamma.schema.json`
+-   [Color Filter Matrix](./color_filter_matrix.md) – `https://legytma.com.br/schema/color_filter_matrix.schema.json`
+-   [Color Filter Mode](./color_filter_mode.md) – `https://legytma.com.br/schema/color_filter_mode.schema.json`
+-   [Color Filter Srgb To Linear Gamma](./color_filter_srgb_to_linear_gamma.md) – `https://legytma.com.br/schema/color_filter_srgb_to_linear_gamma.schema.json`
+-   [Color Scheme](./color_scheme.md) – `https://legytma.com.br/schema/color_scheme.schema.json`
+-   [Column](./column.md) – `https://legytma.com.br/schema/widget/column.schema.json`
+-   [Container](./container.md) – `https://legytma.com.br/schema/widget/container.schema.json`
+-   [Cross Axis Alignment](./cross_axis_alignment.md) – `https://legytma.com.br/schema/cross_axis_alignment.schema.json`
+-   [Cupertino Text Theme Data](./cupertino_text_theme_data.md) – `https://legytma.com.br/schema/cupertino_text_theme_data.schema.json`
+-   [Cupertino Theme Data](./cupertino_theme_data.md) – `https://legytma.com.br/schema/cupertino_theme_data.schema.json`
+-   [Curve](./curve.md) – `https://legytma.com.br/schema/curve.schema.json`
+-   [Custom Clipper R Rect](./custom_clipper_r_rect.md) – `https://legytma.com.br/schema/custom_clipper_r_rect.schema.json`
+-   [Debug Label](./debug_label.md) – `https://legytma.com.br/schema/debug_label.schema.json`
+-   [Decoration](./decoration.md) – `https://legytma.com.br/schema/decoration.schema.json`
+-   [Decoration Image](./decoration_image.md) – `https://legytma.com.br/schema/decoration_image.schema.json`
+-   [Dialog Theme](./dialog_theme.md) – `https://legytma.com.br/schema/dialog_theme.schema.json`
+-   [Divider](./divider.md) – `https://legytma.com.br/schema/widget/divider.schema.json`
+-   [Divider Theme Data](./divider_theme_data.md) – `https://legytma.com.br/schema/divider_theme_data.schema.json`
+-   [Double](./double.md) – `https://legytma.com.br/schema/double.schema.json`
+-   [Drag Start Behavior](./drag_start_behavior.md) – `https://legytma.com.br/schema/drag_start_behavior.schema.json`
+-   [Drawer](./drawer.md) – `https://legytma.com.br/schema/widget/drawer.schema.json`
+-   [Drawer Header](./drawer_header.md) – `https://legytma.com.br/schema/widget/drawer_header.schema.json`
+-   [Duration](./duration.md) – `https://legytma.com.br/schema/duration.schema.json`
+-   [Dynamic](./dynamic.md) – `https://legytma.com.br/schema/dynamic.schema.json`
+-   [Edge Insets](./edge_insets.md) – `https://legytma.com.br/schema/edge_insets.schema.json`
+-   [Edge Insets All](./edge_insets_all.md) – `https://legytma.com.br/schema/edge_insets_all.schema.json`
+-   [Edge Insets From LTRB](./edge_insets_fromltrb.md) – `https://legytma.com.br/schema/edge_insets_fromLTRB.schema.json`
+-   [Edge Insets From Window Padding](./edge_insets_fromwindowpadding.md) – `https://legytma.com.br/schema/edge_insets_fromWindowPadding.schema.json`
+-   [Edge Insets Geometry](./edge_insets_geometry.md) – `https://legytma.com.br/schema/edge_insets_geometry.schema.json`
+-   [Edge Insets Lerp](./edge_insets_lerp.md) – `https://legytma.com.br/schema/edge_insets_lerp.schema.json`
+-   [Edge Insets Object](./edge_insets_object.md) – `https://legytma.com.br/schema/edge_insets_object.schema.json`
+-   [Edge Insets Only](./edge_insets_only.md) – `https://legytma.com.br/schema/edge_insets_only.schema.json`
+-   [Edge Insets String](./edge_insets_string.md) – `https://legytma.com.br/schema/edge_insets_string.schema.json`
+-   [Edge Insets Symmetric](./edge_insets_symmetric.md) – `https://legytma.com.br/schema/edge_insets_symmetric.schema.json`
+-   [Edge Insets Zero](./edge_insets_zero.md) – `https://legytma.com.br/schema/edge_insets_zero.schema.json`
+-   [Expanded](./expanded.md) – `https://legytma.com.br/schema/widget/expanded.schema.json`
+-   [Filter Quality](./filter_quality.md) – `https://legytma.com.br/schema/filter_quality.schema.json`
+-   [Fitted Box](./fitted_box.md) – `https://legytma.com.br/schema/widget/fitted_box.schema.json`
+-   [Floating Action Button](./floating_action_button.md) – `https://legytma.com.br/schema/widget/floating_action_button.schema.json`
+-   [Floating Action Button Animator](./floating_action_button_animator.md) – `https://legytma.com.br/schema/floating_action_button_animator.schema.json`
+-   [Floating Action Button Location](./floating_action_button_location.md) – `https://legytma.com.br/schema/floating_action_button_location.schema.json`
+-   [Floating Action Button Theme Data](./floating_action_button_theme_data.md) – `https://legytma.com.br/schema/floating_action_button_theme_data.schema.json`
+-   [Flutter Logo Decoration](./flutter_logo_decoration.md) – `https://legytma.com.br/schema/flutter_logo_decoration.schema.json`
+-   [Flutter Logo Style](./flutter_logo_style.md) – `https://legytma.com.br/schema/flutter_logo_style.schema.json`
+-   [Focus Node](./focus_node.md) – `https://legytma.com.br/schema/focus_node.schema.json`
+-   [Focus On Key Callback](./focus_on_key_callback.md) – `https://legytma.com.br/schema/focus_on_key_callback.schema.json`
+-   [Font Family](./font_family.md) – `https://legytma.com.br/schema/font_family.schema.json`
+-   [Font Feature](./font_feature.md) – `https://legytma.com.br/schema/font_feature.schema.json`
+-   [Font Style](./font_style.md) – `https://legytma.com.br/schema/font_style.schema.json`
+-   [Font Weight](./font_weight.md) – `https://legytma.com.br/schema/font_weight.schema.json`
+-   [Form Field Setter String](./form_field_setter_string.md) – `https://legytma.com.br/schema/form_field_setter_string.schema.json`
+-   [Form Field Validator String](./form_field_validator_string.md) – `https://legytma.com.br/schema/form_field_validator_string.schema.json`
+-   [Generate App Title](./generate_app_title.md) – `https://legytma.com.br/schema/generate_app_title.schema.json`
+-   [Gesture Detector](./gesture_detector.md) – `https://legytma.com.br/schema/widget/gesture_detector.schema.json`
+-   [Gesture Drag Cancel Callback](./gesture_drag_cancel_callback.md) – `https://legytma.com.br/schema/gesture_drag_cancel_callback.schema.json`
+-   [Gesture Drag Down Callback](./gesture_drag_down_callback.md) – `https://legytma.com.br/schema/gesture_drag_down_callback.schema.json`
+-   [Gesture Drag End Callback](./gesture_drag_end_callback.md) – `https://legytma.com.br/schema/gesture_drag_end_callback.schema.json`
+-   [Gesture Drag Start Callback](./gesture_drag_start_callback.md) – `https://legytma.com.br/schema/gesture_drag_start_callback.schema.json`
+-   [Gesture Drag Update Callback](./gesture_drag_update_callback.md) – `https://legytma.com.br/schema/gesture_drag_update_callback.schema.json`
+-   [Gesture Force Press End Callback](./gesture_force_press_end_callback.md) – `https://legytma.com.br/schema/gesture_force_press_end_callback.schema.json`
+-   [Gesture Force Press Peak Callback](./gesture_force_press_peak_callback.md) – `https://legytma.com.br/schema/gesture_force_press_peak_callback.schema.json`
+-   [Gesture Force Press Start Callback](./gesture_force_press_start_callback.md) – `https://legytma.com.br/schema/gesture_force_press_start_callback.schema.json`
+-   [Gesture Force Press Update Callback](./gesture_force_press_update_callback.md) – `https://legytma.com.br/schema/gesture_force_press_update_callback.schema.json`
+-   [Gesture Long Press Callback](./gesture_long_press_callback.md) – `https://legytma.com.br/schema/gesture_long_press_callback.schema.json`
+-   [Gesture Long Press End Callback](./gesture_long_press_end_callback.md) – `https://legytma.com.br/schema/gesture_long_press_end_callback.schema.json`
+-   [Gesture Long Press Move Update Callback](./gesture_long_press_move_update_callback.md) – `https://legytma.com.br/schema/gesture_long_press_move_update_callback.schema.json`
+-   [Gesture Long Press Start Callback](./gesture_long_press_start_callback.md) – `https://legytma.com.br/schema/gesture_long_press_start_callback.schema.json`
+-   [Gesture Long Press Up Callback](./gesture_long_press_up_callback.md) – `https://legytma.com.br/schema/gesture_long_press_up_callback.schema.json`
+-   [Gesture Recognizer](./gesture_recognizer.md) – `https://legytma.com.br/schema/gesture_recognizer.schema.json`
+-   [Gesture Scale End Callback](./gesture_scale_end_callback.md) – `https://legytma.com.br/schema/gesture_scale_end_callback.schema.json`
+-   [Gesture Scale Start Callback](./gesture_scale_start_callback.md) – `https://legytma.com.br/schema/gesture_scale_start_callback.schema.json`
+-   [Gesture Scale Update Callback](./gesture_scale_update_callback.md) – `https://legytma.com.br/schema/gesture_scale_update_callback.schema.json`
+-   [Gesture Tap Callback](./gesture_tap_callback.md) – `https://legytma.com.br/schema/gesture_tap_callback.schema.json`
+-   [Gesture Tap Cancel Callback](./gesture_tap_cancel_callback.md) – `https://legytma.com.br/schema/gesture_tap_cancel_callback.schema.json`
+-   [Gesture Tap Down Callback](./gesture_tap_down_callback.md) – `https://legytma.com.br/schema/gesture_tap_down_callback.schema.json`
+-   [Gesture Tap Up Callback](./gesture_tap_up_callback.md) – `https://legytma.com.br/schema/gesture_tap_up_callback.schema.json`
+-   [Global Key Navigator State](./global_key_navigator_state.md) – `https://legytma.com.br/schema/global_key_navigator_state.schema.json`
+-   [Google Map](./google_map.md) – `https://legytma.com.br/schema/widget/google_map.schema.json`
+-   [Gradient](./gradient.md) – `https://legytma.com.br/schema/gradient.schema.json`
+-   [Grid View Params](./grid_view_params.md) – `https://legytma.com.br/schema/grid_view_params.schema.json`
+-   [Grid View Widget](./grid_view_widget.md) – `https://legytma.com.br/schema/widget/grid_view_widget.schema.json`
+-   [Hit Test Behavior](./hit_test_behavior.md) – `https://legytma.com.br/schema/hit_test_behavior.schema.json`
+-   [Icon](./icon.md) – `https://legytma.com.br/schema/widget/icon.schema.json`
+-   [Icon Button](./icon_button.md) – `https://legytma.com.br/schema/widget/icon_button.schema.json`
+-   [Icon Data](./icon_data.md) – `https://legytma.com.br/schema/icon_data.schema.json`
+-   [Icon Theme Data](./icon_theme_data.md) – `https://legytma.com.br/schema/icon_theme_data.schema.json`
+-   [Image](./image.md) – `https://legytma.com.br/schema/widget/image.schema.json`
+-   [Image Asset](./image_asset.md) – `https://legytma.com.br/schema/widget/image_asset.schema.json`
+-   [Image Default](./image_default.md) – `https://legytma.com.br/schema/widget/image_default.schema.json`
+-   [Image File](./image_file.md) – `https://legytma.com.br/schema/widget/image_file.schema.json`
+-   [Image Frame Builder](./image_frame_builder.md) – `https://legytma.com.br/schema/image_frame_builder.schema.json`
+-   [Image Loading Builder](./image_loading_builder.md) – `https://legytma.com.br/schema/image_loading_builder.schema.json`
+-   [Image Memory](./image_memory.md) – `https://legytma.com.br/schema/widget/image_memory.schema.json`
+-   [Image Network](./image_network.md) – `https://legytma.com.br/schema/widget/image_network.schema.json`
+-   [Image Provider Dynamic](./image_provider_dynamic.md) – `https://legytma.com.br/schema/image_provider_dynamic.schema.json`
+-   [Image Repeat](./image_repeat.md) – `https://legytma.com.br/schema/image_repeat.schema.json`
+-   [Indexed Stack](./indexed_stack.md) – `https://legytma.com.br/schema/widget/indexed_stack.schema.json`
+-   [Indexed Widget Builder](./indexed_widget_builder.md) – `https://legytma.com.br/schema/indexed_widget_builder.schema.json`
+-   [Input Border](./input_border.md) – `https://legytma.com.br/schema/input_border.schema.json`
+-   [Input Counter Widget Builder](./input_counter_widget_builder.md) – `https://legytma.com.br/schema/input_counter_widget_builder.schema.json`
+-   [Input Decoration](./input_decoration.md) – `https://legytma.com.br/schema/input_decoration.schema.json`
+-   [Input Decoration Theme](./input_decoration_theme.md) – `https://legytma.com.br/schema/input_decoration_theme.schema.json`
+-   [Integer](./int.md) – `https://legytma.com.br/schema/int.schema.json`
+-   [Interactive Ink Feature Factory](./interactive_ink_feature_factory.md) – `https://legytma.com.br/schema/interactive_ink_feature_factory.schema.json`
+-   [Iterable Locale](./iterable_locale.md) – `https://legytma.com.br/schema/iterable_locale.schema.json`
+-   [Iterable Localizations Delegate Dynamic](./iterable_localizations_delegate_dynamic.md) – `https://legytma.com.br/schema/iterable_localizations_delegate_dynamic.schema.json`
+-   [Lat Lng](./lat_lng.md) – `https://legytma.com.br/schema/lat_lng.schema.json`
+-   [List Box Shadow](./list_box_shadow.md) – `https://legytma.com.br/schema/list_box_shadow.schema.json`
+-   [List Double](./list_double.md) – `https://legytma.com.br/schema/list_double.schema.json`
+-   [List Inline Span](./list_inline_span.md) – `https://legytma.com.br/schema/list_inline_span.schema.json`
+-   [List Navigator Observer](./list_navigator_observer.md) – `https://legytma.com.br/schema/list_navigator_observer.schema.json`
+-   [List Text Input Formatter](./list_text_input_formatter.md) – `https://legytma.com.br/schema/list_text_input_formatter.schema.json`
+-   [List Tile](./list_tile.md) – `https://legytma.com.br/schema/widget/list_tile.schema.json`
+-   [List View Params](./list_view_params.md) – `https://legytma.com.br/schema/list_view_params.schema.json`
+-   [List View Widget](./list_view_widget.md) – `https://legytma.com.br/schema/widget/list_view_widget.schema.json`
+-   [List of Font Family](./list_font_family.md) – `https://legytma.com.br/schema/list_font_family.schema.json`
+-   [List of Font Feature](./list_font_feature.md) – `https://legytma.com.br/schema/list_font_feature.schema.json`
+-   [List of Shadow](./list_shadow.md) – `https://legytma.com.br/schema/list_shadow.schema.json`
+-   [List of Widgets](./list_widget.md) – `https://legytma.com.br/schema/list_widget.schema.json`
+-   [Locale](./locale.md) – `https://legytma.com.br/schema/locale.schema.json`
+-   [Locale List Resolution Callback](./locale_list_resolution_callback.md) – `https://legytma.com.br/schema/locale_list_resolution_callback.schema.json`
+-   [Locale Resolution Callback](./locale_resolution_callback.md) – `https://legytma.com.br/schema/locale_resolution_callback.schema.json`
+-   [Main Axis Alignment](./main_axis_alignment.md) – `https://legytma.com.br/schema/main_axis_alignment.schema.json`
+-   [Main Axis Size](./main_axis_size.md) – `https://legytma.com.br/schema/main_axis_size.schema.json`
+-   [Map Created Callback](./map_created_callback.md) – `https://legytma.com.br/schema/map_created_callback.schema.json`
+-   [Map Schema Type Widget Template Dynamic](./map_schema_type_widget_template_dynamic.md) – `https://legytma.com.br/schema/map_schema_type_widget_template_dynamic.schema.json`
+-   [Map String Dynamic](./map_string_dynamic.md) – `https://legytma.com.br/schema/map_string_dynamic.schema.json`
+-   [Map String Widget Template Dynamic](./map_string_widget_template_dynamic.md) – `https://legytma.com.br/schema/map_string_widget_template_dynamic.schema.json`
+-   [Map Type](./map_type.md) – `https://legytma.com.br/schema/map_type.schema.json`
+-   [Material App](./material_app.md) – `https://legytma.com.br/schema/widget/material_app.schema.json`
+-   [Material Banner Theme Data](./material_banner_theme_data.md) – `https://legytma.com.br/schema/material_banner_theme_data.schema.json`
+-   [Material Color](./material_color.md) – `https://legytma.com.br/schema/material_color.schema.json`
+-   [Material Tap Target Size](./material_tap_target_size.md) – `https://legytma.com.br/schema/material_tap_target_size.schema.json`
+-   [Matrix4](./matrix4.md) – `https://legytma.com.br/schema/matrix4.schema.json`
+-   [Min Max Zoom Preference](./min_max_zoom_preference.md) – `https://legytma.com.br/schema/min_max_zoom_preference.schema.json`
+-   [Navigation Type](./navigation_type.md) – `https://legytma.com.br/schema/navigation_type.schema.json`
+-   [Network Image](./network_image.md) – `https://legytma.com.br/schema/network_image.schema.json`
+-   [Notched Shape](./notched_shape.md) – `https://legytma.com.br/schema/notched_shape.schema.json`
+-   [Offset](./offset.md) – `https://legytma.com.br/schema/offset.schema.json`
+-   [Offset Default](./offset_default.md) – `https://legytma.com.br/schema/offset_default.schema.json`
+-   [Offset From Direction](./offset_fromdirection.md) – `https://legytma.com.br/schema/offset_fromDirection.schema.json`
+-   [Offset Infinite](./offset_infinite.md) – `https://legytma.com.br/schema/offset_infinite.schema.json`
+-   [Offset Lerp](./offset_lerp.md) – `https://legytma.com.br/schema/offset_lerp.schema.json`
+-   [Offset Zero](./offset_zero.md) – `https://legytma.com.br/schema/offset_zero.schema.json`
+-   [Opacity](./opacity.md) – `https://legytma.com.br/schema/widget/opacity.schema.json`
+-   [Overflow](./overflow.md) – `https://legytma.com.br/schema/overflow.schema.json`
+-   [Padding](./padding.md) – `https://legytma.com.br/schema/widget/padding.schema.json`
+-   [Page Controller](./page_controller.md) – `https://legytma.com.br/schema/page_controller.schema.json`
+-   [Page Transitions Builder](./page_transitions_builder.md) – `https://legytma.com.br/schema/page_transitions_builder.schema.json`
+-   [Page Transitions Theme](./page_transitions_theme.md) – `https://legytma.com.br/schema/page_transitions_theme.schema.json`
+-   [Page View](./page_view.md) – `https://legytma.com.br/schema/widget/page_view.schema.json`
+-   [Paint](./paint.md) – `https://legytma.com.br/schema/paint.schema.json`
+-   [Picker Type](./picker_type.md) – `https://legytma.com.br/schema/picker_type.schema.json`
+-   [Place Holder](./place_holder.md) – `https://legytma.com.br/schema/widget/place_holder.schema.json`
+-   [Popup Menu Theme Data](./popup_menu_theme_data.md) – `https://legytma.com.br/schema/popup_menu_theme_data.schema.json`
+-   [Positioned](./positioned.md) – `https://legytma.com.br/schema/widget/positioned.schema.json`
+-   [Preferred Size Widget](./preferred_size_widget.md) – `https://legytma.com.br/schema/preferred_size_widget.schema.json`
+-   [Radius](./radius.md) – `https://legytma.com.br/schema/radius.schema.json`
+-   [Radius Circular](./radius_circular.md) – `https://legytma.com.br/schema/radius_circular.schema.json`
+-   [Radius Elliptical](./radius_elliptical.md) – `https://legytma.com.br/schema/radius_elliptical.schema.json`
+-   [Radius Lerp](./radius_lerp.md) – `https://legytma.com.br/schema/radius_lerp.schema.json`
+-   [Radius Object](./radius_object.md) – `https://legytma.com.br/schema/radius_object.schema.json`
+-   [Radius String](./radius_string.md) – `https://legytma.com.br/schema/radius_string.schema.json`
+-   [Radius Zero](./radius_zero.md) – `https://legytma.com.br/schema/radius_zero.schema.json`
+-   [Raised Button](./raised_button.md) – `https://legytma.com.br/schema/widget/raised_button.schema.json`
+-   [Range Slider Thumb Shape](./range_slider_thumb_shape.md) – `https://legytma.com.br/schema/range_slider_thumb_shape.schema.json`
+-   [Range Slider Tick Mark Shape](./range_slider_tick_mark_shape.md) – `https://legytma.com.br/schema/range_slider_tick_mark_shape.schema.json`
+-   [Range Slider Track Shape](./range_slider_track_shape.md) – `https://legytma.com.br/schema/range_slider_track_shape.schema.json`
+-   [Range Slider Value Indicator Shape](./range_slider_value_indicator_shape.md) – `https://legytma.com.br/schema/range_slider_value_indicator_shape.schema.json`
+-   [Range Thumb Selector](./range_thumb_selector.md) – `https://legytma.com.br/schema/range_thumb_selector.schema.json`
+-   [Rect](./rect.md) – `https://legytma.com.br/schema/rect.schema.json`
+-   [Rect From Circle](./rect_fromcircle.md) – `https://legytma.com.br/schema/rect_fromCircle.schema.json`
+-   [Rect From LTRB](./rect_fromltrb.md) – `https://legytma.com.br/schema/rect_fromLTRB.schema.json`
+-   [Rect From LTWH](./rect_fromltwh.md) – `https://legytma.com.br/schema/rect_fromLTWH.schema.json`
+-   [Rect From Points](./rect_frompoints.md) – `https://legytma.com.br/schema/rect_fromPoints.schema.json`
+-   [Rect Fromcenter](./rect_fromcenter.md) – `https://legytma.com.br/schema/rect_fromCenter.schema.json`
+-   [Rect Largest](./rect_largest.md) – `https://legytma.com.br/schema/rect_largest.schema.json`
+-   [Rect Lerp](./rect_lerp.md) – `https://legytma.com.br/schema/rect_lerp.schema.json`
+-   [Rect Zero](./rect_zero.md) – `https://legytma.com.br/schema/rect_zero.schema.json`
+-   [Route Factory](./route_factory.md) – `https://legytma.com.br/schema/route_factory.schema.json`
+-   [Route Handle](./route_handle.md) – `https://legytma.com.br/schema/route_handle.schema.json`
+-   [Row](./row.md) – `https://legytma.com.br/schema/widget/row.schema.json`
+-   [Safe Area](./safe_area.md) – `https://legytma.com.br/schema/widget/safe_area.schema.json`
+-   [Save Callback](./save_callback.md) – `https://legytma.com.br/schema/save_callback.schema.json`
+-   [Scaffold](./scaffold.md) – `https://legytma.com.br/schema/widget/scaffold.schema.json`
+-   [Schema Form Widget](./schema_form_widget.md) – `https://legytma.com.br/schema/widget/schema_form_widget.schema.json`
+-   [Scroll Physics](./scroll_physics.md) – `https://legytma.com.br/schema/scroll_physics.schema.json`
+-   [Set Circle](./set_circle.md) – `https://legytma.com.br/schema/set_circle.schema.json`
+-   [Set Factory One Sequence Gesture Recognizer](./set_factory_one_sequence_gesture_recognizer.md) – `https://legytma.com.br/schema/set_factory_one_sequence_gesture_recognizer.schema.json`
+-   [Set Marker](./set_marker.md) – `https://legytma.com.br/schema/set_marker.schema.json`
+-   [Set Polygon](./set_polygon.md) – `https://legytma.com.br/schema/set_polygon.schema.json`
+-   [Set Polyline](./set_polyline.md) – `https://legytma.com.br/schema/set_polyline.schema.json`
+-   [Shadow](./shadow.md) – `https://legytma.com.br/schema/shadow.schema.json`
+-   [Shape](./shape.md) – `https://legytma.com.br/schema/shape.schema.json`
+-   [Shape Border](./shape_border.md) – `https://legytma.com.br/schema/shape_border.schema.json`
+-   [Shape Decoration](./shape_decoration.md) – `https://legytma.com.br/schema/shape_decoration.schema.json`
+-   [Show Value Indicator](./show_value_indicator.md) – `https://legytma.com.br/schema/show_value_indicator.schema.json`
+-   [Size](./size.md) – `https://legytma.com.br/schema/size.schema.json`
+-   [Size Default](./size_default.md) – `https://legytma.com.br/schema/size_default.schema.json`
+-   [Size Fromheight](./size_fromheight.md) – `https://legytma.com.br/schema/size_fromHeight.schema.json`
+-   [Size Fromradius](./size_fromradius.md) – `https://legytma.com.br/schema/size_fromRadius.schema.json`
+-   [Size Fromwidth](./size_fromwidth.md) – `https://legytma.com.br/schema/size_fromWidth.schema.json`
+-   [Size Infinite](./size_infinite.md) – `https://legytma.com.br/schema/size_infinite.schema.json`
+-   [Size Square](./size_square.md) – `https://legytma.com.br/schema/size_square.schema.json`
+-   [Size Zero](./size_zero.md) – `https://legytma.com.br/schema/size_zero.schema.json`
+-   [Sized Box](./sized_box.md) – `https://legytma.com.br/schema/widget/sized_box.schema.json`
+-   [Sized Box Default](./sized_box_default.md) – `https://legytma.com.br/schema/widget/sized_box_default.schema.json`
+-   [Sized Box Expand](./sized_box_expand.md) – `https://legytma.com.br/schema/widget/sized_box_expand.schema.json`
+-   [Sized Box Fromsize](./sized_box_fromsize.md) – `https://legytma.com.br/schema/widget/sized_box_fromSize.schema.json`
+-   [Sized Box Shrink](./sized_box_shrink.md) – `https://legytma.com.br/schema/widget/sized_box_shrink.schema.json`
+-   [Slider Component Shape](./slider_component_shape.md) – `https://legytma.com.br/schema/slider_component_shape.schema.json`
+-   [Slider Theme Data](./slider_theme_data.md) – `https://legytma.com.br/schema/slider_theme_data.schema.json`
+-   [Slider Tick Mark Shape](./slider_tick_mark_shape.md) – `https://legytma.com.br/schema/slider_tick_mark_shape.schema.json`
+-   [Slider Track Shape](./slider_track_shape.md) – `https://legytma.com.br/schema/slider_track_shape.schema.json`
+-   [Snack Bar Behavior](./snack_bar_behavior.md) – `https://legytma.com.br/schema/snack_bar_behavior.schema.json`
+-   [Snack Bar Theme Data](./snack_bar_theme_data.md) – `https://legytma.com.br/schema/snack_bar_theme_data.schema.json`
+-   [Spin Kit Rotating Circle](./spin_kit_rotating_circle.md) – `https://legytma.com.br/schema/widget/spin_kit_rotating_circle.schema.json`
+-   [Stack](./stack.md) – `https://legytma.com.br/schema/widget/stack.schema.json`
+-   [Stack Fit](./stack_fit.md) – `https://legytma.com.br/schema/stack_fit.schema.json`
+-   [Stream Builder Dynamic](./stream_builder_dynamic.md) – `https://legytma.com.br/schema/widget/stream_builder_dynamic.schema.json`
+-   [Stream Dynamic](./stream_dynamic.md) – `https://legytma.com.br/schema/stream_dynamic.schema.json`
+-   [Strut Style](./strut_style.md) – `https://legytma.com.br/schema/strut_style.schema.json`
+-   [Tab Bar Indicator Size](./tab_bar_indicator_size.md) – `https://legytma.com.br/schema/tab_bar_indicator_size.schema.json`
+-   [Tab Bar Theme](./tab_bar_theme.md) – `https://legytma.com.br/schema/tab_bar_theme.schema.json`
+-   [Target Platform](./target_platform.md) – `https://legytma.com.br/schema/target_platform.schema.json`
+-   [Text](./text.md) – `https://legytma.com.br/schema/widget/text.schema.json`
+-   [Text Align](./text_align.md) – `https://legytma.com.br/schema/text_align.schema.json`
+-   [Text Align Vertical](./text_align_vertical.md) – `https://legytma.com.br/schema/text_align_vertical.schema.json`
+-   [Text Baseline](./text_baseline.md) – `https://legytma.com.br/schema/text_baseline.schema.json`
+-   [Text Capitalization](./text_capitalization.md) – `https://legytma.com.br/schema/text_capitalization.schema.json`
+-   [Text Decoration](./text_decoration.md) – `https://legytma.com.br/schema/text_decoration.schema.json`
+-   [Text Decoration Style](./text_decoration_style.md) – `https://legytma.com.br/schema/text_decoration_style.schema.json`
+-   [Text Default](./text_default.md) – `https://legytma.com.br/schema/widget/text_default.schema.json`
+-   [Text Direction](./text_direction.md) – `https://legytma.com.br/schema/text_direction.schema.json`
+-   [Text Input Action](./text_input_action.md) – `https://legytma.com.br/schema/text_input_action.schema.json`
+-   [Text Input Type](./text_input_type.md) – `https://legytma.com.br/schema/text_input_type.schema.json`
+-   [Text Overflow](./text_overflow.md) – `https://legytma.com.br/schema/text_overflow.schema.json`
+-   [Text Rich](./text_rich.md) – `https://legytma.com.br/schema/widget/text_rich.schema.json`
+-   [Text Schema Form Field Template](./text_schema_form_field_template.md) – `https://legytma.com.br/schema/widget/text_schema_form_field_template.schema.json`
+-   [Text Schema Form Field Widget](./text_schema_form_field_widget.md) – `https://legytma.com.br/schema/widget/text_schema_form_field_widget.schema.json`
+-   [Text Span](./text_span.md) – `https://legytma.com.br/schema/text_span.schema.json`
+-   [Text Style](./text_style.md) – `https://legytma.com.br/schema/text_style.schema.json`
+-   [Text Theme](./text_theme.md) – `https://legytma.com.br/schema/text_theme.schema.json`
+-   [Text Width Basis](./text_width_basis.md) – `https://legytma.com.br/schema/text_width_basis.schema.json`
+-   [Theme Data](./theme_data.md) – `https://legytma.com.br/schema/theme_data.schema.json`
+-   [Theme Mode](./theme_mode.md) – `https://legytma.com.br/schema/theme_mode.schema.json`
+-   [Toggle Buttons Theme Data](./toggle_buttons_theme_data.md) – `https://legytma.com.br/schema/toggle_buttons_theme_data.schema.json`
+-   [Toolbar Options](./toolbar_options.md) – `https://legytma.com.br/schema/toolbar_options.schema.json`
+-   [Tooltip Theme Data](./tooltip_theme_data.md) – `https://legytma.com.br/schema/tooltip_theme_data.schema.json`
+-   [Transition Builder](./transition_builder.md) – `https://legytma.com.br/schema/transition_builder.schema.json`
+-   [Typography](./typography.md) – `https://legytma.com.br/schema/typography.schema.json`
+-   [Underline Tab Indicator](./underline_tab_indicator.md) – `https://legytma.com.br/schema/underline_tab_indicator.schema.json`
+-   [Url](./url.md) – `https://legytma.com.br/schema/url.schema.json`
+-   [Value Changed Bool](./value_changed_bool.md) – `https://legytma.com.br/schema/value_changed_bool.schema.json`
+-   [Value Changed String](./value_changed_string.md) – `https://legytma.com.br/schema/value_changed_string.schema.json`
+-   [Vertical Direction](./vertical_direction.md) – `https://legytma.com.br/schema/vertical_direction.schema.json`
+-   [Void Callback](./void_callback.md) – `https://legytma.com.br/schema/void_callback.schema.json`
+-   [Widget](./widget.md) – `https://legytma.com.br/schema/widget.schema.json`
+-   [Will Pop Callback](./will_pop_callback.md) – `https://legytma.com.br/schema/will_pop_callback.schema.json`
+-   [Window Padding](./window_padding.md) – `https://legytma.com.br/schema/window_padding.schema.json`
+-   [Wrap](./wrap.md) – `https://legytma.com.br/schema/widget/wrap.schema.json`
+-   [Wrap Alignment](./wrap_alignment.md) – `https://legytma.com.br/schema/wrap_alignment.schema.json`
+-   [Wrap Cross Alignment](./wrap_cross_alignment.md) – `https://legytma.com.br/schema/wrap_cross_alignment.schema.json`
+
+## Other Schemas
+
+### Objects
+
+-   [Border Radius Object](./border_radius-oneof-border-radius-object.md) – `https://legytma.com.br/schema/border_radius_object.schema.json#/oneOf/0`
+-   [Border Side](./border_default-properties-border-side.md) – `https://legytma.com.br/schema/border_side.schema.json#/properties/top`
+-   [Box Border](./border-allof-box-border.md) – `https://legytma.com.br/schema/box_border.schema.json#/allOf/0`
+-   [Box Shadow](./list_box_shadow-box-shadow.md) – `https://legytma.com.br/schema/box_shadow.schema.json#/items`
+-   [Color Filter](./decoration_image-properties-color-filter.md) – `https://legytma.com.br/schema/color_filter.schema.json#/properties/colorFilter`
+-   [Color Scheme](./button_theme_data-properties-color-scheme.md) – `https://legytma.com.br/schema/color_scheme.schema.json#/properties/colorScheme`
+-   [Decoration](./box_decoration-anyof-decoration.md) – `https://legytma.com.br/schema/decoration.schema.json#/anyOf/0`
+-   [Decoration Image](./box_decoration-properties-decoration-image.md) – `https://legytma.com.br/schema/decoration_image.schema.json#/properties/image`
+-   [Edge Insets Object](./edge_insets-oneof-edge-insets-object.md) – `https://legytma.com.br/schema/edge_insets_object.schema.json#/oneOf/1`
+-   [Headers](./network_image-properties-headers.md) – `https://legytma.com.br/schema/network_image.schema.json#/properties/headers`
+-   [Icon Theme Data](./app_bar_theme-properties-icon-theme-data.md) – `https://legytma.com.br/schema/icon_theme_data.schema.json#/properties/iconTheme`
+-   [Image Provider Dynamic](./decoration_image-properties-image-provider-dynamic.md) – `https://legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/image`
+-   [Lat Lng](./camera_position-properties-lat-lng.md) – `https://legytma.com.br/schema/lat_lng.schema.json#/properties/target`
+-   [Locale](./text_style-properties-locale.md) – `https://legytma.com.br/schema/locale.schema.json#/properties/locale`
+-   [Offset](./box_shadow-properties-offset.md) – `https://legytma.com.br/schema/offset.schema.json#/properties/offset`
+-   [Radius Object](./radius-oneof-radius-object.md) – `https://legytma.com.br/schema/radius_object.schema.json#/oneOf/1`
+-   [Rect](./decoration_image-properties-rect.md) – `https://legytma.com.br/schema/rect.schema.json#/properties/centerSlice`
+-   [Routes](./material_app-properties-routes.md) – `https://legytma.com.br/schema/widget/material_app.schema.json#/properties/routes`
+-   [Size](./box_constraints_loose-properties-size.md) – `https://legytma.com.br/schema/size.schema.json#/properties/size`
+-   [Swatch](./material_color-properties-swatch.md) – `https://legytma.com.br/schema/material_color.schema.json#/properties/swatch`
+-   [Text Style](./text_theme-properties-text-style.md) – `https://legytma.com.br/schema/text_style.schema.json#/properties/body1`
+-   [Text Theme](./app_bar_theme-properties-text-theme.md) – `https://legytma.com.br/schema/text_theme.schema.json#/properties/textTheme`
+-   [Toggle Buttons Theme Data](./theme_data-properties-toggle-buttons-theme-data.md) – `https://legytma.com.br/schema/toggle_buttons_theme_data.schema.json#/properties/toggleButtonsTheme`
+-   [Tooltip Theme Data](./theme_data-properties-tooltip-theme-data.md) – `https://legytma.com.br/schema/tooltip_theme_data.schema.json#/properties/tooltipTheme`
+-   [Typography](./theme_data-properties-typography.md) – `https://legytma.com.br/schema/typography.schema.json#/properties/typography`
+-   [Widget](./list_widget-widget.md) – `https://legytma.com.br/schema/widget.schema.json#/items`
+
+### Arrays
+
+-   [Bytes](./image_memory-properties-bytes.md) – `https://legytma.com.br/schema/widget/image_memory.schema.json#/properties/bytes`
+-   [Font Family Fallback](./strut_style-properties-font-family-fallback.md) – `https://legytma.com.br/schema/strut_style.schema.json#/properties/fontFamilyFallback`
+-   [Headers](./image_network-properties-headers.md) – `https://legytma.com.br/schema/widget/image_network.schema.json#/properties/headers`
+-   [List Box Shadow](./box_decoration-properties-list-box-shadow.md) – `https://legytma.com.br/schema/list_box_shadow.schema.json#/properties/boxShadow`
+-   [List Double](./color_filter_matrix-properties-list-double.md) – `https://legytma.com.br/schema/list_double.schema.json#/properties/matrix`
+-   [List of Font Family](./text_style-properties-list-of-font-family.md) – `https://legytma.com.br/schema/list_font_family.schema.json#/properties/fontFamilyFallback`
+-   [List of Font Feature](./text_style-properties-list-of-font-feature.md) – `https://legytma.com.br/schema/list_font_feature.schema.json#/properties/fontFeatures`
+-   [List of Shadow](./text_style-properties-list-of-shadow.md) – `https://legytma.com.br/schema/list_shadow.schema.json#/properties/shadows`
+-   [List of Widgets](./grid_view_params-properties-list-of-widgets.md) – `https://legytma.com.br/schema/list_widget.schema.json#/properties/children`
+
+## Version Note
+
+The schemas linked above follow the JSON Schema Spec version: `http://json-schema.org/draft-06/schema#`
