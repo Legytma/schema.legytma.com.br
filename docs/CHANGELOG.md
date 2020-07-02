@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Legytma/LegytmaSchemas/compare/1.0.0...1.1.0) (2020-07-02)
+
+
+### Features
+
+* add github pages config ([ece0b8a](https://github.com/Legytma/LegytmaSchemas/commit/ece0b8a57f697331450548a059f4c2ca1772f218))
+
+
+### Bug Fixes
+
+* change cname path ([24944fa](https://github.com/Legytma/LegytmaSchemas/commit/24944fa7f037304657e6e1c41b6886fa9ff9ed8e))
+* correction of file path ([7798581](https://github.com/Legytma/LegytmaSchemas/commit/77985814a86dc8290d059e645f974c10dfe1f91d))
+* remove tag version prefix on release ([e5d411a](https://github.com/Legytma/LegytmaSchemas/commit/e5d411a33b01730ee1f13e0768ea1055da963e56))
+* workaround for issue jekyll-relative-links [#63](https://github.com/Legytma/LegytmaSchemas/issues/63) ([5568a78](https://github.com/Legytma/LegytmaSchemas/commit/5568a782c08613ecb0c09b2b5feb9bb92bb0459d))
+
+
+### Code change that neither fixes a bug nor adds a feature
+
+* better integration of the documentation generation ([0a18e6b](https://github.com/Legytma/LegytmaSchemas/commit/0a18e6b43e36f83394bbe55d19354129075afe3f))
+
 ## 1.0.0 (2020-06-29)
 
 
