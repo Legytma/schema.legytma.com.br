@@ -13,7 +13,7 @@ https://legytma.com.br/schema/edge_insets_all.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets_all.schema.json](../schema/edge_insets_all.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets_all.schema.json](../schema/edge_insets_all.schema.json) |
 
 ## Edge Insets All Type
 
@@ -21,14 +21,14 @@ any of the folllowing: `string` or `object` ([Edge Insets All](edge_insets_all.m
 
 all of
 
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 # Edge Insets All Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                              |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Edge Insets All](edge_insets_all-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_all.schema.json#/properties/type") |
-| [all](#all)   | Merged   | Optional | cannot be null | [Edge Insets All](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/all")           |
+| [type](#type) | `string` | Optional | cannot be null | [Edge Insets All](edge_insets_all-properties-type.md) |
+| [all](#all)   | Merged   | Optional | cannot be null | [Edge Insets All](app_bar_theme-properties-double.md)           |
 
 ## type
 
@@ -43,7 +43,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](edge_insets_all-properties-type.md))
 -   cannot be null
--   defined in: [Edge Insets All](edge_insets_all-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_all.schema.json#/properties/type")
+-   defined in: [Edge Insets All](edge_insets_all-properties-type.md)
 
 ### type Type
 
@@ -83,7 +83,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Edge Insets All](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/all")
+-   defined in: [Edge Insets All](app_bar_theme-properties-double.md)
 
 ### all Type
 
@@ -91,9 +91,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### all Constraints
 

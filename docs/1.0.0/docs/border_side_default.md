@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_side_default.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_side_default.schema.json](../schema/border_side_default.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_side_default.schema.json](../schema/border_side_default.schema.json) |
 
 ## Border Side Default Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/border_side_default.schema.json
 
 all of
 
--   [Border Side](border_default-properties-border-side.md "check type definition")
+-   [Border Side](border_default-properties-border-side.md)
 
 # Border Side Default Properties
 
 | Property        | Type     | Required | Nullable       | Defined by                                                                                                                                          |
 | :-------------- | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)   | `string` | Optional | cannot be null | [Border Side Default](border_side_default-properties-type.md "https&#x3A;//legytma.com.br/schema/border_side_default.schema.json#/properties/type") |
-| [color](#color) | Merged   | Optional | cannot be null | [Border Side Default](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                   |
-| [width](#width) | Merged   | Optional | cannot be null | [Border Side Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")                 |
-| [style](#style) | `string` | Optional | cannot be null | [Border Side Default](border_all-properties-border-style.md "https&#x3A;//legytma.com.br/schema/border_style.schema.json#/properties/style")        |
+| [type](#type)   | `string` | Optional | cannot be null | [Border Side Default](border_side_default-properties-type.md) |
+| [color](#color) | Merged   | Optional | cannot be null | [Border Side Default](app_bar_theme-properties-color.md)                   |
+| [width](#width) | Merged   | Optional | cannot be null | [Border Side Default](app_bar_theme-properties-double.md)                 |
+| [style](#style) | `string` | Optional | cannot be null | [Border Side Default](border_all-properties-border-style.md)        |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](border_side_default-properties-type.md))
 -   cannot be null
--   defined in: [Border Side Default](border_side_default-properties-type.md "https&#x3A;//legytma.com.br/schema/border_side_default.schema.json#/properties/type")
+-   defined in: [Border Side Default](border_side_default-properties-type.md)
 
 ### type Type
 
@@ -81,7 +81,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Border Side Default](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Border Side Default](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -89,7 +89,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -130,7 +130,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Border Side Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")
+-   defined in: [Border Side Default](app_bar_theme-properties-double.md)
 
 ### width Type
 
@@ -138,9 +138,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### width Constraints
 
@@ -170,7 +170,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Border Style](border_all-properties-border-style.md))
 -   cannot be null
--   defined in: [Border Side Default](border_all-properties-border-style.md "https&#x3A;//legytma.com.br/schema/border_style.schema.json#/properties/style")
+-   defined in: [Border Side Default](border_all-properties-border-style.md)
 
 ### style Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/list_navigator_observer.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [list_navigator_observer.schema.json](../schema/list_navigator_observer.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [list_navigator_observer.schema.json](../schema/list_navigator_observer.schema.json) |
 
 ## List Navigator Observer Type
 

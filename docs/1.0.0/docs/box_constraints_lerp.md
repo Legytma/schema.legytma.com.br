@@ -13,7 +13,7 @@ https://legytma.com.br/schema/box_constraints_lerp.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [box_constraints_lerp.schema.json](../schema/box_constraints_lerp.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [box_constraints_lerp.schema.json](../schema/box_constraints_lerp.schema.json) |
 
 ## Box Constraints Lerp Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/box_constraints_lerp.schema.json
 
 any of
 
--   [Box Constraints](box_constraints_default-anyof-box-constraints.md "check type definition")
+-   [Box Constraints](box_constraints_default-anyof-box-constraints.md)
 
 # Box Constraints Lerp Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                              |
 | :------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type) | `string` | Optional | cannot be null | [Box Constraints Lerp](box_constraints_lerp-properties-type.md "https&#x3A;//legytma.com.br/schema/box_constraints_lerp.schema.json#/properties/type")  |
-| [a](#a)       | `object` | Optional | cannot be null | [Box Constraints Lerp](box_constraints_default-anyof-box-constraints.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/properties/a") |
-| [b](#b)       | `object` | Optional | cannot be null | [Box Constraints Lerp](box_constraints_default-anyof-box-constraints.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/properties/b") |
-| [t](#t)       | Merged   | Optional | cannot be null | [Box Constraints Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")                        |
+| [type](#type) | `string` | Optional | cannot be null | [Box Constraints Lerp](box_constraints_lerp-properties-type.md)  |
+| [a](#a)       | `object` | Optional | cannot be null | [Box Constraints Lerp](box_constraints_default-anyof-box-constraints.md) |
+| [b](#b)       | `object` | Optional | cannot be null | [Box Constraints Lerp](box_constraints_default-anyof-box-constraints.md) |
+| [t](#t)       | Merged   | Optional | cannot be null | [Box Constraints Lerp](app_bar_theme-properties-double.md)                        |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](box_constraints_lerp-properties-type.md))
 -   cannot be null
--   defined in: [Box Constraints Lerp](box_constraints_lerp-properties-type.md "https&#x3A;//legytma.com.br/schema/box_constraints_lerp.schema.json#/properties/type")
+-   defined in: [Box Constraints Lerp](box_constraints_lerp-properties-type.md)
 
 ### type Type
 
@@ -84,7 +84,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Box Constraints](box_constraints_default-anyof-box-constraints.md))
 -   cannot be null
--   defined in: [Box Constraints Lerp](box_constraints_default-anyof-box-constraints.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/properties/a")
+-   defined in: [Box Constraints Lerp](box_constraints_default-anyof-box-constraints.md)
 
 ### a Type
 
@@ -104,7 +104,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Box Constraints](box_constraints_default-anyof-box-constraints.md))
 -   cannot be null
--   defined in: [Box Constraints Lerp](box_constraints_default-anyof-box-constraints.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/properties/b")
+-   defined in: [Box Constraints Lerp](box_constraints_default-anyof-box-constraints.md)
 
 ### b Type
 
@@ -123,7 +123,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Box Constraints Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")
+-   defined in: [Box Constraints Lerp](app_bar_theme-properties-double.md)
 
 ### t Type
 
@@ -131,9 +131,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### t Constraints
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/main_axis_size.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [main_axis_size.schema.json](../schema/main_axis_size.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [main_axis_size.schema.json](../schema/main_axis_size.schema.json) |
 
 ## Main Axis Size Type
 

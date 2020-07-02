@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/image_memory.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [image_memory.schema.json](../schema/widget/image_memory.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [image_memory.schema.json](../schema/widget/image_memory.schema.json) |
 
 ## Image Memory Type
 
@@ -23,17 +23,17 @@ all of
 
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Image Memory Properties
 
 | Property                    | Type         | Required | Nullable       | Defined by                                                                                                                                 |
 | :-------------------------- | ------------ | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| [imageType](#imageType)     | `string`     | Required | cannot be null | [Image Memory](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image_memory.schema.json#/properties/imageType") |
-| [bytes](#bytes)             | `array`      | Required | cannot be null | [Image Memory](image_memory-properties-bytes.md "https&#x3A;//legytma.com.br/schema/widget/image_memory.schema.json#/properties/bytes")    |
-| [cacheHeight](#cacheHeight) | Unknown Type | Optional | cannot be null | [Image Memory](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheHeight")                        |
-| [cacheWidth](#cacheWidth)   | Unknown Type | Optional | cannot be null | [Image Memory](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheWidth")                         |
-| [scale](#scale)             | Merged       | Optional | cannot be null | [Image Memory](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/scale")               |
+| [imageType](#imageType)     | `string`     | Required | cannot be null | [Image Memory](image-definitions-image-type.md) |
+| [bytes](#bytes)             | `array`      | Required | cannot be null | [Image Memory](image_memory-properties-bytes.md)    |
+| [cacheHeight](#cacheHeight) | Unknown Type | Optional | cannot be null | [Image Memory](color-allof-integer.md)                        |
+| [cacheWidth](#cacheWidth)   | Unknown Type | Optional | cannot be null | [Image Memory](color-allof-integer.md)                         |
+| [scale](#scale)             | Merged       | Optional | cannot be null | [Image Memory](app_bar_theme-properties-double.md)               |
 
 ## imageType
 
@@ -45,7 +45,7 @@ all of
 -   is required
 -   Type: `string` ([Image Type](image-definitions-image-type.md))
 -   cannot be null
--   defined in: [Image Memory](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image_memory.schema.json#/properties/imageType")
+-   defined in: [Image Memory](image-definitions-image-type.md)
 
 ### imageType Type
 
@@ -79,15 +79,15 @@ all of
 -   is required
 -   Type: an array where each item follows the corresponding schema in the following list:
 
-    1.  [Untitled integer in Image Memory](image_memory-properties-bytes-items-0.md "check type definition")
+    1.  [Untitled integer in Image Memory](image_memory-properties-bytes-items-0.md)
 -   cannot be null
--   defined in: [Image Memory](image_memory-properties-bytes.md "https&#x3A;//legytma.com.br/schema/widget/image_memory.schema.json#/properties/bytes")
+-   defined in: [Image Memory](image_memory-properties-bytes.md)
 
 ### bytes Type
 
 an array where each item follows the corresponding schema in the following list:
 
-1.  [Untitled integer in Image Memory](image_memory-properties-bytes-items-0.md "check type definition")
+1.  [Untitled integer in Image Memory](image_memory-properties-bytes-items-0.md)
 
 ## cacheHeight
 
@@ -102,7 +102,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Image Memory](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheHeight")
+-   defined in: [Image Memory](color-allof-integer.md)
 
 ### cacheHeight Type
 
@@ -155,7 +155,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Image Memory](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheWidth")
+-   defined in: [Image Memory](color-allof-integer.md)
 
 ### cacheWidth Type
 
@@ -208,7 +208,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Image Memory](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/scale")
+-   defined in: [Image Memory](app_bar_theme-properties-double.md)
 
 ### scale Type
 
@@ -216,9 +216,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### scale Constraints
 

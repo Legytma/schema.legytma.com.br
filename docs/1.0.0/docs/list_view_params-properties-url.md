@@ -13,7 +13,7 @@ https://legytma.com.br/schema/url.schema.json#/properties/loadMoreUrl
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [list_view_params.schema.json\*](../schema/list_view_params.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [list_view_params.schema.json\*](../schema/list_view_params.schema.json) |
 
 ## loadMoreUrl Type
 
@@ -21,4 +21,4 @@ https://legytma.com.br/schema/url.schema.json#/properties/loadMoreUrl
 
 ## loadMoreUrl Constraints
 
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc4291 "check the specification")
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc4291)

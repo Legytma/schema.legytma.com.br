@@ -13,7 +13,7 @@ https://legytma.com.br/schema/dialog_theme.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dialog_theme.schema.json](../schema/dialog_theme.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dialog_theme.schema.json](../schema/dialog_theme.schema.json) |
 
 ## Dialog Theme Type
 
@@ -23,11 +23,11 @@ https://legytma.com.br/schema/dialog_theme.schema.json
 
 | Property                              | Type         | Required | Nullable       | Defined by                                                                                                                                          |
 | :------------------------------------ | ------------ | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [elevation](#elevation)               | Merged       | Optional | cannot be null | [Dialog Theme](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")                    |
-| [shape](#shape)                       | Unknown Type | Optional | can be null    | [Dialog Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")               |
-| [backgroundColor](#backgroundColor)   | Merged       | Optional | cannot be null | [Dialog Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")                |
-| [contentTextStyle](#contentTextStyle) | `object`     | Optional | cannot be null | [Dialog Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/contentTextStyle") |
-| [titleTextStyle](#titleTextStyle)     | `object`     | Optional | cannot be null | [Dialog Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/titleTextStyle")   |
+| [elevation](#elevation)               | Merged       | Optional | cannot be null | [Dialog Theme](app_bar_theme-properties-double.md)                    |
+| [shape](#shape)                       | Unknown Type | Optional | can be null    | [Dialog Theme](bottom_app_bar_theme-properties-dynamic.md)               |
+| [backgroundColor](#backgroundColor)   | Merged       | Optional | cannot be null | [Dialog Theme](app_bar_theme-properties-color.md)                |
+| [contentTextStyle](#contentTextStyle) | `object`     | Optional | cannot be null | [Dialog Theme](chip_theme_data-properties-text-style-1.md) |
+| [titleTextStyle](#titleTextStyle)     | `object`     | Optional | cannot be null | [Dialog Theme](chip_theme_data-properties-text-style-1.md)   |
 
 ## elevation
 
@@ -42,7 +42,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Dialog Theme](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Dialog Theme](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -50,9 +50,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### elevation Constraints
 
@@ -82,7 +82,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Dialog Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Dialog Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -101,7 +101,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Dialog Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Dialog Theme](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -109,7 +109,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -150,7 +150,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Dialog Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/contentTextStyle")
+-   defined in: [Dialog Theme](chip_theme_data-properties-text-style-1.md)
 
 ### contentTextStyle Type
 
@@ -169,7 +169,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Dialog Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/titleTextStyle")
+-   defined in: [Dialog Theme](chip_theme_data-properties-text-style-1.md)
 
 ### titleTextStyle Type
 

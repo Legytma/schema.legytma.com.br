@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/opacity.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [opacity.schema.json](../schema/widget/opacity.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [opacity.schema.json](../schema/widget/opacity.schema.json) |
 
 ## Opacity Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/widget/opacity.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Opacity Properties
 
 | Property                                          | Type      | Required | Nullable       | Defined by                                                                                                                                      |
 | :------------------------------------------------ | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                                     | `string`  | Optional | cannot be null | [Opacity](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/opacity.schema.json#/properties/type")                          |
-| [opacity](#opacity)                               | Merged    | Required | cannot be null | [Opacity](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/opacity")                       |
-| [alwaysIncludeSemantics](#alwaysIncludeSemantics) | `boolean` | Optional | cannot be null | [Opacity](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/alwaysIncludeSemantics") |
-| [child](#child)                                   | `object`  | Optional | cannot be null | [Opacity](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                    |
+| [type](#type)                                     | `string`  | Optional | cannot be null | [Opacity](widget-definitions-type.md)                          |
+| [opacity](#opacity)                               | Merged    | Required | cannot be null | [Opacity](app_bar_theme-properties-double.md)                       |
+| [alwaysIncludeSemantics](#alwaysIncludeSemantics) | `boolean` | Optional | cannot be null | [Opacity](button_bar_theme_data-properties-boolean.md) |
+| [child](#child)                                   | `object`  | Optional | cannot be null | [Opacity](input_decoration-properties-widget-5.md)                    |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Opacity](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/opacity.schema.json#/properties/type")
+-   defined in: [Opacity](widget-definitions-type.md)
 
 ### type Type
 
@@ -72,7 +72,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Opacity](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/opacity")
+-   defined in: [Opacity](app_bar_theme-properties-double.md)
 
 ### opacity Type
 
@@ -80,9 +80,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### opacity Constraints
 
@@ -111,7 +111,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Opacity](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/alwaysIncludeSemantics")
+-   defined in: [Opacity](button_bar_theme_data-properties-boolean.md)
 
 ### alwaysIncludeSemantics Type
 
@@ -148,7 +148,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Opacity](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Opacity](input_decoration-properties-widget-5.md)
 
 ### child Type
 

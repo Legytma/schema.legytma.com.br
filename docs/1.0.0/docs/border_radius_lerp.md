@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_radius_lerp.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_radius_lerp.schema.json](../schema/border_radius_lerp.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_radius_lerp.schema.json](../schema/border_radius_lerp.schema.json) |
 
 ## Border Radius Lerp Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/border_radius_lerp.schema.json
 
 all of
 
--   [Border Radius Object](border_radius-oneof-border-radius-object.md "check type definition")
+-   [Border Radius Object](border_radius-oneof-border-radius-object.md)
 
 # Border Radius Lerp Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                            |
 | :------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Border Radius Lerp](border_radius_geometry-definitions-type.md "https&#x3A;//legytma.com.br/schema/border_radius_lerp.schema.json#/properties/type") |
-| [a](#a)       | Merged   | Optional | cannot be null | [Border Radius Lerp](border_radius_lerp-properties-border-radius.md "https&#x3A;//legytma.com.br/schema/border_radius.schema.json#/properties/a")     |
-| [b](#b)       | Merged   | Optional | cannot be null | [Border Radius Lerp](border_radius_lerp-properties-border-radius-1.md "https&#x3A;//legytma.com.br/schema/border_radius.schema.json#/properties/b")   |
-| [t](#t)       | Merged   | Optional | cannot be null | [Border Radius Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")                        |
+| [type](#type) | `string` | Optional | cannot be null | [Border Radius Lerp](border_radius_geometry-definitions-type.md) |
+| [a](#a)       | Merged   | Optional | cannot be null | [Border Radius Lerp](border_radius_lerp-properties-border-radius.md)     |
+| [b](#b)       | Merged   | Optional | cannot be null | [Border Radius Lerp](border_radius_lerp-properties-border-radius-1.md)   |
+| [t](#t)       | Merged   | Optional | cannot be null | [Border Radius Lerp](app_bar_theme-properties-double.md)                        |
 
 ## type
 
@@ -42,7 +42,7 @@ Define o tipo de Border Radius
 -   is optional
 -   Type: `string` ([Type](border_radius_geometry-definitions-type.md))
 -   cannot be null
--   defined in: [Border Radius Lerp](border_radius_geometry-definitions-type.md "https&#x3A;//legytma.com.br/schema/border_radius_lerp.schema.json#/properties/type")
+-   defined in: [Border Radius Lerp](border_radius_geometry-definitions-type.md)
 
 ### type Type
 
@@ -83,7 +83,7 @@ Define o tipo de Border Radius
 -   is optional
 -   Type: merged type ([Border Radius](border_radius_lerp-properties-border-radius-1.md))
 -   cannot be null
--   defined in: [Border Radius Lerp](border_radius_lerp-properties-border-radius-1.md "https&#x3A;//legytma.com.br/schema/border_radius.schema.json#/properties/a")
+-   defined in: [Border Radius Lerp](border_radius_lerp-properties-border-radius-1.md)
 
 ### a Type
 
@@ -91,8 +91,8 @@ merged type ([Border Radius](border_radius_lerp-properties-border-radius-1.md))
 
 one (and only one) of
 
--   [Border Radius Object](border_radius-oneof-border-radius-object.md "check type definition")
--   [Border Radius String](border_radius-oneof-border-radius-string.md "check type definition")
+-   [Border Radius Object](border_radius-oneof-border-radius-object.md)
+-   [Border Radius String](border_radius-oneof-border-radius-string.md)
 
 ## b
 
@@ -108,7 +108,7 @@ one (and only one) of
 -   is optional
 -   Type: merged type ([Border Radius](border_radius_lerp-properties-border-radius-1.md))
 -   cannot be null
--   defined in: [Border Radius Lerp](border_radius_lerp-properties-border-radius-1.md "https&#x3A;//legytma.com.br/schema/border_radius.schema.json#/properties/b")
+-   defined in: [Border Radius Lerp](border_radius_lerp-properties-border-radius-1.md)
 
 ### b Type
 
@@ -116,8 +116,8 @@ merged type ([Border Radius](border_radius_lerp-properties-border-radius-1.md))
 
 one (and only one) of
 
--   [Border Radius Object](border_radius-oneof-border-radius-object.md "check type definition")
--   [Border Radius String](border_radius-oneof-border-radius-string.md "check type definition")
+-   [Border Radius Object](border_radius-oneof-border-radius-object.md)
+-   [Border Radius String](border_radius-oneof-border-radius-string.md)
 
 ## t
 
@@ -132,7 +132,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Border Radius Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")
+-   defined in: [Border Radius Lerp](app_bar_theme-properties-double.md)
 
 ### t Type
 
@@ -140,9 +140,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### t Constraints
 

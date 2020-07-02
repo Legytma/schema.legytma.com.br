@@ -13,7 +13,7 @@ https://legytma.com.br/schema/text_capitalization.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                          |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [text_capitalization.schema.json](../schema/text_capitalization.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [text_capitalization.schema.json](../schema/text_capitalization.schema.json) |
 
 ## Text Capitalization Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/spin_kit_rotating_circle.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                           |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [spin_kit_rotating_circle.schema.json](../schema/widget/spin_kit_rotating_circle.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [spin_kit_rotating_circle.schema.json](../schema/widget/spin_kit_rotating_circle.schema.json) |
 
 ## Spin Kit Rotating Circle Type
 
@@ -21,18 +21,18 @@ https://legytma.com.br/schema/widget/spin_kit_rotating_circle.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Spin Kit Rotating Circle Properties
 
 | Property                    | Type         | Required | Nullable       | Defined by                                                                                                                                               |
 | :-------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)               | `string`     | Optional | cannot be null | [Spin Kit Rotating Circle](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/spin_kit_rotating_circle.schema.json#/properties/type") |
-| [controller](#controller)   | Unknown Type | Optional | can be null    | [Spin Kit Rotating Circle](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/controller")   |
-| [duration](#duration)       | `object`     | Optional | cannot be null | [Spin Kit Rotating Circle](tooltip_theme_data-properties-duration.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/duration")     |
-| [itemBuilder](#itemBuilder) | Unknown Type | Optional | can be null    | [Spin Kit Rotating Circle](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/itemBuilder")  |
-| [color](#color)             | Merged       | Required | cannot be null | [Spin Kit Rotating Circle](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                   |
-| [size](#size)               | Merged       | Optional | cannot be null | [Spin Kit Rotating Circle](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/size")                  |
+| [type](#type)               | `string`     | Optional | cannot be null | [Spin Kit Rotating Circle](widget-definitions-type.md) |
+| [controller](#controller)   | Unknown Type | Optional | can be null    | [Spin Kit Rotating Circle](bottom_app_bar_theme-properties-dynamic.md)   |
+| [duration](#duration)       | `object`     | Optional | cannot be null | [Spin Kit Rotating Circle](tooltip_theme_data-properties-duration.md)     |
+| [itemBuilder](#itemBuilder) | Unknown Type | Optional | can be null    | [Spin Kit Rotating Circle](bottom_app_bar_theme-properties-dynamic.md)  |
+| [color](#color)             | Merged       | Required | cannot be null | [Spin Kit Rotating Circle](app_bar_theme-properties-color.md)                   |
+| [size](#size)               | Merged       | Optional | cannot be null | [Spin Kit Rotating Circle](app_bar_theme-properties-double.md)                  |
 
 ## type
 
@@ -47,7 +47,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Spin Kit Rotating Circle](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/spin_kit_rotating_circle.schema.json#/properties/type")
+-   defined in: [Spin Kit Rotating Circle](widget-definitions-type.md)
 
 ### type Type
 
@@ -75,7 +75,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Spin Kit Rotating Circle](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/controller")
+-   defined in: [Spin Kit Rotating Circle](bottom_app_bar_theme-properties-dynamic.md)
 
 ### controller Type
 
@@ -103,7 +103,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Duration](tooltip_theme_data-properties-duration.md))
 -   cannot be null
--   defined in: [Spin Kit Rotating Circle](tooltip_theme_data-properties-duration.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/duration")
+-   defined in: [Spin Kit Rotating Circle](tooltip_theme_data-properties-duration.md)
 
 ### duration Type
 
@@ -133,7 +133,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Spin Kit Rotating Circle](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/itemBuilder")
+-   defined in: [Spin Kit Rotating Circle](bottom_app_bar_theme-properties-dynamic.md)
 
 ### itemBuilder Type
 
@@ -160,7 +160,7 @@ A number in format string or integer
 -   is required
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Spin Kit Rotating Circle](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Spin Kit Rotating Circle](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -168,7 +168,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -209,7 +209,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Spin Kit Rotating Circle](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/size")
+-   defined in: [Spin Kit Rotating Circle](app_bar_theme-properties-double.md)
 
 ### size Type
 
@@ -217,9 +217,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### size Constraints
 

@@ -12,7 +12,7 @@ Define the representation of double acceptable.
 
 | Abstract               | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                |
 | :--------------------- | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------- |
-| Cannot be instantiated | Yes        | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [double.schema.json](../schema/double.schema.json "open original schema") |
+| Cannot be instantiated | Yes        | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [double.schema.json](../schema/double.schema.json) |
 
 ## Double Type
 
@@ -20,9 +20,9 @@ merged type ([Double](double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 # Double Definitions
 
@@ -42,7 +42,7 @@ Reference this group by using
 -   is optional
 -   Type: `number`
 -   cannot be null
--   defined in: [Double](double-definitions-doublenumber.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/definitions/doubleNumber")
+-   defined in: [Double](double-definitions-doublenumber.md)
 
 ### doubleNumber Type
 
@@ -78,7 +78,7 @@ Reference this group by using
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Double](double-definitions-doublestring.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/definitions/doubleString")
+-   defined in: [Double](double-definitions-doublestring.md)
 
 ### doubleString Type
 
@@ -92,7 +92,7 @@ Reference this group by using
 ^-?\d+(\.\d+)?$
 ```
 
-[try pattern](https://regexr.com/?expression=%5E-%3F%5Cd%2B(%5C.%5Cd%2B)%3F%24 "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=%5E-%3F%5Cd%2B(%5C.%5Cd%2B)%3F%24)
 
 ### doubleString Examples
 
@@ -124,7 +124,7 @@ Reference this group by using
 -   is optional
 -   Type: `string`
 -   cannot be null
--   defined in: [Double](double-definitions-doubleenum.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/definitions/doubleEnum")
+-   defined in: [Double](double-definitions-doubleenum.md)
 
 ### doubleEnum Type
 

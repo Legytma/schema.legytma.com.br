@@ -13,7 +13,7 @@ https://legytma.com.br/schema/focus_on_key_callback.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                              |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [focus_on_key_callback.schema.json](../schema/focus_on_key_callback.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [focus_on_key_callback.schema.json](../schema/focus_on_key_callback.schema.json) |
 
 ## Focus On Key Callback Type
 

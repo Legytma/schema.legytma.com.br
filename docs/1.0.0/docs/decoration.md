@@ -13,7 +13,7 @@ https://legytma.com.br/schema/decoration.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration.schema.json](../schema/decoration.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration.schema.json](../schema/decoration.schema.json) |
 
 ## Decoration Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/decoration.schema.json
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                               |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Decoration](decoration-properties-type.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Decoration](decoration-properties-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](decoration-properties-type.md))
 -   cannot be null
--   defined in: [Decoration](decoration-properties-type.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/properties/type")
+-   defined in: [Decoration](decoration-properties-type.md)
 
 ### type Type
 
@@ -94,7 +94,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](decoration-definitions-type.md))
 -   cannot be null
--   defined in: [Decoration](decoration-definitions-type.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/definitions/type")
+-   defined in: [Decoration](decoration-definitions-type.md)
 
 ### type Type
 

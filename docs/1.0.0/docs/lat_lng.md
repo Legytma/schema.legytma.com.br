@@ -13,7 +13,7 @@ https://legytma.com.br/schema/lat_lng.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [lat_lng.schema.json](../schema/lat_lng.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [lat_lng.schema.json](../schema/lat_lng.schema.json) |
 
 ## Lat Lng Type
 
@@ -23,8 +23,8 @@ https://legytma.com.br/schema/lat_lng.schema.json
 
 | Property                | Type   | Required | Nullable       | Defined by                                                                                                                  |
 | :---------------------- | ------ | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [latitude](#latitude)   | Merged | Required | cannot be null | [Lat Lng](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/latitude")  |
-| [longitude](#longitude) | Merged | Required | cannot be null | [Lat Lng](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/longitude") |
+| [latitude](#latitude)   | Merged | Required | cannot be null | [Lat Lng](app_bar_theme-properties-double.md)  |
+| [longitude](#longitude) | Merged | Required | cannot be null | [Lat Lng](app_bar_theme-properties-double.md) |
 
 ## latitude
 
@@ -39,7 +39,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Lat Lng](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/latitude")
+-   defined in: [Lat Lng](app_bar_theme-properties-double.md)
 
 ### latitude Type
 
@@ -47,9 +47,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### latitude Constraints
 
@@ -78,7 +78,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Lat Lng](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/longitude")
+-   defined in: [Lat Lng](app_bar_theme-properties-double.md)
 
 ### longitude Type
 
@@ -86,9 +86,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### longitude Constraints
 

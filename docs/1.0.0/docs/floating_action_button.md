@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/floating_action_button.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                       |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [floating_action_button.schema.json](../schema/widget/floating_action_button.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [floating_action_button.schema.json](../schema/widget/floating_action_button.schema.json) |
 
 ## Floating Action Button Type
 
@@ -21,33 +21,33 @@ https://legytma.com.br/schema/widget/floating_action_button.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Floating Action Button Properties
 
 | Property                                        | Type         | Required | Nullable       | Defined by                                                                                                                                                                                     |
 | :---------------------------------------------- | ------------ | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                                   | `string`     | Optional | cannot be null | [Floating Action Button](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/floating_action_button.schema.json#/properties/type")                                           |
-| [onPressed](#onPressed)                         | Unknown Type | Optional | can be null    | [Floating Action Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPressed")                                            |
-| [autofocus](#autofocus)                         | `boolean`    | Optional | cannot be null | [Floating Action Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autofocus")                                              |
-| [backgroundColor](#backgroundColor)             | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")                                                 |
-| [child](#child)                                 | `object`     | Optional | cannot be null | [Floating Action Button](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                                    |
-| [clipBehavior](#clipBehavior)                   | `string`     | Optional | cannot be null | [Floating Action Button](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")                                            |
-| [disabledElevation](#disabledElevation)         | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/disabledElevation")                                             |
-| [elevation](#elevation)                         | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")                                                     |
-| [focusColor](#focusColor)                       | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")                                                      |
-| [focusElevation](#focusElevation)               | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/focusElevation")                                                |
-| [focusNode](#focusNode)                         | `object`     | Optional | cannot be null | [Floating Action Button](floating_action_button-properties-focus-node.md "https&#x3A;//legytma.com.br/schema/focus_node.schema.json#/properties/focusNode")                                    |
-| [foregroundColor](#foregroundColor)             | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/foregroundColor")                                                 |
-| [highlightElevation](#highlightElevation)       | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/highlightElevation")                                            |
-| [hoverColor](#hoverColor)                       | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")                                                      |
-| [hoverElevation](#hoverElevation)               | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/hoverElevation")                                                |
-| [isExtended](#isExtended)                       | `boolean`    | Optional | cannot be null | [Floating Action Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/isExtended")                                             |
-| [materialTapTargetSize](#materialTapTargetSize) | `string`     | Optional | cannot be null | [Floating Action Button](button_theme_data-properties-material-tap-target-size.md "https&#x3A;//legytma.com.br/schema/material_tap_target_size.schema.json#/properties/materialTapTargetSize") |
-| [mini](#mini)                                   | `boolean`    | Optional | cannot be null | [Floating Action Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/mini")                                                   |
-| [shape](#shape)                                 | Unknown Type | Optional | can be null    | [Floating Action Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")                                                |
-| [splashColor](#splashColor)                     | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")                                                     |
-| [tooltip](#tooltip)                             | `string`     | Optional | cannot be null | [Floating Action Button](floating_action_button-properties-tooltip.md "https&#x3A;//legytma.com.br/schema/widget/floating_action_button.schema.json#/properties/tooltip")                      |
+| [type](#type)                                   | `string`     | Optional | cannot be null | [Floating Action Button](widget-definitions-type.md)                                           |
+| [onPressed](#onPressed)                         | Unknown Type | Optional | can be null    | [Floating Action Button](bottom_app_bar_theme-properties-dynamic.md)                                            |
+| [autofocus](#autofocus)                         | `boolean`    | Optional | cannot be null | [Floating Action Button](button_bar_theme_data-properties-boolean.md)                                              |
+| [backgroundColor](#backgroundColor)             | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md)                                                 |
+| [child](#child)                                 | `object`     | Optional | cannot be null | [Floating Action Button](input_decoration-properties-widget-5.md)                                                    |
+| [clipBehavior](#clipBehavior)                   | `string`     | Optional | cannot be null | [Floating Action Button](bottom_sheet_theme_data-properties-clip.md)                                            |
+| [disabledElevation](#disabledElevation)         | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md)                                             |
+| [elevation](#elevation)                         | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md)                                                     |
+| [focusColor](#focusColor)                       | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md)                                                      |
+| [focusElevation](#focusElevation)               | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md)                                                |
+| [focusNode](#focusNode)                         | `object`     | Optional | cannot be null | [Floating Action Button](floating_action_button-properties-focus-node.md)                                    |
+| [foregroundColor](#foregroundColor)             | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md)                                                 |
+| [highlightElevation](#highlightElevation)       | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md)                                            |
+| [hoverColor](#hoverColor)                       | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md)                                                      |
+| [hoverElevation](#hoverElevation)               | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-double.md)                                                |
+| [isExtended](#isExtended)                       | `boolean`    | Optional | cannot be null | [Floating Action Button](button_bar_theme_data-properties-boolean.md)                                             |
+| [materialTapTargetSize](#materialTapTargetSize) | `string`     | Optional | cannot be null | [Floating Action Button](button_theme_data-properties-material-tap-target-size.md) |
+| [mini](#mini)                                   | `boolean`    | Optional | cannot be null | [Floating Action Button](button_bar_theme_data-properties-boolean.md)                                                   |
+| [shape](#shape)                                 | Unknown Type | Optional | can be null    | [Floating Action Button](bottom_app_bar_theme-properties-dynamic.md)                                                |
+| [splashColor](#splashColor)                     | Merged       | Optional | cannot be null | [Floating Action Button](app_bar_theme-properties-color.md)                                                     |
+| [tooltip](#tooltip)                             | `string`     | Optional | cannot be null | [Floating Action Button](floating_action_button-properties-tooltip.md)                      |
 
 ## type
 
@@ -62,7 +62,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Floating Action Button](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/floating_action_button.schema.json#/properties/type")
+-   defined in: [Floating Action Button](widget-definitions-type.md)
 
 ### type Type
 
@@ -90,7 +90,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Floating Action Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPressed")
+-   defined in: [Floating Action Button](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onPressed Type
 
@@ -109,7 +109,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Floating Action Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autofocus")
+-   defined in: [Floating Action Button](button_bar_theme_data-properties-boolean.md)
 
 ### autofocus Type
 
@@ -146,7 +146,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Floating Action Button](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -154,7 +154,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -195,7 +195,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Floating Action Button](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Floating Action Button](input_decoration-properties-widget-5.md)
 
 ### child Type
 
@@ -215,7 +215,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `string` ([Clip](bottom_sheet_theme_data-properties-clip.md))
 -   cannot be null
--   defined in: [Floating Action Button](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")
+-   defined in: [Floating Action Button](bottom_sheet_theme_data-properties-clip.md)
 
 ### clipBehavior Type
 
@@ -253,7 +253,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/disabledElevation")
+-   defined in: [Floating Action Button](app_bar_theme-properties-double.md)
 
 ### disabledElevation Type
 
@@ -261,9 +261,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### disabledElevation Constraints
 
@@ -292,7 +292,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Floating Action Button](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -300,9 +300,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### elevation Constraints
 
@@ -331,7 +331,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")
+-   defined in: [Floating Action Button](app_bar_theme-properties-color.md)
 
 ### focusColor Type
 
@@ -339,7 +339,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### focusColor Default Value
 
@@ -380,7 +380,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/focusElevation")
+-   defined in: [Floating Action Button](app_bar_theme-properties-double.md)
 
 ### focusElevation Type
 
@@ -388,9 +388,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### focusElevation Constraints
 
@@ -420,7 +420,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Focus Node](floating_action_button-properties-focus-node.md))
 -   cannot be null
--   defined in: [Floating Action Button](floating_action_button-properties-focus-node.md "https&#x3A;//legytma.com.br/schema/focus_node.schema.json#/properties/focusNode")
+-   defined in: [Floating Action Button](floating_action_button-properties-focus-node.md)
 
 ### focusNode Type
 
@@ -439,7 +439,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/foregroundColor")
+-   defined in: [Floating Action Button](app_bar_theme-properties-color.md)
 
 ### foregroundColor Type
 
@@ -447,7 +447,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### foregroundColor Default Value
 
@@ -488,7 +488,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/highlightElevation")
+-   defined in: [Floating Action Button](app_bar_theme-properties-double.md)
 
 ### highlightElevation Type
 
@@ -496,9 +496,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### highlightElevation Constraints
 
@@ -527,7 +527,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")
+-   defined in: [Floating Action Button](app_bar_theme-properties-color.md)
 
 ### hoverColor Type
 
@@ -535,7 +535,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hoverColor Default Value
 
@@ -576,7 +576,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/hoverElevation")
+-   defined in: [Floating Action Button](app_bar_theme-properties-double.md)
 
 ### hoverElevation Type
 
@@ -584,9 +584,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### hoverElevation Constraints
 
@@ -615,7 +615,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Floating Action Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/isExtended")
+-   defined in: [Floating Action Button](button_bar_theme_data-properties-boolean.md)
 
 ### isExtended Type
 
@@ -649,7 +649,7 @@ false
 -   is optional
 -   Type: `string` ([Material Tap Target Size](button_theme_data-properties-material-tap-target-size.md))
 -   cannot be null
--   defined in: [Floating Action Button](button_theme_data-properties-material-tap-target-size.md "https&#x3A;//legytma.com.br/schema/material_tap_target_size.schema.json#/properties/materialTapTargetSize")
+-   defined in: [Floating Action Button](button_theme_data-properties-material-tap-target-size.md)
 
 ### materialTapTargetSize Type
 
@@ -687,7 +687,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Floating Action Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/mini")
+-   defined in: [Floating Action Button](button_bar_theme_data-properties-boolean.md)
 
 ### mini Type
 
@@ -725,7 +725,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Floating Action Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Floating Action Button](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -744,7 +744,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")
+-   defined in: [Floating Action Button](app_bar_theme-properties-color.md)
 
 ### splashColor Type
 
@@ -752,7 +752,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### splashColor Default Value
 
@@ -790,7 +790,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Tooltip](floating_action_button-properties-tooltip.md))
 -   cannot be null
--   defined in: [Floating Action Button](floating_action_button-properties-tooltip.md "https&#x3A;//legytma.com.br/schema/widget/floating_action_button.schema.json#/properties/tooltip")
+-   defined in: [Floating Action Button](floating_action_button-properties-tooltip.md)
 
 ### tooltip Type
 

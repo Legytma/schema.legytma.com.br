@@ -13,7 +13,7 @@ https://legytma.com.br/schema/tab_bar_indicator_size.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tab_bar_indicator_size.schema.json](../schema/tab_bar_indicator_size.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [tab_bar_indicator_size.schema.json](../schema/tab_bar_indicator_size.schema.json) |
 
 ## Tab Bar Indicator Size Type
 

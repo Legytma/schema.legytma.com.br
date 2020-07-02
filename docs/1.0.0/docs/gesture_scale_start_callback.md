@@ -13,7 +13,7 @@ https://legytma.com.br/schema/gesture_scale_start_callback.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [gesture_scale_start_callback.schema.json](../schema/gesture_scale_start_callback.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [gesture_scale_start_callback.schema.json](../schema/gesture_scale_start_callback.schema.json) |
 
 ## Gesture Scale Start Callback Type
 

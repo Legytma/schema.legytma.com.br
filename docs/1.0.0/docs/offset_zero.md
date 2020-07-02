@@ -13,7 +13,7 @@ https://legytma.com.br/schema/offset_zero.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [offset_zero.schema.json](../schema/offset_zero.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [offset_zero.schema.json](../schema/offset_zero.schema.json) |
 
 ## Offset Zero Type
 
@@ -21,13 +21,13 @@ https://legytma.com.br/schema/offset_zero.schema.json
 
 all of
 
--   [Offset](box_shadow-properties-offset.md "check type definition")
+-   [Offset](box_shadow-properties-offset.md)
 
 # Offset Zero Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                              |
 | :------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Offset Zero](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset_zero.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Offset Zero](widget-definitions-type.md) |
 
 ## type
 
@@ -42,7 +42,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Offset Zero](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset_zero.schema.json#/properties/type")
+-   defined in: [Offset Zero](widget-definitions-type.md)
 
 ### type Type
 

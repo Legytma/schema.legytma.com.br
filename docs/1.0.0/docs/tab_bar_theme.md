@@ -13,7 +13,7 @@ https://legytma.com.br/schema/tab_bar_theme.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [tab_bar_theme.schema.json](../schema/tab_bar_theme.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [tab_bar_theme.schema.json](../schema/tab_bar_theme.schema.json) |
 
 ## Tab Bar Theme Type
 
@@ -23,13 +23,13 @@ https://legytma.com.br/schema/tab_bar_theme.schema.json
 
 | Property                                      | Type         | Required | Nullable       | Defined by                                                                                                                                                               |
 | :-------------------------------------------- | ------------ | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [labelStyle](#labelStyle)                     | `object`     | Optional | cannot be null | [Tab Bar Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/labelStyle")                           |
-| [indicator](#indicator)                       | `object`     | Optional | cannot be null | [Tab Bar Theme](box_decoration-anyof-decoration.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/properties/indicator")                                    |
-| [indicatorSize](#indicatorSize)               | `string`     | Optional | cannot be null | [Tab Bar Theme](tab_bar_theme-properties-tab-bar-indicator-size.md "https&#x3A;//legytma.com.br/schema/tab_bar_indicator_size.schema.json#/properties/indicatorSize")    |
-| [labelColor](#labelColor)                     | Merged       | Optional | cannot be null | [Tab Bar Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/labelColor")                                         |
-| [labelPadding](#labelPadding)                 | Unknown Type | Optional | cannot be null | [Tab Bar Theme](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/labelPadding") |
-| [unselectedLabelColor](#unselectedLabelColor) | Merged       | Optional | cannot be null | [Tab Bar Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/unselectedLabelColor")                               |
-| [unselectedLabelStyle](#unselectedLabelStyle) | `object`     | Optional | cannot be null | [Tab Bar Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/unselectedLabelStyle")                 |
+| [labelStyle](#labelStyle)                     | `object`     | Optional | cannot be null | [Tab Bar Theme](chip_theme_data-properties-text-style-1.md)                           |
+| [indicator](#indicator)                       | `object`     | Optional | cannot be null | [Tab Bar Theme](box_decoration-anyof-decoration.md)                                    |
+| [indicatorSize](#indicatorSize)               | `string`     | Optional | cannot be null | [Tab Bar Theme](tab_bar_theme-properties-tab-bar-indicator-size.md)    |
+| [labelColor](#labelColor)                     | Merged       | Optional | cannot be null | [Tab Bar Theme](app_bar_theme-properties-color.md)                                         |
+| [labelPadding](#labelPadding)                 | Unknown Type | Optional | cannot be null | [Tab Bar Theme](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [unselectedLabelColor](#unselectedLabelColor) | Merged       | Optional | cannot be null | [Tab Bar Theme](app_bar_theme-properties-color.md)                               |
+| [unselectedLabelStyle](#unselectedLabelStyle) | `object`     | Optional | cannot be null | [Tab Bar Theme](chip_theme_data-properties-text-style-1.md)                 |
 
 ## labelStyle
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Tab Bar Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/labelStyle")
+-   defined in: [Tab Bar Theme](chip_theme_data-properties-text-style-1.md)
 
 ### labelStyle Type
 
@@ -64,7 +64,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Decoration](box_decoration-anyof-decoration.md))
 -   cannot be null
--   defined in: [Tab Bar Theme](box_decoration-anyof-decoration.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/properties/indicator")
+-   defined in: [Tab Bar Theme](box_decoration-anyof-decoration.md)
 
 ### indicator Type
 
@@ -84,7 +84,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Tab Bar Indicator Size](tab_bar_theme-properties-tab-bar-indicator-size.md))
 -   cannot be null
--   defined in: [Tab Bar Theme](tab_bar_theme-properties-tab-bar-indicator-size.md "https&#x3A;//legytma.com.br/schema/tab_bar_indicator_size.schema.json#/properties/indicatorSize")
+-   defined in: [Tab Bar Theme](tab_bar_theme-properties-tab-bar-indicator-size.md)
 
 ### indicatorSize Type
 
@@ -122,7 +122,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Tab Bar Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/labelColor")
+-   defined in: [Tab Bar Theme](app_bar_theme-properties-color.md)
 
 ### labelColor Type
 
@@ -130,7 +130,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### labelColor Default Value
 
@@ -172,7 +172,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Tab Bar Theme](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/labelPadding")
+-   defined in: [Tab Bar Theme](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### labelPadding Type
 
@@ -202,7 +202,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Tab Bar Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/unselectedLabelColor")
+-   defined in: [Tab Bar Theme](app_bar_theme-properties-color.md)
 
 ### unselectedLabelColor Type
 
@@ -210,7 +210,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### unselectedLabelColor Default Value
 
@@ -251,7 +251,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Tab Bar Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/unselectedLabelStyle")
+-   defined in: [Tab Bar Theme](chip_theme_data-properties-text-style-1.md)
 
 ### unselectedLabelStyle Type
 

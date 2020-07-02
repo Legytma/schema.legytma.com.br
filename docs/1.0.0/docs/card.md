@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/card.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [card.schema.json](../schema/widget/card.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [card.schema.json](../schema/widget/card.schema.json) |
 
 ## Card Type
 
@@ -21,21 +21,21 @@ https://legytma.com.br/schema/widget/card.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Card Properties
 
 | Property                                  | Type         | Required | Nullable       | Defined by                                                                                                                                                |
 | :---------------------------------------- | ------------ | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                             | `string`     | Optional | cannot be null | [Card](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/card.schema.json#/properties/type")                                          |
-| [color](#color)                           | Merged       | Optional | cannot be null | [Card](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                                        |
-| [child](#child)                           | `object`     | Optional | cannot be null | [Card](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                 |
-| [shape](#shape)                           | Unknown Type | Optional | can be null    | [Card](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")                             |
-| [elevation](#elevation)                   | Merged       | Optional | cannot be null | [Card](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")                                  |
-| [borderOnForeground](#borderOnForeground) | `boolean`    | Optional | cannot be null | [Card](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/borderOnForeground")                  |
-| [clipBehavior](#clipBehavior)             | `string`     | Optional | cannot be null | [Card](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")                         |
-| [margin](#margin)                         | Unknown Type | Optional | cannot be null | [Card](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/margin") |
-| [semanticContainer](#semanticContainer)   | `boolean`    | Optional | cannot be null | [Card](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/semanticContainer")                   |
+| [type](#type)                             | `string`     | Optional | cannot be null | [Card](widget-definitions-type.md)                                          |
+| [color](#color)                           | Merged       | Optional | cannot be null | [Card](app_bar_theme-properties-color.md)                                        |
+| [child](#child)                           | `object`     | Optional | cannot be null | [Card](input_decoration-properties-widget-5.md)                                 |
+| [shape](#shape)                           | Unknown Type | Optional | can be null    | [Card](bottom_app_bar_theme-properties-dynamic.md)                             |
+| [elevation](#elevation)                   | Merged       | Optional | cannot be null | [Card](app_bar_theme-properties-double.md)                                  |
+| [borderOnForeground](#borderOnForeground) | `boolean`    | Optional | cannot be null | [Card](button_bar_theme_data-properties-boolean.md)                  |
+| [clipBehavior](#clipBehavior)             | `string`     | Optional | cannot be null | [Card](bottom_sheet_theme_data-properties-clip.md)                         |
+| [margin](#margin)                         | Unknown Type | Optional | cannot be null | [Card](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [semanticContainer](#semanticContainer)   | `boolean`    | Optional | cannot be null | [Card](button_bar_theme_data-properties-boolean.md)                   |
 
 ## type
 
@@ -50,7 +50,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Card](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/card.schema.json#/properties/type")
+-   defined in: [Card](widget-definitions-type.md)
 
 ### type Type
 
@@ -77,7 +77,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Card](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Card](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -85,7 +85,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -126,7 +126,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Card](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Card](input_decoration-properties-widget-5.md)
 
 ### child Type
 
@@ -146,7 +146,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Card](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Card](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -165,7 +165,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Card](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Card](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -173,9 +173,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### elevation Constraints
 
@@ -204,7 +204,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Card](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/borderOnForeground")
+-   defined in: [Card](button_bar_theme_data-properties-boolean.md)
 
 ### borderOnForeground Type
 
@@ -242,7 +242,7 @@ false
 -   is optional
 -   Type: `string` ([Clip](bottom_sheet_theme_data-properties-clip.md))
 -   cannot be null
--   defined in: [Card](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")
+-   defined in: [Card](bottom_sheet_theme_data-properties-clip.md)
 
 ### clipBehavior Type
 
@@ -281,7 +281,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Card](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/margin")
+-   defined in: [Card](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### margin Type
 
@@ -311,7 +311,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Card](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/semanticContainer")
+-   defined in: [Card](button_bar_theme_data-properties-boolean.md)
 
 ### semanticContainer Type
 

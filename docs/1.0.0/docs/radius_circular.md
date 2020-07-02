@@ -13,7 +13,7 @@ https://legytma.com.br/schema/radius_circular.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_circular.schema.json](../schema/radius_circular.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_circular.schema.json](../schema/radius_circular.schema.json) |
 
 ## Radius Circular Type
 
@@ -21,14 +21,14 @@ https://legytma.com.br/schema/radius_circular.schema.json
 
 all of
 
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+-   [Radius Object](radius-oneof-radius-object.md)
 
 # Radius Circular Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                       |
 | :---------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)     | `string` | Optional | cannot be null | [Radius Circular](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_circular.schema.json#/properties/type")  |
-| [radius](#radius) | Merged   | Required | cannot be null | [Radius Circular](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/radius") |
+| [type](#type)     | `string` | Optional | cannot be null | [Radius Circular](widget-definitions-type.md)  |
+| [radius](#radius) | Merged   | Required | cannot be null | [Radius Circular](app_bar_theme-properties-double.md) |
 
 ## type
 
@@ -43,7 +43,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Radius Circular](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_circular.schema.json#/properties/type")
+-   defined in: [Radius Circular](widget-definitions-type.md)
 
 ### type Type
 
@@ -80,7 +80,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Radius Circular](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/radius")
+-   defined in: [Radius Circular](app_bar_theme-properties-double.md)
 
 ### radius Type
 
@@ -88,9 +88,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### radius Constraints
 

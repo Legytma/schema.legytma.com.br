@@ -13,7 +13,7 @@ https://legytma.com.br/schema/clip.schema.json#/properties/clipBehavior
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                    |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [bottom_sheet_theme_data.schema.json\*](../schema/bottom_sheet_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [bottom_sheet_theme_data.schema.json\*](../schema/bottom_sheet_theme_data.schema.json) |
 
 ## clipBehavior Type
 

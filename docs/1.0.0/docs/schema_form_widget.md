@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/schema_form_widget.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                               |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [schema_form_widget.schema.json](../schema/widget/schema_form_widget.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [schema_form_widget.schema.json](../schema/widget/schema_form_widget.schema.json) |
 
 ## Schema Form Widget Type
 
@@ -21,23 +21,23 @@ https://legytma.com.br/schema/widget/schema_form_widget.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Schema Form Widget Properties
 
 | Property                                  | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                          |
 | :---------------------------------------- | ------------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                             | `string`      | Optional | cannot be null | [Schema Form Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/schema_form_widget.schema.json#/properties/type")                                                                        |
-| [jsonSchema](#jsonSchema)                 | Not specified | Required | cannot be null | [Schema Form Widget](schema_form_widget-properties-jsonschema.md "https&#x3A;//legytma.com.br/schema/widget/schema_form_widget.schema.json#/properties/jsonSchema")                                                 |
-| [typeTemplateMap](#typeTemplateMap)       | `object`      | Optional | cannot be null | [Schema Form Widget](schema_form_widget-properties-map-schema-type-widget-template-dynamic.md "https&#x3A;//legytma.com.br/schema/map_schema_type_widget_template_dynamic.schema.json#/properties/typeTemplateMap") |
-| [controlTemplateMap](#controlTemplateMap) | `object`      | Optional | cannot be null | [Schema Form Widget](schema_form_widget-properties-map-string-widget-template-dynamic.md "https&#x3A;//legytma.com.br/schema/map_string_widget_template_dynamic.schema.json#/properties/controlTemplateMap")        |
-| [defaultHeader](#defaultHeader)           | `boolean`     | Optional | cannot be null | [Schema Form Widget](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/defaultHeader")                                                                   |
-| [child](#child)                           | `object`      | Optional | cannot be null | [Schema Form Widget](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                                                             |
-| [onChanged](#onChanged)                   | Unknown Type  | Optional | can be null    | [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onChanged")                                                                     |
-| [autovalidate](#autovalidate)             | `boolean`     | Optional | cannot be null | [Schema Form Widget](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autovalidate")                                                                    |
-| [initialData](#initialData)               | Unknown Type  | Optional | can be null    | [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/initialData")                                                                   |
-| [onSave](#onSave)                         | Unknown Type  | Optional | can be null    | [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSave")                                                                        |
-| [onWillPop](#onWillPop)                   | Unknown Type  | Optional | can be null    | [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onWillPop")                                                                     |
+| [type](#type)                             | `string`      | Optional | cannot be null | [Schema Form Widget](widget-definitions-type.md)                                                                        |
+| [jsonSchema](#jsonSchema)                 | Not specified | Required | cannot be null | [Schema Form Widget](schema_form_widget-properties-jsonschema.md)                                                 |
+| [typeTemplateMap](#typeTemplateMap)       | `object`      | Optional | cannot be null | [Schema Form Widget](schema_form_widget-properties-map-schema-type-widget-template-dynamic.md) |
+| [controlTemplateMap](#controlTemplateMap) | `object`      | Optional | cannot be null | [Schema Form Widget](schema_form_widget-properties-map-string-widget-template-dynamic.md)        |
+| [defaultHeader](#defaultHeader)           | `boolean`     | Optional | cannot be null | [Schema Form Widget](button_bar_theme_data-properties-boolean.md)                                                                   |
+| [child](#child)                           | `object`      | Optional | cannot be null | [Schema Form Widget](input_decoration-properties-widget-5.md)                                                                             |
+| [onChanged](#onChanged)                   | Unknown Type  | Optional | can be null    | [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md)                                                                     |
+| [autovalidate](#autovalidate)             | `boolean`     | Optional | cannot be null | [Schema Form Widget](button_bar_theme_data-properties-boolean.md)                                                                    |
+| [initialData](#initialData)               | Unknown Type  | Optional | can be null    | [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md)                                                                   |
+| [onSave](#onSave)                         | Unknown Type  | Optional | can be null    | [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md)                                                                        |
+| [onWillPop](#onWillPop)                   | Unknown Type  | Optional | can be null    | [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md)                                                                     |
 
 ## type
 
@@ -52,7 +52,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Schema Form Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/schema_form_widget.schema.json#/properties/type")
+-   defined in: [Schema Form Widget](widget-definitions-type.md)
 
 ### type Type
 
@@ -76,7 +76,7 @@ Identify the widget type
 -   is required
 -   Type: unknown
 -   cannot be null
--   defined in: [Schema Form Widget](schema_form_widget-properties-jsonschema.md "https&#x3A;//legytma.com.br/schema/widget/schema_form_widget.schema.json#/properties/jsonSchema")
+-   defined in: [Schema Form Widget](schema_form_widget-properties-jsonschema.md)
 
 ### jsonSchema Type
 
@@ -96,7 +96,7 @@ unknown
 -   is optional
 -   Type: `object` ([Map Schema Type Widget Template Dynamic](schema_form_widget-properties-map-schema-type-widget-template-dynamic.md))
 -   cannot be null
--   defined in: [Schema Form Widget](schema_form_widget-properties-map-schema-type-widget-template-dynamic.md "https&#x3A;//legytma.com.br/schema/map_schema_type_widget_template_dynamic.schema.json#/properties/typeTemplateMap")
+-   defined in: [Schema Form Widget](schema_form_widget-properties-map-schema-type-widget-template-dynamic.md)
 
 ### typeTemplateMap Type
 
@@ -116,7 +116,7 @@ unknown
 -   is optional
 -   Type: `object` ([Map String Widget Template Dynamic](schema_form_widget-properties-map-string-widget-template-dynamic.md))
 -   cannot be null
--   defined in: [Schema Form Widget](schema_form_widget-properties-map-string-widget-template-dynamic.md "https&#x3A;//legytma.com.br/schema/map_string_widget_template_dynamic.schema.json#/properties/controlTemplateMap")
+-   defined in: [Schema Form Widget](schema_form_widget-properties-map-string-widget-template-dynamic.md)
 
 ### controlTemplateMap Type
 
@@ -135,7 +135,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Schema Form Widget](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/defaultHeader")
+-   defined in: [Schema Form Widget](button_bar_theme_data-properties-boolean.md)
 
 ### defaultHeader Type
 
@@ -172,7 +172,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Schema Form Widget](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Schema Form Widget](input_decoration-properties-widget-5.md)
 
 ### child Type
 
@@ -192,7 +192,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onChanged")
+-   defined in: [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onChanged Type
 
@@ -219,7 +219,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Schema Form Widget](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autovalidate")
+-   defined in: [Schema Form Widget](button_bar_theme_data-properties-boolean.md)
 
 ### autovalidate Type
 
@@ -257,7 +257,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/initialData")
+-   defined in: [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md)
 
 ### initialData Type
 
@@ -285,7 +285,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSave")
+-   defined in: [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onSave Type
 
@@ -313,7 +313,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onWillPop")
+-   defined in: [Schema Form Widget](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onWillPop Type
 

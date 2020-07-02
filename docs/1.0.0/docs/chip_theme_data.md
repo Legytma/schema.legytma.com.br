@@ -13,7 +13,7 @@ https://legytma.com.br/schema/chip_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [chip_theme_data.schema.json](../schema/chip_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [chip_theme_data.schema.json](../schema/chip_theme_data.schema.json) |
 
 ## Chip Theme Data Type
 
@@ -23,23 +23,23 @@ https://legytma.com.br/schema/chip_theme_data.schema.json
 
 | Property                                          | Type         | Required | Nullable       | Defined by                                                                                                                                                                 |
 | :------------------------------------------------ | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [backgroundColor](#backgroundColor)               | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/backgroundColor")                  |
-| [disabledColor](#disabledColor)                   | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/disabledColor")                    |
-| [selectedColor](#selectedColor)                   | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/selectedColor")                    |
-| [secondarySelectedColor](#secondarySelectedColor) | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/secondarySelectedColor")           |
-| [labelPadding](#labelPadding)                     | Unknown Type | Optional | cannot be null | [Chip Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/labelPadding") |
-| [padding](#padding)                               | Unknown Type | Optional | cannot be null | [Chip Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")      |
-| [shape](#shape)                                   | Unknown Type | Optional | can be null    | [Chip Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")                                   |
-| [labelStyle](#labelStyle)                         | `object`     | Optional | cannot be null | [Chip Theme Data](chip_theme_data-properties-text-style.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/labelStyle")                             |
-| [secondaryLabelStyle](#secondaryLabelStyle)       | `object`     | Optional | cannot be null | [Chip Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/secondaryLabelStyle")                  |
-| [brightness](#brightness)                         | `string`     | Optional | cannot be null | [Chip Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")                               |
-| [elevation](#elevation)                           | Merged       | Optional | cannot be null | [Chip Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")                                        |
-| [checkmarkColor](#checkmarkColor)                 | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/checkmarkColor")                   |
-| [deleteIconColor](#deleteIconColor)               | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/deleteIconColor")                  |
-| [pressElevation](#pressElevation)                 | Merged       | Optional | cannot be null | [Chip Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/pressElevation")                                   |
-| [selectedShadowColor](#selectedShadowColor)       | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/selectedShadowColor")              |
-| [shadowColor](#shadowColor)                       | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/shadowColor")                      |
-| [showCheckmark](#showCheckmark)                   | `boolean`    | Optional | cannot be null | [Chip Theme Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/showCheckmark")                             |
+| [backgroundColor](#backgroundColor)               | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md)                  |
+| [disabledColor](#disabledColor)                   | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md)                    |
+| [selectedColor](#selectedColor)                   | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md)                    |
+| [secondarySelectedColor](#secondarySelectedColor) | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md)           |
+| [labelPadding](#labelPadding)                     | Unknown Type | Optional | cannot be null | [Chip Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [padding](#padding)                               | Unknown Type | Optional | cannot be null | [Chip Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md)      |
+| [shape](#shape)                                   | Unknown Type | Optional | can be null    | [Chip Theme Data](bottom_app_bar_theme-properties-dynamic.md)                                   |
+| [labelStyle](#labelStyle)                         | `object`     | Optional | cannot be null | [Chip Theme Data](chip_theme_data-properties-text-style.md)                             |
+| [secondaryLabelStyle](#secondaryLabelStyle)       | `object`     | Optional | cannot be null | [Chip Theme Data](chip_theme_data-properties-text-style-1.md)                  |
+| [brightness](#brightness)                         | `string`     | Optional | cannot be null | [Chip Theme Data](app_bar_theme-properties-brightness.md)                               |
+| [elevation](#elevation)                           | Merged       | Optional | cannot be null | [Chip Theme Data](app_bar_theme-properties-double.md)                                        |
+| [checkmarkColor](#checkmarkColor)                 | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md)                   |
+| [deleteIconColor](#deleteIconColor)               | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md)                  |
+| [pressElevation](#pressElevation)                 | Merged       | Optional | cannot be null | [Chip Theme Data](app_bar_theme-properties-double.md)                                   |
+| [selectedShadowColor](#selectedShadowColor)       | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md)              |
+| [shadowColor](#shadowColor)                       | `object`     | Optional | cannot be null | [Chip Theme Data](button_theme_data-properties-color-scheme.md)                      |
+| [showCheckmark](#showCheckmark)                   | `boolean`    | Optional | cannot be null | [Chip Theme Data](button_bar_theme_data-properties-boolean.md)                             |
 
 ## backgroundColor
 
@@ -51,7 +51,7 @@ https://legytma.com.br/schema/chip_theme_data.schema.json
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/backgroundColor")
+-   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### backgroundColor Type
 
@@ -67,7 +67,7 @@ https://legytma.com.br/schema/chip_theme_data.schema.json
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/disabledColor")
+-   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### disabledColor Type
 
@@ -83,7 +83,7 @@ https://legytma.com.br/schema/chip_theme_data.schema.json
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/selectedColor")
+-   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### selectedColor Type
 
@@ -99,7 +99,7 @@ https://legytma.com.br/schema/chip_theme_data.schema.json
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/secondarySelectedColor")
+-   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### secondarySelectedColor Type
 
@@ -119,7 +119,7 @@ https://legytma.com.br/schema/chip_theme_data.schema.json
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/labelPadding")
+-   defined in: [Chip Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### labelPadding Type
 
@@ -150,7 +150,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [Chip Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### padding Type
 
@@ -181,7 +181,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Chip Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Chip Theme Data](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -200,7 +200,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Chip Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/labelStyle")
+-   defined in: [Chip Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### labelStyle Type
 
@@ -219,7 +219,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Chip Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/secondaryLabelStyle")
+-   defined in: [Chip Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### secondaryLabelStyle Type
 
@@ -239,7 +239,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [Chip Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")
+-   defined in: [Chip Theme Data](app_bar_theme-properties-brightness.md)
 
 ### brightness Type
 
@@ -267,7 +267,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Chip Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Chip Theme Data](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -275,9 +275,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### elevation Constraints
 
@@ -303,7 +303,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/checkmarkColor")
+-   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### checkmarkColor Type
 
@@ -319,7 +319,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/deleteIconColor")
+-   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### deleteIconColor Type
 
@@ -338,7 +338,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Chip Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/pressElevation")
+-   defined in: [Chip Theme Data](app_bar_theme-properties-double.md)
 
 ### pressElevation Type
 
@@ -346,9 +346,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### pressElevation Constraints
 
@@ -374,7 +374,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/selectedShadowColor")
+-   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### selectedShadowColor Type
 
@@ -390,7 +390,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/shadowColor")
+-   defined in: [Chip Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### shadowColor Type
 
@@ -409,7 +409,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Chip Theme Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/showCheckmark")
+-   defined in: [Chip Theme Data](button_bar_theme_data-properties-boolean.md)
 
 ### showCheckmark Type
 

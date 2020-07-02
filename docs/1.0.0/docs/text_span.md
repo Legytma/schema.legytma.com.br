@@ -13,7 +13,7 @@ https://legytma.com.br/schema/text_span.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_span.schema.json](../schema/text_span.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_span.schema.json](../schema/text_span.schema.json) |
 
 ## Text Span Type
 
@@ -23,11 +23,11 @@ https://legytma.com.br/schema/text_span.schema.json
 
 | Property                          | Type         | Required | Nullable       | Defined by                                                                                                                                 |
 | :-------------------------------- | ------------ | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| [style](#style)                   | `object`     | Optional | cannot be null | [Text Span](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/style")      |
-| [children](#children)             | Unknown Type | Optional | can be null    | [Text Span](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/children")      |
-| [recognizer](#recognizer)         | Unknown Type | Optional | can be null    | [Text Span](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/recognizer")    |
-| [semanticsLabel](#semanticsLabel) | `string`     | Optional | cannot be null | [Text Span](text_span-properties-semantics-label.md "https&#x3A;//legytma.com.br/schema/text_span.schema.json#/properties/semanticsLabel") |
-| [text](#text)                     | `string`     | Optional | cannot be null | [Text Span](text_span-properties-text.md "https&#x3A;//legytma.com.br/schema/text_span.schema.json#/properties/text")                      |
+| [style](#style)                   | `object`     | Optional | cannot be null | [Text Span](chip_theme_data-properties-text-style-1.md)      |
+| [children](#children)             | Unknown Type | Optional | can be null    | [Text Span](bottom_app_bar_theme-properties-dynamic.md)      |
+| [recognizer](#recognizer)         | Unknown Type | Optional | can be null    | [Text Span](bottom_app_bar_theme-properties-dynamic.md)    |
+| [semanticsLabel](#semanticsLabel) | `string`     | Optional | cannot be null | [Text Span](text_span-properties-semantics-label.md) |
+| [text](#text)                     | `string`     | Optional | cannot be null | [Text Span](text_span-properties-text.md)                      |
 
 ## style
 
@@ -42,7 +42,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Text Span](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/style")
+-   defined in: [Text Span](chip_theme_data-properties-text-style-1.md)
 
 ### style Type
 
@@ -62,7 +62,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Span](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/children")
+-   defined in: [Text Span](bottom_app_bar_theme-properties-dynamic.md)
 
 ### children Type
 
@@ -82,7 +82,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Span](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/recognizer")
+-   defined in: [Text Span](bottom_app_bar_theme-properties-dynamic.md)
 
 ### recognizer Type
 
@@ -98,7 +98,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: `string` ([Semantics Label](text_span-properties-semantics-label.md))
 -   cannot be null
--   defined in: [Text Span](text_span-properties-semantics-label.md "https&#x3A;//legytma.com.br/schema/text_span.schema.json#/properties/semanticsLabel")
+-   defined in: [Text Span](text_span-properties-semantics-label.md)
 
 ### semanticsLabel Type
 
@@ -114,7 +114,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: `string` ([Text](text_span-properties-text.md))
 -   cannot be null
--   defined in: [Text Span](text_span-properties-text.md "https&#x3A;//legytma.com.br/schema/text_span.schema.json#/properties/text")
+-   defined in: [Text Span](text_span-properties-text.md)
 
 ### text Type
 

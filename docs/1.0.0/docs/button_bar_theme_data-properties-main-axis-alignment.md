@@ -13,7 +13,7 @@ https://legytma.com.br/schema/main_axis_alignment.schema.json#/properties/alignm
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [button_bar_theme_data.schema.json\*](../schema/button_bar_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [button_bar_theme_data.schema.json\*](../schema/button_bar_theme_data.schema.json) |
 
 ## alignment Type
 

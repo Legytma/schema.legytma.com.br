@@ -13,7 +13,7 @@ https://legytma.com.br/schema/gesture_long_press_move_update_callback.schema.jso
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [gesture_long_press_move_update_callback.schema.json](../schema/gesture_long_press_move_update_callback.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [gesture_long_press_move_update_callback.schema.json](../schema/gesture_long_press_move_update_callback.schema.json) |
 
 ## Gesture Long Press Move Update Callback Type
 

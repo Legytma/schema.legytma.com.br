@@ -13,7 +13,7 @@ https://legytma.com.br/schema/box_decoration.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [box_decoration.schema.json](../schema/box_decoration.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [box_decoration.schema.json](../schema/box_decoration.schema.json) |
 
 ## Box Decoration Type
 
@@ -21,21 +21,21 @@ https://legytma.com.br/schema/box_decoration.schema.json
 
 any of
 
--   [Decoration](box_decoration-anyof-decoration.md "check type definition")
+-   [Decoration](box_decoration-anyof-decoration.md)
 
 # Box Decoration Properties
 
 | Property                                    | Type         | Required | Nullable       | Defined by                                                                                                                                                             |
 | :------------------------------------------ | ------------ | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                               | `string`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-type.md "https&#x3A;//legytma.com.br/schema/box_decoration.schema.json#/properties/type")                                   |
-| [shape](#shape)                             | `string`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-box-shape.md "https&#x3A;//legytma.com.br/schema/box_shape.schema.json#/properties/shape")                                  |
-| [border](#border)                           | `object`     | Optional | cannot be null | [Box Decoration](border-allof-box-border.md "https&#x3A;//legytma.com.br/schema/box_border.schema.json#/properties/border")                                            |
-| [color](#color)                             | Merged       | Optional | cannot be null | [Box Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                                           |
-| [backgroundBlendMode](#backgroundBlendMode) | `string`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-blend-mode.md "https&#x3A;//legytma.com.br/schema/blend_mode.schema.json#/properties/backgroundBlendMode")                  |
-| [borderRadius](#borderRadius)               | `object`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-border-radius-geometry.md "https&#x3A;//legytma.com.br/schema/border_radius_geometry.schema.json#/properties/borderRadius") |
-| [boxShadow](#boxShadow)                     | `array`      | Optional | cannot be null | [Box Decoration](box_decoration-properties-list-box-shadow.md "https&#x3A;//legytma.com.br/schema/list_box_shadow.schema.json#/properties/boxShadow")                  |
-| [gradient](#gradient)                       | Unknown Type | Optional | can be null    | [Box Decoration](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/gradient")                             |
-| [image](#image)                             | `object`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-decoration-image.md "https&#x3A;//legytma.com.br/schema/decoration_image.schema.json#/properties/image")                    |
+| [type](#type)                               | `string`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-type.md)                                   |
+| [shape](#shape)                             | `string`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-box-shape.md)                                  |
+| [border](#border)                           | `object`     | Optional | cannot be null | [Box Decoration](border-allof-box-border.md)                                            |
+| [color](#color)                             | Merged       | Optional | cannot be null | [Box Decoration](app_bar_theme-properties-color.md)                                           |
+| [backgroundBlendMode](#backgroundBlendMode) | `string`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-blend-mode.md)                  |
+| [borderRadius](#borderRadius)               | `object`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-border-radius-geometry.md) |
+| [boxShadow](#boxShadow)                     | `array`      | Optional | cannot be null | [Box Decoration](box_decoration-properties-list-box-shadow.md)                  |
+| [gradient](#gradient)                       | Unknown Type | Optional | can be null    | [Box Decoration](bottom_app_bar_theme-properties-dynamic.md)                             |
+| [image](#image)                             | `object`     | Optional | cannot be null | [Box Decoration](box_decoration-properties-decoration-image.md)                    |
 
 ## type
 
@@ -50,7 +50,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](box_decoration-properties-type.md))
 -   cannot be null
--   defined in: [Box Decoration](box_decoration-properties-type.md "https&#x3A;//legytma.com.br/schema/box_decoration.schema.json#/properties/type")
+-   defined in: [Box Decoration](box_decoration-properties-type.md)
 
 ### type Type
 
@@ -105,7 +105,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Box Shape](box_decoration-properties-box-shape.md))
 -   cannot be null
--   defined in: [Box Decoration](box_decoration-properties-box-shape.md "https&#x3A;//legytma.com.br/schema/box_shape.schema.json#/properties/shape")
+-   defined in: [Box Decoration](box_decoration-properties-box-shape.md)
 
 ### shape Type
 
@@ -152,7 +152,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Box Border](border-allof-box-border.md))
 -   cannot be null
--   defined in: [Box Decoration](border-allof-box-border.md "https&#x3A;//legytma.com.br/schema/box_border.schema.json#/properties/border")
+-   defined in: [Box Decoration](border-allof-box-border.md)
 
 ### border Type
 
@@ -171,7 +171,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Box Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Box Decoration](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -179,7 +179,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -221,7 +221,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Blend Mode](box_decoration-properties-blend-mode.md))
 -   cannot be null
--   defined in: [Box Decoration](box_decoration-properties-blend-mode.md "https&#x3A;//legytma.com.br/schema/blend_mode.schema.json#/properties/backgroundBlendMode")
+-   defined in: [Box Decoration](box_decoration-properties-blend-mode.md)
 
 ### backgroundBlendMode Type
 
@@ -266,7 +266,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Border Radius Geometry](box_decoration-properties-border-radius-geometry.md))
 -   cannot be null
--   defined in: [Box Decoration](box_decoration-properties-border-radius-geometry.md "https&#x3A;//legytma.com.br/schema/border_radius_geometry.schema.json#/properties/borderRadius")
+-   defined in: [Box Decoration](box_decoration-properties-border-radius-geometry.md)
 
 ### borderRadius Type
 
@@ -286,7 +286,7 @@ The default value is:
 -   is optional
 -   Type: `object[]` ([Box Shadow](list_box_shadow-box-shadow.md))
 -   cannot be null
--   defined in: [Box Decoration](box_decoration-properties-list-box-shadow.md "https&#x3A;//legytma.com.br/schema/list_box_shadow.schema.json#/properties/boxShadow")
+-   defined in: [Box Decoration](box_decoration-properties-list-box-shadow.md)
 
 ### boxShadow Type
 
@@ -306,7 +306,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Box Decoration](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/gradient")
+-   defined in: [Box Decoration](bottom_app_bar_theme-properties-dynamic.md)
 
 ### gradient Type
 
@@ -326,7 +326,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: `object` ([Decoration Image](box_decoration-properties-decoration-image.md))
 -   cannot be null
--   defined in: [Box Decoration](box_decoration-properties-decoration-image.md "https&#x3A;//legytma.com.br/schema/decoration_image.schema.json#/properties/image")
+-   defined in: [Box Decoration](box_decoration-properties-decoration-image.md)
 
 ### image Type
 

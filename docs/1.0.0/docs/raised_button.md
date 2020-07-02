@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/raised_button.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                     |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [raised_button.schema.json](../schema/widget/raised_button.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [raised_button.schema.json](../schema/widget/raised_button.schema.json) |
 
 ## Raised Button Type
 
@@ -21,39 +21,39 @@ https://legytma.com.br/schema/widget/raised_button.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Raised Button Properties
 
 | Property                                        | Type         | Required | Nullable       | Defined by                                                                                                                                                                            |
 | :---------------------------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                                   | `string`     | Optional | cannot be null | [Raised Button](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/raised_button.schema.json#/properties/type")                                                    |
-| [onLongPress](#onLongPress)                     | Unknown Type | Optional | can be null    | [Raised Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPress")                                          |
-| [clipBehavior](#clipBehavior)                   | `string`     | Optional | cannot be null | [Raised Button](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")                                            |
-| [shape](#shape)                                 | Unknown Type | Optional | can be null    | [Raised Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")                                                |
-| [focusNode](#focusNode)                         | `object`     | Optional | cannot be null | [Raised Button](floating_action_button-properties-focus-node.md "https&#x3A;//legytma.com.br/schema/focus_node.schema.json#/properties/focusNode")                                    |
-| [autofocus](#autofocus)                         | `boolean`    | Optional | cannot be null | [Raised Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autofocus")                                              |
-| [focusColor](#focusColor)                       | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")                                                      |
-| [highlightColor](#highlightColor)               | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")                                                  |
-| [hoverColor](#hoverColor)                       | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")                                                      |
-| [textTheme](#textTheme)                         | `string`     | Optional | cannot be null | [Raised Button](button_bar_theme_data-properties-button-text-theme.md "https&#x3A;//legytma.com.br/schema/button_text_theme.schema.json#/properties/textTheme")                       |
-| [animationDuration](#animationDuration)         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/animationDuration")                                             |
-| [colorBrightness](#colorBrightness)             | `string`     | Optional | cannot be null | [Raised Button](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/colorBrightness")                                       |
-| [focusElevation](#focusElevation)               | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/focusElevation")                                                |
-| [highlightElevation](#highlightElevation)       | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/highlightElevation")                                            |
-| [hoverElevation](#hoverElevation)               | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/hoverElevation")                                                |
-| [materialTapTargetSize](#materialTapTargetSize) | `string`     | Optional | cannot be null | [Raised Button](button_theme_data-properties-material-tap-target-size.md "https&#x3A;//legytma.com.br/schema/material_tap_target_size.schema.json#/properties/materialTapTargetSize") |
-| [onHighlightChanged](#onHighlightChanged)       | Unknown Type | Optional | can be null    | [Raised Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHighlightChanged")                                   |
-| [color](#color)                                 | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                                                           |
-| [disabledColor](#disabledColor)                 | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")                                                   |
-| [disabledElevation](#disabledElevation)         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/disabledElevation")                                             |
-| [disabledTextColor](#disabledTextColor)         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledTextColor")                                               |
-| [elevation](#elevation)                         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")                                                     |
-| [padding](#padding)                             | Unknown Type | Optional | cannot be null | [Raised Button](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")                   |
-| [splashColor](#splashColor)                     | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")                                                     |
-| [textColor](#textColor)                         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/textColor")                                                       |
-| [child](#child)                                 | `object`     | Optional | cannot be null | [Raised Button](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                                    |
-| [onPressed](#onPressed)                         | Unknown Type | Optional | can be null    | [Raised Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPressed")                                            |
+| [type](#type)                                   | `string`     | Optional | cannot be null | [Raised Button](widget-definitions-type.md)                                                    |
+| [onLongPress](#onLongPress)                     | Unknown Type | Optional | can be null    | [Raised Button](bottom_app_bar_theme-properties-dynamic.md)                                          |
+| [clipBehavior](#clipBehavior)                   | `string`     | Optional | cannot be null | [Raised Button](bottom_sheet_theme_data-properties-clip.md)                                            |
+| [shape](#shape)                                 | Unknown Type | Optional | can be null    | [Raised Button](bottom_app_bar_theme-properties-dynamic.md)                                                |
+| [focusNode](#focusNode)                         | `object`     | Optional | cannot be null | [Raised Button](floating_action_button-properties-focus-node.md)                                    |
+| [autofocus](#autofocus)                         | `boolean`    | Optional | cannot be null | [Raised Button](button_bar_theme_data-properties-boolean.md)                                              |
+| [focusColor](#focusColor)                       | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md)                                                      |
+| [highlightColor](#highlightColor)               | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md)                                                  |
+| [hoverColor](#hoverColor)                       | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md)                                                      |
+| [textTheme](#textTheme)                         | `string`     | Optional | cannot be null | [Raised Button](button_bar_theme_data-properties-button-text-theme.md)                       |
+| [animationDuration](#animationDuration)         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md)                                             |
+| [colorBrightness](#colorBrightness)             | `string`     | Optional | cannot be null | [Raised Button](app_bar_theme-properties-brightness.md)                                       |
+| [focusElevation](#focusElevation)               | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md)                                                |
+| [highlightElevation](#highlightElevation)       | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md)                                            |
+| [hoverElevation](#hoverElevation)               | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md)                                                |
+| [materialTapTargetSize](#materialTapTargetSize) | `string`     | Optional | cannot be null | [Raised Button](button_theme_data-properties-material-tap-target-size.md) |
+| [onHighlightChanged](#onHighlightChanged)       | Unknown Type | Optional | can be null    | [Raised Button](bottom_app_bar_theme-properties-dynamic.md)                                   |
+| [color](#color)                                 | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md)                                                           |
+| [disabledColor](#disabledColor)                 | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md)                                                   |
+| [disabledElevation](#disabledElevation)         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md)                                             |
+| [disabledTextColor](#disabledTextColor)         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md)                                               |
+| [elevation](#elevation)                         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-double.md)                                                     |
+| [padding](#padding)                             | Unknown Type | Optional | cannot be null | [Raised Button](button_bar_theme_data-properties-edge-insets-geometry.md)                   |
+| [splashColor](#splashColor)                     | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md)                                                     |
+| [textColor](#textColor)                         | Merged       | Optional | cannot be null | [Raised Button](app_bar_theme-properties-color.md)                                                       |
+| [child](#child)                                 | `object`     | Optional | cannot be null | [Raised Button](input_decoration-properties-widget-5.md)                                                    |
+| [onPressed](#onPressed)                         | Unknown Type | Optional | can be null    | [Raised Button](bottom_app_bar_theme-properties-dynamic.md)                                            |
 
 ## type
 
@@ -68,7 +68,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Raised Button](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/raised_button.schema.json#/properties/type")
+-   defined in: [Raised Button](widget-definitions-type.md)
 
 ### type Type
 
@@ -96,7 +96,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Raised Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPress")
+-   defined in: [Raised Button](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onLongPress Type
 
@@ -124,7 +124,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Clip](bottom_sheet_theme_data-properties-clip.md))
 -   cannot be null
--   defined in: [Raised Button](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")
+-   defined in: [Raised Button](bottom_sheet_theme_data-properties-clip.md)
 
 ### clipBehavior Type
 
@@ -163,7 +163,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Raised Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Raised Button](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -191,7 +191,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Focus Node](floating_action_button-properties-focus-node.md))
 -   cannot be null
--   defined in: [Raised Button](floating_action_button-properties-focus-node.md "https&#x3A;//legytma.com.br/schema/focus_node.schema.json#/properties/focusNode")
+-   defined in: [Raised Button](floating_action_button-properties-focus-node.md)
 
 ### focusNode Type
 
@@ -210,7 +210,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Raised Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autofocus")
+-   defined in: [Raised Button](button_bar_theme_data-properties-boolean.md)
 
 ### autofocus Type
 
@@ -247,7 +247,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")
+-   defined in: [Raised Button](app_bar_theme-properties-color.md)
 
 ### focusColor Type
 
@@ -255,7 +255,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### focusColor Default Value
 
@@ -296,7 +296,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")
+-   defined in: [Raised Button](app_bar_theme-properties-color.md)
 
 ### highlightColor Type
 
@@ -304,7 +304,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### highlightColor Default Value
 
@@ -345,7 +345,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")
+-   defined in: [Raised Button](app_bar_theme-properties-color.md)
 
 ### hoverColor Type
 
@@ -353,7 +353,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hoverColor Default Value
 
@@ -391,7 +391,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Button Text Theme](button_bar_theme_data-properties-button-text-theme.md))
 -   cannot be null
--   defined in: [Raised Button](button_bar_theme_data-properties-button-text-theme.md "https&#x3A;//legytma.com.br/schema/button_text_theme.schema.json#/properties/textTheme")
+-   defined in: [Raised Button](button_bar_theme_data-properties-button-text-theme.md)
 
 ### textTheme Type
 
@@ -442,7 +442,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/animationDuration")
+-   defined in: [Raised Button](app_bar_theme-properties-double.md)
 
 ### animationDuration Type
 
@@ -450,9 +450,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### animationDuration Constraints
 
@@ -482,7 +482,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/colorBrightness")
+-   defined in: [Raised Button](app_bar_theme-properties-brightness.md)
 
 ### colorBrightness Type
 
@@ -510,7 +510,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/focusElevation")
+-   defined in: [Raised Button](app_bar_theme-properties-double.md)
 
 ### focusElevation Type
 
@@ -518,9 +518,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### focusElevation Constraints
 
@@ -549,7 +549,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/highlightElevation")
+-   defined in: [Raised Button](app_bar_theme-properties-double.md)
 
 ### highlightElevation Type
 
@@ -557,9 +557,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### highlightElevation Constraints
 
@@ -588,7 +588,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/hoverElevation")
+-   defined in: [Raised Button](app_bar_theme-properties-double.md)
 
 ### hoverElevation Type
 
@@ -596,9 +596,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### hoverElevation Constraints
 
@@ -624,7 +624,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Material Tap Target Size](button_theme_data-properties-material-tap-target-size.md))
 -   cannot be null
--   defined in: [Raised Button](button_theme_data-properties-material-tap-target-size.md "https&#x3A;//legytma.com.br/schema/material_tap_target_size.schema.json#/properties/materialTapTargetSize")
+-   defined in: [Raised Button](button_theme_data-properties-material-tap-target-size.md)
 
 ### materialTapTargetSize Type
 
@@ -663,7 +663,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Raised Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHighlightChanged")
+-   defined in: [Raised Button](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onHighlightChanged Type
 
@@ -690,7 +690,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Raised Button](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -698,7 +698,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -739,7 +739,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")
+-   defined in: [Raised Button](app_bar_theme-properties-color.md)
 
 ### disabledColor Type
 
@@ -747,7 +747,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### disabledColor Default Value
 
@@ -788,7 +788,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/disabledElevation")
+-   defined in: [Raised Button](app_bar_theme-properties-double.md)
 
 ### disabledElevation Type
 
@@ -796,9 +796,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### disabledElevation Constraints
 
@@ -827,7 +827,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledTextColor")
+-   defined in: [Raised Button](app_bar_theme-properties-color.md)
 
 ### disabledTextColor Type
 
@@ -835,7 +835,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### disabledTextColor Default Value
 
@@ -876,7 +876,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Raised Button](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -884,9 +884,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### elevation Constraints
 
@@ -916,7 +916,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Raised Button](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [Raised Button](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### padding Type
 
@@ -946,7 +946,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")
+-   defined in: [Raised Button](app_bar_theme-properties-color.md)
 
 ### splashColor Type
 
@@ -954,7 +954,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### splashColor Default Value
 
@@ -995,7 +995,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Raised Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/textColor")
+-   defined in: [Raised Button](app_bar_theme-properties-color.md)
 
 ### textColor Type
 
@@ -1003,7 +1003,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### textColor Default Value
 
@@ -1044,7 +1044,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Raised Button](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Raised Button](input_decoration-properties-widget-5.md)
 
 ### child Type
 
@@ -1064,7 +1064,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Raised Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPressed")
+-   defined in: [Raised Button](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onPressed Type
 

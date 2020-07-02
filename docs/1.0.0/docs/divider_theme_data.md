@@ -13,7 +13,7 @@ https://legytma.com.br/schema/divider_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [divider_theme_data.schema.json](../schema/divider_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [divider_theme_data.schema.json](../schema/divider_theme_data.schema.json) |
 
 ## Divider Theme Data Type
 
@@ -23,11 +23,11 @@ https://legytma.com.br/schema/divider_theme_data.schema.json
 
 | Property                | Type     | Required | Nullable       | Defined by                                                                                                                                         |
 | :---------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [color](#color)         | `object` | Optional | cannot be null | [Divider Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/color") |
-| [endIndent](#endIndent) | Merged   | Optional | cannot be null | [Divider Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/endIndent")             |
-| [indent](#indent)       | Merged   | Optional | cannot be null | [Divider Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/indent")                |
-| [space](#space)         | Merged   | Optional | cannot be null | [Divider Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/space")                 |
-| [thickness](#thickness) | Merged   | Optional | cannot be null | [Divider Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/thickness")             |
+| [color](#color)         | `object` | Optional | cannot be null | [Divider Theme Data](button_theme_data-properties-color-scheme.md) |
+| [endIndent](#endIndent) | Merged   | Optional | cannot be null | [Divider Theme Data](app_bar_theme-properties-double.md)             |
+| [indent](#indent)       | Merged   | Optional | cannot be null | [Divider Theme Data](app_bar_theme-properties-double.md)                |
+| [space](#space)         | Merged   | Optional | cannot be null | [Divider Theme Data](app_bar_theme-properties-double.md)                 |
+| [thickness](#thickness) | Merged   | Optional | cannot be null | [Divider Theme Data](app_bar_theme-properties-double.md)             |
 
 ## color
 
@@ -39,7 +39,7 @@ https://legytma.com.br/schema/divider_theme_data.schema.json
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Divider Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/color")
+-   defined in: [Divider Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### color Type
 
@@ -58,7 +58,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Divider Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/endIndent")
+-   defined in: [Divider Theme Data](app_bar_theme-properties-double.md)
 
 ### endIndent Type
 
@@ -66,9 +66,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### endIndent Constraints
 
@@ -97,7 +97,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Divider Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/indent")
+-   defined in: [Divider Theme Data](app_bar_theme-properties-double.md)
 
 ### indent Type
 
@@ -105,9 +105,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### indent Constraints
 
@@ -136,7 +136,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Divider Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/space")
+-   defined in: [Divider Theme Data](app_bar_theme-properties-double.md)
 
 ### space Type
 
@@ -144,9 +144,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### space Constraints
 
@@ -175,7 +175,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Divider Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/thickness")
+-   defined in: [Divider Theme Data](app_bar_theme-properties-double.md)
 
 ### thickness Type
 
@@ -183,9 +183,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### thickness Constraints
 

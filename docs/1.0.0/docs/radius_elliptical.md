@@ -13,7 +13,7 @@ https://legytma.com.br/schema/radius_elliptical.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_elliptical.schema.json](../schema/radius_elliptical.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_elliptical.schema.json](../schema/radius_elliptical.schema.json) |
 
 ## Radius Elliptical Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/radius_elliptical.schema.json
 
 all of
 
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+-   [Radius Object](radius-oneof-radius-object.md)
 
 # Radius Elliptical Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                          |
 | :------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Radius Elliptical](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_elliptical.schema.json#/properties/type") |
-| [x](#x)       | Merged   | Required | cannot be null | [Radius Elliptical](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/x")       |
-| [y](#y)       | Merged   | Required | cannot be null | [Radius Elliptical](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/y")       |
+| [type](#type) | `string` | Optional | cannot be null | [Radius Elliptical](widget-definitions-type.md) |
+| [x](#x)       | Merged   | Required | cannot be null | [Radius Elliptical](app_bar_theme-properties-double.md)       |
+| [y](#y)       | Merged   | Required | cannot be null | [Radius Elliptical](app_bar_theme-properties-double.md)       |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Radius Elliptical](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_elliptical.schema.json#/properties/type")
+-   defined in: [Radius Elliptical](widget-definitions-type.md)
 
 ### type Type
 
@@ -81,7 +81,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Radius Elliptical](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/x")
+-   defined in: [Radius Elliptical](app_bar_theme-properties-double.md)
 
 ### x Type
 
@@ -89,9 +89,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### x Constraints
 
@@ -120,7 +120,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Radius Elliptical](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/y")
+-   defined in: [Radius Elliptical](app_bar_theme-properties-double.md)
 
 ### y Type
 
@@ -128,9 +128,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### y Constraints
 

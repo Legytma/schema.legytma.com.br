@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/text.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text.schema.json](../schema/widget/text.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text.schema.json](../schema/widget/text.schema.json) |
 
 ## Text Type
 
@@ -21,24 +21,24 @@ https://legytma.com.br/schema/widget/text.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Text Properties
 
 | Property                            | Type         | Required | Nullable       | Defined by                                                                                                                             |
 | :---------------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                       | `string`     | Optional | cannot be null | [Text](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/text.schema.json#/properties/type")                       |
-| [style](#style)                     | `object`     | Optional | cannot be null | [Text](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/style")       |
-| [maxLines](#maxLines)               | Unknown Type | Optional | cannot be null | [Text](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/maxLines")                               |
-| [textDirection](#textDirection)     | `string`     | Optional | cannot be null | [Text](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")  |
-| [strutStyle](#strutStyle)           | `object`     | Optional | cannot be null | [Text](text-properties-strut-style.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/strutStyle")             |
-| [textAlign](#textAlign)             | `string`     | Optional | cannot be null | [Text](text-properties-text-align.md "https&#x3A;//legytma.com.br/schema/text_align.schema.json#/properties/textAlign")                |
-| [locale](#locale)                   | `object`     | Optional | cannot be null | [Text](text_style-properties-locale.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/locale")                     |
-| [overflow](#overflow)               | `string`     | Optional | cannot be null | [Text](text-properties-text-overflow.md "https&#x3A;//legytma.com.br/schema/text_overflow.schema.json#/properties/overflow")           |
-| [semanticsLabel](#semanticsLabel)   | `string`     | Optional | cannot be null | [Text](text-properties-semantics-label.md "https&#x3A;//legytma.com.br/schema/widget/text.schema.json#/properties/semanticsLabel")     |
-| [softWrap](#softWrap)               | `boolean`    | Optional | cannot be null | [Text](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/softWrap")         |
-| [textScaleFactor](#textScaleFactor) | Merged       | Optional | cannot be null | [Text](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/textScaleFactor")         |
-| [textWidthBasis](#textWidthBasis)   | Unknown Type | Optional | can be null    | [Text](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/textWidthBasis") |
+| [type](#type)                       | `string`     | Optional | cannot be null | [Text](widget-definitions-type.md)                       |
+| [style](#style)                     | `object`     | Optional | cannot be null | [Text](chip_theme_data-properties-text-style-1.md)       |
+| [maxLines](#maxLines)               | Unknown Type | Optional | cannot be null | [Text](color-allof-integer.md)                               |
+| [textDirection](#textDirection)     | `string`     | Optional | cannot be null | [Text](column-properties-text-direction.md)  |
+| [strutStyle](#strutStyle)           | `object`     | Optional | cannot be null | [Text](text-properties-strut-style.md)             |
+| [textAlign](#textAlign)             | `string`     | Optional | cannot be null | [Text](text-properties-text-align.md)                |
+| [locale](#locale)                   | `object`     | Optional | cannot be null | [Text](text_style-properties-locale.md)                     |
+| [overflow](#overflow)               | `string`     | Optional | cannot be null | [Text](text-properties-text-overflow.md)           |
+| [semanticsLabel](#semanticsLabel)   | `string`     | Optional | cannot be null | [Text](text-properties-semantics-label.md)     |
+| [softWrap](#softWrap)               | `boolean`    | Optional | cannot be null | [Text](button_bar_theme_data-properties-boolean.md)         |
+| [textScaleFactor](#textScaleFactor) | Merged       | Optional | cannot be null | [Text](app_bar_theme-properties-double.md)         |
+| [textWidthBasis](#textWidthBasis)   | Unknown Type | Optional | can be null    | [Text](bottom_app_bar_theme-properties-dynamic.md) |
 
 ## type
 
@@ -53,7 +53,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Text](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/text.schema.json#/properties/type")
+-   defined in: [Text](widget-definitions-type.md)
 
 ### type Type
 
@@ -80,7 +80,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Text](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/style")
+-   defined in: [Text](chip_theme_data-properties-text-style-1.md)
 
 ### style Type
 
@@ -99,7 +99,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Text](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/maxLines")
+-   defined in: [Text](color-allof-integer.md)
 
 ### maxLines Type
 
@@ -152,7 +152,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Text Direction](column-properties-text-direction.md))
 -   cannot be null
--   defined in: [Text](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")
+-   defined in: [Text](column-properties-text-direction.md)
 
 ### textDirection Type
 
@@ -191,7 +191,7 @@ Determine the text direction.
 -   is optional
 -   Type: `object` ([Strut Style](text-properties-strut-style.md))
 -   cannot be null
--   defined in: [Text](text-properties-strut-style.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/strutStyle")
+-   defined in: [Text](text-properties-strut-style.md)
 
 ### strutStyle Type
 
@@ -210,7 +210,7 @@ Determine the text alignment
 -   is optional
 -   Type: `string` ([Text Align](text-properties-text-align.md))
 -   cannot be null
--   defined in: [Text](text-properties-text-align.md "https&#x3A;//legytma.com.br/schema/text_align.schema.json#/properties/textAlign")
+-   defined in: [Text](text-properties-text-align.md)
 
 ### textAlign Type
 
@@ -268,7 +268,7 @@ Locale.
 -   is optional
 -   Type: `object` ([Locale](text_style-properties-locale.md))
 -   cannot be null
--   defined in: [Text](text_style-properties-locale.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/locale")
+-   defined in: [Text](text_style-properties-locale.md)
 
 ### locale Type
 
@@ -287,7 +287,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Text Overflow](text-properties-text-overflow.md))
 -   cannot be null
--   defined in: [Text](text-properties-text-overflow.md "https&#x3A;//legytma.com.br/schema/text_overflow.schema.json#/properties/overflow")
+-   defined in: [Text](text-properties-text-overflow.md)
 
 ### overflow Type
 
@@ -327,7 +327,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Semantics Label](text-properties-semantics-label.md))
 -   cannot be null
--   defined in: [Text](text-properties-semantics-label.md "https&#x3A;//legytma.com.br/schema/widget/text.schema.json#/properties/semanticsLabel")
+-   defined in: [Text](text-properties-semantics-label.md)
 
 ### semanticsLabel Type
 
@@ -346,7 +346,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/softWrap")
+-   defined in: [Text](button_bar_theme_data-properties-boolean.md)
 
 ### softWrap Type
 
@@ -383,7 +383,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Text](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/textScaleFactor")
+-   defined in: [Text](app_bar_theme-properties-double.md)
 
 ### textScaleFactor Type
 
@@ -391,9 +391,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### textScaleFactor Constraints
 
@@ -423,7 +423,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/textWidthBasis")
+-   defined in: [Text](bottom_app_bar_theme-properties-dynamic.md)
 
 ### textWidthBasis Type
 

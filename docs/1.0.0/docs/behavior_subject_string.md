@@ -13,7 +13,7 @@ https://legytma.com.br/schema/behavior_subject_string.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [behavior_subject_string.schema.json](../schema/behavior_subject_string.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [behavior_subject_string.schema.json](../schema/behavior_subject_string.schema.json) |
 
 ## Behavior Subject String Type
 

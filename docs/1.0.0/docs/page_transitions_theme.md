@@ -13,7 +13,7 @@ https://legytma.com.br/schema/page_transitions_theme.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [page_transitions_theme.schema.json](../schema/page_transitions_theme.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [page_transitions_theme.schema.json](../schema/page_transitions_theme.schema.json) |
 
 ## Page Transitions Theme Type
 
@@ -23,9 +23,9 @@ https://legytma.com.br/schema/page_transitions_theme.schema.json
 
 | Property            | Type         | Required | Nullable    | Defined by                                                                                                                                        |
 | :------------------ | ------------ | -------- | ----------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [android](#android) | Unknown Type | Optional | can be null | [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/android") |
-| [fuchsia](#fuchsia) | Unknown Type | Optional | can be null | [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/fuchsia") |
-| [iOS](#iOS)         | Unknown Type | Optional | can be null | [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/iOS")     |
+| [android](#android) | Unknown Type | Optional | can be null | [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md) |
+| [fuchsia](#fuchsia) | Unknown Type | Optional | can be null | [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md) |
+| [iOS](#iOS)         | Unknown Type | Optional | can be null | [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md)     |
 
 ## android
 
@@ -41,7 +41,7 @@ https://legytma.com.br/schema/page_transitions_theme.schema.json
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/android")
+-   defined in: [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### android Type
 
@@ -61,7 +61,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/fuchsia")
+-   defined in: [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### fuchsia Type
 
@@ -81,7 +81,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/iOS")
+-   defined in: [Page Transitions Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### iOS Type
 

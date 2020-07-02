@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/padding.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [padding.schema.json](../schema/widget/padding.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [padding.schema.json](../schema/widget/padding.schema.json) |
 
 ## Padding Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/widget/padding.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Padding Properties
 
 | Property            | Type         | Required | Nullable       | Defined by                                                                                                                                                    |
 | :------------------ | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)       | `string`     | Optional | cannot be null | [Padding](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/padding.schema.json#/properties/type")                                        |
-| [padding](#padding) | Unknown Type | Required | cannot be null | [Padding](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding") |
-| [child](#child)     | `object`     | Optional | cannot be null | [Padding](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                  |
+| [type](#type)       | `string`     | Optional | cannot be null | [Padding](widget-definitions-type.md)                                        |
+| [padding](#padding) | Unknown Type | Required | cannot be null | [Padding](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [child](#child)     | `object`     | Optional | cannot be null | [Padding](input_decoration-properties-widget-5.md)                                  |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Padding](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/padding.schema.json#/properties/type")
+-   defined in: [Padding](widget-definitions-type.md)
 
 ### type Type
 
@@ -72,7 +72,7 @@ Identify the widget type
 -   is required
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Padding](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [Padding](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### padding Type
 
@@ -102,7 +102,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Padding](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Padding](input_decoration-properties-widget-5.md)
 
 ### child Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/drawer.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                       |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [drawer.schema.json](../schema/widget/drawer.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [drawer.schema.json](../schema/widget/drawer.schema.json) |
 
 ## Drawer Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/widget/drawer.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Drawer Properties
 
 | Property                        | Type     | Required | Nullable       | Defined by                                                                                                                             |
 | :------------------------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                   | `string` | Optional | cannot be null | [Drawer](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/drawer.schema.json#/properties/type")                   |
-| [elevation](#elevation)         | Merged   | Optional | cannot be null | [Drawer](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")             |
-| [semanticLabel](#semanticLabel) | `string` | Optional | cannot be null | [Drawer](drawer-properties-semantic-label.md "https&#x3A;//legytma.com.br/schema/widget/drawer.schema.json#/properties/semanticLabel") |
-| [child](#child)                 | `object` | Optional | cannot be null | [Drawer](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")            |
+| [type](#type)                   | `string` | Optional | cannot be null | [Drawer](widget-definitions-type.md)                   |
+| [elevation](#elevation)         | Merged   | Optional | cannot be null | [Drawer](app_bar_theme-properties-double.md)             |
+| [semanticLabel](#semanticLabel) | `string` | Optional | cannot be null | [Drawer](drawer-properties-semantic-label.md) |
+| [child](#child)                 | `object` | Optional | cannot be null | [Drawer](input_decoration-properties-widget-5.md)            |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Drawer](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/drawer.schema.json#/properties/type")
+-   defined in: [Drawer](widget-definitions-type.md)
 
 ### type Type
 
@@ -72,7 +72,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Drawer](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Drawer](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -80,9 +80,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### elevation Constraints
 
@@ -108,7 +108,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Semantic Label](drawer-properties-semantic-label.md))
 -   cannot be null
--   defined in: [Drawer](drawer-properties-semantic-label.md "https&#x3A;//legytma.com.br/schema/widget/drawer.schema.json#/properties/semanticLabel")
+-   defined in: [Drawer](drawer-properties-semantic-label.md)
 
 ### semanticLabel Type
 
@@ -127,7 +127,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Drawer](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Drawer](input_decoration-properties-widget-5.md)
 
 ### child Type
 

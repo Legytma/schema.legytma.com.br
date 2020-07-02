@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_side_merge.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_side_merge.schema.json](../schema/border_side_merge.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_side_merge.schema.json](../schema/border_side_merge.schema.json) |
 
 ## Border Side Merge Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/border_side_merge.schema.json
 
 all of
 
--   [Border Side](border_default-properties-border-side.md "check type definition")
+-   [Border Side](border_default-properties-border-side.md)
 
 # Border Side Merge Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                    |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Border Side Merge](border_side_merge-properties-type.md "https&#x3A;//legytma.com.br/schema/border_side_merge.schema.json#/properties/type") |
-| [a](#a)       | `object` | Optional | cannot be null | [Border Side Merge](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/a")      |
-| [b](#b)       | `object` | Optional | cannot be null | [Border Side Merge](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/b")      |
+| [type](#type) | `string` | Optional | cannot be null | [Border Side Merge](border_side_merge-properties-type.md) |
+| [a](#a)       | `object` | Optional | cannot be null | [Border Side Merge](border_default-properties-border-side.md)      |
+| [b](#b)       | `object` | Optional | cannot be null | [Border Side Merge](border_default-properties-border-side.md)      |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](border_side_merge-properties-type.md))
 -   cannot be null
--   defined in: [Border Side Merge](border_side_merge-properties-type.md "https&#x3A;//legytma.com.br/schema/border_side_merge.schema.json#/properties/type")
+-   defined in: [Border Side Merge](border_side_merge-properties-type.md)
 
 ### type Type
 
@@ -81,7 +81,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Border Side](border_default-properties-border-side.md))
 -   cannot be null
--   defined in: [Border Side Merge](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/a")
+-   defined in: [Border Side Merge](border_default-properties-border-side.md)
 
 ### a Type
 
@@ -109,7 +109,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Border Side](border_default-properties-border-side.md))
 -   cannot be null
--   defined in: [Border Side Merge](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/b")
+-   defined in: [Border Side Merge](border_default-properties-border-side.md)
 
 ### b Type
 

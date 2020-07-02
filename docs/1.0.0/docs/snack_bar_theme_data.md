@@ -13,7 +13,7 @@ https://legytma.com.br/schema/snack_bar_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [snack_bar_theme_data.schema.json](../schema/snack_bar_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [snack_bar_theme_data.schema.json](../schema/snack_bar_theme_data.schema.json) |
 
 ## Snack Bar Theme Data Type
 
@@ -23,13 +23,13 @@ https://legytma.com.br/schema/snack_bar_theme_data.schema.json
 
 | Property                                            | Type         | Required | Nullable       | Defined by                                                                                                                                                             |
 | :-------------------------------------------------- | ------------ | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [shape](#shape)                                     | Unknown Type | Optional | can be null    | [Snack Bar Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")                          |
-| [elevation](#elevation)                             | Merged       | Optional | cannot be null | [Snack Bar Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")                               |
-| [backgroundColor](#backgroundColor)                 | Merged       | Optional | cannot be null | [Snack Bar Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")                           |
-| [contentTextStyle](#contentTextStyle)               | `object`     | Optional | cannot be null | [Snack Bar Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/contentTextStyle")            |
-| [actionTextColor](#actionTextColor)                 | Merged       | Optional | cannot be null | [Snack Bar Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/actionTextColor")                           |
-| [behavior](#behavior)                               | `string`     | Optional | cannot be null | [Snack Bar Theme Data](snack_bar_theme_data-properties-snack-bar-behavior.md "https&#x3A;//legytma.com.br/schema/snack_bar_behavior.schema.json#/properties/behavior") |
-| [disabledActionTextColor](#disabledActionTextColor) | Merged       | Optional | cannot be null | [Snack Bar Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledActionTextColor")                   |
+| [shape](#shape)                                     | Unknown Type | Optional | can be null    | [Snack Bar Theme Data](bottom_app_bar_theme-properties-dynamic.md)                          |
+| [elevation](#elevation)                             | Merged       | Optional | cannot be null | [Snack Bar Theme Data](app_bar_theme-properties-double.md)                               |
+| [backgroundColor](#backgroundColor)                 | Merged       | Optional | cannot be null | [Snack Bar Theme Data](app_bar_theme-properties-color.md)                           |
+| [contentTextStyle](#contentTextStyle)               | `object`     | Optional | cannot be null | [Snack Bar Theme Data](chip_theme_data-properties-text-style-1.md)            |
+| [actionTextColor](#actionTextColor)                 | Merged       | Optional | cannot be null | [Snack Bar Theme Data](app_bar_theme-properties-color.md)                           |
+| [behavior](#behavior)                               | `string`     | Optional | cannot be null | [Snack Bar Theme Data](snack_bar_theme_data-properties-snack-bar-behavior.md) |
+| [disabledActionTextColor](#disabledActionTextColor) | Merged       | Optional | cannot be null | [Snack Bar Theme Data](app_bar_theme-properties-color.md)                   |
 
 ## shape
 
@@ -45,7 +45,7 @@ https://legytma.com.br/schema/snack_bar_theme_data.schema.json
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Snack Bar Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Snack Bar Theme Data](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -64,7 +64,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Snack Bar Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Snack Bar Theme Data](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -72,9 +72,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### elevation Constraints
 
@@ -103,7 +103,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Snack Bar Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Snack Bar Theme Data](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -111,7 +111,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -152,7 +152,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Snack Bar Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/contentTextStyle")
+-   defined in: [Snack Bar Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### contentTextStyle Type
 
@@ -171,7 +171,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Snack Bar Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/actionTextColor")
+-   defined in: [Snack Bar Theme Data](app_bar_theme-properties-color.md)
 
 ### actionTextColor Type
 
@@ -179,7 +179,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### actionTextColor Default Value
 
@@ -221,7 +221,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Snack Bar Behavior](snack_bar_theme_data-properties-snack-bar-behavior.md))
 -   cannot be null
--   defined in: [Snack Bar Theme Data](snack_bar_theme_data-properties-snack-bar-behavior.md "https&#x3A;//legytma.com.br/schema/snack_bar_behavior.schema.json#/properties/behavior")
+-   defined in: [Snack Bar Theme Data](snack_bar_theme_data-properties-snack-bar-behavior.md)
 
 ### behavior Type
 
@@ -259,7 +259,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Snack Bar Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledActionTextColor")
+-   defined in: [Snack Bar Theme Data](app_bar_theme-properties-color.md)
 
 ### disabledActionTextColor Type
 
@@ -267,7 +267,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### disabledActionTextColor Default Value
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/image_asset.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                 |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [image_asset.schema.json](../schema/widget/image_asset.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [image_asset.schema.json](../schema/widget/image_asset.schema.json) |
 
 ## Image Asset Type
 
@@ -23,17 +23,17 @@ all of
 
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Image Asset Properties
 
 | Property                    | Type         | Required | Nullable       | Defined by                                                                                                                               |
 | :-------------------------- | ------------ | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
-| [imageType](#imageType)     | `string`     | Required | cannot be null | [Image Asset](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image_asset.schema.json#/properties/imageType") |
-| [name](#name)               | `string`     | Required | cannot be null | [Image Asset](image_asset-properties-name.md "https&#x3A;//legytma.com.br/schema/widget/image_asset.schema.json#/properties/name")       |
-| [package](#package)         | `string`     | Optional | cannot be null | [Image Asset](image_asset-properties-package.md "https&#x3A;//legytma.com.br/schema/widget/image_asset.schema.json#/properties/package") |
-| [cacheHeight](#cacheHeight) | Unknown Type | Optional | cannot be null | [Image Asset](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheHeight")                       |
-| [cacheWidth](#cacheWidth)   | Unknown Type | Optional | cannot be null | [Image Asset](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheWidth")                        |
+| [imageType](#imageType)     | `string`     | Required | cannot be null | [Image Asset](image-definitions-image-type.md) |
+| [name](#name)               | `string`     | Required | cannot be null | [Image Asset](image_asset-properties-name.md)       |
+| [package](#package)         | `string`     | Optional | cannot be null | [Image Asset](image_asset-properties-package.md) |
+| [cacheHeight](#cacheHeight) | Unknown Type | Optional | cannot be null | [Image Asset](color-allof-integer.md)                       |
+| [cacheWidth](#cacheWidth)   | Unknown Type | Optional | cannot be null | [Image Asset](color-allof-integer.md)                        |
 
 ## imageType
 
@@ -45,7 +45,7 @@ all of
 -   is required
 -   Type: `string` ([Image Type](image-definitions-image-type.md))
 -   cannot be null
--   defined in: [Image Asset](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image_asset.schema.json#/properties/imageType")
+-   defined in: [Image Asset](image-definitions-image-type.md)
 
 ### imageType Type
 
@@ -79,7 +79,7 @@ all of
 -   is required
 -   Type: `string` ([Name](image_asset-properties-name.md))
 -   cannot be null
--   defined in: [Image Asset](image_asset-properties-name.md "https&#x3A;//legytma.com.br/schema/widget/image_asset.schema.json#/properties/name")
+-   defined in: [Image Asset](image_asset-properties-name.md)
 
 ### name Type
 
@@ -95,7 +95,7 @@ all of
 -   is optional
 -   Type: `string` ([Package](image_asset-properties-package.md))
 -   cannot be null
--   defined in: [Image Asset](image_asset-properties-package.md "https&#x3A;//legytma.com.br/schema/widget/image_asset.schema.json#/properties/package")
+-   defined in: [Image Asset](image_asset-properties-package.md)
 
 ### package Type
 
@@ -114,7 +114,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Image Asset](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheHeight")
+-   defined in: [Image Asset](color-allof-integer.md)
 
 ### cacheHeight Type
 
@@ -167,7 +167,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Image Asset](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheWidth")
+-   defined in: [Image Asset](color-allof-integer.md)
 
 ### cacheWidth Type
 

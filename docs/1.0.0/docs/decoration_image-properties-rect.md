@@ -13,7 +13,7 @@ https://legytma.com.br/schema/rect.schema.json#/properties/centerSlice
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration_image.schema.json\*](../schema/decoration_image.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration_image.schema.json\*](../schema/decoration_image.schema.json) |
 
 ## centerSlice Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/rect.schema.json#/properties/centerSlice
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                             |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Rect](rect-properties-type.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Rect](rect-properties-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](rect-properties-type.md))
 -   cannot be null
--   defined in: [Rect](rect-properties-type.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/properties/type")
+-   defined in: [Rect](rect-properties-type.md)
 
 ### type Type
 
@@ -80,7 +80,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](rect-definitions-type.md))
 -   cannot be null
--   defined in: [Rect](rect-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/definitions/type")
+-   defined in: [Rect](rect-definitions-type.md)
 
 ### type Type
 

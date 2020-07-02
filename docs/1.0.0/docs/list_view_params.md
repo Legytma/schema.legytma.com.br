@@ -13,7 +13,7 @@ https://legytma.com.br/schema/list_view_params.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [list_view_params.schema.json](../schema/list_view_params.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [list_view_params.schema.json](../schema/list_view_params.schema.json) |
 
 ## List View Params Type
 
@@ -23,16 +23,16 @@ https://legytma.com.br/schema/list_view_params.schema.json
 
 | Property                            | Type         | Required | Nullable       | Defined by                                                                                                                                                             |
 | :---------------------------------- | ------------ | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [scrollDirection](#scrollDirection) | `string`     | Optional | cannot be null | [List View Params](grid_view_params-properties-axis.md "https&#x3A;//legytma.com.br/schema/axis.schema.json#/properties/scrollDirection")                              |
-| [reverse](#reverse)                 | `boolean`    | Optional | cannot be null | [List View Params](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/reverse")                              |
-| [shrinkWrap](#shrinkWrap)           | `boolean`    | Optional | cannot be null | [List View Params](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/shrinkWrap")                           |
-| [cacheExtent](#cacheExtent)         | Merged       | Optional | cannot be null | [List View Params](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/cacheExtent")                                 |
-| [padding](#padding)                 | Unknown Type | Optional | cannot be null | [List View Params](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding") |
-| [itemExtent](#itemExtent)           | Merged       | Optional | cannot be null | [List View Params](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/itemExtent")                                  |
-| [children](#children)               | `array`      | Optional | cannot be null | [List View Params](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")                   |
-| [pageSize](#pageSize)               | Unknown Type | Optional | cannot be null | [List View Params](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/pageSize")                                                   |
-| [loadMoreUrl](#loadMoreUrl)         | `string`     | Optional | cannot be null | [List View Params](list_view_params-properties-url.md "https&#x3A;//legytma.com.br/schema/url.schema.json#/properties/loadMoreUrl")                                    |
-| [isDemo](#isDemo)                   | `boolean`    | Optional | cannot be null | [List View Params](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/isDemo")                               |
+| [scrollDirection](#scrollDirection) | `string`     | Optional | cannot be null | [List View Params](grid_view_params-properties-axis.md)                              |
+| [reverse](#reverse)                 | `boolean`    | Optional | cannot be null | [List View Params](button_bar_theme_data-properties-boolean.md)                              |
+| [shrinkWrap](#shrinkWrap)           | `boolean`    | Optional | cannot be null | [List View Params](button_bar_theme_data-properties-boolean.md)                           |
+| [cacheExtent](#cacheExtent)         | Merged       | Optional | cannot be null | [List View Params](app_bar_theme-properties-double.md)                                 |
+| [padding](#padding)                 | Unknown Type | Optional | cannot be null | [List View Params](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [itemExtent](#itemExtent)           | Merged       | Optional | cannot be null | [List View Params](app_bar_theme-properties-double.md)                                  |
+| [children](#children)               | `array`      | Optional | cannot be null | [List View Params](grid_view_params-properties-list-of-widgets.md)                   |
+| [pageSize](#pageSize)               | Unknown Type | Optional | cannot be null | [List View Params](color-allof-integer.md)                                                   |
+| [loadMoreUrl](#loadMoreUrl)         | `string`     | Optional | cannot be null | [List View Params](list_view_params-properties-url.md)                                    |
+| [isDemo](#isDemo)                   | `boolean`    | Optional | cannot be null | [List View Params](button_bar_theme_data-properties-boolean.md)                               |
 
 ## scrollDirection
 
@@ -48,7 +48,7 @@ https://legytma.com.br/schema/list_view_params.schema.json
 -   is optional
 -   Type: `string` ([Axis](grid_view_params-properties-axis.md))
 -   cannot be null
--   defined in: [List View Params](grid_view_params-properties-axis.md "https&#x3A;//legytma.com.br/schema/axis.schema.json#/properties/scrollDirection")
+-   defined in: [List View Params](grid_view_params-properties-axis.md)
 
 ### scrollDirection Type
 
@@ -84,7 +84,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [List View Params](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/reverse")
+-   defined in: [List View Params](button_bar_theme_data-properties-boolean.md)
 
 ### reverse Type
 
@@ -121,7 +121,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [List View Params](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/shrinkWrap")
+-   defined in: [List View Params](button_bar_theme_data-properties-boolean.md)
 
 ### shrinkWrap Type
 
@@ -158,7 +158,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [List View Params](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/cacheExtent")
+-   defined in: [List View Params](app_bar_theme-properties-double.md)
 
 ### cacheExtent Type
 
@@ -166,9 +166,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### cacheExtent Constraints
 
@@ -198,7 +198,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [List View Params](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [List View Params](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### padding Type
 
@@ -228,7 +228,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [List View Params](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/itemExtent")
+-   defined in: [List View Params](app_bar_theme-properties-double.md)
 
 ### itemExtent Type
 
@@ -236,9 +236,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### itemExtent Constraints
 
@@ -267,7 +267,7 @@ List of Schema to validation of JSON used to parse Widgets.
 -   is optional
 -   Type: `object[]` ([Widget](list_widget-widget.md))
 -   cannot be null
--   defined in: [List View Params](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")
+-   defined in: [List View Params](grid_view_params-properties-list-of-widgets.md)
 
 ### children Type
 
@@ -294,7 +294,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [List View Params](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/pageSize")
+-   defined in: [List View Params](color-allof-integer.md)
 
 ### pageSize Type
 
@@ -348,7 +348,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Url](list_view_params-properties-url.md))
 -   cannot be null
--   defined in: [List View Params](list_view_params-properties-url.md "https&#x3A;//legytma.com.br/schema/url.schema.json#/properties/loadMoreUrl")
+-   defined in: [List View Params](list_view_params-properties-url.md)
 
 ### loadMoreUrl Type
 
@@ -356,7 +356,7 @@ The default value is:
 
 ### loadMoreUrl Constraints
 
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc4291 "check the specification")
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc4291)
 
 ## isDemo
 
@@ -371,7 +371,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [List View Params](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/isDemo")
+-   defined in: [List View Params](button_bar_theme_data-properties-boolean.md)
 
 ### isDemo Type
 

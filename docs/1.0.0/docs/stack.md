@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/stack.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                     |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [stack.schema.json](../schema/widget/stack.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [stack.schema.json](../schema/widget/stack.schema.json) |
 
 ## Stack Type
 
@@ -21,18 +21,18 @@ https://legytma.com.br/schema/widget/stack.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Stack Properties
 
 | Property                        | Type         | Required | Nullable       | Defined by                                                                                                                                |
 | :------------------------------ | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                   | `string`     | Optional | cannot be null | [Stack](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/stack.schema.json#/properties/type")                        |
-| [alignment](#alignment)         | Unknown Type | Optional | can be null    | [Stack](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/alignment")        |
-| [textDirection](#textDirection) | `string`     | Optional | cannot be null | [Stack](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")    |
-| [fit](#fit)                     | `string`     | Optional | cannot be null | [Stack](indexed_stack-properties-stack-fit.md "https&#x3A;//legytma.com.br/schema/stack_fit.schema.json#/properties/fit")                 |
-| [overflow](#overflow)           | `string`     | Optional | cannot be null | [Stack](stack-properties-overflow.md "https&#x3A;//legytma.com.br/schema/overflow.schema.json#/properties/overflow")                      |
-| [children](#children)           | `array`      | Optional | cannot be null | [Stack](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children") |
+| [type](#type)                   | `string`     | Optional | cannot be null | [Stack](widget-definitions-type.md)                        |
+| [alignment](#alignment)         | Unknown Type | Optional | can be null    | [Stack](bottom_app_bar_theme-properties-dynamic.md)        |
+| [textDirection](#textDirection) | `string`     | Optional | cannot be null | [Stack](column-properties-text-direction.md)    |
+| [fit](#fit)                     | `string`     | Optional | cannot be null | [Stack](indexed_stack-properties-stack-fit.md)                 |
+| [overflow](#overflow)           | `string`     | Optional | cannot be null | [Stack](stack-properties-overflow.md)                      |
+| [children](#children)           | `array`      | Optional | cannot be null | [Stack](grid_view_params-properties-list-of-widgets.md) |
 
 ## type
 
@@ -47,7 +47,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Stack](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/stack.schema.json#/properties/type")
+-   defined in: [Stack](widget-definitions-type.md)
 
 ### type Type
 
@@ -75,7 +75,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Stack](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/alignment")
+-   defined in: [Stack](bottom_app_bar_theme-properties-dynamic.md)
 
 ### alignment Type
 
@@ -102,7 +102,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Text Direction](column-properties-text-direction.md))
 -   cannot be null
--   defined in: [Stack](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")
+-   defined in: [Stack](column-properties-text-direction.md)
 
 ### textDirection Type
 
@@ -141,7 +141,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Stack Fit](indexed_stack-properties-stack-fit.md))
 -   cannot be null
--   defined in: [Stack](indexed_stack-properties-stack-fit.md "https&#x3A;//legytma.com.br/schema/stack_fit.schema.json#/properties/fit")
+-   defined in: [Stack](indexed_stack-properties-stack-fit.md)
 
 ### fit Type
 
@@ -179,7 +179,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Overflow](stack-properties-overflow.md))
 -   cannot be null
--   defined in: [Stack](stack-properties-overflow.md "https&#x3A;//legytma.com.br/schema/overflow.schema.json#/properties/overflow")
+-   defined in: [Stack](stack-properties-overflow.md)
 
 ### overflow Type
 
@@ -215,7 +215,7 @@ List of Schema to validation of JSON used to parse Widgets.
 -   is optional
 -   Type: `object[]` ([Widget](list_widget-widget.md))
 -   cannot be null
--   defined in: [Stack](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")
+-   defined in: [Stack](grid_view_params-properties-list-of-widgets.md)
 
 ### children Type
 

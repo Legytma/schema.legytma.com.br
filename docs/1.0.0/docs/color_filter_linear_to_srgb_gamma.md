@@ -13,7 +13,7 @@ https://legytma.com.br/schema/color_filter_linear_to_srgb_gamma.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [color_filter_linear_to_srgb_gamma.schema.json](../schema/color_filter_linear_to_srgb_gamma.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [color_filter_linear_to_srgb_gamma.schema.json](../schema/color_filter_linear_to_srgb_gamma.schema.json) |
 
 ## Color Filter Linear To Srgb Gamma Type
 
@@ -21,13 +21,13 @@ https://legytma.com.br/schema/color_filter_linear_to_srgb_gamma.schema.json
 
 all of
 
--   [Color Filter](color_filter_linear_to_srgb_gamma-allof-color-filter.md "check type definition")
+-   [Color Filter](color_filter_linear_to_srgb_gamma-allof-color-filter.md)
 
 # Color Filter Linear To Srgb Gamma Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                    |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Color Filter Linear To Srgb Gamma](color_filter_linear_to_srgb_gamma-properties-type.md "https&#x3A;//legytma.com.br/schema/color_filter_linear_to_srgb_gamma.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Color Filter Linear To Srgb Gamma](color_filter_linear_to_srgb_gamma-properties-type.md) |
 
 ## type
 
@@ -42,7 +42,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](color_filter_linear_to_srgb_gamma-properties-type.md))
 -   cannot be null
--   defined in: [Color Filter Linear To Srgb Gamma](color_filter_linear_to_srgb_gamma-properties-type.md "https&#x3A;//legytma.com.br/schema/color_filter_linear_to_srgb_gamma.schema.json#/properties/type")
+-   defined in: [Color Filter Linear To Srgb Gamma](color_filter_linear_to_srgb_gamma-properties-type.md)
 
 ### type Type
 

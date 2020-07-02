@@ -9,7 +9,7 @@ https://legytma.com.br/schema/widget/schema_form_widget.schema.json#/properties/
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                 |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [schema_form_widget.schema.json\*](../schema/widget/schema_form_widget.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [schema_form_widget.schema.json\*](../schema/widget/schema_form_widget.schema.json) |
 
 ## jsonSchema Type
 

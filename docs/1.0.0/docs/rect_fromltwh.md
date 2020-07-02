@@ -13,7 +13,7 @@ https://legytma.com.br/schema/rect_fromLTWH.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [rect_fromLTWH.schema.json](../schema/rect_fromLTWH.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [rect_fromLTWH.schema.json](../schema/rect_fromLTWH.schema.json) |
 
 ## Rect From LTWH Type
 
@@ -21,17 +21,17 @@ https://legytma.com.br/schema/rect_fromLTWH.schema.json
 
 all of
 
--   [Rect](decoration_image-properties-rect.md "check type definition")
+-   [Rect](decoration_image-properties-rect.md)
 
 # Rect From LTWH Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                      |
 | :---------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)     | `string` | Optional | cannot be null | [Rect From LTWH](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect_fromLTWH.schema.json#/properties/type")    |
-| [left](#left)     | Merged   | Optional | cannot be null | [Rect From LTWH](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/left")   |
-| [top](#top)       | Merged   | Optional | cannot be null | [Rect From LTWH](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/top")    |
-| [width](#width)   | Merged   | Optional | cannot be null | [Rect From LTWH](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")  |
-| [height](#height) | Merged   | Optional | cannot be null | [Rect From LTWH](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height") |
+| [type](#type)     | `string` | Optional | cannot be null | [Rect From LTWH](widget-definitions-type.md)    |
+| [left](#left)     | Merged   | Optional | cannot be null | [Rect From LTWH](app_bar_theme-properties-double.md)   |
+| [top](#top)       | Merged   | Optional | cannot be null | [Rect From LTWH](app_bar_theme-properties-double.md)    |
+| [width](#width)   | Merged   | Optional | cannot be null | [Rect From LTWH](app_bar_theme-properties-double.md)  |
+| [height](#height) | Merged   | Optional | cannot be null | [Rect From LTWH](app_bar_theme-properties-double.md) |
 
 ## type
 
@@ -46,7 +46,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Rect From LTWH](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect_fromLTWH.schema.json#/properties/type")
+-   defined in: [Rect From LTWH](widget-definitions-type.md)
 
 ### type Type
 
@@ -86,7 +86,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Rect From LTWH](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/left")
+-   defined in: [Rect From LTWH](app_bar_theme-properties-double.md)
 
 ### left Type
 
@@ -94,9 +94,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### left Constraints
 
@@ -125,7 +125,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Rect From LTWH](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/top")
+-   defined in: [Rect From LTWH](app_bar_theme-properties-double.md)
 
 ### top Type
 
@@ -133,9 +133,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### top Constraints
 
@@ -164,7 +164,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Rect From LTWH](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")
+-   defined in: [Rect From LTWH](app_bar_theme-properties-double.md)
 
 ### width Type
 
@@ -172,9 +172,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### width Constraints
 
@@ -203,7 +203,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Rect From LTWH](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Rect From LTWH](app_bar_theme-properties-double.md)
 
 ### height Type
 
@@ -211,9 +211,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### height Constraints
 

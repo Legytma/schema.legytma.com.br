@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_radius.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                              |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [border_radius.schema.json](../schema/border_radius.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [border_radius.schema.json](../schema/border_radius.schema.json) |
 
 ## Border Radius Type
 
@@ -21,5 +21,5 @@ merged type ([Border Radius](border_radius.md))
 
 one (and only one) of
 
--   [Border Radius Object](border_radius-oneof-border-radius-object.md "check type definition")
--   [Border Radius String](border_radius-oneof-border-radius-string.md "check type definition")
+-   [Border Radius Object](border_radius-oneof-border-radius-object.md)
+-   [Border Radius String](border_radius-oneof-border-radius-string.md)

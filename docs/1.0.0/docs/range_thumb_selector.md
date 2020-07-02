@@ -13,7 +13,7 @@ https://legytma.com.br/schema/range_thumb_selector.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [range_thumb_selector.schema.json](../schema/range_thumb_selector.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [range_thumb_selector.schema.json](../schema/range_thumb_selector.schema.json) |
 
 ## Range Thumb Selector Type
 

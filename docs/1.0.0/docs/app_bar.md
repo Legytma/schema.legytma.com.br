@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/app_bar.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [app_bar.schema.json](../schema/widget/app_bar.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [app_bar.schema.json](../schema/widget/app_bar.schema.json) |
 
 ## App Bar Type
 
@@ -21,31 +21,31 @@ https://legytma.com.br/schema/widget/app_bar.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # App Bar Properties
 
 | Property                                                | Type         | Required | Nullable       | Defined by                                                                                                                                           |
 | :------------------------------------------------------ | ------------ | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                                           | `string`     | Optional | cannot be null | [App Bar](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/app_bar.schema.json#/properties/type")                               |
-| [title](#title)                                         | `object`     | Optional | cannot be null | [App Bar](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/title")                         |
-| [primary](#primary)                                     | `boolean`    | Optional | cannot be null | [App Bar](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/primary")                     |
-| [actions](#actions)                                     | `array`      | Optional | cannot be null | [App Bar](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/actions")           |
-| [actionsIconTheme](#actionsIconTheme)                   | `object`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/actionsIconTheme") |
-| [automaticallyImplyLeading](#automaticallyImplyLeading) | `boolean`    | Optional | cannot be null | [App Bar](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/automaticallyImplyLeading")   |
-| [backgroundColor](#backgroundColor)                     | `object`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/backgroundColor")  |
-| [bottom](#bottom)                                       | Unknown Type | Optional | can be null    | [App Bar](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/bottom")                    |
-| [bottomOpacity](#bottomOpacity)                         | Merged       | Optional | cannot be null | [App Bar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/bottomOpacity")                      |
-| [brightness](#brightness)                               | `string`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")                 |
-| [centerTitle](#centerTitle)                             | `boolean`    | Optional | cannot be null | [App Bar](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/centerTitle")                 |
-| [elevation](#elevation)                                 | Merged       | Optional | cannot be null | [App Bar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")                          |
-| [flexibleSpace](#flexibleSpace)                         | `object`     | Optional | cannot be null | [App Bar](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/flexibleSpace")                 |
-| [iconTheme](#iconTheme)                                 | `object`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/iconTheme")        |
-| [leading](#leading)                                     | `object`     | Optional | cannot be null | [App Bar](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/leading")                       |
-| [shape](#shape)                                         | Unknown Type | Optional | can be null    | [App Bar](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")                     |
-| [textTheme](#textTheme)                                 | `object`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/textTheme")                  |
-| [titleSpacing](#titleSpacing)                           | Merged       | Optional | cannot be null | [App Bar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/titleSpacing")                       |
-| [toolbarOpacity](#toolbarOpacity)                       | Merged       | Optional | cannot be null | [App Bar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/toolbarOpacity")                     |
+| [type](#type)                                           | `string`     | Optional | cannot be null | [App Bar](widget-definitions-type.md)                               |
+| [title](#title)                                         | `object`     | Optional | cannot be null | [App Bar](input_decoration-properties-widget-5.md)                         |
+| [primary](#primary)                                     | `boolean`    | Optional | cannot be null | [App Bar](button_bar_theme_data-properties-boolean.md)                     |
+| [actions](#actions)                                     | `array`      | Optional | cannot be null | [App Bar](grid_view_params-properties-list-of-widgets.md)           |
+| [actionsIconTheme](#actionsIconTheme)                   | `object`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-icon-theme-data.md) |
+| [automaticallyImplyLeading](#automaticallyImplyLeading) | `boolean`    | Optional | cannot be null | [App Bar](button_bar_theme_data-properties-boolean.md)   |
+| [backgroundColor](#backgroundColor)                     | `object`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-icon-theme-data.md)  |
+| [bottom](#bottom)                                       | Unknown Type | Optional | can be null    | [App Bar](bottom_app_bar_theme-properties-dynamic.md)                    |
+| [bottomOpacity](#bottomOpacity)                         | Merged       | Optional | cannot be null | [App Bar](app_bar_theme-properties-double.md)                      |
+| [brightness](#brightness)                               | `string`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-brightness.md)                 |
+| [centerTitle](#centerTitle)                             | `boolean`    | Optional | cannot be null | [App Bar](button_bar_theme_data-properties-boolean.md)                 |
+| [elevation](#elevation)                                 | Merged       | Optional | cannot be null | [App Bar](app_bar_theme-properties-double.md)                          |
+| [flexibleSpace](#flexibleSpace)                         | `object`     | Optional | cannot be null | [App Bar](input_decoration-properties-widget-5.md)                 |
+| [iconTheme](#iconTheme)                                 | `object`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-icon-theme-data.md)        |
+| [leading](#leading)                                     | `object`     | Optional | cannot be null | [App Bar](input_decoration-properties-widget-5.md)                       |
+| [shape](#shape)                                         | Unknown Type | Optional | can be null    | [App Bar](bottom_app_bar_theme-properties-dynamic.md)                     |
+| [textTheme](#textTheme)                                 | `object`     | Optional | cannot be null | [App Bar](app_bar_theme-properties-text-theme.md)                  |
+| [titleSpacing](#titleSpacing)                           | Merged       | Optional | cannot be null | [App Bar](app_bar_theme-properties-double.md)                       |
+| [toolbarOpacity](#toolbarOpacity)                       | Merged       | Optional | cannot be null | [App Bar](app_bar_theme-properties-double.md)                     |
 
 ## type
 
@@ -60,7 +60,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [App Bar](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/app_bar.schema.json#/properties/type")
+-   defined in: [App Bar](widget-definitions-type.md)
 
 ### type Type
 
@@ -87,7 +87,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [App Bar](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/title")
+-   defined in: [App Bar](input_decoration-properties-widget-5.md)
 
 ### title Type
 
@@ -106,7 +106,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [App Bar](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/primary")
+-   defined in: [App Bar](button_bar_theme_data-properties-boolean.md)
 
 ### primary Type
 
@@ -143,7 +143,7 @@ List of Schema to validation of JSON used to parse Widgets.
 -   is optional
 -   Type: `object[]` ([Widget](list_widget-widget.md))
 -   cannot be null
--   defined in: [App Bar](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/actions")
+-   defined in: [App Bar](grid_view_params-properties-list-of-widgets.md)
 
 ### actions Type
 
@@ -170,7 +170,7 @@ Icon theme data
 -   is optional
 -   Type: `object` ([Icon Theme Data](app_bar_theme-properties-icon-theme-data.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/actionsIconTheme")
+-   defined in: [App Bar](app_bar_theme-properties-icon-theme-data.md)
 
 ### actionsIconTheme Type
 
@@ -189,7 +189,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [App Bar](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/automaticallyImplyLeading")
+-   defined in: [App Bar](button_bar_theme_data-properties-boolean.md)
 
 ### automaticallyImplyLeading Type
 
@@ -226,7 +226,7 @@ Icon theme data
 -   is optional
 -   Type: `object` ([Icon Theme Data](app_bar_theme-properties-icon-theme-data.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/backgroundColor")
+-   defined in: [App Bar](app_bar_theme-properties-icon-theme-data.md)
 
 ### backgroundColor Type
 
@@ -246,7 +246,7 @@ Icon theme data
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [App Bar](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/bottom")
+-   defined in: [App Bar](bottom_app_bar_theme-properties-dynamic.md)
 
 ### bottom Type
 
@@ -265,7 +265,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/bottomOpacity")
+-   defined in: [App Bar](app_bar_theme-properties-double.md)
 
 ### bottomOpacity Type
 
@@ -273,9 +273,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### bottomOpacity Constraints
 
@@ -305,7 +305,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")
+-   defined in: [App Bar](app_bar_theme-properties-brightness.md)
 
 ### brightness Type
 
@@ -333,7 +333,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [App Bar](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/centerTitle")
+-   defined in: [App Bar](button_bar_theme_data-properties-boolean.md)
 
 ### centerTitle Type
 
@@ -370,7 +370,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [App Bar](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -378,9 +378,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### elevation Constraints
 
@@ -409,7 +409,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [App Bar](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/flexibleSpace")
+-   defined in: [App Bar](input_decoration-properties-widget-5.md)
 
 ### flexibleSpace Type
 
@@ -428,7 +428,7 @@ Icon theme data
 -   is optional
 -   Type: `object` ([Icon Theme Data](app_bar_theme-properties-icon-theme-data.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/iconTheme")
+-   defined in: [App Bar](app_bar_theme-properties-icon-theme-data.md)
 
 ### iconTheme Type
 
@@ -447,7 +447,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [App Bar](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/leading")
+-   defined in: [App Bar](input_decoration-properties-widget-5.md)
 
 ### leading Type
 
@@ -467,7 +467,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [App Bar](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [App Bar](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -486,7 +486,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/textTheme")
+-   defined in: [App Bar](app_bar_theme-properties-text-theme.md)
 
 ### textTheme Type
 
@@ -505,7 +505,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/titleSpacing")
+-   defined in: [App Bar](app_bar_theme-properties-double.md)
 
 ### titleSpacing Type
 
@@ -513,9 +513,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### titleSpacing Constraints
 
@@ -544,7 +544,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [App Bar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/toolbarOpacity")
+-   defined in: [App Bar](app_bar_theme-properties-double.md)
 
 ### toolbarOpacity Type
 
@@ -552,9 +552,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### toolbarOpacity Constraints
 

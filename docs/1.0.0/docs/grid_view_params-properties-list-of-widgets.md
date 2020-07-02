@@ -12,7 +12,7 @@ List of Schema to validation of JSON used to parse Widgets.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [grid_view_params.schema.json\*](../schema/grid_view_params.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [grid_view_params.schema.json\*](../schema/grid_view_params.schema.json) |
 
 ## children Type
 

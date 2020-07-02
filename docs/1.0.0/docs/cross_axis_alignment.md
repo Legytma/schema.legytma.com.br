@@ -13,7 +13,7 @@ https://legytma.com.br/schema/cross_axis_alignment.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [cross_axis_alignment.schema.json](../schema/cross_axis_alignment.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [cross_axis_alignment.schema.json](../schema/cross_axis_alignment.schema.json) |
 
 ## Cross Axis Alignment Type
 

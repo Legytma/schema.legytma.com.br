@@ -9,7 +9,7 @@ https://legytma.com.br/schema/widget/image_memory.schema.json#/properties/bytes/
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                     |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [image_memory.schema.json\*](../schema/widget/image_memory.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [image_memory.schema.json\*](../schema/widget/image_memory.schema.json) |
 
 ## 0 Type
 

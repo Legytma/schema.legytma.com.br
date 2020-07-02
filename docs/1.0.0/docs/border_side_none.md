@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_side_none.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_side_none.schema.json](../schema/border_side_none.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_side_none.schema.json](../schema/border_side_none.schema.json) |
 
 ## Border Side None Type
 
@@ -21,13 +21,13 @@ https://legytma.com.br/schema/border_side_none.schema.json
 
 all of
 
--   [Border Side](border_default-properties-border-side.md "check type definition")
+-   [Border Side](border_default-properties-border-side.md)
 
 # Border Side None Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                 |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Border Side None](border_side_none-properties-type.md "https&#x3A;//legytma.com.br/schema/border_side_none.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Border Side None](border_side_none-properties-type.md) |
 
 ## type
 
@@ -42,7 +42,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](border_side_none-properties-type.md))
 -   cannot be null
--   defined in: [Border Side None](border_side_none-properties-type.md "https&#x3A;//legytma.com.br/schema/border_side_none.schema.json#/properties/type")
+-   defined in: [Border Side None](border_side_none-properties-type.md)
 
 ### type Type
 

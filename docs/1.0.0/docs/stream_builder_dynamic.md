@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/stream_builder_dynamic.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                       |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [stream_builder_dynamic.schema.json](../schema/widget/stream_builder_dynamic.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [stream_builder_dynamic.schema.json](../schema/widget/stream_builder_dynamic.schema.json) |
 
 ## Stream Builder Dynamic Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/widget/stream_builder_dynamic.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Stream Builder Dynamic Properties
 
 | Property                    | Type         | Required | Nullable       | Defined by                                                                                                                                            |
 | :-------------------------- | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)               | `string`     | Optional | cannot be null | [Stream Builder Dynamic](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/stream_builder_dynamic.schema.json#/properties/type")  |
-| [initialData](#initialData) | Unknown Type | Optional | can be null    | [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/initialData") |
-| [stream](#stream)           | Unknown Type | Optional | can be null    | [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/stream")      |
-| [builder](#builder)         | Unknown Type | Required | can be null    | [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/builder")     |
+| [type](#type)               | `string`     | Optional | cannot be null | [Stream Builder Dynamic](widget-definitions-type.md)  |
+| [initialData](#initialData) | Unknown Type | Optional | can be null    | [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md) |
+| [stream](#stream)           | Unknown Type | Optional | can be null    | [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md)      |
+| [builder](#builder)         | Unknown Type | Required | can be null    | [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md)     |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Stream Builder Dynamic](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/stream_builder_dynamic.schema.json#/properties/type")
+-   defined in: [Stream Builder Dynamic](widget-definitions-type.md)
 
 ### type Type
 
@@ -73,7 +73,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/initialData")
+-   defined in: [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md)
 
 ### initialData Type
 
@@ -101,7 +101,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/stream")
+-   defined in: [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md)
 
 ### stream Type
 
@@ -129,7 +129,7 @@ The default value is:
 -   is required
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/builder")
+-   defined in: [Stream Builder Dynamic](bottom_app_bar_theme-properties-dynamic.md)
 
 ### builder Type
 

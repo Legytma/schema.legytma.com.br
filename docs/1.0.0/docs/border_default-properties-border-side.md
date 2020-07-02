@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_side.schema.json#/properties/top
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [border_default.schema.json\*](../schema/border_default.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [border_default.schema.json\*](../schema/border_default.schema.json) |
 
 ## top Type
 
@@ -31,7 +31,7 @@ The default value is:
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                  |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Border Side](border_side-properties-type.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Border Side](border_side-properties-type.md) |
 
 ## type
 
@@ -46,7 +46,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](border_side-properties-type.md))
 -   cannot be null
--   defined in: [Border Side](border_side-properties-type.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/type")
+-   defined in: [Border Side](border_side-properties-type.md)
 
 ### type Type
 
@@ -84,7 +84,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](border_side-definitions-type.md))
 -   cannot be null
--   defined in: [Border Side](border_side-definitions-type.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/definitions/type")
+-   defined in: [Border Side](border_side-definitions-type.md)
 
 ### type Type
 

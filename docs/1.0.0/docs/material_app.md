@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/material_app.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [material_app.schema.json](../schema/widget/material_app.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [material_app.schema.json](../schema/widget/material_app.schema.json) |
 
 ## Material App Type
 
@@ -21,38 +21,38 @@ https://legytma.com.br/schema/widget/material_app.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Material App Properties
 
 | Property                                                        | Type         | Required | Nullable       | Defined by                                                                                                                                                   |
 | :-------------------------------------------------------------- | ------------ | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                                                   | `string`     | Required | cannot be null | [Material App](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/material_app.schema.json#/properties/type")                             |
-| [locale](#locale)                                               | `object`     | Optional | cannot be null | [Material App](text_style-properties-locale.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/locale")                                   |
-| [title](#title)                                                 | `string`     | Required | cannot be null | [Material App](material_app-properties-title.md "https&#x3A;//legytma.com.br/schema/widget/material_app.schema.json#/properties/title")                      |
-| [home](#home)                                                   | `object`     | Optional | cannot be null | [Material App](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/home")                             |
-| [theme](#theme)                                                 | `object`     | Optional | cannot be null | [Material App](material_app-properties-theme-data.md "https&#x3A;//legytma.com.br/schema/theme_data.schema.json#/properties/theme")                          |
-| [color](#color)                                                 | Merged       | Optional | cannot be null | [Material App](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                                   |
-| [routes](#routes)                                               | `object`     | Optional | cannot be null | [Material App](material_app-properties-routes.md "https&#x3A;//legytma.com.br/schema/widget/material_app.schema.json#/properties/routes")                    |
-| [onUnknownRoute](#onUnknownRoute)                               | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onUnknownRoute")               |
-| [onGenerateTitle](#onGenerateTitle)                             | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onGenerateTitle")              |
-| [onGenerateRoute](#onGenerateRoute)                             | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onGenerateRoute")              |
-| [initialRoute](#initialRoute)                                   | `string`     | Optional | cannot be null | [Material App](material_app-properties-initial-route.md "https&#x3A;//legytma.com.br/schema/widget/material_app.schema.json#/properties/initialRoute")       |
-| [navigatorObservers](#navigatorObservers)                       | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/navigatorObservers")           |
-| [navigatorKey](#navigatorKey)                                   | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/navigatorKey")                 |
-| [builder](#builder)                                             | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/builder")                      |
-| [checkerboardOffscreenLayers](#checkerboardOffscreenLayers)     | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/checkerboardOffscreenLayers")    |
-| [checkerboardRasterCacheImages](#checkerboardRasterCacheImages) | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/checkerboardRasterCacheImages")  |
-| [darkTheme](#darkTheme)                                         | `object`     | Optional | cannot be null | [Material App](material_app-properties-theme-data-1.md "https&#x3A;//legytma.com.br/schema/theme_data.schema.json#/properties/darkTheme")                    |
-| [debugShowCheckedModeBanner](#debugShowCheckedModeBanner)       | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/debugShowCheckedModeBanner")     |
-| [debugShowMaterialGrid](#debugShowMaterialGrid)                 | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/debugShowMaterialGrid")          |
-| [localeListResolutionCallback](#localeListResolutionCallback)   | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/localeListResolutionCallback") |
-| [localeResolutionCallback](#localeResolutionCallback)           | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/localeResolutionCallback")     |
-| [localizationsDelegates](#localizationsDelegates)               | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/localizationsDelegates")       |
-| [showPerformanceOverlay](#showPerformanceOverlay)               | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/showPerformanceOverlay")         |
-| [showSemanticsDebugger](#showSemanticsDebugger)                 | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/showSemanticsDebugger")          |
-| [supportedLocales](#supportedLocales)                           | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/supportedLocales")             |
-| [themeMode](#themeMode)                                         | Merged       | Optional | cannot be null | [Material App](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/themeMode")                             |
+| [type](#type)                                                   | `string`     | Required | cannot be null | [Material App](widget-definitions-type.md)                             |
+| [locale](#locale)                                               | `object`     | Optional | cannot be null | [Material App](text_style-properties-locale.md)                                   |
+| [title](#title)                                                 | `string`     | Required | cannot be null | [Material App](material_app-properties-title.md)                      |
+| [home](#home)                                                   | `object`     | Optional | cannot be null | [Material App](input_decoration-properties-widget-5.md)                             |
+| [theme](#theme)                                                 | `object`     | Optional | cannot be null | [Material App](material_app-properties-theme-data.md)                          |
+| [color](#color)                                                 | Merged       | Optional | cannot be null | [Material App](app_bar_theme-properties-color.md)                                   |
+| [routes](#routes)                                               | `object`     | Optional | cannot be null | [Material App](material_app-properties-routes.md)                    |
+| [onUnknownRoute](#onUnknownRoute)                               | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)               |
+| [onGenerateTitle](#onGenerateTitle)                             | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)              |
+| [onGenerateRoute](#onGenerateRoute)                             | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)              |
+| [initialRoute](#initialRoute)                                   | `string`     | Optional | cannot be null | [Material App](material_app-properties-initial-route.md)       |
+| [navigatorObservers](#navigatorObservers)                       | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)           |
+| [navigatorKey](#navigatorKey)                                   | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)                 |
+| [builder](#builder)                                             | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)                      |
+| [checkerboardOffscreenLayers](#checkerboardOffscreenLayers)     | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md)    |
+| [checkerboardRasterCacheImages](#checkerboardRasterCacheImages) | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md)  |
+| [darkTheme](#darkTheme)                                         | `object`     | Optional | cannot be null | [Material App](material_app-properties-theme-data-1.md)                    |
+| [debugShowCheckedModeBanner](#debugShowCheckedModeBanner)       | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md)     |
+| [debugShowMaterialGrid](#debugShowMaterialGrid)                 | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md)          |
+| [localeListResolutionCallback](#localeListResolutionCallback)   | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md) |
+| [localeResolutionCallback](#localeResolutionCallback)           | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)     |
+| [localizationsDelegates](#localizationsDelegates)               | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)       |
+| [showPerformanceOverlay](#showPerformanceOverlay)               | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md)         |
+| [showSemanticsDebugger](#showSemanticsDebugger)                 | `boolean`    | Optional | cannot be null | [Material App](button_bar_theme_data-properties-boolean.md)          |
+| [supportedLocales](#supportedLocales)                           | Unknown Type | Optional | can be null    | [Material App](bottom_app_bar_theme-properties-dynamic.md)             |
+| [themeMode](#themeMode)                                         | Merged       | Optional | cannot be null | [Material App](app_bar_theme-properties-double.md)                             |
 
 ## type
 
@@ -67,7 +67,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Material App](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/material_app.schema.json#/properties/type")
+-   defined in: [Material App](widget-definitions-type.md)
 
 ### type Type
 
@@ -94,7 +94,7 @@ Locale.
 -   is optional
 -   Type: `object` ([Locale](text_style-properties-locale.md))
 -   cannot be null
--   defined in: [Material App](text_style-properties-locale.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/locale")
+-   defined in: [Material App](text_style-properties-locale.md)
 
 ### locale Type
 
@@ -110,7 +110,7 @@ Locale.
 -   is required
 -   Type: `string` ([Title](material_app-properties-title.md))
 -   cannot be null
--   defined in: [Material App](material_app-properties-title.md "https&#x3A;//legytma.com.br/schema/widget/material_app.schema.json#/properties/title")
+-   defined in: [Material App](material_app-properties-title.md)
 
 ### title Type
 
@@ -129,7 +129,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Material App](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/home")
+-   defined in: [Material App](input_decoration-properties-widget-5.md)
 
 ### home Type
 
@@ -149,7 +149,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Theme Data](material_app-properties-theme-data-1.md))
 -   cannot be null
--   defined in: [Material App](material_app-properties-theme-data-1.md "https&#x3A;//legytma.com.br/schema/theme_data.schema.json#/properties/theme")
+-   defined in: [Material App](material_app-properties-theme-data-1.md)
 
 ### theme Type
 
@@ -168,7 +168,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material App](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Material App](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -176,7 +176,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -214,7 +214,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Routes](material_app-properties-routes.md))
 -   cannot be null
--   defined in: [Material App](material_app-properties-routes.md "https&#x3A;//legytma.com.br/schema/widget/material_app.schema.json#/properties/routes")
+-   defined in: [Material App](material_app-properties-routes.md)
 
 ### routes Type
 
@@ -242,7 +242,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onUnknownRoute")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onUnknownRoute Type
 
@@ -270,7 +270,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onGenerateTitle")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onGenerateTitle Type
 
@@ -298,7 +298,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onGenerateRoute")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onGenerateRoute Type
 
@@ -322,7 +322,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Initial Route](material_app-properties-initial-route.md))
 -   cannot be null
--   defined in: [Material App](material_app-properties-initial-route.md "https&#x3A;//legytma.com.br/schema/widget/material_app.schema.json#/properties/initialRoute")
+-   defined in: [Material App](material_app-properties-initial-route.md)
 
 ### initialRoute Type
 
@@ -342,7 +342,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/navigatorObservers")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### navigatorObservers Type
 
@@ -370,7 +370,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/navigatorKey")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### navigatorKey Type
 
@@ -398,7 +398,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/builder")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### builder Type
 
@@ -425,7 +425,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/checkerboardOffscreenLayers")
+-   defined in: [Material App](button_bar_theme_data-properties-boolean.md)
 
 ### checkerboardOffscreenLayers Type
 
@@ -462,7 +462,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/checkerboardRasterCacheImages")
+-   defined in: [Material App](button_bar_theme_data-properties-boolean.md)
 
 ### checkerboardRasterCacheImages Type
 
@@ -500,7 +500,7 @@ false
 -   is optional
 -   Type: `object` ([Theme Data](material_app-properties-theme-data-1.md))
 -   cannot be null
--   defined in: [Material App](material_app-properties-theme-data-1.md "https&#x3A;//legytma.com.br/schema/theme_data.schema.json#/properties/darkTheme")
+-   defined in: [Material App](material_app-properties-theme-data-1.md)
 
 ### darkTheme Type
 
@@ -519,7 +519,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/debugShowCheckedModeBanner")
+-   defined in: [Material App](button_bar_theme_data-properties-boolean.md)
 
 ### debugShowCheckedModeBanner Type
 
@@ -556,7 +556,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/debugShowMaterialGrid")
+-   defined in: [Material App](button_bar_theme_data-properties-boolean.md)
 
 ### debugShowMaterialGrid Type
 
@@ -594,7 +594,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/localeListResolutionCallback")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### localeListResolutionCallback Type
 
@@ -622,7 +622,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/localeResolutionCallback")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### localeResolutionCallback Type
 
@@ -650,7 +650,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/localizationsDelegates")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### localizationsDelegates Type
 
@@ -677,7 +677,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/showPerformanceOverlay")
+-   defined in: [Material App](button_bar_theme_data-properties-boolean.md)
 
 ### showPerformanceOverlay Type
 
@@ -714,7 +714,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Material App](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/showSemanticsDebugger")
+-   defined in: [Material App](button_bar_theme_data-properties-boolean.md)
 
 ### showSemanticsDebugger Type
 
@@ -752,7 +752,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/supportedLocales")
+-   defined in: [Material App](bottom_app_bar_theme-properties-dynamic.md)
 
 ### supportedLocales Type
 
@@ -779,7 +779,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Material App](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/themeMode")
+-   defined in: [Material App](app_bar_theme-properties-double.md)
 
 ### themeMode Type
 
@@ -787,9 +787,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### themeMode Constraints
 

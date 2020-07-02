@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/wrap.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [wrap.schema.json](../schema/widget/wrap.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [wrap.schema.json](../schema/widget/wrap.schema.json) |
 
 ## Wrap Type
 
@@ -21,22 +21,22 @@ https://legytma.com.br/schema/widget/wrap.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Wrap Properties
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                           |
 | :---------------------------------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                             | `string` | Optional | cannot be null | [Wrap](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/wrap.schema.json#/properties/type")                                     |
-| [direction](#direction)                   | `string` | Optional | cannot be null | [Wrap](grid_view_params-properties-axis.md "https&#x3A;//legytma.com.br/schema/axis.schema.json#/properties/direction")                              |
-| [alignment](#alignment)                   | `string` | Optional | cannot be null | [Wrap](wrap-properties-wrap-alignment.md "https&#x3A;//legytma.com.br/schema/wrap_alignment.schema.json#/properties/alignment")                      |
-| [spacing](#spacing)                       | Merged   | Optional | cannot be null | [Wrap](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/spacing")                               |
-| [runAlignment](#runAlignment)             | `string` | Optional | cannot be null | [Wrap](wrap-properties-wrap-alignment-1.md "https&#x3A;//legytma.com.br/schema/wrap_alignment.schema.json#/properties/runAlignment")                 |
-| [runSpacing](#runSpacing)                 | Merged   | Optional | cannot be null | [Wrap](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/runSpacing")                            |
-| [crossAxisAlignment](#crossAxisAlignment) | `string` | Optional | cannot be null | [Wrap](wrap-properties-wrap-cross-alignment.md "https&#x3A;//legytma.com.br/schema/wrap_cross_alignment.schema.json#/properties/crossAxisAlignment") |
-| [textDirection](#textDirection)           | `string` | Optional | cannot be null | [Wrap](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")                |
-| [verticalDirection](#verticalDirection)   | `string` | Optional | cannot be null | [Wrap](column-properties-vertical-direction.md "https&#x3A;//legytma.com.br/schema/vertical_direction.schema.json#/properties/verticalDirection")    |
-| [children](#children)                     | `array`  | Optional | cannot be null | [Wrap](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")             |
+| [type](#type)                             | `string` | Optional | cannot be null | [Wrap](widget-definitions-type.md)                                     |
+| [direction](#direction)                   | `string` | Optional | cannot be null | [Wrap](grid_view_params-properties-axis.md)                              |
+| [alignment](#alignment)                   | `string` | Optional | cannot be null | [Wrap](wrap-properties-wrap-alignment.md)                      |
+| [spacing](#spacing)                       | Merged   | Optional | cannot be null | [Wrap](app_bar_theme-properties-double.md)                               |
+| [runAlignment](#runAlignment)             | `string` | Optional | cannot be null | [Wrap](wrap-properties-wrap-alignment-1.md)                 |
+| [runSpacing](#runSpacing)                 | Merged   | Optional | cannot be null | [Wrap](app_bar_theme-properties-double.md)                            |
+| [crossAxisAlignment](#crossAxisAlignment) | `string` | Optional | cannot be null | [Wrap](wrap-properties-wrap-cross-alignment.md) |
+| [textDirection](#textDirection)           | `string` | Optional | cannot be null | [Wrap](column-properties-text-direction.md)                |
+| [verticalDirection](#verticalDirection)   | `string` | Optional | cannot be null | [Wrap](column-properties-vertical-direction.md)    |
+| [children](#children)                     | `array`  | Optional | cannot be null | [Wrap](grid_view_params-properties-list-of-widgets.md)             |
 
 ## type
 
@@ -51,7 +51,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Wrap](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/wrap.schema.json#/properties/type")
+-   defined in: [Wrap](widget-definitions-type.md)
 
 ### type Type
 
@@ -79,7 +79,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Axis](grid_view_params-properties-axis.md))
 -   cannot be null
--   defined in: [Wrap](grid_view_params-properties-axis.md "https&#x3A;//legytma.com.br/schema/axis.schema.json#/properties/direction")
+-   defined in: [Wrap](grid_view_params-properties-axis.md)
 
 ### direction Type
 
@@ -116,7 +116,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Wrap Alignment](wrap-properties-wrap-alignment-1.md))
 -   cannot be null
--   defined in: [Wrap](wrap-properties-wrap-alignment-1.md "https&#x3A;//legytma.com.br/schema/wrap_alignment.schema.json#/properties/alignment")
+-   defined in: [Wrap](wrap-properties-wrap-alignment-1.md)
 
 ### alignment Type
 
@@ -156,7 +156,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Wrap](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/spacing")
+-   defined in: [Wrap](app_bar_theme-properties-double.md)
 
 ### spacing Type
 
@@ -164,9 +164,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### spacing Constraints
 
@@ -196,7 +196,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Wrap Alignment](wrap-properties-wrap-alignment-1.md))
 -   cannot be null
--   defined in: [Wrap](wrap-properties-wrap-alignment-1.md "https&#x3A;//legytma.com.br/schema/wrap_alignment.schema.json#/properties/runAlignment")
+-   defined in: [Wrap](wrap-properties-wrap-alignment-1.md)
 
 ### runAlignment Type
 
@@ -236,7 +236,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Wrap](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/runSpacing")
+-   defined in: [Wrap](app_bar_theme-properties-double.md)
 
 ### runSpacing Type
 
@@ -244,9 +244,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### runSpacing Constraints
 
@@ -276,7 +276,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Wrap Cross Alignment](wrap-properties-wrap-cross-alignment.md))
 -   cannot be null
--   defined in: [Wrap](wrap-properties-wrap-cross-alignment.md "https&#x3A;//legytma.com.br/schema/wrap_cross_alignment.schema.json#/properties/crossAxisAlignment")
+-   defined in: [Wrap](wrap-properties-wrap-cross-alignment.md)
 
 ### crossAxisAlignment Type
 
@@ -313,7 +313,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Text Direction](column-properties-text-direction.md))
 -   cannot be null
--   defined in: [Wrap](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")
+-   defined in: [Wrap](column-properties-text-direction.md)
 
 ### textDirection Type
 
@@ -352,7 +352,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Vertical Direction](column-properties-vertical-direction.md))
 -   cannot be null
--   defined in: [Wrap](column-properties-vertical-direction.md "https&#x3A;//legytma.com.br/schema/vertical_direction.schema.json#/properties/verticalDirection")
+-   defined in: [Wrap](column-properties-vertical-direction.md)
 
 ### verticalDirection Type
 
@@ -388,7 +388,7 @@ List of Schema to validation of JSON used to parse Widgets.
 -   is optional
 -   Type: `object[]` ([Widget](list_widget-widget.md))
 -   cannot be null
--   defined in: [Wrap](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")
+-   defined in: [Wrap](grid_view_params-properties-list-of-widgets.md)
 
 ### children Type
 

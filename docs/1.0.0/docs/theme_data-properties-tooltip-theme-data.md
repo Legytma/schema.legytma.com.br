@@ -13,7 +13,7 @@ https://legytma.com.br/schema/tooltip_theme_data.schema.json#/properties/tooltip
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [theme_data.schema.json\*](../schema/theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [theme_data.schema.json\*](../schema/theme_data.schema.json) |
 
 ## tooltipTheme Type
 
@@ -23,16 +23,16 @@ https://legytma.com.br/schema/tooltip_theme_data.schema.json#/properties/tooltip
 
 | Property                                      | Type         | Required | Nullable       | Defined by                                                                                                                                                              |
 | :-------------------------------------------- | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [textStyle](#textStyle)                       | `object`     | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-text-style.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/textStyle")                     |
-| [margin](#margin)                             | Unknown Type | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/margin")    |
-| [height](#height)                             | Merged       | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")                                |
-| [padding](#padding)                           | Unknown Type | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-edge-insets-geometry-1.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding") |
-| [decoration](#decoration)                     | `object`     | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-decoration.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/properties/decoration")                    |
-| [excludeFromSemantics](#excludeFromSemantics) | `boolean`    | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/excludeFromSemantics")                   |
-| [preferBelow](#preferBelow)                   | `boolean`    | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-boolean-1.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/preferBelow")                          |
-| [showDuration](#showDuration)                 | `object`     | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-duration.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/showDuration")                      |
-| [verticalOffset](#verticalOffset)             | Merged       | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-double-1.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/verticalOffset")                      |
-| [waitDuration](#waitDuration)                 | `object`     | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-duration-1.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/waitDuration")                    |
+| [textStyle](#textStyle)                       | `object`     | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-text-style.md)                     |
+| [margin](#margin)                             | Unknown Type | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-edge-insets-geometry.md)    |
+| [height](#height)                             | Merged       | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-double.md)                                |
+| [padding](#padding)                           | Unknown Type | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-edge-insets-geometry-1.md) |
+| [decoration](#decoration)                     | `object`     | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-decoration.md)                    |
+| [excludeFromSemantics](#excludeFromSemantics) | `boolean`    | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-boolean.md)                   |
+| [preferBelow](#preferBelow)                   | `boolean`    | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-boolean-1.md)                          |
+| [showDuration](#showDuration)                 | `object`     | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-duration.md)                      |
+| [verticalOffset](#verticalOffset)             | Merged       | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-double-1.md)                      |
+| [waitDuration](#waitDuration)                 | `object`     | Optional | cannot be null | [Tooltip Theme Data](tooltip_theme_data-properties-duration-1.md)                    |
 
 ## textStyle
 
@@ -47,7 +47,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](tooltip_theme_data-properties-text-style.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-text-style.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/textStyle")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-text-style.md)
 
 ### textStyle Type
 
@@ -67,7 +67,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](tooltip_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/margin")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-edge-insets-geometry.md)
 
 ### margin Type
 
@@ -86,7 +86,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](tooltip_theme_data-properties-double.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-double.md)
 
 ### height Type
 
@@ -94,9 +94,9 @@ merged type ([Double](tooltip_theme_data-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### height Default Value
 
@@ -120,7 +120,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](tooltip_theme_data-properties-edge-insets-geometry-1.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-edge-insets-geometry-1.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-edge-insets-geometry-1.md)
 
 ### padding Type
 
@@ -140,7 +140,7 @@ any of the folllowing: `string` or `object` ([Edge Insets Geometry](tooltip_them
 -   is optional
 -   Type: `object` ([Decoration](tooltip_theme_data-properties-decoration.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-decoration.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/properties/decoration")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-decoration.md)
 
 ### decoration Type
 
@@ -159,7 +159,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](tooltip_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/excludeFromSemantics")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-boolean.md)
 
 ### excludeFromSemantics Type
 
@@ -196,7 +196,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](tooltip_theme_data-properties-boolean-1.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-boolean-1.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/preferBelow")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-boolean-1.md)
 
 ### preferBelow Type
 
@@ -234,7 +234,7 @@ false
 -   is optional
 -   Type: `object` ([Duration](tooltip_theme_data-properties-duration.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-duration.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/showDuration")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-duration.md)
 
 ### showDuration Type
 
@@ -253,7 +253,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](tooltip_theme_data-properties-double-1.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-double-1.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/verticalOffset")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-double-1.md)
 
 ### verticalOffset Type
 
@@ -261,9 +261,9 @@ merged type ([Double](tooltip_theme_data-properties-double-1.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### verticalOffset Default Value
 
@@ -287,7 +287,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Duration](tooltip_theme_data-properties-duration-1.md))
 -   cannot be null
--   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-duration-1.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/waitDuration")
+-   defined in: [Tooltip Theme Data](tooltip_theme_data-properties-duration-1.md)
 
 ### waitDuration Type
 

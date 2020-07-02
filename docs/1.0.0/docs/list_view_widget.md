@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/list_view_widget.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                           |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [list_view_widget.schema.json](../schema/widget/list_view_widget.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [list_view_widget.schema.json](../schema/widget/list_view_widget.schema.json) |
 
 ## List View Widget Type
 
@@ -21,14 +21,14 @@ https://legytma.com.br/schema/widget/list_view_widget.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # List View Widget Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                               |
 | :---------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)     | `string` | Optional | cannot be null | [List View Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/list_view_widget.schema.json#/properties/type")                 |
-| [params](#params) | `object` | Required | cannot be null | [List View Widget](list_view_widget-properties-list-view-params.md "https&#x3A;//legytma.com.br/schema/list_view_params.schema.json#/properties/params") |
+| [type](#type)     | `string` | Optional | cannot be null | [List View Widget](widget-definitions-type.md)                 |
+| [params](#params) | `object` | Required | cannot be null | [List View Widget](list_view_widget-properties-list-view-params.md) |
 
 ## type
 
@@ -43,7 +43,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [List View Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/list_view_widget.schema.json#/properties/type")
+-   defined in: [List View Widget](widget-definitions-type.md)
 
 ### type Type
 
@@ -71,7 +71,7 @@ Identify the widget type
 -   is required
 -   Type: `object` ([List View Params](list_view_widget-properties-list-view-params.md))
 -   cannot be null
--   defined in: [List View Widget](list_view_widget-properties-list-view-params.md "https&#x3A;//legytma.com.br/schema/list_view_params.schema.json#/properties/params")
+-   defined in: [List View Widget](list_view_widget-properties-list-view-params.md)
 
 ### params Type
 

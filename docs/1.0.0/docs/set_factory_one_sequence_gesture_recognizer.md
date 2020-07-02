@@ -13,7 +13,7 @@ https://legytma.com.br/schema/set_factory_one_sequence_gesture_recognizer.schema
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                                          |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [set_factory_one_sequence_gesture_recognizer.schema.json](../schema/set_factory_one_sequence_gesture_recognizer.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [set_factory_one_sequence_gesture_recognizer.schema.json](../schema/set_factory_one_sequence_gesture_recognizer.schema.json) |
 
 ## Set Factory One Sequence Gesture Recognizer Type
 

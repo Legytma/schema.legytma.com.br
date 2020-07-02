@@ -13,7 +13,7 @@ https://legytma.com.br/schema/offset_infinite.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [offset_infinite.schema.json](../schema/offset_infinite.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [offset_infinite.schema.json](../schema/offset_infinite.schema.json) |
 
 ## Offset Infinite Type
 
@@ -21,13 +21,13 @@ https://legytma.com.br/schema/offset_infinite.schema.json
 
 all of
 
--   [Offset](box_shadow-properties-offset.md "check type definition")
+-   [Offset](box_shadow-properties-offset.md)
 
 # Offset Infinite Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                      |
 | :------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type) | `string` | Optional | cannot be null | [Offset Infinite](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset_infinite.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Offset Infinite](widget-definitions-type.md) |
 
 ## type
 
@@ -42,7 +42,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Offset Infinite](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset_infinite.schema.json#/properties/type")
+-   defined in: [Offset Infinite](widget-definitions-type.md)
 
 ### type Type
 

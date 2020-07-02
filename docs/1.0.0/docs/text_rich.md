@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/text_rich.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                             |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_rich.schema.json](../schema/widget/text_rich.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_rich.schema.json](../schema/widget/text_rich.schema.json) |
 
 ## Text Rich Type
 
@@ -23,13 +23,13 @@ all of
 
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Text Rich Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                     |
 | :-------------------- | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-| [textSpan](#textSpan) | `object` | Required | cannot be null | [Text Rich](text_rich-properties-text-span.md "https&#x3A;//legytma.com.br/schema/text_span.schema.json#/properties/textSpan") |
+| [textSpan](#textSpan) | `object` | Required | cannot be null | [Text Rich](text_rich-properties-text-span.md) |
 
 ## textSpan
 
@@ -45,7 +45,7 @@ all of
 -   is required
 -   Type: `object` ([Text Span](text_rich-properties-text-span.md))
 -   cannot be null
--   defined in: [Text Rich](text_rich-properties-text-span.md "https&#x3A;//legytma.com.br/schema/text_span.schema.json#/properties/textSpan")
+-   defined in: [Text Rich](text_rich-properties-text-span.md)
 
 ### textSpan Type
 

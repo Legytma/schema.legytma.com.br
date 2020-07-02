@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/sized_box_default.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                             |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [sized_box_default.schema.json](../schema/widget/sized_box_default.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [sized_box_default.schema.json](../schema/widget/sized_box_default.schema.json) |
 
 ## Sized Box Default Type
 
@@ -23,15 +23,15 @@ all of
 
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Sized Box Default Properties
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                      |
 | :---------------------------- | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [sizedBoxType](#sizedBoxType) | `string` | Optional | cannot be null | [Sized Box Default](sized_box-definitions-sized-box-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box_default.schema.json#/properties/sizedBoxType") |
-| [height](#height)             | Merged   | Optional | cannot be null | [Sized Box Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")                              |
-| [width](#width)               | Merged   | Optional | cannot be null | [Sized Box Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")                               |
+| [sizedBoxType](#sizedBoxType) | `string` | Optional | cannot be null | [Sized Box Default](sized_box-definitions-sized-box-type.md) |
+| [height](#height)             | Merged   | Optional | cannot be null | [Sized Box Default](app_bar_theme-properties-double.md)                              |
+| [width](#width)               | Merged   | Optional | cannot be null | [Sized Box Default](app_bar_theme-properties-double.md)                               |
 
 ## sizedBoxType
 
@@ -43,7 +43,7 @@ all of
 -   is optional
 -   Type: `string` ([Sized Box Type](sized_box-definitions-sized-box-type.md))
 -   cannot be null
--   defined in: [Sized Box Default](sized_box-definitions-sized-box-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box_default.schema.json#/properties/sizedBoxType")
+-   defined in: [Sized Box Default](sized_box-definitions-sized-box-type.md)
 
 ### sizedBoxType Type
 
@@ -79,7 +79,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Sized Box Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Sized Box Default](app_bar_theme-properties-double.md)
 
 ### height Type
 
@@ -87,9 +87,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### height Constraints
 
@@ -118,7 +118,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Sized Box Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")
+-   defined in: [Sized Box Default](app_bar_theme-properties-double.md)
 
 ### width Type
 
@@ -126,9 +126,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### width Constraints
 

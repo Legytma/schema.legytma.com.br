@@ -12,7 +12,7 @@ Schema to validation of JSON used to parse Widget.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [list_widget.schema.json\*](../schema/list_widget.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [list_widget.schema.json\*](../schema/list_widget.schema.json) |
 
 ## items Type
 
@@ -22,8 +22,8 @@ Schema to validation of JSON used to parse Widget.
 
 | Property      | Type         | Required | Nullable       | Defined by                                                                                                      |
 | :------------ | ------------ | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------- |
-| [key](#key)   | Unknown Type | Optional | can be null    | [Widget](widget-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/key") |
-| [type](#type) | `string`     | Required | cannot be null | [Widget](widget-properties-type.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/type")    |
+| [key](#key)   | Unknown Type | Optional | can be null    | [Widget](widget-properties-dynamic.md) |
+| [type](#type) | `string`     | Required | cannot be null | [Widget](widget-properties-type.md)    |
 
 ## key
 
@@ -39,7 +39,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](widget-properties-dynamic.md))
 -   can be null
--   defined in: [Widget](widget-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/key")
+-   defined in: [Widget](widget-properties-dynamic.md)
 
 ### key Type
 
@@ -58,7 +58,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Type](widget-properties-type.md))
 -   cannot be null
--   defined in: [Widget](widget-properties-type.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/type")
+-   defined in: [Widget](widget-properties-type.md)
 
 ### type Type
 
@@ -85,7 +85,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/definitions/type")
+-   defined in: [Widget](widget-definitions-type.md)
 
 ### type Type
 

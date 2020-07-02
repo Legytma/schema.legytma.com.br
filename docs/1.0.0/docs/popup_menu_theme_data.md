@@ -13,7 +13,7 @@ https://legytma.com.br/schema/popup_menu_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [popup_menu_theme_data.schema.json](../schema/popup_menu_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [popup_menu_theme_data.schema.json](../schema/popup_menu_theme_data.schema.json) |
 
 ## Popup Menu Theme Data Type
 
@@ -23,10 +23,10 @@ https://legytma.com.br/schema/popup_menu_theme_data.schema.json
 
 | Property                | Type         | Required | Nullable       | Defined by                                                                                                                                            |
 | :---------------------- | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [elevation](#elevation) | Merged       | Optional | cannot be null | [Popup Menu Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")             |
-| [shape](#shape)         | Unknown Type | Optional | can be null    | [Popup Menu Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")        |
-| [color](#color)         | Merged       | Optional | cannot be null | [Popup Menu Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                   |
-| [textStyle](#textStyle) | `object`     | Optional | cannot be null | [Popup Menu Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/textStyle") |
+| [elevation](#elevation) | Merged       | Optional | cannot be null | [Popup Menu Theme Data](app_bar_theme-properties-double.md)             |
+| [shape](#shape)         | Unknown Type | Optional | can be null    | [Popup Menu Theme Data](bottom_app_bar_theme-properties-dynamic.md)        |
+| [color](#color)         | Merged       | Optional | cannot be null | [Popup Menu Theme Data](app_bar_theme-properties-color.md)                   |
+| [textStyle](#textStyle) | `object`     | Optional | cannot be null | [Popup Menu Theme Data](chip_theme_data-properties-text-style-1.md) |
 
 ## elevation
 
@@ -41,7 +41,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Popup Menu Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Popup Menu Theme Data](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -49,9 +49,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### elevation Constraints
 
@@ -81,7 +81,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Popup Menu Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Popup Menu Theme Data](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -100,7 +100,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Popup Menu Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Popup Menu Theme Data](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -108,7 +108,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -149,7 +149,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Popup Menu Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/textStyle")
+-   defined in: [Popup Menu Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### textStyle Type
 

@@ -9,7 +9,7 @@ https://legytma.com.br/schema/widget/icon_button.schema.json#/properties/tooltip
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                   |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [icon_button.schema.json\*](../schema/widget/icon_button.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [icon_button.schema.json\*](../schema/widget/icon_button.schema.json) |
 
 ## tooltip Type
 

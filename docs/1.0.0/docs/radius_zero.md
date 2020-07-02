@@ -13,7 +13,7 @@ https://legytma.com.br/schema/radius_zero.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_zero.schema.json](../schema/radius_zero.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_zero.schema.json](../schema/radius_zero.schema.json) |
 
 ## Radius Zero Type
 
@@ -21,13 +21,13 @@ https://legytma.com.br/schema/radius_zero.schema.json
 
 all of
 
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+-   [Radius Object](radius-oneof-radius-object.md)
 
 # Radius Zero Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                              |
 | :------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Radius Zero](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_zero.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Radius Zero](widget-definitions-type.md) |
 
 ## type
 
@@ -42,7 +42,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Radius Zero](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_zero.schema.json#/properties/type")
+-   defined in: [Radius Zero](widget-definitions-type.md)
 
 ### type Type
 

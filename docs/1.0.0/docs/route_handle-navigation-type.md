@@ -9,7 +9,7 @@ https://legytma.com.br/schema/route_handle.schema.json#/navigationType
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                              |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [route_handle.schema.json\*](../schema/route_handle.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [route_handle.schema.json\*](../schema/route_handle.schema.json) |
 
 ## navigationType Type
 

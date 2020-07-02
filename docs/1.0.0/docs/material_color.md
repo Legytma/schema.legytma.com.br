@@ -12,7 +12,7 @@ Identify the widget type
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [material_color.schema.json](../schema/material_color.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [material_color.schema.json](../schema/material_color.schema.json) |
 
 ## Material Color Type
 
@@ -22,8 +22,8 @@ Identify the widget type
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                               |
 | :------------------ | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
-| [primary](#primary) | Merged   | Required | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primary")           |
-| [swatch](#swatch)   | `object` | Optional | cannot be null | [Material Color](material_color-properties-swatch.md "https&#x3A;//legytma.com.br/schema/material_color.schema.json#/properties/swatch") |
+| [primary](#primary) | Merged   | Required | cannot be null | [Material Color](app_bar_theme-properties-color.md)           |
+| [swatch](#swatch)   | `object` | Optional | cannot be null | [Material Color](material_color-properties-swatch.md) |
 
 ## primary
 
@@ -38,7 +38,7 @@ A number in format string or integer
 -   is required
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primary")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### primary Type
 
@@ -46,7 +46,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### primary Default Value
 
@@ -84,7 +84,7 @@ Swatch colors
 -   is optional
 -   Type: `object` ([Swatch](material_color-properties-swatch.md))
 -   cannot be null
--   defined in: [Material Color](material_color-properties-swatch.md "https&#x3A;//legytma.com.br/schema/material_color.schema.json#/properties/swatch")
+-   defined in: [Material Color](material_color-properties-swatch.md)
 
 ### swatch Type
 

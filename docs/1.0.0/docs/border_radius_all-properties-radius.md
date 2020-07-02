@@ -13,7 +13,7 @@ https://legytma.com.br/schema/radius.schema.json#/properties/all
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [border_radius_all.schema.json\*](../schema/border_radius_all.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [border_radius_all.schema.json\*](../schema/border_radius_all.schema.json) |
 
 ## all Type
 
@@ -25,7 +25,7 @@ one (and only one) of
 
     -   one (and only one) of
 
-        -   [Untitled number in Double](double-oneof-0.md "check type definition")
-        -   [Untitled string in Double](double-oneof-1.md "check type definition")
-        -   [Untitled string in Double](double-oneof-2.md "check type definition")
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+        -   [Untitled number in Double](double-oneof-0.md)
+        -   [Untitled string in Double](double-oneof-1.md)
+        -   [Untitled string in Double](double-oneof-2.md)
+-   [Radius Object](radius-oneof-radius-object.md)

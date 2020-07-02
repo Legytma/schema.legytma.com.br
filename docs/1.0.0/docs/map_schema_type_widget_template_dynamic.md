@@ -13,7 +13,7 @@ https://legytma.com.br/schema/map_schema_type_widget_template_dynamic.schema.jso
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [map_schema_type_widget_template_dynamic.schema.json](../schema/map_schema_type_widget_template_dynamic.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [map_schema_type_widget_template_dynamic.schema.json](../schema/map_schema_type_widget_template_dynamic.schema.json) |
 
 ## Map Schema Type Widget Template Dynamic Type
 

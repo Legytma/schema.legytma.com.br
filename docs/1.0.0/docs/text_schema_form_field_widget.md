@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/text_schema_form_field_widget.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                     |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_schema_form_field_widget.schema.json](../schema/widget/text_schema_form_field_widget.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_schema_form_field_widget.schema.json](../schema/widget/text_schema_form_field_widget.schema.json) |
 
 ## Text Schema Form Field Widget Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/widget/text_schema_form_field_widget.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Text Schema Form Field Widget Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                         |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Text Schema Form Field Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_widget.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Text Schema Form Field Widget](widget-definitions-type.md) |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_widget.schema.json#/properties/type")
+-   defined in: [Text Schema Form Field Widget](widget-definitions-type.md)
 
 ### type Type
 

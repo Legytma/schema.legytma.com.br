@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/place_holder.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [place_holder.schema.json](../schema/widget/place_holder.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [place_holder.schema.json](../schema/widget/place_holder.schema.json) |
 
 ## Place Holder Type
 
@@ -21,17 +21,17 @@ https://legytma.com.br/schema/widget/place_holder.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Place Holder Properties
 
 | Property                          | Type     | Required | Nullable       | Defined by                                                                                                                            |
 | :-------------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                     | `string` | Optional | cannot be null | [Place Holder](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/place_holder.schema.json#/properties/type")      |
-| [color](#color)                   | Merged   | Optional | cannot be null | [Place Holder](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")            |
-| [strokeWidth](#strokeWidth)       | Merged   | Optional | cannot be null | [Place Holder](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/strokeWidth")    |
-| [fallbackWidth](#fallbackWidth)   | Merged   | Optional | cannot be null | [Place Holder](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/fallbackWidth")  |
-| [fallbackHeight](#fallbackHeight) | Merged   | Optional | cannot be null | [Place Holder](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/fallbackHeight") |
+| [type](#type)                     | `string` | Optional | cannot be null | [Place Holder](widget-definitions-type.md)      |
+| [color](#color)                   | Merged   | Optional | cannot be null | [Place Holder](app_bar_theme-properties-color.md)            |
+| [strokeWidth](#strokeWidth)       | Merged   | Optional | cannot be null | [Place Holder](app_bar_theme-properties-double.md)    |
+| [fallbackWidth](#fallbackWidth)   | Merged   | Optional | cannot be null | [Place Holder](app_bar_theme-properties-double.md)  |
+| [fallbackHeight](#fallbackHeight) | Merged   | Optional | cannot be null | [Place Holder](app_bar_theme-properties-double.md) |
 
 ## type
 
@@ -46,7 +46,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Place Holder](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/place_holder.schema.json#/properties/type")
+-   defined in: [Place Holder](widget-definitions-type.md)
 
 ### type Type
 
@@ -73,7 +73,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Place Holder](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Place Holder](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -81,7 +81,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -122,7 +122,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Place Holder](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/strokeWidth")
+-   defined in: [Place Holder](app_bar_theme-properties-double.md)
 
 ### strokeWidth Type
 
@@ -130,9 +130,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### strokeWidth Constraints
 
@@ -161,7 +161,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Place Holder](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/fallbackWidth")
+-   defined in: [Place Holder](app_bar_theme-properties-double.md)
 
 ### fallbackWidth Type
 
@@ -169,9 +169,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### fallbackWidth Constraints
 
@@ -200,7 +200,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Place Holder](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/fallbackHeight")
+-   defined in: [Place Holder](app_bar_theme-properties-double.md)
 
 ### fallbackHeight Type
 
@@ -208,9 +208,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### fallbackHeight Constraints
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/custom_clipper_r_rect.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                              |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [custom_clipper_r_rect.schema.json](../schema/custom_clipper_r_rect.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [custom_clipper_r_rect.schema.json](../schema/custom_clipper_r_rect.schema.json) |
 
 ## Custom Clipper R Rect Type
 

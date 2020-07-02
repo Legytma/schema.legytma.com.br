@@ -13,7 +13,7 @@ https://legytma.com.br/schema/blend_mode.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [blend_mode.schema.json](../schema/blend_mode.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [blend_mode.schema.json](../schema/blend_mode.schema.json) |
 
 ## Blend Mode Type
 

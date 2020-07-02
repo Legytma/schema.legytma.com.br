@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/text_default.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_default.schema.json](../schema/widget/text_default.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_default.schema.json](../schema/widget/text_default.schema.json) |
 
 ## Text Default Type
 
@@ -23,13 +23,13 @@ all of
 
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Text Default Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                            |
 | :------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| [data](#data) | `string` | Required | cannot be null | [Text Default](text_default-properties-data.md "https&#x3A;//legytma.com.br/schema/widget/text_default.schema.json#/properties/data") |
+| [data](#data) | `string` | Required | cannot be null | [Text Default](text_default-properties-data.md) |
 
 ## data
 
@@ -41,7 +41,7 @@ all of
 -   is required
 -   Type: `string` ([Data](text_default-properties-data.md))
 -   cannot be null
--   defined in: [Text Default](text_default-properties-data.md "https&#x3A;//legytma.com.br/schema/widget/text_default.schema.json#/properties/data")
+-   defined in: [Text Default](text_default-properties-data.md)
 
 ### data Type
 

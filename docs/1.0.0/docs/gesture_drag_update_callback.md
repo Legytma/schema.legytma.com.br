@@ -13,7 +13,7 @@ https://legytma.com.br/schema/gesture_drag_update_callback.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [gesture_drag_update_callback.schema.json](../schema/gesture_drag_update_callback.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [gesture_drag_update_callback.schema.json](../schema/gesture_drag_update_callback.schema.json) |
 
 ## Gesture Drag Update Callback Type
 

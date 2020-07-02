@@ -8,5 +8,5 @@ module.exports.readVersion = function(contents) {
 }
 
 module.exports.writeVersion = function(contents, version) {
-	return contents.replace(regex, `-   [${version}](./${version}/docs/README.md "Legytma Schema Documentation version ${version}") – Legytma Schema Documentation version ${version};\n$1$2`);
+	return contents.replace(regex, `-   [${version}](./${version}/docs/README.md) – Legytma Schema Documentation version ${version};\n$1$2`);
 }

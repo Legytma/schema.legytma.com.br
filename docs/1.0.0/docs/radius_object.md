@@ -13,7 +13,7 @@ https://legytma.com.br/schema/radius_object.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_object.schema.json](../schema/radius_object.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_object.schema.json](../schema/radius_object.schema.json) |
 
 ## Radius Object Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/radius_object.schema.json
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                  |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Required | cannot be null | [Radius Object](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_object.schema.json#/properties/type") |
+| [type](#type) | `string` | Required | cannot be null | [Radius Object](widget-definitions-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Radius Object](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_object.schema.json#/properties/type")
+-   defined in: [Radius Object](widget-definitions-type.md)
 
 ### type Type
 
@@ -77,7 +77,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Radius Object](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_object.schema.json#/definitions/type")
+-   defined in: [Radius Object](widget-definitions-type.md)
 
 ### type Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/base_line.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                             |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [base_line.schema.json](../schema/widget/base_line.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [base_line.schema.json](../schema/widget/base_line.schema.json) |
 
 ## Base Line Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/widget/base_line.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Base Line Properties
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                  |
 | :---------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                 | `string` | Required | cannot be null | [Base Line](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/base_line.schema.json#/properties/type")                  |
-| [baseline](#baseline)         | Merged   | Required | cannot be null | [Base Line](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/baseline")                |
-| [baselineType](#baselineType) | `string` | Required | cannot be null | [Base Line](text_style-properties-text-baseline.md "https&#x3A;//legytma.com.br/schema/text_baseline.schema.json#/properties/baselineType") |
-| [child](#child)               | `object` | Optional | cannot be null | [Base Line](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")              |
+| [type](#type)                 | `string` | Required | cannot be null | [Base Line](widget-definitions-type.md)                  |
+| [baseline](#baseline)         | Merged   | Required | cannot be null | [Base Line](app_bar_theme-properties-double.md)                |
+| [baselineType](#baselineType) | `string` | Required | cannot be null | [Base Line](text_style-properties-text-baseline.md) |
+| [child](#child)               | `object` | Optional | cannot be null | [Base Line](input_decoration-properties-widget-5.md)              |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Base Line](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/base_line.schema.json#/properties/type")
+-   defined in: [Base Line](widget-definitions-type.md)
 
 ### type Type
 
@@ -72,7 +72,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Base Line](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/baseline")
+-   defined in: [Base Line](app_bar_theme-properties-double.md)
 
 ### baseline Type
 
@@ -80,9 +80,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### baseline Constraints
 
@@ -112,7 +112,7 @@ The default value is:
 -   is required
 -   Type: `string` ([Text Baseline](text_style-properties-text-baseline.md))
 -   cannot be null
--   defined in: [Base Line](text_style-properties-text-baseline.md "https&#x3A;//legytma.com.br/schema/text_baseline.schema.json#/properties/baselineType")
+-   defined in: [Base Line](text_style-properties-text-baseline.md)
 
 ### baselineType Type
 
@@ -140,7 +140,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Base Line](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Base Line](input_decoration-properties-widget-5.md)
 
 ### child Type
 

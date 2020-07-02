@@ -13,7 +13,7 @@ https://legytma.com.br/schema/decoration_image.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration_image.schema.json](../schema/decoration_image.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration_image.schema.json](../schema/decoration_image.schema.json) |
 
 ## Decoration Image Type
 
@@ -23,13 +23,13 @@ https://legytma.com.br/schema/decoration_image.schema.json
 
 | Property                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                          |
 | :---------------------------------------- | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [image](#image)                           | `object`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-image-provider-dynamic.md "https&#x3A;//legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/image") |
-| [alignment](#alignment)                   | `string`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-alignment.md "https&#x3A;//legytma.com.br/schema/alignment.schema.json#/properties/alignment")                       |
-| [centerSlice](#centerSlice)               | `object`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-rect.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/properties/centerSlice")                               |
-| [colorFilter](#colorFilter)               | `object`  | Optional | cannot be null | [Decoration Image](color_filter_linear_to_srgb_gamma-allof-color-filter.md "https&#x3A;//legytma.com.br/schema/color_filter.schema.json#/properties/colorFilter")   |
-| [fit](#fit)                               | `string`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-box-fit.md "https&#x3A;//legytma.com.br/schema/box_fit.schema.json#/properties/fit")                                 |
-| [matchTextDirection](#matchTextDirection) | `boolean` | Optional | cannot be null | [Decoration Image](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/matchTextDirection")                |
-| [repeat](#repeat)                         | `string`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-image-repeat.md "https&#x3A;//legytma.com.br/schema/image_repeat.schema.json#/properties/repeat")                    |
+| [image](#image)                           | `object`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-image-provider-dynamic.md) |
+| [alignment](#alignment)                   | `string`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-alignment.md)                       |
+| [centerSlice](#centerSlice)               | `object`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-rect.md)                               |
+| [colorFilter](#colorFilter)               | `object`  | Optional | cannot be null | [Decoration Image](color_filter_linear_to_srgb_gamma-allof-color-filter.md)   |
+| [fit](#fit)                               | `string`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-box-fit.md)                                 |
+| [matchTextDirection](#matchTextDirection) | `boolean` | Optional | cannot be null | [Decoration Image](button_bar_theme_data-properties-boolean.md)                |
+| [repeat](#repeat)                         | `string`  | Optional | cannot be null | [Decoration Image](decoration_image-properties-image-repeat.md)                    |
 
 ## image
 
@@ -45,7 +45,7 @@ https://legytma.com.br/schema/decoration_image.schema.json
 -   is optional
 -   Type: `object` ([Image Provider Dynamic](decoration_image-properties-image-provider-dynamic.md))
 -   cannot be null
--   defined in: [Decoration Image](decoration_image-properties-image-provider-dynamic.md "https&#x3A;//legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/image")
+-   defined in: [Decoration Image](decoration_image-properties-image-provider-dynamic.md)
 
 ### image Type
 
@@ -64,7 +64,7 @@ Determine the alignment
 -   is optional
 -   Type: `string` ([Alignment](decoration_image-properties-alignment.md))
 -   cannot be null
--   defined in: [Decoration Image](decoration_image-properties-alignment.md "https&#x3A;//legytma.com.br/schema/alignment.schema.json#/properties/alignment")
+-   defined in: [Decoration Image](decoration_image-properties-alignment.md)
 
 ### alignment Type
 
@@ -146,7 +146,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Rect](decoration_image-properties-rect.md))
 -   cannot be null
--   defined in: [Decoration Image](decoration_image-properties-rect.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/properties/centerSlice")
+-   defined in: [Decoration Image](decoration_image-properties-rect.md)
 
 ### centerSlice Type
 
@@ -166,7 +166,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Color Filter](color_filter_linear_to_srgb_gamma-allof-color-filter.md))
 -   cannot be null
--   defined in: [Decoration Image](color_filter_linear_to_srgb_gamma-allof-color-filter.md "https&#x3A;//legytma.com.br/schema/color_filter.schema.json#/properties/colorFilter")
+-   defined in: [Decoration Image](color_filter_linear_to_srgb_gamma-allof-color-filter.md)
 
 ### colorFilter Type
 
@@ -186,7 +186,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Box Fit](decoration_image-properties-box-fit.md))
 -   cannot be null
--   defined in: [Decoration Image](decoration_image-properties-box-fit.md "https&#x3A;//legytma.com.br/schema/box_fit.schema.json#/properties/fit")
+-   defined in: [Decoration Image](decoration_image-properties-box-fit.md)
 
 ### fit Type
 
@@ -227,7 +227,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Decoration Image](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/matchTextDirection")
+-   defined in: [Decoration Image](button_bar_theme_data-properties-boolean.md)
 
 ### matchTextDirection Type
 
@@ -265,7 +265,7 @@ false
 -   is optional
 -   Type: `string` ([Image Repeat](decoration_image-properties-image-repeat.md))
 -   cannot be null
--   defined in: [Decoration Image](decoration_image-properties-image-repeat.md "https&#x3A;//legytma.com.br/schema/image_repeat.schema.json#/properties/repeat")
+-   defined in: [Decoration Image](decoration_image-properties-image-repeat.md)
 
 ### repeat Type
 

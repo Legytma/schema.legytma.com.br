@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_radius_horizontal.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_radius_horizontal.schema.json](../schema/border_radius_horizontal.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_radius_horizontal.schema.json](../schema/border_radius_horizontal.schema.json) |
 
 ## Border Radius Horizontal Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/border_radius_horizontal.schema.json
 
 all of
 
--   [Border Radius Object](border_radius-oneof-border-radius-object.md "check type definition")
+-   [Border Radius Object](border_radius-oneof-border-radius-object.md)
 
 # Border Radius Horizontal Properties
 
 | Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                        |
 | :-------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)   | `string` | Optional | cannot be null | [Border Radius Horizontal](border_radius_geometry-definitions-type.md "https&#x3A;//legytma.com.br/schema/border_radius_horizontal.schema.json#/properties/type") |
-| [right](#right) | Merged   | Optional | cannot be null | [Border Radius Horizontal](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/right")                      |
-| [left](#left)   | Merged   | Optional | cannot be null | [Border Radius Horizontal](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/left")                       |
+| [type](#type)   | `string` | Optional | cannot be null | [Border Radius Horizontal](border_radius_geometry-definitions-type.md) |
+| [right](#right) | Merged   | Optional | cannot be null | [Border Radius Horizontal](border_radius_all-properties-radius.md)                      |
+| [left](#left)   | Merged   | Optional | cannot be null | [Border Radius Horizontal](border_radius_all-properties-radius.md)                       |
 
 ## type
 
@@ -41,7 +41,7 @@ Define o tipo de Border Radius
 -   is optional
 -   Type: `string` ([Type](border_radius_geometry-definitions-type.md))
 -   cannot be null
--   defined in: [Border Radius Horizontal](border_radius_geometry-definitions-type.md "https&#x3A;//legytma.com.br/schema/border_radius_horizontal.schema.json#/properties/type")
+-   defined in: [Border Radius Horizontal](border_radius_geometry-definitions-type.md)
 
 ### type Type
 
@@ -82,7 +82,7 @@ Define o tipo de Border Radius
 -   is optional
 -   Type: merged type ([Radius](border_radius_all-properties-radius.md))
 -   cannot be null
--   defined in: [Border Radius Horizontal](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/right")
+-   defined in: [Border Radius Horizontal](border_radius_all-properties-radius.md)
 
 ### right Type
 
@@ -94,10 +94,10 @@ one (and only one) of
 
     -   one (and only one) of
 
-        -   [Untitled number in Double](double-oneof-0.md "check type definition")
-        -   [Untitled string in Double](double-oneof-1.md "check type definition")
-        -   [Untitled string in Double](double-oneof-2.md "check type definition")
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+        -   [Untitled number in Double](double-oneof-0.md)
+        -   [Untitled string in Double](double-oneof-1.md)
+        -   [Untitled string in Double](double-oneof-2.md)
+-   [Radius Object](radius-oneof-radius-object.md)
 
 ## left
 
@@ -113,7 +113,7 @@ one (and only one) of
 -   is optional
 -   Type: merged type ([Radius](border_radius_all-properties-radius.md))
 -   cannot be null
--   defined in: [Border Radius Horizontal](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/left")
+-   defined in: [Border Radius Horizontal](border_radius_all-properties-radius.md)
 
 ### left Type
 
@@ -125,7 +125,7 @@ one (and only one) of
 
     -   one (and only one) of
 
-        -   [Untitled number in Double](double-oneof-0.md "check type definition")
-        -   [Untitled string in Double](double-oneof-1.md "check type definition")
-        -   [Untitled string in Double](double-oneof-2.md "check type definition")
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+        -   [Untitled number in Double](double-oneof-0.md)
+        -   [Untitled string in Double](double-oneof-1.md)
+        -   [Untitled string in Double](double-oneof-2.md)
+-   [Radius Object](radius-oneof-radius-object.md)

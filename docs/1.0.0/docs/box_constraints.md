@@ -13,7 +13,7 @@ https://legytma.com.br/schema/box_constraints.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [box_constraints.schema.json](../schema/box_constraints.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [box_constraints.schema.json](../schema/box_constraints.schema.json) |
 
 ## Box Constraints Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/box_constraints.schema.json
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                              |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Box Constraints](box_constraints-properties-type.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Box Constraints](box_constraints-properties-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](box_constraints-properties-type.md))
 -   cannot be null
--   defined in: [Box Constraints](box_constraints-properties-type.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/properties/type")
+-   defined in: [Box Constraints](box_constraints-properties-type.md)
 
 ### type Type
 
@@ -78,7 +78,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](box_constraints-definitions-type.md))
 -   cannot be null
--   defined in: [Box Constraints](box_constraints-definitions-type.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/definitions/type")
+-   defined in: [Box Constraints](box_constraints-definitions-type.md)
 
 ### type Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/edge_insets_object.schema.json#/oneOf/1
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets.schema.json\*](../schema/edge_insets.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets.schema.json\*](../schema/edge_insets.schema.json) |
 
 ## 1 Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/edge_insets_object.schema.json#/oneOf/1
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                       |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Required | cannot be null | [Edge Insets Object](edge_insets_object-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_object.schema.json#/properties/type") |
+| [type](#type) | `string` | Required | cannot be null | [Edge Insets Object](edge_insets_object-properties-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Type](edge_insets_object-properties-type.md))
 -   cannot be null
--   defined in: [Edge Insets Object](edge_insets_object-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_object.schema.json#/properties/type")
+-   defined in: [Edge Insets Object](edge_insets_object-properties-type.md)
 
 ### type Type
 
@@ -80,7 +80,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](edge_insets_object-definitions-type.md))
 -   cannot be null
--   defined in: [Edge Insets Object](edge_insets_object-definitions-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_object.schema.json#/definitions/type")
+-   defined in: [Edge Insets Object](edge_insets_object-definitions-type.md)
 
 ### type Type
 

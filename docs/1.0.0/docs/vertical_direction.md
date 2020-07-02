@@ -13,7 +13,7 @@ https://legytma.com.br/schema/vertical_direction.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [vertical_direction.schema.json](../schema/vertical_direction.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [vertical_direction.schema.json](../schema/vertical_direction.schema.json) |
 
 ## Vertical Direction Type
 

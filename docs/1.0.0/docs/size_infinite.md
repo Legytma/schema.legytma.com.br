@@ -13,7 +13,7 @@ https://legytma.com.br/schema/size_infinite.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [size_infinite.schema.json](../schema/size_infinite.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [size_infinite.schema.json](../schema/size_infinite.schema.json) |
 
 ## Size Infinite Type
 
@@ -21,13 +21,13 @@ https://legytma.com.br/schema/size_infinite.schema.json
 
 any of
 
--   [Size](box_constraints_loose-properties-size.md "check type definition")
+-   [Size](box_constraints_loose-properties-size.md)
 
 # Size Infinite Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                  |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Size Infinite](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/size_infinite.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Size Infinite](widget-definitions-type.md) |
 
 ## type
 
@@ -42,7 +42,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Size Infinite](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/size_infinite.schema.json#/properties/type")
+-   defined in: [Size Infinite](widget-definitions-type.md)
 
 ### type Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/scaffold.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [scaffold.schema.json](../schema/widget/scaffold.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [scaffold.schema.json](../schema/widget/scaffold.schema.json) |
 
 ## Scaffold Type
 
@@ -21,32 +21,32 @@ https://legytma.com.br/schema/widget/scaffold.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Scaffold Properties
 
 | Property                                                      | Type         | Required | Nullable       | Defined by                                                                                                                                                                                   |
 | :------------------------------------------------------------ | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                                                 | `string`     | Optional | cannot be null | [Scaffold](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/scaffold.schema.json#/properties/type")                                                                     |
-| [backgroundColor](#backgroundColor)                           | Merged       | Optional | cannot be null | [Scaffold](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")                                                             |
-| [body](#body)                                                 | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/body")                                                                 |
-| [drawer](#drawer)                                             | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/drawer")                                                               |
-| [appBar](#appBar)                                             | Unknown Type | Optional | can be null    | [Scaffold](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/appBar")                                                           |
-| [floatingActionButton](#floatingActionButton)                 | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/floatingActionButton")                                                 |
-| [primary](#primary)                                           | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/primary")                                                            |
-| [bottomNavigationBar](#bottomNavigationBar)                   | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/bottomNavigationBar")                                                  |
-| [bottomSheet](#bottomSheet)                                   | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/bottomSheet")                                                          |
-| [drawerDragStartBehavior](#drawerDragStartBehavior)           | `string`     | Optional | cannot be null | [Scaffold](gesture_detector-properties-drag-start-behavior.md "https&#x3A;//legytma.com.br/schema/drag_start_behavior.schema.json#/properties/drawerDragStartBehavior")                      |
-| [drawerEdgeDragWidth](#drawerEdgeDragWidth)                   | Merged       | Optional | cannot be null | [Scaffold](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/drawerEdgeDragWidth")                                                       |
-| [drawerScrimColor](#drawerScrimColor)                         | Merged       | Optional | cannot be null | [Scaffold](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/drawerScrimColor")                                                            |
-| [endDrawer](#endDrawer)                                       | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/endDrawer")                                                            |
-| [extendBody](#extendBody)                                     | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/extendBody")                                                         |
-| [extendBodyBehindAppBar](#extendBodyBehindAppBar)             | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/extendBodyBehindAppBar")                                             |
-| [floatingActionButtonAnimator](#floatingActionButtonAnimator) | `object`     | Optional | cannot be null | [Scaffold](scaffold-properties-floating-action-button-animator.md "https&#x3A;//legytma.com.br/schema/floating_action_button_animator.schema.json#/properties/floatingActionButtonAnimator") |
-| [floatingActionButtonLocation](#floatingActionButtonLocation) | `object`     | Optional | cannot be null | [Scaffold](scaffold-properties-floating-action-button-location.md "https&#x3A;//legytma.com.br/schema/floating_action_button_location.schema.json#/properties/floatingActionButtonLocation") |
-| [persistentFooterButtons](#persistentFooterButtons)           | `array`      | Optional | cannot be null | [Scaffold](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/persistentFooterButtons")                                  |
-| [resizeToAvoidBottomInset](#resizeToAvoidBottomInset)         | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/resizeToAvoidBottomInset")                                           |
-| [resizeToAvoidBottomPadding](#resizeToAvoidBottomPadding)     | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/resizeToAvoidBottomPadding")                                         |
+| [type](#type)                                                 | `string`     | Optional | cannot be null | [Scaffold](widget-definitions-type.md)                                                                     |
+| [backgroundColor](#backgroundColor)                           | Merged       | Optional | cannot be null | [Scaffold](app_bar_theme-properties-color.md)                                                             |
+| [body](#body)                                                 | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md)                                                                 |
+| [drawer](#drawer)                                             | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md)                                                               |
+| [appBar](#appBar)                                             | Unknown Type | Optional | can be null    | [Scaffold](bottom_app_bar_theme-properties-dynamic.md)                                                           |
+| [floatingActionButton](#floatingActionButton)                 | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md)                                                 |
+| [primary](#primary)                                           | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md)                                                            |
+| [bottomNavigationBar](#bottomNavigationBar)                   | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md)                                                  |
+| [bottomSheet](#bottomSheet)                                   | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md)                                                          |
+| [drawerDragStartBehavior](#drawerDragStartBehavior)           | `string`     | Optional | cannot be null | [Scaffold](gesture_detector-properties-drag-start-behavior.md)                      |
+| [drawerEdgeDragWidth](#drawerEdgeDragWidth)                   | Merged       | Optional | cannot be null | [Scaffold](app_bar_theme-properties-double.md)                                                       |
+| [drawerScrimColor](#drawerScrimColor)                         | Merged       | Optional | cannot be null | [Scaffold](app_bar_theme-properties-color.md)                                                            |
+| [endDrawer](#endDrawer)                                       | `object`     | Optional | cannot be null | [Scaffold](input_decoration-properties-widget-5.md)                                                            |
+| [extendBody](#extendBody)                                     | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md)                                                         |
+| [extendBodyBehindAppBar](#extendBodyBehindAppBar)             | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md)                                             |
+| [floatingActionButtonAnimator](#floatingActionButtonAnimator) | `object`     | Optional | cannot be null | [Scaffold](scaffold-properties-floating-action-button-animator.md) |
+| [floatingActionButtonLocation](#floatingActionButtonLocation) | `object`     | Optional | cannot be null | [Scaffold](scaffold-properties-floating-action-button-location.md) |
+| [persistentFooterButtons](#persistentFooterButtons)           | `array`      | Optional | cannot be null | [Scaffold](grid_view_params-properties-list-of-widgets.md)                                  |
+| [resizeToAvoidBottomInset](#resizeToAvoidBottomInset)         | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md)                                           |
+| [resizeToAvoidBottomPadding](#resizeToAvoidBottomPadding)     | `boolean`    | Optional | cannot be null | [Scaffold](button_bar_theme_data-properties-boolean.md)                                         |
 
 ## type
 
@@ -61,7 +61,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Scaffold](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/scaffold.schema.json#/properties/type")
+-   defined in: [Scaffold](widget-definitions-type.md)
 
 ### type Type
 
@@ -88,7 +88,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Scaffold](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Scaffold](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -96,7 +96,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -137,7 +137,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/body")
+-   defined in: [Scaffold](input_decoration-properties-widget-5.md)
 
 ### body Type
 
@@ -156,7 +156,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/drawer")
+-   defined in: [Scaffold](input_decoration-properties-widget-5.md)
 
 ### drawer Type
 
@@ -176,7 +176,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Scaffold](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/appBar")
+-   defined in: [Scaffold](bottom_app_bar_theme-properties-dynamic.md)
 
 ### appBar Type
 
@@ -203,7 +203,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/floatingActionButton")
+-   defined in: [Scaffold](input_decoration-properties-widget-5.md)
 
 ### floatingActionButton Type
 
@@ -222,7 +222,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/primary")
+-   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md)
 
 ### primary Type
 
@@ -259,7 +259,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/bottomNavigationBar")
+-   defined in: [Scaffold](input_decoration-properties-widget-5.md)
 
 ### bottomNavigationBar Type
 
@@ -278,7 +278,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/bottomSheet")
+-   defined in: [Scaffold](input_decoration-properties-widget-5.md)
 
 ### bottomSheet Type
 
@@ -298,7 +298,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `string` ([Drag Start Behavior](gesture_detector-properties-drag-start-behavior.md))
 -   cannot be null
--   defined in: [Scaffold](gesture_detector-properties-drag-start-behavior.md "https&#x3A;//legytma.com.br/schema/drag_start_behavior.schema.json#/properties/drawerDragStartBehavior")
+-   defined in: [Scaffold](gesture_detector-properties-drag-start-behavior.md)
 
 ### drawerDragStartBehavior Type
 
@@ -344,7 +344,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Scaffold](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/drawerEdgeDragWidth")
+-   defined in: [Scaffold](app_bar_theme-properties-double.md)
 
 ### drawerEdgeDragWidth Type
 
@@ -352,9 +352,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### drawerEdgeDragWidth Constraints
 
@@ -383,7 +383,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Scaffold](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/drawerScrimColor")
+-   defined in: [Scaffold](app_bar_theme-properties-color.md)
 
 ### drawerScrimColor Type
 
@@ -391,7 +391,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### drawerScrimColor Default Value
 
@@ -432,7 +432,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Scaffold](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/endDrawer")
+-   defined in: [Scaffold](input_decoration-properties-widget-5.md)
 
 ### endDrawer Type
 
@@ -451,7 +451,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/extendBody")
+-   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md)
 
 ### extendBody Type
 
@@ -488,7 +488,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/extendBodyBehindAppBar")
+-   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md)
 
 ### extendBodyBehindAppBar Type
 
@@ -526,7 +526,7 @@ false
 -   is optional
 -   Type: `object` ([Floating Action Button Animator](scaffold-properties-floating-action-button-animator.md))
 -   cannot be null
--   defined in: [Scaffold](scaffold-properties-floating-action-button-animator.md "https&#x3A;//legytma.com.br/schema/floating_action_button_animator.schema.json#/properties/floatingActionButtonAnimator")
+-   defined in: [Scaffold](scaffold-properties-floating-action-button-animator.md)
 
 ### floatingActionButtonAnimator Type
 
@@ -546,7 +546,7 @@ false
 -   is optional
 -   Type: `object` ([Floating Action Button Location](scaffold-properties-floating-action-button-location.md))
 -   cannot be null
--   defined in: [Scaffold](scaffold-properties-floating-action-button-location.md "https&#x3A;//legytma.com.br/schema/floating_action_button_location.schema.json#/properties/floatingActionButtonLocation")
+-   defined in: [Scaffold](scaffold-properties-floating-action-button-location.md)
 
 ### floatingActionButtonLocation Type
 
@@ -565,7 +565,7 @@ List of Schema to validation of JSON used to parse Widgets.
 -   is optional
 -   Type: `object[]` ([Widget](list_widget-widget.md))
 -   cannot be null
--   defined in: [Scaffold](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/persistentFooterButtons")
+-   defined in: [Scaffold](grid_view_params-properties-list-of-widgets.md)
 
 ### persistentFooterButtons Type
 
@@ -592,7 +592,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/resizeToAvoidBottomInset")
+-   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md)
 
 ### resizeToAvoidBottomInset Type
 
@@ -629,7 +629,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/resizeToAvoidBottomPadding")
+-   defined in: [Scaffold](button_bar_theme_data-properties-boolean.md)
 
 ### resizeToAvoidBottomPadding Type
 

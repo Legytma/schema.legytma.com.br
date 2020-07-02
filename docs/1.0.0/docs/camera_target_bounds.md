@@ -13,7 +13,7 @@ https://legytma.com.br/schema/camera_target_bounds.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [camera_target_bounds.schema.json](../schema/camera_target_bounds.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [camera_target_bounds.schema.json](../schema/camera_target_bounds.schema.json) |
 
 ## Camera Target Bounds Type
 

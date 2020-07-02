@@ -13,7 +13,7 @@ https://legytma.com.br/schema/theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [theme_data.schema.json](../schema/theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [theme_data.schema.json](../schema/theme_data.schema.json) |
 
 ## Theme Data Type
 
@@ -23,70 +23,70 @@ https://legytma.com.br/schema/theme_data.schema.json
 
 | Property                                                  | Type         | Required | Nullable       | Defined by                                                                                                                                                                                        |
 | :-------------------------------------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [primarySwatch](#primarySwatch)                           | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-material-color.md "https&#x3A;//legytma.com.br/schema/material_color.schema.json#/properties/primarySwatch")                                                   |
-| [accentColor](#accentColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/accentColor")                                                                    |
-| [accentColorBrightness](#accentColorBrightness)           | `string`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/accentColorBrightness")                                                |
-| [accentIconTheme](#accentIconTheme)                       | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/accentIconTheme")                                            |
-| [accentTextTheme](#accentTextTheme)                       | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/accentTextTheme")                                                      |
-| [appBarTheme](#appBarTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-app-bar-theme.md "https&#x3A;//legytma.com.br/schema/app_bar_theme.schema.json#/properties/appBarTheme")                                                       |
-| [applyElevationOverlayColor](#applyElevationOverlayColor) | `boolean`    | Optional | cannot be null | [Theme Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/applyElevationOverlayColor")                                            |
-| [backgroundColor](#backgroundColor)                       | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")                                                                |
-| [bannerTheme](#bannerTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-material-banner-theme-data.md "https&#x3A;//legytma.com.br/schema/material_banner_theme_data.schema.json#/properties/bannerTheme")                             |
-| [bottomAppBarColor](#bottomAppBarColor)                   | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/bottomAppBarColor")                                                              |
-| [bottomAppBarTheme](#bottomAppBarTheme)                   | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-bottom-app-bar-theme.md "https&#x3A;//legytma.com.br/schema/bottom_app_bar_theme.schema.json#/properties/bottomAppBarTheme")                                   |
-| [bottomSheetTheme](#bottomSheetTheme)                     | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-bottom-sheet-theme-data.md "https&#x3A;//legytma.com.br/schema/bottom_sheet_theme_data.schema.json#/properties/bottomSheetTheme")                              |
-| [brightness](#brightness)                                 | `string`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")                                                           |
-| [buttonBarTheme](#buttonBarTheme)                         | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-button-bar-theme-data.md "https&#x3A;//legytma.com.br/schema/button_bar_theme_data.schema.json#/properties/buttonBarTheme")                                    |
-| [buttonColor](#buttonColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/buttonColor")                                                                    |
-| [buttonTheme](#buttonTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-button-theme-data.md "https&#x3A;//legytma.com.br/schema/button_theme_data.schema.json#/properties/buttonTheme")                                               |
-| [canvasColor](#canvasColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/canvasColor")                                                                    |
-| [cardColor](#cardColor)                                   | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/cardColor")                                                                      |
-| [cardTheme](#cardTheme)                                   | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-card-theme.md "https&#x3A;//legytma.com.br/schema/card_theme.schema.json#/properties/cardTheme")                                                               |
-| [chipTheme](#chipTheme)                                   | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-chip-theme-data.md "https&#x3A;//legytma.com.br/schema/chip_theme_data.schema.json#/properties/chipTheme")                                                     |
-| [colorScheme](#colorScheme)                               | `object`     | Optional | cannot be null | [Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/colorScheme")                                                  |
-| [cupertinoOverrideTheme](#cupertinoOverrideTheme)         | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-cupertino-theme-data.md "https&#x3A;//legytma.com.br/schema/cupertino_theme_data.schema.json#/properties/cupertinoOverrideTheme")                              |
-| [cursorColor](#cursorColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/cursorColor")                                                                    |
-| [dialogBackgroundColor](#dialogBackgroundColor)           | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/dialogBackgroundColor")                                                          |
-| [dialogTheme](#dialogTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-dialog-theme.md "https&#x3A;//legytma.com.br/schema/dialog_theme.schema.json#/properties/dialogTheme")                                                         |
-| [disabledColor](#disabledColor)                           | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")                                                                  |
-| [dividerColor](#dividerColor)                             | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/dividerColor")                                                                   |
-| [dividerTheme](#dividerTheme)                             | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-divider-theme-data.md "https&#x3A;//legytma.com.br/schema/divider_theme_data.schema.json#/properties/dividerTheme")                                            |
-| [errorColor](#errorColor)                                 | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/errorColor")                                                                     |
-| [floatingActionButtonTheme](#floatingActionButtonTheme)   | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-floating-action-button-theme-data.md "https&#x3A;//legytma.com.br/schema/floating_action_button_theme_data.schema.json#/properties/floatingActionButtonTheme") |
-| [focusColor](#focusColor)                                 | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")                                                                     |
-| [fontFamily](#fontFamily)                                 | `string`     | Optional | cannot be null | [Theme Data](text_style-properties-font-family.md "https&#x3A;//legytma.com.br/schema/font_family.schema.json#/properties/fontFamily")                                                            |
-| [highlightColor](#highlightColor)                         | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")                                                                 |
-| [hintColor](#hintColor)                                   | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hintColor")                                                                      |
-| [hoverColor](#hoverColor)                                 | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")                                                                     |
-| [iconTheme](#iconTheme)                                   | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/iconTheme")                                                  |
-| [indicatorColor](#indicatorColor)                         | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/indicatorColor")                                                                 |
-| [inputDecorationTheme](#inputDecorationTheme)             | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-input-decoration-theme.md "https&#x3A;//legytma.com.br/schema/input_decoration_theme.schema.json#/properties/inputDecorationTheme")                            |
-| [materialTapTargetSize](#materialTapTargetSize)           | `string`     | Optional | cannot be null | [Theme Data](button_theme_data-properties-material-tap-target-size.md "https&#x3A;//legytma.com.br/schema/material_tap_target_size.schema.json#/properties/materialTapTargetSize")                |
-| [pageTransitionsTheme](#pageTransitionsTheme)             | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-page-transitions-theme.md "https&#x3A;//legytma.com.br/schema/page_transitions_theme.schema.json#/properties/pageTransitionsTheme")                            |
-| [platform](#platform)                                     | `string`     | Optional | cannot be null | [Theme Data](theme_data-properties-target-platform.md "https&#x3A;//legytma.com.br/schema/target_platform.schema.json#/properties/platform")                                                      |
-| [popupMenuTheme](#popupMenuTheme)                         | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-popup-menu-theme-data.md "https&#x3A;//legytma.com.br/schema/popup_menu_theme_data.schema.json#/properties/popupMenuTheme")                                    |
-| [primaryColor](#primaryColor)                             | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryColor")                                                                   |
-| [primaryColorBrightness](#primaryColorBrightness)         | `string`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/primaryColorBrightness")                                               |
-| [primaryColorDark](#primaryColorDark)                     | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryColorDark")                                                               |
-| [primaryColorLight](#primaryColorLight)                   | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryColorLight")                                                              |
-| [primaryIconTheme](#primaryIconTheme)                     | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/primaryIconTheme")                                           |
-| [primaryTextTheme](#primaryTextTheme)                     | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/primaryTextTheme")                                                     |
-| [scaffoldBackgroundColor](#scaffoldBackgroundColor)       | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/scaffoldBackgroundColor")                                                        |
-| [secondaryHeaderColor](#secondaryHeaderColor)             | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/secondaryHeaderColor")                                                           |
-| [selectedRowColor](#selectedRowColor)                     | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/selectedRowColor")                                                               |
-| [sliderTheme](#sliderTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-slider-theme-data.md "https&#x3A;//legytma.com.br/schema/slider_theme_data.schema.json#/properties/sliderTheme")                                               |
-| [snackBarTheme](#snackBarTheme)                           | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-snack-bar-theme-data.md "https&#x3A;//legytma.com.br/schema/snack_bar_theme_data.schema.json#/properties/snackBarTheme")                                       |
-| [splashColor](#splashColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")                                                                    |
-| [splashFactory](#splashFactory)                           | Unknown Type | Optional | can be null    | [Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/splashFactory")                                                       |
-| [tabBarTheme](#tabBarTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-tab-bar-theme.md "https&#x3A;//legytma.com.br/schema/tab_bar_theme.schema.json#/properties/tabBarTheme")                                                       |
-| [textSelectionColor](#textSelectionColor)                 | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/textSelectionColor")                                                             |
-| [textSelectionHandleColor](#textSelectionHandleColor)     | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/textSelectionHandleColor")                                                       |
-| [textTheme](#textTheme)                                   | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/textTheme")                                                            |
-| [toggleableActiveColor](#toggleableActiveColor)           | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/toggleableActiveColor")                                                          |
-| [toggleButtonsTheme](#toggleButtonsTheme)                 | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-toggle-buttons-theme-data.md "https&#x3A;//legytma.com.br/schema/toggle_buttons_theme_data.schema.json#/properties/toggleButtonsTheme")                        |
-| [tooltipTheme](#tooltipTheme)                             | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-tooltip-theme-data.md "https&#x3A;//legytma.com.br/schema/tooltip_theme_data.schema.json#/properties/tooltipTheme")                                            |
-| [typography](#typography)                                 | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-typography.md "https&#x3A;//legytma.com.br/schema/typography.schema.json#/properties/typography")                                                              |
-| [unselectedWidgetColor](#unselectedWidgetColor)           | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/unselectedWidgetColor")                                                          |
+| [primarySwatch](#primarySwatch)                           | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-material-color.md)                                                   |
+| [accentColor](#accentColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                    |
+| [accentColorBrightness](#accentColorBrightness)           | `string`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-brightness.md)                                                |
+| [accentIconTheme](#accentIconTheme)                       | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-icon-theme-data.md)                                            |
+| [accentTextTheme](#accentTextTheme)                       | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-text-theme.md)                                                      |
+| [appBarTheme](#appBarTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-app-bar-theme.md)                                                       |
+| [applyElevationOverlayColor](#applyElevationOverlayColor) | `boolean`    | Optional | cannot be null | [Theme Data](button_bar_theme_data-properties-boolean.md)                                            |
+| [backgroundColor](#backgroundColor)                       | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                |
+| [bannerTheme](#bannerTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-material-banner-theme-data.md)                             |
+| [bottomAppBarColor](#bottomAppBarColor)                   | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                              |
+| [bottomAppBarTheme](#bottomAppBarTheme)                   | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-bottom-app-bar-theme.md)                                   |
+| [bottomSheetTheme](#bottomSheetTheme)                     | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-bottom-sheet-theme-data.md)                              |
+| [brightness](#brightness)                                 | `string`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-brightness.md)                                                           |
+| [buttonBarTheme](#buttonBarTheme)                         | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-button-bar-theme-data.md)                                    |
+| [buttonColor](#buttonColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                    |
+| [buttonTheme](#buttonTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-button-theme-data.md)                                               |
+| [canvasColor](#canvasColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                    |
+| [cardColor](#cardColor)                                   | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                      |
+| [cardTheme](#cardTheme)                                   | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-card-theme.md)                                                               |
+| [chipTheme](#chipTheme)                                   | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-chip-theme-data.md)                                                     |
+| [colorScheme](#colorScheme)                               | `object`     | Optional | cannot be null | [Theme Data](button_theme_data-properties-color-scheme.md)                                                  |
+| [cupertinoOverrideTheme](#cupertinoOverrideTheme)         | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-cupertino-theme-data.md)                              |
+| [cursorColor](#cursorColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                    |
+| [dialogBackgroundColor](#dialogBackgroundColor)           | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                          |
+| [dialogTheme](#dialogTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-dialog-theme.md)                                                         |
+| [disabledColor](#disabledColor)                           | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                  |
+| [dividerColor](#dividerColor)                             | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                   |
+| [dividerTheme](#dividerTheme)                             | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-divider-theme-data.md)                                            |
+| [errorColor](#errorColor)                                 | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                     |
+| [floatingActionButtonTheme](#floatingActionButtonTheme)   | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-floating-action-button-theme-data.md) |
+| [focusColor](#focusColor)                                 | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                     |
+| [fontFamily](#fontFamily)                                 | `string`     | Optional | cannot be null | [Theme Data](text_style-properties-font-family.md)                                                            |
+| [highlightColor](#highlightColor)                         | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                 |
+| [hintColor](#hintColor)                                   | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                      |
+| [hoverColor](#hoverColor)                                 | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                     |
+| [iconTheme](#iconTheme)                                   | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-icon-theme-data.md)                                                  |
+| [indicatorColor](#indicatorColor)                         | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                 |
+| [inputDecorationTheme](#inputDecorationTheme)             | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-input-decoration-theme.md)                            |
+| [materialTapTargetSize](#materialTapTargetSize)           | `string`     | Optional | cannot be null | [Theme Data](button_theme_data-properties-material-tap-target-size.md)                |
+| [pageTransitionsTheme](#pageTransitionsTheme)             | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-page-transitions-theme.md)                            |
+| [platform](#platform)                                     | `string`     | Optional | cannot be null | [Theme Data](theme_data-properties-target-platform.md)                                                      |
+| [popupMenuTheme](#popupMenuTheme)                         | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-popup-menu-theme-data.md)                                    |
+| [primaryColor](#primaryColor)                             | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                   |
+| [primaryColorBrightness](#primaryColorBrightness)         | `string`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-brightness.md)                                               |
+| [primaryColorDark](#primaryColorDark)                     | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                               |
+| [primaryColorLight](#primaryColorLight)                   | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                              |
+| [primaryIconTheme](#primaryIconTheme)                     | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-icon-theme-data.md)                                           |
+| [primaryTextTheme](#primaryTextTheme)                     | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-text-theme.md)                                                     |
+| [scaffoldBackgroundColor](#scaffoldBackgroundColor)       | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                        |
+| [secondaryHeaderColor](#secondaryHeaderColor)             | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                           |
+| [selectedRowColor](#selectedRowColor)                     | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                               |
+| [sliderTheme](#sliderTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-slider-theme-data.md)                                               |
+| [snackBarTheme](#snackBarTheme)                           | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-snack-bar-theme-data.md)                                       |
+| [splashColor](#splashColor)                               | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                                    |
+| [splashFactory](#splashFactory)                           | Unknown Type | Optional | can be null    | [Theme Data](bottom_app_bar_theme-properties-dynamic.md)                                                       |
+| [tabBarTheme](#tabBarTheme)                               | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-tab-bar-theme.md)                                                       |
+| [textSelectionColor](#textSelectionColor)                 | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                             |
+| [textSelectionHandleColor](#textSelectionHandleColor)     | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                       |
+| [textTheme](#textTheme)                                   | `object`     | Optional | cannot be null | [Theme Data](app_bar_theme-properties-text-theme.md)                                                            |
+| [toggleableActiveColor](#toggleableActiveColor)           | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                          |
+| [toggleButtonsTheme](#toggleButtonsTheme)                 | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-toggle-buttons-theme-data.md)                        |
+| [tooltipTheme](#tooltipTheme)                             | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-tooltip-theme-data.md)                                            |
+| [typography](#typography)                                 | `object`     | Optional | cannot be null | [Theme Data](theme_data-properties-typography.md)                                                              |
+| [unselectedWidgetColor](#unselectedWidgetColor)           | Merged       | Optional | cannot be null | [Theme Data](app_bar_theme-properties-color.md)                                                          |
 
 ## primarySwatch
 
@@ -101,7 +101,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Material Color](theme_data-properties-material-color.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-material-color.md "https&#x3A;//legytma.com.br/schema/material_color.schema.json#/properties/primarySwatch")
+-   defined in: [Theme Data](theme_data-properties-material-color.md)
 
 ### primarySwatch Type
 
@@ -120,7 +120,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/accentColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### accentColor Type
 
@@ -128,7 +128,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### accentColor Default Value
 
@@ -170,7 +170,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/accentColorBrightness")
+-   defined in: [Theme Data](app_bar_theme-properties-brightness.md)
 
 ### accentColorBrightness Type
 
@@ -198,7 +198,7 @@ Icon theme data
 -   is optional
 -   Type: `object` ([Icon Theme Data](app_bar_theme-properties-icon-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/accentIconTheme")
+-   defined in: [Theme Data](app_bar_theme-properties-icon-theme-data.md)
 
 ### accentIconTheme Type
 
@@ -217,7 +217,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/accentTextTheme")
+-   defined in: [Theme Data](app_bar_theme-properties-text-theme.md)
 
 ### accentTextTheme Type
 
@@ -236,7 +236,7 @@ App bar theme
 -   is optional
 -   Type: `object` ([App Bar Theme](theme_data-properties-app-bar-theme.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-app-bar-theme.md "https&#x3A;//legytma.com.br/schema/app_bar_theme.schema.json#/properties/appBarTheme")
+-   defined in: [Theme Data](theme_data-properties-app-bar-theme.md)
 
 ### appBarTheme Type
 
@@ -255,7 +255,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Theme Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/applyElevationOverlayColor")
+-   defined in: [Theme Data](button_bar_theme_data-properties-boolean.md)
 
 ### applyElevationOverlayColor Type
 
@@ -292,7 +292,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -300,7 +300,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -341,7 +341,7 @@ Material banner theme data.
 -   is optional
 -   Type: `object` ([Material Banner Theme Data](theme_data-properties-material-banner-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-material-banner-theme-data.md "https&#x3A;//legytma.com.br/schema/material_banner_theme_data.schema.json#/properties/bannerTheme")
+-   defined in: [Theme Data](theme_data-properties-material-banner-theme-data.md)
 
 ### bannerTheme Type
 
@@ -360,7 +360,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/bottomAppBarColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### bottomAppBarColor Type
 
@@ -368,7 +368,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### bottomAppBarColor Default Value
 
@@ -409,7 +409,7 @@ Bottom app bar theme
 -   is optional
 -   Type: `object` ([Bottom App Bar Theme](theme_data-properties-bottom-app-bar-theme.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-bottom-app-bar-theme.md "https&#x3A;//legytma.com.br/schema/bottom_app_bar_theme.schema.json#/properties/bottomAppBarTheme")
+-   defined in: [Theme Data](theme_data-properties-bottom-app-bar-theme.md)
 
 ### bottomAppBarTheme Type
 
@@ -425,7 +425,7 @@ Bottom app bar theme
 -   is optional
 -   Type: `object` ([Bottom Sheet Theme Data](theme_data-properties-bottom-sheet-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-bottom-sheet-theme-data.md "https&#x3A;//legytma.com.br/schema/bottom_sheet_theme_data.schema.json#/properties/bottomSheetTheme")
+-   defined in: [Theme Data](theme_data-properties-bottom-sheet-theme-data.md)
 
 ### bottomSheetTheme Type
 
@@ -445,7 +445,7 @@ Bottom app bar theme
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")
+-   defined in: [Theme Data](app_bar_theme-properties-brightness.md)
 
 ### brightness Type
 
@@ -470,7 +470,7 @@ Bottom app bar theme
 -   is optional
 -   Type: `object` ([Button Bar Theme Data](theme_data-properties-button-bar-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-button-bar-theme-data.md "https&#x3A;//legytma.com.br/schema/button_bar_theme_data.schema.json#/properties/buttonBarTheme")
+-   defined in: [Theme Data](theme_data-properties-button-bar-theme-data.md)
 
 ### buttonBarTheme Type
 
@@ -489,7 +489,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/buttonColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### buttonColor Type
 
@@ -497,7 +497,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### buttonColor Default Value
 
@@ -539,7 +539,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Button Theme Data](theme_data-properties-button-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-button-theme-data.md "https&#x3A;//legytma.com.br/schema/button_theme_data.schema.json#/properties/buttonTheme")
+-   defined in: [Theme Data](theme_data-properties-button-theme-data.md)
 
 ### buttonTheme Type
 
@@ -558,7 +558,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/canvasColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### canvasColor Type
 
@@ -566,7 +566,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### canvasColor Default Value
 
@@ -607,7 +607,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/cardColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### cardColor Type
 
@@ -615,7 +615,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### cardColor Default Value
 
@@ -657,7 +657,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Card Theme](theme_data-properties-card-theme.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-card-theme.md "https&#x3A;//legytma.com.br/schema/card_theme.schema.json#/properties/cardTheme")
+-   defined in: [Theme Data](theme_data-properties-card-theme.md)
 
 ### cardTheme Type
 
@@ -677,7 +677,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Chip Theme Data](theme_data-properties-chip-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-chip-theme-data.md "https&#x3A;//legytma.com.br/schema/chip_theme_data.schema.json#/properties/chipTheme")
+-   defined in: [Theme Data](theme_data-properties-chip-theme-data.md)
 
 ### chipTheme Type
 
@@ -693,7 +693,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/colorScheme")
+-   defined in: [Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### colorScheme Type
 
@@ -713,7 +713,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Cupertino Theme Data](theme_data-properties-cupertino-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-cupertino-theme-data.md "https&#x3A;//legytma.com.br/schema/cupertino_theme_data.schema.json#/properties/cupertinoOverrideTheme")
+-   defined in: [Theme Data](theme_data-properties-cupertino-theme-data.md)
 
 ### cupertinoOverrideTheme Type
 
@@ -732,7 +732,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/cursorColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### cursorColor Type
 
@@ -740,7 +740,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### cursorColor Default Value
 
@@ -781,7 +781,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/dialogBackgroundColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### dialogBackgroundColor Type
 
@@ -789,7 +789,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### dialogBackgroundColor Default Value
 
@@ -831,7 +831,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Dialog Theme](theme_data-properties-dialog-theme.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-dialog-theme.md "https&#x3A;//legytma.com.br/schema/dialog_theme.schema.json#/properties/dialogTheme")
+-   defined in: [Theme Data](theme_data-properties-dialog-theme.md)
 
 ### dialogTheme Type
 
@@ -850,7 +850,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### disabledColor Type
 
@@ -858,7 +858,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### disabledColor Default Value
 
@@ -899,7 +899,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/dividerColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### dividerColor Type
 
@@ -907,7 +907,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### dividerColor Default Value
 
@@ -949,7 +949,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Divider Theme Data](theme_data-properties-divider-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-divider-theme-data.md "https&#x3A;//legytma.com.br/schema/divider_theme_data.schema.json#/properties/dividerTheme")
+-   defined in: [Theme Data](theme_data-properties-divider-theme-data.md)
 
 ### dividerTheme Type
 
@@ -968,7 +968,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/errorColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### errorColor Type
 
@@ -976,7 +976,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### errorColor Default Value
 
@@ -1018,7 +1018,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Floating Action Button Theme Data](theme_data-properties-floating-action-button-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-floating-action-button-theme-data.md "https&#x3A;//legytma.com.br/schema/floating_action_button_theme_data.schema.json#/properties/floatingActionButtonTheme")
+-   defined in: [Theme Data](theme_data-properties-floating-action-button-theme-data.md)
 
 ### floatingActionButtonTheme Type
 
@@ -1037,7 +1037,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### focusColor Type
 
@@ -1045,7 +1045,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### focusColor Default Value
 
@@ -1086,7 +1086,7 @@ Font family
 -   is optional
 -   Type: `string` ([Font Family](text_style-properties-font-family.md))
 -   cannot be null
--   defined in: [Theme Data](text_style-properties-font-family.md "https&#x3A;//legytma.com.br/schema/font_family.schema.json#/properties/fontFamily")
+-   defined in: [Theme Data](text_style-properties-font-family.md)
 
 ### fontFamily Type
 
@@ -1105,7 +1105,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### highlightColor Type
 
@@ -1113,7 +1113,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### highlightColor Default Value
 
@@ -1154,7 +1154,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hintColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### hintColor Type
 
@@ -1162,7 +1162,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hintColor Default Value
 
@@ -1203,7 +1203,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### hoverColor Type
 
@@ -1211,7 +1211,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hoverColor Default Value
 
@@ -1252,7 +1252,7 @@ Icon theme data
 -   is optional
 -   Type: `object` ([Icon Theme Data](app_bar_theme-properties-icon-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/iconTheme")
+-   defined in: [Theme Data](app_bar_theme-properties-icon-theme-data.md)
 
 ### iconTheme Type
 
@@ -1271,7 +1271,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/indicatorColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### indicatorColor Type
 
@@ -1279,7 +1279,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### indicatorColor Default Value
 
@@ -1321,7 +1321,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Input Decoration Theme](theme_data-properties-input-decoration-theme.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-input-decoration-theme.md "https&#x3A;//legytma.com.br/schema/input_decoration_theme.schema.json#/properties/inputDecorationTheme")
+-   defined in: [Theme Data](theme_data-properties-input-decoration-theme.md)
 
 ### inputDecorationTheme Type
 
@@ -1337,7 +1337,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Material Tap Target Size](button_theme_data-properties-material-tap-target-size.md))
 -   cannot be null
--   defined in: [Theme Data](button_theme_data-properties-material-tap-target-size.md "https&#x3A;//legytma.com.br/schema/material_tap_target_size.schema.json#/properties/materialTapTargetSize")
+-   defined in: [Theme Data](button_theme_data-properties-material-tap-target-size.md)
 
 ### materialTapTargetSize Type
 
@@ -1376,7 +1376,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Page Transitions Theme](theme_data-properties-page-transitions-theme.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-page-transitions-theme.md "https&#x3A;//legytma.com.br/schema/page_transitions_theme.schema.json#/properties/pageTransitionsTheme")
+-   defined in: [Theme Data](theme_data-properties-page-transitions-theme.md)
 
 ### pageTransitionsTheme Type
 
@@ -1392,7 +1392,7 @@ Determine the target platform
 -   is optional
 -   Type: `string` ([Target Platform](theme_data-properties-target-platform.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-target-platform.md "https&#x3A;//legytma.com.br/schema/target_platform.schema.json#/properties/platform")
+-   defined in: [Theme Data](theme_data-properties-target-platform.md)
 
 ### platform Type
 
@@ -1444,7 +1444,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Popup Menu Theme Data](theme_data-properties-popup-menu-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-popup-menu-theme-data.md "https&#x3A;//legytma.com.br/schema/popup_menu_theme_data.schema.json#/properties/popupMenuTheme")
+-   defined in: [Theme Data](theme_data-properties-popup-menu-theme-data.md)
 
 ### popupMenuTheme Type
 
@@ -1463,7 +1463,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### primaryColor Type
 
@@ -1471,7 +1471,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### primaryColor Default Value
 
@@ -1513,7 +1513,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/primaryColorBrightness")
+-   defined in: [Theme Data](app_bar_theme-properties-brightness.md)
 
 ### primaryColorBrightness Type
 
@@ -1541,7 +1541,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryColorDark")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### primaryColorDark Type
 
@@ -1549,7 +1549,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### primaryColorDark Default Value
 
@@ -1590,7 +1590,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryColorLight")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### primaryColorLight Type
 
@@ -1598,7 +1598,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### primaryColorLight Default Value
 
@@ -1639,7 +1639,7 @@ Icon theme data
 -   is optional
 -   Type: `object` ([Icon Theme Data](app_bar_theme-properties-icon-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-icon-theme-data.md "https&#x3A;//legytma.com.br/schema/icon_theme_data.schema.json#/properties/primaryIconTheme")
+-   defined in: [Theme Data](app_bar_theme-properties-icon-theme-data.md)
 
 ### primaryIconTheme Type
 
@@ -1658,7 +1658,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/primaryTextTheme")
+-   defined in: [Theme Data](app_bar_theme-properties-text-theme.md)
 
 ### primaryTextTheme Type
 
@@ -1677,7 +1677,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/scaffoldBackgroundColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### scaffoldBackgroundColor Type
 
@@ -1685,7 +1685,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### scaffoldBackgroundColor Default Value
 
@@ -1726,7 +1726,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/secondaryHeaderColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### secondaryHeaderColor Type
 
@@ -1734,7 +1734,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### secondaryHeaderColor Default Value
 
@@ -1775,7 +1775,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/selectedRowColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### selectedRowColor Type
 
@@ -1783,7 +1783,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### selectedRowColor Default Value
 
@@ -1825,7 +1825,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Slider Theme Data](theme_data-properties-slider-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-slider-theme-data.md "https&#x3A;//legytma.com.br/schema/slider_theme_data.schema.json#/properties/sliderTheme")
+-   defined in: [Theme Data](theme_data-properties-slider-theme-data.md)
 
 ### sliderTheme Type
 
@@ -1845,7 +1845,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Snack Bar Theme Data](theme_data-properties-snack-bar-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-snack-bar-theme-data.md "https&#x3A;//legytma.com.br/schema/snack_bar_theme_data.schema.json#/properties/snackBarTheme")
+-   defined in: [Theme Data](theme_data-properties-snack-bar-theme-data.md)
 
 ### snackBarTheme Type
 
@@ -1864,7 +1864,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### splashColor Type
 
@@ -1872,7 +1872,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### splashColor Default Value
 
@@ -1914,7 +1914,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/splashFactory")
+-   defined in: [Theme Data](bottom_app_bar_theme-properties-dynamic.md)
 
 ### splashFactory Type
 
@@ -1934,7 +1934,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: `object` ([Tab Bar Theme](theme_data-properties-tab-bar-theme.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-tab-bar-theme.md "https&#x3A;//legytma.com.br/schema/tab_bar_theme.schema.json#/properties/tabBarTheme")
+-   defined in: [Theme Data](theme_data-properties-tab-bar-theme.md)
 
 ### tabBarTheme Type
 
@@ -1953,7 +1953,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/textSelectionColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### textSelectionColor Type
 
@@ -1961,7 +1961,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### textSelectionColor Default Value
 
@@ -2002,7 +2002,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/textSelectionHandleColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### textSelectionHandleColor Type
 
@@ -2010,7 +2010,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### textSelectionHandleColor Default Value
 
@@ -2051,7 +2051,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/textTheme")
+-   defined in: [Theme Data](app_bar_theme-properties-text-theme.md)
 
 ### textTheme Type
 
@@ -2070,7 +2070,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/toggleableActiveColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### toggleableActiveColor Type
 
@@ -2078,7 +2078,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### toggleableActiveColor Default Value
 
@@ -2120,7 +2120,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Toggle Buttons Theme Data](theme_data-properties-toggle-buttons-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-toggle-buttons-theme-data.md "https&#x3A;//legytma.com.br/schema/toggle_buttons_theme_data.schema.json#/properties/toggleButtonsTheme")
+-   defined in: [Theme Data](theme_data-properties-toggle-buttons-theme-data.md)
 
 ### toggleButtonsTheme Type
 
@@ -2140,7 +2140,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Tooltip Theme Data](theme_data-properties-tooltip-theme-data.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-tooltip-theme-data.md "https&#x3A;//legytma.com.br/schema/tooltip_theme_data.schema.json#/properties/tooltipTheme")
+-   defined in: [Theme Data](theme_data-properties-tooltip-theme-data.md)
 
 ### tooltipTheme Type
 
@@ -2160,7 +2160,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Typography](theme_data-properties-typography.md))
 -   cannot be null
--   defined in: [Theme Data](theme_data-properties-typography.md "https&#x3A;//legytma.com.br/schema/typography.schema.json#/properties/typography")
+-   defined in: [Theme Data](theme_data-properties-typography.md)
 
 ### typography Type
 
@@ -2179,7 +2179,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/unselectedWidgetColor")
+-   defined in: [Theme Data](app_bar_theme-properties-color.md)
 
 ### unselectedWidgetColor Type
 
@@ -2187,7 +2187,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### unselectedWidgetColor Default Value
 

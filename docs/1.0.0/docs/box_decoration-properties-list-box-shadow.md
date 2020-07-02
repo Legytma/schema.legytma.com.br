@@ -13,7 +13,7 @@ https://legytma.com.br/schema/list_box_shadow.schema.json#/properties/boxShadow
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [box_decoration.schema.json\*](../schema/box_decoration.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [box_decoration.schema.json\*](../schema/box_decoration.schema.json) |
 
 ## boxShadow Type
 

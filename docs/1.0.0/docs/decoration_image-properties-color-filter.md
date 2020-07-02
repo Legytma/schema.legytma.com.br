@@ -13,7 +13,7 @@ https://legytma.com.br/schema/color_filter.schema.json#/properties/colorFilter
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration_image.schema.json\*](../schema/decoration_image.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration_image.schema.json\*](../schema/decoration_image.schema.json) |
 
 ## colorFilter Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/color_filter.schema.json#/properties/colorFilter
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                     |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Color Filter](color_filter-properties-type.md "https&#x3A;//legytma.com.br/schema/color_filter.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Color Filter](color_filter-properties-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](color_filter-properties-type.md))
 -   cannot be null
--   defined in: [Color Filter](color_filter-properties-type.md "https&#x3A;//legytma.com.br/schema/color_filter.schema.json#/properties/type")
+-   defined in: [Color Filter](color_filter-properties-type.md)
 
 ### type Type
 
@@ -94,7 +94,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](color_filter-definitions-type.md))
 -   cannot be null
--   defined in: [Color Filter](color_filter-definitions-type.md "https&#x3A;//legytma.com.br/schema/color_filter.schema.json#/definitions/type")
+-   defined in: [Color Filter](color_filter-definitions-type.md)
 
 ### type Type
 

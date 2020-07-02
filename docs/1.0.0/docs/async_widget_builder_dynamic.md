@@ -13,7 +13,7 @@ https://legytma.com.br/schema/async_widget_builder_dynamic.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [async_widget_builder_dynamic.schema.json](../schema/async_widget_builder_dynamic.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [async_widget_builder_dynamic.schema.json](../schema/async_widget_builder_dynamic.schema.json) |
 
 ## Async Widget Builder Dynamic Type
 

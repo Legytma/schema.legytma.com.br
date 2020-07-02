@@ -12,7 +12,7 @@ Identify the widget type
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [color_filter_srgb_to_linear_gamma.schema.json\*](../schema/color_filter_srgb_to_linear_gamma.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [color_filter_srgb_to_linear_gamma.schema.json\*](../schema/color_filter_srgb_to_linear_gamma.schema.json) |
 
 ## type Type
 

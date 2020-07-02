@@ -13,7 +13,7 @@ https://legytma.com.br/schema/radius.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [radius.schema.json](../schema/radius.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [radius.schema.json](../schema/radius.schema.json) |
 
 ## Radius Type
 
@@ -25,7 +25,7 @@ one (and only one) of
 
     -   one (and only one) of
 
-        -   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
-        -   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
-        -   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+        -   [Untitled number in Double](double-definitions-doublenumber.md)
+        -   [Untitled string in Double](double-definitions-doublestring.md)
+        -   [Untitled string in Double](double-definitions-doubleenum.md)
+-   [Radius Object](radius-oneof-radius-object.md)

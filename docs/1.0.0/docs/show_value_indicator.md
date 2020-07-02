@@ -13,7 +13,7 @@ https://legytma.com.br/schema/show_value_indicator.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [show_value_indicator.schema.json](../schema/show_value_indicator.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [show_value_indicator.schema.json](../schema/show_value_indicator.schema.json) |
 
 ## Show Value Indicator Type
 

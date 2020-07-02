@@ -13,7 +13,7 @@ https://legytma.com.br/schema/color_filter_mode.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [color_filter_mode.schema.json](../schema/color_filter_mode.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [color_filter_mode.schema.json](../schema/color_filter_mode.schema.json) |
 
 ## Color Filter Mode Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/color_filter_mode.schema.json
 
 all of
 
--   [Color Filter](color_filter_linear_to_srgb_gamma-allof-color-filter.md "check type definition")
+-   [Color Filter](color_filter_linear_to_srgb_gamma-allof-color-filter.md)
 
 # Color Filter Mode Properties
 
 | Property                | Type     | Required | Nullable       | Defined by                                                                                                                                     |
 | :---------------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)           | `string` | Optional | cannot be null | [Color Filter Mode](color_filter_mode-properties-type.md "https&#x3A;//legytma.com.br/schema/color_filter_mode.schema.json#/properties/type")  |
-| [color](#color)         | Merged   | Optional | cannot be null | [Color Filter Mode](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                |
-| [blendMode](#blendMode) | `string` | Optional | cannot be null | [Color Filter Mode](box_decoration-properties-blend-mode.md "https&#x3A;//legytma.com.br/schema/blend_mode.schema.json#/properties/blendMode") |
+| [type](#type)           | `string` | Optional | cannot be null | [Color Filter Mode](color_filter_mode-properties-type.md)  |
+| [color](#color)         | Merged   | Optional | cannot be null | [Color Filter Mode](app_bar_theme-properties-color.md)                |
+| [blendMode](#blendMode) | `string` | Optional | cannot be null | [Color Filter Mode](box_decoration-properties-blend-mode.md) |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](color_filter_mode-properties-type.md))
 -   cannot be null
--   defined in: [Color Filter Mode](color_filter_mode-properties-type.md "https&#x3A;//legytma.com.br/schema/color_filter_mode.schema.json#/properties/type")
+-   defined in: [Color Filter Mode](color_filter_mode-properties-type.md)
 
 ### type Type
 
@@ -98,7 +98,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Filter Mode](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Color Filter Mode](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -106,7 +106,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -148,7 +148,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Blend Mode](box_decoration-properties-blend-mode.md))
 -   cannot be null
--   defined in: [Color Filter Mode](box_decoration-properties-blend-mode.md "https&#x3A;//legytma.com.br/schema/blend_mode.schema.json#/properties/blendMode")
+-   defined in: [Color Filter Mode](box_decoration-properties-blend-mode.md)
 
 ### blendMode Type
 

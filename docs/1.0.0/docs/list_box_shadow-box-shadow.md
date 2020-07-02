@@ -13,7 +13,7 @@ https://legytma.com.br/schema/box_shadow.schema.json#/items
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [list_box_shadow.schema.json\*](../schema/list_box_shadow.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [list_box_shadow.schema.json\*](../schema/list_box_shadow.schema.json) |
 
 ## items Type
 
@@ -23,10 +23,10 @@ https://legytma.com.br/schema/box_shadow.schema.json#/items
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                       |
 | :---------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| [color](#color)               | Merged   | Optional | cannot be null | [Box Shadow](box_shadow-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")            |
-| [blurRadius](#blurRadius)     | Merged   | Optional | cannot be null | [Box Shadow](box_shadow-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/blurRadius")     |
-| [offset](#offset)             | `object` | Optional | cannot be null | [Box Shadow](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/offset")         |
-| [spreadRadius](#spreadRadius) | Merged   | Optional | cannot be null | [Box Shadow](box_shadow-properties-double-1.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/spreadRadius") |
+| [color](#color)               | Merged   | Optional | cannot be null | [Box Shadow](box_shadow-properties-color.md)            |
+| [blurRadius](#blurRadius)     | Merged   | Optional | cannot be null | [Box Shadow](box_shadow-properties-double.md)     |
+| [offset](#offset)             | `object` | Optional | cannot be null | [Box Shadow](box_shadow-properties-offset.md)         |
+| [spreadRadius](#spreadRadius) | Merged   | Optional | cannot be null | [Box Shadow](box_shadow-properties-double-1.md) |
 
 ## color
 
@@ -41,7 +41,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](box_shadow-properties-color.md))
 -   cannot be null
--   defined in: [Box Shadow](box_shadow-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Box Shadow](box_shadow-properties-color.md)
 
 ### color Type
 
@@ -49,7 +49,7 @@ merged type ([Color](box_shadow-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -90,7 +90,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](box_shadow-properties-double.md))
 -   cannot be null
--   defined in: [Box Shadow](box_shadow-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/blurRadius")
+-   defined in: [Box Shadow](box_shadow-properties-double.md)
 
 ### blurRadius Type
 
@@ -98,9 +98,9 @@ merged type ([Double](box_shadow-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### blurRadius Default Value
 
@@ -124,7 +124,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Offset](box_shadow-properties-offset.md))
 -   cannot be null
--   defined in: [Box Shadow](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/offset")
+-   defined in: [Box Shadow](box_shadow-properties-offset.md)
 
 ### offset Type
 
@@ -151,7 +151,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](box_shadow-properties-double-1.md))
 -   cannot be null
--   defined in: [Box Shadow](box_shadow-properties-double-1.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/spreadRadius")
+-   defined in: [Box Shadow](box_shadow-properties-double-1.md)
 
 ### spreadRadius Type
 
@@ -159,9 +159,9 @@ merged type ([Double](box_shadow-properties-double-1.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### spreadRadius Default Value
 

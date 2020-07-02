@@ -13,7 +13,7 @@ https://legytma.com.br/schema/list_inline_span.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [list_inline_span.schema.json](../schema/list_inline_span.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [list_inline_span.schema.json](../schema/list_inline_span.schema.json) |
 
 ## List Inline Span Type
 

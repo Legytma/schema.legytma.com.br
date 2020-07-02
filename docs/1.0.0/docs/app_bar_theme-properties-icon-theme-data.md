@@ -12,7 +12,7 @@ Icon theme data
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [app_bar_theme.schema.json\*](../schema/app_bar_theme.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [app_bar_theme.schema.json\*](../schema/app_bar_theme.schema.json) |
 
 ## iconTheme Type
 
@@ -22,9 +22,9 @@ Icon theme data
 
 | Property            | Type   | Required | Nullable       | Defined by                                                                                                                          |
 | :------------------ | ------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------- |
-| [color](#color)     | Merged | Optional | cannot be null | [Icon Theme Data](icon_theme_data-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")     |
-| [opacity](#opacity) | Merged | Optional | cannot be null | [Icon Theme Data](icon_theme_data-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/opacity") |
-| [size](#size)       | Merged | Optional | cannot be null | [Icon Theme Data](icon_theme_data-properties-double-1.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/size")  |
+| [color](#color)     | Merged | Optional | cannot be null | [Icon Theme Data](icon_theme_data-properties-color.md)     |
+| [opacity](#opacity) | Merged | Optional | cannot be null | [Icon Theme Data](icon_theme_data-properties-double.md) |
+| [size](#size)       | Merged | Optional | cannot be null | [Icon Theme Data](icon_theme_data-properties-double-1.md)  |
 
 ## color
 
@@ -39,7 +39,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](icon_theme_data-properties-color.md))
 -   cannot be null
--   defined in: [Icon Theme Data](icon_theme_data-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Icon Theme Data](icon_theme_data-properties-color.md)
 
 ### color Type
 
@@ -47,7 +47,7 @@ merged type ([Color](icon_theme_data-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -88,7 +88,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](icon_theme_data-properties-double.md))
 -   cannot be null
--   defined in: [Icon Theme Data](icon_theme_data-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/opacity")
+-   defined in: [Icon Theme Data](icon_theme_data-properties-double.md)
 
 ### opacity Type
 
@@ -96,9 +96,9 @@ merged type ([Double](icon_theme_data-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### opacity Default Value
 
@@ -121,7 +121,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](icon_theme_data-properties-double-1.md))
 -   cannot be null
--   defined in: [Icon Theme Data](icon_theme_data-properties-double-1.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/size")
+-   defined in: [Icon Theme Data](icon_theme_data-properties-double-1.md)
 
 ### size Type
 
@@ -129,9 +129,9 @@ merged type ([Double](icon_theme_data-properties-double-1.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### size Default Value
 

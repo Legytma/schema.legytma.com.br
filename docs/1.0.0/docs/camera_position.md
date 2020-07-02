@@ -13,7 +13,7 @@ https://legytma.com.br/schema/camera_position.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [camera_position.schema.json](../schema/camera_position.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [camera_position.schema.json](../schema/camera_position.schema.json) |
 
 ## Camera Position Type
 
@@ -23,10 +23,10 @@ https://legytma.com.br/schema/camera_position.schema.json
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                           |
 | :------------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
-| [target](#target)   | `object` | Required | cannot be null | [Camera Position](camera_position-properties-lat-lng.md "https&#x3A;//legytma.com.br/schema/lat_lng.schema.json#/properties/target") |
-| [bearing](#bearing) | Merged   | Optional | cannot be null | [Camera Position](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/bearing")    |
-| [tilt](#tilt)       | Merged   | Optional | cannot be null | [Camera Position](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/tilt")       |
-| [zoom](#zoom)       | Merged   | Optional | cannot be null | [Camera Position](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/zoom")       |
+| [target](#target)   | `object` | Required | cannot be null | [Camera Position](camera_position-properties-lat-lng.md) |
+| [bearing](#bearing) | Merged   | Optional | cannot be null | [Camera Position](app_bar_theme-properties-double.md)    |
+| [tilt](#tilt)       | Merged   | Optional | cannot be null | [Camera Position](app_bar_theme-properties-double.md)       |
+| [zoom](#zoom)       | Merged   | Optional | cannot be null | [Camera Position](app_bar_theme-properties-double.md)       |
 
 ## target
 
@@ -42,7 +42,7 @@ https://legytma.com.br/schema/camera_position.schema.json
 -   is required
 -   Type: `object` ([Lat Lng](camera_position-properties-lat-lng.md))
 -   cannot be null
--   defined in: [Camera Position](camera_position-properties-lat-lng.md "https&#x3A;//legytma.com.br/schema/lat_lng.schema.json#/properties/target")
+-   defined in: [Camera Position](camera_position-properties-lat-lng.md)
 
 ### target Type
 
@@ -61,7 +61,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Camera Position](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/bearing")
+-   defined in: [Camera Position](app_bar_theme-properties-double.md)
 
 ### bearing Type
 
@@ -69,9 +69,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### bearing Constraints
 
@@ -100,7 +100,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Camera Position](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/tilt")
+-   defined in: [Camera Position](app_bar_theme-properties-double.md)
 
 ### tilt Type
 
@@ -108,9 +108,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### tilt Constraints
 
@@ -139,7 +139,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Camera Position](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/zoom")
+-   defined in: [Camera Position](app_bar_theme-properties-double.md)
 
 ### zoom Type
 
@@ -147,9 +147,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### zoom Constraints
 

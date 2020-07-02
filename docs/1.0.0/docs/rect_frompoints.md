@@ -13,7 +13,7 @@ https://legytma.com.br/schema/rect_fromPoints.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [rect_fromPoints.schema.json](../schema/rect_fromPoints.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [rect_fromPoints.schema.json](../schema/rect_fromPoints.schema.json) |
 
 ## Rect From Points Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/rect_fromPoints.schema.json
 
 all of
 
--   [Rect](decoration_image-properties-rect.md "check type definition")
+-   [Rect](decoration_image-properties-rect.md)
 
 # Rect From Points Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                       |
 | :------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Rect From Points](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect_fromPoints.schema.json#/properties/type") |
-| [a](#a)       | `object` | Optional | cannot be null | [Rect From Points](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/a")        |
-| [b](#b)       | `object` | Optional | cannot be null | [Rect From Points](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/b")        |
+| [type](#type) | `string` | Optional | cannot be null | [Rect From Points](widget-definitions-type.md) |
+| [a](#a)       | `object` | Optional | cannot be null | [Rect From Points](box_shadow-properties-offset.md)        |
+| [b](#b)       | `object` | Optional | cannot be null | [Rect From Points](box_shadow-properties-offset.md)        |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Rect From Points](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect_fromPoints.schema.json#/properties/type")
+-   defined in: [Rect From Points](widget-definitions-type.md)
 
 ### type Type
 
@@ -85,7 +85,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Offset](box_shadow-properties-offset.md))
 -   cannot be null
--   defined in: [Rect From Points](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/a")
+-   defined in: [Rect From Points](box_shadow-properties-offset.md)
 
 ### a Type
 
@@ -113,7 +113,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Offset](box_shadow-properties-offset.md))
 -   cannot be null
--   defined in: [Rect From Points](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/b")
+-   defined in: [Rect From Points](box_shadow-properties-offset.md)
 
 ### b Type
 

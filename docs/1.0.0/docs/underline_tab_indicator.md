@@ -13,7 +13,7 @@ https://legytma.com.br/schema/underline_tab_indicator.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [underline_tab_indicator.schema.json](../schema/underline_tab_indicator.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [underline_tab_indicator.schema.json](../schema/underline_tab_indicator.schema.json) |
 
 ## Underline Tab Indicator Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/underline_tab_indicator.schema.json
 
 any of
 
--   [Decoration](box_decoration-anyof-decoration.md "check type definition")
+-   [Decoration](box_decoration-anyof-decoration.md)
 
 # Underline Tab Indicator Properties
 
 | Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                              |
 | :------------------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)             | `string` | Optional | cannot be null | [Underline Tab Indicator](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/underline_tab_indicator.schema.json#/properties/type")         |
-| [borderSide](#borderSide) | `object` | Optional | cannot be null | [Underline Tab Indicator](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/borderSide") |
-| [insets](#insets)         | Merged   | Optional | cannot be null | [Underline Tab Indicator](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/insets") |
+| [type](#type)             | `string` | Optional | cannot be null | [Underline Tab Indicator](widget-definitions-type.md)         |
+| [borderSide](#borderSide) | `object` | Optional | cannot be null | [Underline Tab Indicator](border_default-properties-border-side.md) |
+| [insets](#insets)         | Merged   | Optional | cannot be null | [Underline Tab Indicator](edge_insets_lerp-properties-edge-insets-1.md) |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Underline Tab Indicator](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/underline_tab_indicator.schema.json#/properties/type")
+-   defined in: [Underline Tab Indicator](widget-definitions-type.md)
 
 ### type Type
 
@@ -99,7 +99,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Border Side](border_default-properties-border-side.md))
 -   cannot be null
--   defined in: [Underline Tab Indicator](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/borderSide")
+-   defined in: [Underline Tab Indicator](border_default-properties-border-side.md)
 
 ### borderSide Type
 
@@ -127,7 +127,7 @@ The default value is:
 -   is optional
 -   Type: merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 -   cannot be null
--   defined in: [Underline Tab Indicator](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/insets")
+-   defined in: [Underline Tab Indicator](edge_insets_lerp-properties-edge-insets-1.md)
 
 ### insets Type
 
@@ -135,8 +135,8 @@ merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 
 one (and only one) of
 
--   [Edge Insets String](edge_insets-oneof-edge-insets-string.md "check type definition")
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets String](edge_insets-oneof-edge-insets-string.md)
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 ### insets Default Value
 

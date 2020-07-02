@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/image_network.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                     |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [image_network.schema.json](../schema/widget/image_network.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [image_network.schema.json](../schema/widget/image_network.schema.json) |
 
 ## Image Network Type
 
@@ -23,19 +23,19 @@ all of
 
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Image Network Properties
 
 | Property                          | Type         | Required | Nullable       | Defined by                                                                                                                                      |
 | :-------------------------------- | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [imageType](#imageType)           | `string`     | Required | cannot be null | [Image Network](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image_network.schema.json#/properties/imageType")    |
-| [src](#src)                       | `string`     | Required | cannot be null | [Image Network](image_network-properties-source.md "https&#x3A;//legytma.com.br/schema/widget/image_network.schema.json#/properties/src")       |
-| [headers](#headers)               | `array`      | Optional | cannot be null | [Image Network](image_network-properties-headers.md "https&#x3A;//legytma.com.br/schema/widget/image_network.schema.json#/properties/headers")  |
-| [cacheHeight](#cacheHeight)       | Unknown Type | Optional | cannot be null | [Image Network](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheHeight")                            |
-| [cacheWidth](#cacheWidth)         | Unknown Type | Optional | cannot be null | [Image Network](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheWidth")                             |
-| [loadingBuilder](#loadingBuilder) | Unknown Type | Optional | can be null    | [Image Network](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/loadingBuilder") |
-| [scale](#scale)                   | Merged       | Optional | cannot be null | [Image Network](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/scale")                   |
+| [imageType](#imageType)           | `string`     | Required | cannot be null | [Image Network](image-definitions-image-type.md)    |
+| [src](#src)                       | `string`     | Required | cannot be null | [Image Network](image_network-properties-source.md)       |
+| [headers](#headers)               | `array`      | Optional | cannot be null | [Image Network](image_network-properties-headers.md)  |
+| [cacheHeight](#cacheHeight)       | Unknown Type | Optional | cannot be null | [Image Network](color-allof-integer.md)                            |
+| [cacheWidth](#cacheWidth)         | Unknown Type | Optional | cannot be null | [Image Network](color-allof-integer.md)                             |
+| [loadingBuilder](#loadingBuilder) | Unknown Type | Optional | can be null    | [Image Network](bottom_app_bar_theme-properties-dynamic.md) |
+| [scale](#scale)                   | Merged       | Optional | cannot be null | [Image Network](app_bar_theme-properties-double.md)                   |
 
 ## imageType
 
@@ -47,7 +47,7 @@ all of
 -   is required
 -   Type: `string` ([Image Type](image-definitions-image-type.md))
 -   cannot be null
--   defined in: [Image Network](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image_network.schema.json#/properties/imageType")
+-   defined in: [Image Network](image-definitions-image-type.md)
 
 ### imageType Type
 
@@ -81,7 +81,7 @@ all of
 -   is required
 -   Type: `string` ([Source](image_network-properties-source.md))
 -   cannot be null
--   defined in: [Image Network](image_network-properties-source.md "https&#x3A;//legytma.com.br/schema/widget/image_network.schema.json#/properties/src")
+-   defined in: [Image Network](image_network-properties-source.md)
 
 ### src Type
 
@@ -97,15 +97,15 @@ all of
 -   is optional
 -   Type: an array where each item follows the corresponding schema in the following list:
 
-    1.  [Untitled string in Image Network](image_network-properties-headers-items-0.md "check type definition")
+    1.  [Untitled string in Image Network](image_network-properties-headers-items-0.md)
 -   cannot be null
--   defined in: [Image Network](image_network-properties-headers.md "https&#x3A;//legytma.com.br/schema/widget/image_network.schema.json#/properties/headers")
+-   defined in: [Image Network](image_network-properties-headers.md)
 
 ### headers Type
 
 an array where each item follows the corresponding schema in the following list:
 
-1.  [Untitled string in Image Network](image_network-properties-headers-items-0.md "check type definition")
+1.  [Untitled string in Image Network](image_network-properties-headers-items-0.md)
 
 ## cacheHeight
 
@@ -120,7 +120,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Image Network](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheHeight")
+-   defined in: [Image Network](color-allof-integer.md)
 
 ### cacheHeight Type
 
@@ -173,7 +173,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Image Network](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheWidth")
+-   defined in: [Image Network](color-allof-integer.md)
 
 ### cacheWidth Type
 
@@ -227,7 +227,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Image Network](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/loadingBuilder")
+-   defined in: [Image Network](bottom_app_bar_theme-properties-dynamic.md)
 
 ### loadingBuilder Type
 
@@ -254,7 +254,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Image Network](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/scale")
+-   defined in: [Image Network](app_bar_theme-properties-double.md)
 
 ### scale Type
 
@@ -262,9 +262,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### scale Constraints
 

@@ -12,7 +12,7 @@ Locale.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_style.schema.json\*](../schema/text_style.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_style.schema.json\*](../schema/text_style.schema.json) |
 
 ## locale Type
 
@@ -22,8 +22,8 @@ Locale.
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                    |
 | :---------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [languageCode](#languageCode) | `string` | Optional | cannot be null | [Locale](locale-properties-language-code.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/languageCode") |
-| [countryCode](#countryCode)   | `string` | Optional | cannot be null | [Locale](locale-properties-countrycode.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/countryCode")    |
+| [languageCode](#languageCode) | `string` | Optional | cannot be null | [Locale](locale-properties-language-code.md) |
+| [countryCode](#countryCode)   | `string` | Optional | cannot be null | [Locale](locale-properties-countrycode.md)    |
 
 ## languageCode
 
@@ -35,7 +35,7 @@ Language code
 -   is optional
 -   Type: `string` ([Language Code](locale-properties-language-code.md))
 -   cannot be null
--   defined in: [Locale](locale-properties-language-code.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/languageCode")
+-   defined in: [Locale](locale-properties-language-code.md)
 
 ### languageCode Type
 
@@ -51,7 +51,7 @@ Country code
 -   is optional
 -   Type: `string` ([CountryCode](locale-properties-countrycode.md))
 -   cannot be null
--   defined in: [Locale](locale-properties-countrycode.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/countryCode")
+-   defined in: [Locale](locale-properties-countrycode.md)
 
 ### countryCode Type
 

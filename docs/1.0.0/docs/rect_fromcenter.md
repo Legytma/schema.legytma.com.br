@@ -13,7 +13,7 @@ https://legytma.com.br/schema/rect_fromCenter.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [rect_fromCenter.schema.json](../schema/rect_fromCenter.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [rect_fromCenter.schema.json](../schema/rect_fromCenter.schema.json) |
 
 ## Rect Fromcenter Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/rect_fromCenter.schema.json
 
 all of
 
--   [Rect](decoration_image-properties-rect.md "check type definition")
+-   [Rect](decoration_image-properties-rect.md)
 
 # Rect Fromcenter Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                       |
 | :---------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)     | `string` | Optional | cannot be null | [Rect Fromcenter](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect_fromCenter.schema.json#/properties/type")  |
-| [center](#center) | `object` | Optional | cannot be null | [Rect Fromcenter](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/center")    |
-| [width](#width)   | Merged   | Optional | cannot be null | [Rect Fromcenter](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")  |
-| [height](#height) | Merged   | Optional | cannot be null | [Rect Fromcenter](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height") |
+| [type](#type)     | `string` | Optional | cannot be null | [Rect Fromcenter](widget-definitions-type.md)  |
+| [center](#center) | `object` | Optional | cannot be null | [Rect Fromcenter](box_shadow-properties-offset.md)    |
+| [width](#width)   | Merged   | Optional | cannot be null | [Rect Fromcenter](app_bar_theme-properties-double.md)  |
+| [height](#height) | Merged   | Optional | cannot be null | [Rect Fromcenter](app_bar_theme-properties-double.md) |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Rect Fromcenter](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect_fromCenter.schema.json#/properties/type")
+-   defined in: [Rect Fromcenter](widget-definitions-type.md)
 
 ### type Type
 
@@ -86,7 +86,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Offset](box_shadow-properties-offset.md))
 -   cannot be null
--   defined in: [Rect Fromcenter](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/center")
+-   defined in: [Rect Fromcenter](box_shadow-properties-offset.md)
 
 ### center Type
 
@@ -113,7 +113,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Rect Fromcenter](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")
+-   defined in: [Rect Fromcenter](app_bar_theme-properties-double.md)
 
 ### width Type
 
@@ -121,9 +121,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### width Constraints
 
@@ -152,7 +152,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Rect Fromcenter](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Rect Fromcenter](app_bar_theme-properties-double.md)
 
 ### height Type
 
@@ -160,9 +160,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### height Constraints
 

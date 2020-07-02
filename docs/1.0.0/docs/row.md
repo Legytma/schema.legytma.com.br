@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/row.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                 |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [row.schema.json](../schema/widget/row.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [row.schema.json](../schema/widget/row.schema.json) |
 
 ## Row Type
 
@@ -21,20 +21,20 @@ https://legytma.com.br/schema/widget/row.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Row Properties
 
 | Property                                  | Type     | Required | Nullable       | Defined by                                                                                                                                                        |
 | :---------------------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                             | `string` | Optional | cannot be null | [Row](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/row.schema.json#/properties/type")                                                    |
-| [crossAxisAlignment](#crossAxisAlignment) | `string` | Optional | cannot be null | [Row](column-properties-cross-axis-alignment.md "https&#x3A;//legytma.com.br/schema/cross_axis_alignment.schema.json#/properties/crossAxisAlignment")             |
-| [mainAxisAlignment](#mainAxisAlignment)   | `string` | Optional | cannot be null | [Row](button_bar_theme_data-properties-main-axis-alignment.md "https&#x3A;//legytma.com.br/schema/main_axis_alignment.schema.json#/properties/mainAxisAlignment") |
-| [mainAxisSize](#mainAxisSize)             | `string` | Optional | cannot be null | [Row](button_bar_theme_data-properties-main-axis-size.md "https&#x3A;//legytma.com.br/schema/main_axis_size.schema.json#/properties/mainAxisSize")                |
-| [textBaseline](#textBaseline)             | `string` | Optional | cannot be null | [Row](text_style-properties-text-baseline.md "https&#x3A;//legytma.com.br/schema/text_baseline.schema.json#/properties/textBaseline")                             |
-| [textDirection](#textDirection)           | `string` | Optional | cannot be null | [Row](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")                              |
-| [verticalDirection](#verticalDirection)   | `string` | Optional | cannot be null | [Row](column-properties-vertical-direction.md "https&#x3A;//legytma.com.br/schema/vertical_direction.schema.json#/properties/verticalDirection")                  |
-| [children](#children)                     | `array`  | Optional | cannot be null | [Row](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")                           |
+| [type](#type)                             | `string` | Optional | cannot be null | [Row](widget-definitions-type.md)                                                    |
+| [crossAxisAlignment](#crossAxisAlignment) | `string` | Optional | cannot be null | [Row](column-properties-cross-axis-alignment.md)             |
+| [mainAxisAlignment](#mainAxisAlignment)   | `string` | Optional | cannot be null | [Row](button_bar_theme_data-properties-main-axis-alignment.md) |
+| [mainAxisSize](#mainAxisSize)             | `string` | Optional | cannot be null | [Row](button_bar_theme_data-properties-main-axis-size.md)                |
+| [textBaseline](#textBaseline)             | `string` | Optional | cannot be null | [Row](text_style-properties-text-baseline.md)                             |
+| [textDirection](#textDirection)           | `string` | Optional | cannot be null | [Row](column-properties-text-direction.md)                              |
+| [verticalDirection](#verticalDirection)   | `string` | Optional | cannot be null | [Row](column-properties-vertical-direction.md)                  |
+| [children](#children)                     | `array`  | Optional | cannot be null | [Row](grid_view_params-properties-list-of-widgets.md)                           |
 
 ## type
 
@@ -49,7 +49,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Row](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/row.schema.json#/properties/type")
+-   defined in: [Row](widget-definitions-type.md)
 
 ### type Type
 
@@ -77,7 +77,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Cross Axis Alignment](column-properties-cross-axis-alignment.md))
 -   cannot be null
--   defined in: [Row](column-properties-cross-axis-alignment.md "https&#x3A;//legytma.com.br/schema/cross_axis_alignment.schema.json#/properties/crossAxisAlignment")
+-   defined in: [Row](column-properties-cross-axis-alignment.md)
 
 ### crossAxisAlignment Type
 
@@ -117,7 +117,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Main Axis Alignment](button_bar_theme_data-properties-main-axis-alignment.md))
 -   cannot be null
--   defined in: [Row](button_bar_theme_data-properties-main-axis-alignment.md "https&#x3A;//legytma.com.br/schema/main_axis_alignment.schema.json#/properties/mainAxisAlignment")
+-   defined in: [Row](button_bar_theme_data-properties-main-axis-alignment.md)
 
 ### mainAxisAlignment Type
 
@@ -158,7 +158,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Main Axis Size](button_bar_theme_data-properties-main-axis-size.md))
 -   cannot be null
--   defined in: [Row](button_bar_theme_data-properties-main-axis-size.md "https&#x3A;//legytma.com.br/schema/main_axis_size.schema.json#/properties/mainAxisSize")
+-   defined in: [Row](button_bar_theme_data-properties-main-axis-size.md)
 
 ### mainAxisSize Type
 
@@ -195,7 +195,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Text Baseline](text_style-properties-text-baseline.md))
 -   cannot be null
--   defined in: [Row](text_style-properties-text-baseline.md "https&#x3A;//legytma.com.br/schema/text_baseline.schema.json#/properties/textBaseline")
+-   defined in: [Row](text_style-properties-text-baseline.md)
 
 ### textBaseline Type
 
@@ -223,7 +223,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Text Direction](column-properties-text-direction.md))
 -   cannot be null
--   defined in: [Row](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")
+-   defined in: [Row](column-properties-text-direction.md)
 
 ### textDirection Type
 
@@ -262,7 +262,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Vertical Direction](column-properties-vertical-direction.md))
 -   cannot be null
--   defined in: [Row](column-properties-vertical-direction.md "https&#x3A;//legytma.com.br/schema/vertical_direction.schema.json#/properties/verticalDirection")
+-   defined in: [Row](column-properties-vertical-direction.md)
 
 ### verticalDirection Type
 
@@ -298,7 +298,7 @@ List of Schema to validation of JSON used to parse Widgets.
 -   is optional
 -   Type: `object[]` ([Widget](list_widget-widget.md))
 -   cannot be null
--   defined in: [Row](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")
+-   defined in: [Row](grid_view_params-properties-list-of-widgets.md)
 
 ### children Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/edge_insets_fromWindowPadding.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets_fromWindowPadding.schema.json](../schema/edge_insets_fromWindowPadding.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets_fromWindowPadding.schema.json](../schema/edge_insets_fromWindowPadding.schema.json) |
 
 ## Edge Insets From Window Padding Type
 
@@ -21,15 +21,15 @@ any of the folllowing: `string` or `object` ([Edge Insets From Window Padding](e
 
 all of
 
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 # Edge Insets From Window Padding Properties
 
 | Property                              | Type         | Required | Nullable       | Defined by                                                                                                                                                                          |
 | :------------------------------------ | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                         | `string`     | Optional | cannot be null | [Edge Insets From Window Padding](edge_insets_fromwindowpadding-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_fromWindowPadding.schema.json#/properties/type") |
-| [padding](#padding)                   | Unknown Type | Optional | can be null    | [Edge Insets From Window Padding](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/padding")                          |
-| [devicePixelRatio](#devicePixelRatio) | Merged       | Optional | cannot be null | [Edge Insets From Window Padding](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/devicePixelRatio")                          |
+| [type](#type)                         | `string`     | Optional | cannot be null | [Edge Insets From Window Padding](edge_insets_fromwindowpadding-properties-type.md) |
+| [padding](#padding)                   | Unknown Type | Optional | can be null    | [Edge Insets From Window Padding](bottom_app_bar_theme-properties-dynamic.md)                          |
+| [devicePixelRatio](#devicePixelRatio) | Merged       | Optional | cannot be null | [Edge Insets From Window Padding](app_bar_theme-properties-double.md)                          |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](edge_insets_fromwindowpadding-properties-type.md))
 -   cannot be null
--   defined in: [Edge Insets From Window Padding](edge_insets_fromwindowpadding-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_fromWindowPadding.schema.json#/properties/type")
+-   defined in: [Edge Insets From Window Padding](edge_insets_fromwindowpadding-properties-type.md)
 
 ### type Type
 
@@ -85,7 +85,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Edge Insets From Window Padding](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/padding")
+-   defined in: [Edge Insets From Window Padding](bottom_app_bar_theme-properties-dynamic.md)
 
 ### padding Type
 
@@ -104,7 +104,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Edge Insets From Window Padding](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/devicePixelRatio")
+-   defined in: [Edge Insets From Window Padding](app_bar_theme-properties-double.md)
 
 ### devicePixelRatio Type
 
@@ -112,9 +112,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### devicePixelRatio Constraints
 

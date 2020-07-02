@@ -13,7 +13,7 @@ https://legytma.com.br/schema/focus_node.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [focus_node.schema.json](../schema/focus_node.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [focus_node.schema.json](../schema/focus_node.schema.json) |
 
 ## Focus Node Type
 
@@ -23,10 +23,10 @@ https://legytma.com.br/schema/focus_node.schema.json
 
 | Property                            | Type         | Required | Nullable       | Defined by                                                                                                                                  |
 | :---------------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [canRequestFocus](#canRequestFocus) | `boolean`    | Optional | cannot be null | [Focus Node](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/canRequestFocus") |
-| [debugLabel](#debugLabel)           | `string`     | Optional | cannot be null | [Focus Node](text_style-properties-debug-label.md "https&#x3A;//legytma.com.br/schema/debug_label.schema.json#/properties/debugLabel")      |
-| [onKey](#onKey)                     | Unknown Type | Optional | can be null    | [Focus Node](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onKey")         |
-| [skipTraversal](#skipTraversal)     | `boolean`    | Optional | cannot be null | [Focus Node](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/skipTraversal")   |
+| [canRequestFocus](#canRequestFocus) | `boolean`    | Optional | cannot be null | [Focus Node](button_bar_theme_data-properties-boolean.md) |
+| [debugLabel](#debugLabel)           | `string`     | Optional | cannot be null | [Focus Node](text_style-properties-debug-label.md)      |
+| [onKey](#onKey)                     | Unknown Type | Optional | can be null    | [Focus Node](bottom_app_bar_theme-properties-dynamic.md)         |
+| [skipTraversal](#skipTraversal)     | `boolean`    | Optional | cannot be null | [Focus Node](button_bar_theme_data-properties-boolean.md)   |
 
 ## canRequestFocus
 
@@ -41,7 +41,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Focus Node](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/canRequestFocus")
+-   defined in: [Focus Node](button_bar_theme_data-properties-boolean.md)
 
 ### canRequestFocus Type
 
@@ -78,7 +78,7 @@ Used to identify during debug
 -   is optional
 -   Type: `string` ([Debug Label](text_style-properties-debug-label.md))
 -   cannot be null
--   defined in: [Focus Node](text_style-properties-debug-label.md "https&#x3A;//legytma.com.br/schema/debug_label.schema.json#/properties/debugLabel")
+-   defined in: [Focus Node](text_style-properties-debug-label.md)
 
 ### debugLabel Type
 
@@ -98,7 +98,7 @@ Used to identify during debug
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Focus Node](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onKey")
+-   defined in: [Focus Node](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onKey Type
 
@@ -117,7 +117,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Focus Node](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/skipTraversal")
+-   defined in: [Focus Node](button_bar_theme_data-properties-boolean.md)
 
 ### skipTraversal Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/ima
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration_image.schema.json\*](../schema/decoration_image.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [decoration_image.schema.json\*](../schema/decoration_image.schema.json) |
 
 ## image Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/ima
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                   |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Required | cannot be null | [Image Provider Dynamic](image_provider_dynamic-properties-type.md "https&#x3A;//legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/type") |
+| [type](#type) | `string` | Required | cannot be null | [Image Provider Dynamic](image_provider_dynamic-properties-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Type](image_provider_dynamic-properties-type.md))
 -   cannot be null
--   defined in: [Image Provider Dynamic](image_provider_dynamic-properties-type.md "https&#x3A;//legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/type")
+-   defined in: [Image Provider Dynamic](image_provider_dynamic-properties-type.md)
 
 ### type Type
 
@@ -73,7 +73,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](image_provider_dynamic-definitions-type.md))
 -   cannot be null
--   defined in: [Image Provider Dynamic](image_provider_dynamic-definitions-type.md "https&#x3A;//legytma.com.br/schema/image_provider_dynamic.schema.json#/definitions/type")
+-   defined in: [Image Provider Dynamic](image_provider_dynamic-definitions-type.md)
 
 ### type Type
 

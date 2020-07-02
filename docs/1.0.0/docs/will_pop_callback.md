@@ -13,7 +13,7 @@ https://legytma.com.br/schema/will_pop_callback.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [will_pop_callback.schema.json](../schema/will_pop_callback.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [will_pop_callback.schema.json](../schema/will_pop_callback.schema.json) |
 
 ## Will Pop Callback Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/iterable_localizations_delegate_dynamic.schema.jso
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [iterable_localizations_delegate_dynamic.schema.json](../schema/iterable_localizations_delegate_dynamic.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [iterable_localizations_delegate_dynamic.schema.json](../schema/iterable_localizations_delegate_dynamic.schema.json) |
 
 ## Iterable Localizations Delegate Dynamic Type
 

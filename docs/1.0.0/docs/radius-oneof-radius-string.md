@@ -13,7 +13,7 @@ https://legytma.com.br/schema/radius_string.schema.json#/oneOf/0
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [radius.schema.json\*](../schema/radius.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [radius.schema.json\*](../schema/radius.schema.json) |
 
 ## 0 Type
 
@@ -23,6 +23,6 @@ all of
 
 -   one (and only one) of
 
-    -   [Untitled number in Double](double-oneof-0.md "check type definition")
-    -   [Untitled string in Double](double-oneof-1.md "check type definition")
-    -   [Untitled string in Double](double-oneof-2.md "check type definition")
+    -   [Untitled number in Double](double-oneof-0.md)
+    -   [Untitled string in Double](double-oneof-1.md)
+    -   [Untitled string in Double](double-oneof-2.md)

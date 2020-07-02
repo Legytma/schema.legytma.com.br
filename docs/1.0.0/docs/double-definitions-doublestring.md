@@ -9,7 +9,7 @@ https://legytma.com.br/schema/double.schema.json#/oneOf/1
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [double.schema.json\*](../schema/double.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [double.schema.json\*](../schema/double.schema.json) |
 
 ## 1 Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/double.schema.json#/oneOf/1
 ^-?\d+(\.\d+)?$
 ```
 
-[try pattern](https://regexr.com/?expression=%5E-%3F%5Cd%2B(%5C.%5Cd%2B)%3F%24 "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=%5E-%3F%5Cd%2B(%5C.%5Cd%2B)%3F%24)
 
 ## 1 Examples
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/page_view.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                             |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [page_view.schema.json](../schema/widget/page_view.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [page_view.schema.json](../schema/widget/page_view.schema.json) |
 
 ## Page View Type
 
@@ -21,19 +21,19 @@ https://legytma.com.br/schema/widget/page_view.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Page View Properties
 
 | Property                                | Type         | Required | Nullable       | Defined by                                                                                                                                                         |
 | :-------------------------------------- | ------------ | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                           | `string`     | Optional | cannot be null | [Page View](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/page_view.schema.json#/properties/type")                                         |
-| [controller](#controller)               | Unknown Type | Optional | can be null    | [Page View](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/controller")                            |
-| [physics](#physics)                     | Unknown Type | Optional | can be null    | [Page View](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/physics")                               |
-| [dragStartBehavior](#dragStartBehavior) | `string`     | Optional | cannot be null | [Page View](gesture_detector-properties-drag-start-behavior.md "https&#x3A;//legytma.com.br/schema/drag_start_behavior.schema.json#/properties/dragStartBehavior") |
-| [reverse](#reverse)                     | `boolean`    | Optional | cannot be null | [Page View](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/reverse")                                 |
-| [pageSnapping](#pageSnapping)           | `boolean`    | Optional | cannot be null | [Page View](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/pageSnapping")                            |
-| [children](#children)                   | `array`      | Optional | cannot be null | [Page View](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")                      |
+| [type](#type)                           | `string`     | Optional | cannot be null | [Page View](widget-definitions-type.md)                                         |
+| [controller](#controller)               | Unknown Type | Optional | can be null    | [Page View](bottom_app_bar_theme-properties-dynamic.md)                            |
+| [physics](#physics)                     | Unknown Type | Optional | can be null    | [Page View](bottom_app_bar_theme-properties-dynamic.md)                               |
+| [dragStartBehavior](#dragStartBehavior) | `string`     | Optional | cannot be null | [Page View](gesture_detector-properties-drag-start-behavior.md) |
+| [reverse](#reverse)                     | `boolean`    | Optional | cannot be null | [Page View](button_bar_theme_data-properties-boolean.md)                                 |
+| [pageSnapping](#pageSnapping)           | `boolean`    | Optional | cannot be null | [Page View](button_bar_theme_data-properties-boolean.md)                            |
+| [children](#children)                   | `array`      | Optional | cannot be null | [Page View](grid_view_params-properties-list-of-widgets.md)                      |
 
 ## type
 
@@ -48,7 +48,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Page View](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/page_view.schema.json#/properties/type")
+-   defined in: [Page View](widget-definitions-type.md)
 
 ### type Type
 
@@ -76,7 +76,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Page View](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/controller")
+-   defined in: [Page View](bottom_app_bar_theme-properties-dynamic.md)
 
 ### controller Type
 
@@ -104,7 +104,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Page View](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/physics")
+-   defined in: [Page View](bottom_app_bar_theme-properties-dynamic.md)
 
 ### physics Type
 
@@ -132,7 +132,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Drag Start Behavior](gesture_detector-properties-drag-start-behavior.md))
 -   cannot be null
--   defined in: [Page View](gesture_detector-properties-drag-start-behavior.md "https&#x3A;//legytma.com.br/schema/drag_start_behavior.schema.json#/properties/dragStartBehavior")
+-   defined in: [Page View](gesture_detector-properties-drag-start-behavior.md)
 
 ### dragStartBehavior Type
 
@@ -178,7 +178,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Page View](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/reverse")
+-   defined in: [Page View](button_bar_theme_data-properties-boolean.md)
 
 ### reverse Type
 
@@ -215,7 +215,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Page View](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/pageSnapping")
+-   defined in: [Page View](button_bar_theme_data-properties-boolean.md)
 
 ### pageSnapping Type
 
@@ -252,7 +252,7 @@ List of Schema to validation of JSON used to parse Widgets.
 -   is optional
 -   Type: `object[]` ([Widget](list_widget-widget.md))
 -   cannot be null
--   defined in: [Page View](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")
+-   defined in: [Page View](grid_view_params-properties-list-of-widgets.md)
 
 ### children Type
 

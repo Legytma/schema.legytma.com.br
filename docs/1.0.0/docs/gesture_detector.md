@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/gesture_detector.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                           |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [gesture_detector.schema.json](../schema/widget/gesture_detector.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [gesture_detector.schema.json](../schema/widget/gesture_detector.schema.json) |
 
 ## Gesture Detector Type
 
@@ -21,52 +21,52 @@ https://legytma.com.br/schema/widget/gesture_detector.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Gesture Detector Properties
 
 | Property                                          | Type         | Required | Nullable       | Defined by                                                                                                                                                                |
 | :------------------------------------------------ | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                                     | `string`     | Optional | cannot be null | [Gesture Detector](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/gesture_detector.schema.json#/properties/type")                                  |
-| [dragStartBehavior](#dragStartBehavior)           | `string`     | Optional | cannot be null | [Gesture Detector](gesture_detector-properties-drag-start-behavior.md "https&#x3A;//legytma.com.br/schema/drag_start_behavior.schema.json#/properties/dragStartBehavior") |
-| [behavior](#behavior)                             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/behavior")                              |
-| [excludeFromSemantics](#excludeFromSemantics)     | `boolean`    | Optional | cannot be null | [Gesture Detector](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/excludeFromSemantics")                    |
-| [onDoubleTap](#onDoubleTap)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onDoubleTap")                           |
-| [onForcePressEnd](#onForcePressEnd)               | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onForcePressEnd")                       |
-| [onForcePressPeak](#onForcePressPeak)             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onForcePressPeak")                      |
-| [onForcePressStart](#onForcePressStart)           | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onForcePressStart")                     |
-| [onForcePressUpdate](#onForcePressUpdate)         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onForcePressUpdate")                    |
-| [onHorizontalDragCancel](#onHorizontalDragCancel) | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragCancel")                |
-| [onHorizontalDragDown](#onHorizontalDragDown)     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragDown")                  |
-| [onHorizontalDragEnd](#onHorizontalDragEnd)       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragEnd")                   |
-| [onHorizontalDragStart](#onHorizontalDragStart)   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragStart")                 |
-| [onHorizontalDragUpdate](#onHorizontalDragUpdate) | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragUpdate")                |
-| [onLongPress](#onLongPress)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPress")                           |
-| [onLongPressEnd](#onLongPressEnd)                 | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPressEnd")                        |
-| [onLongPressMoveUpdate](#onLongPressMoveUpdate)   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPressMoveUpdate")                 |
-| [onLongPressStart](#onLongPressStart)             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPressStart")                      |
-| [onLongPressUp](#onLongPressUp)                   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPressUp")                         |
-| [onPanCancel](#onPanCancel)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanCancel")                           |
-| [onPanDown](#onPanDown)                           | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanDown")                             |
-| [onPanEnd](#onPanEnd)                             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanEnd")                              |
-| [onPanStart](#onPanStart)                         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanStart")                            |
-| [onPanUpdate](#onPanUpdate)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanUpdate")                           |
-| [onScaleEnd](#onScaleEnd)                         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onScaleEnd")                            |
-| [onScaleStart](#onScaleStart)                     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onScaleStart")                          |
-| [onScaleUpdate](#onScaleUpdate)                   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onScaleUpdate")                         |
-| [onSecondaryTapCancel](#onSecondaryTapCancel)     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSecondaryTapCancel")                  |
-| [onSecondaryTapDown](#onSecondaryTapDown)         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSecondaryTapDown")                    |
-| [onSecondaryTapUp](#onSecondaryTapUp)             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSecondaryTapUp")                      |
-| [onTap](#onTap)                                   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTap")                                 |
-| [onTapCancel](#onTapCancel)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTapCancel")                           |
-| [onTapDown](#onTapDown)                           | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTapDown")                             |
-| [onTapUp](#onTapUp)                               | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTapUp")                               |
-| [onVerticalDragCancel](#onVerticalDragCancel)     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragCancel")                  |
-| [onVerticalDragDown](#onVerticalDragDown)         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragDown")                    |
-| [onVerticalDragEnd](#onVerticalDragEnd)           | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragEnd")                     |
-| [onVerticalDragStart](#onVerticalDragStart)       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragStart")                   |
-| [onVerticalDragUpdate](#onVerticalDragUpdate)     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragUpdate")                  |
-| [child](#child)                                   | `object`     | Optional | cannot be null | [Gesture Detector](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                     |
+| [type](#type)                                     | `string`     | Optional | cannot be null | [Gesture Detector](widget-definitions-type.md)                                  |
+| [dragStartBehavior](#dragStartBehavior)           | `string`     | Optional | cannot be null | [Gesture Detector](gesture_detector-properties-drag-start-behavior.md) |
+| [behavior](#behavior)                             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                              |
+| [excludeFromSemantics](#excludeFromSemantics)     | `boolean`    | Optional | cannot be null | [Gesture Detector](button_bar_theme_data-properties-boolean.md)                    |
+| [onDoubleTap](#onDoubleTap)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                           |
+| [onForcePressEnd](#onForcePressEnd)               | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                       |
+| [onForcePressPeak](#onForcePressPeak)             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                      |
+| [onForcePressStart](#onForcePressStart)           | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                     |
+| [onForcePressUpdate](#onForcePressUpdate)         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                    |
+| [onHorizontalDragCancel](#onHorizontalDragCancel) | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                |
+| [onHorizontalDragDown](#onHorizontalDragDown)     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                  |
+| [onHorizontalDragEnd](#onHorizontalDragEnd)       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                   |
+| [onHorizontalDragStart](#onHorizontalDragStart)   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                 |
+| [onHorizontalDragUpdate](#onHorizontalDragUpdate) | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                |
+| [onLongPress](#onLongPress)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                           |
+| [onLongPressEnd](#onLongPressEnd)                 | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                        |
+| [onLongPressMoveUpdate](#onLongPressMoveUpdate)   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                 |
+| [onLongPressStart](#onLongPressStart)             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                      |
+| [onLongPressUp](#onLongPressUp)                   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                         |
+| [onPanCancel](#onPanCancel)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                           |
+| [onPanDown](#onPanDown)                           | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                             |
+| [onPanEnd](#onPanEnd)                             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                              |
+| [onPanStart](#onPanStart)                         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                            |
+| [onPanUpdate](#onPanUpdate)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                           |
+| [onScaleEnd](#onScaleEnd)                         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                            |
+| [onScaleStart](#onScaleStart)                     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                          |
+| [onScaleUpdate](#onScaleUpdate)                   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                         |
+| [onSecondaryTapCancel](#onSecondaryTapCancel)     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                  |
+| [onSecondaryTapDown](#onSecondaryTapDown)         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                    |
+| [onSecondaryTapUp](#onSecondaryTapUp)             | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                      |
+| [onTap](#onTap)                                   | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                                 |
+| [onTapCancel](#onTapCancel)                       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                           |
+| [onTapDown](#onTapDown)                           | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                             |
+| [onTapUp](#onTapUp)                               | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                               |
+| [onVerticalDragCancel](#onVerticalDragCancel)     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                  |
+| [onVerticalDragDown](#onVerticalDragDown)         | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                    |
+| [onVerticalDragEnd](#onVerticalDragEnd)           | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                     |
+| [onVerticalDragStart](#onVerticalDragStart)       | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                   |
+| [onVerticalDragUpdate](#onVerticalDragUpdate)     | Unknown Type | Optional | can be null    | [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)                  |
+| [child](#child)                                   | `object`     | Optional | cannot be null | [Gesture Detector](input_decoration-properties-widget-5.md)                                     |
 
 ## type
 
@@ -81,7 +81,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Gesture Detector](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/gesture_detector.schema.json#/properties/type")
+-   defined in: [Gesture Detector](widget-definitions-type.md)
 
 ### type Type
 
@@ -109,7 +109,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Drag Start Behavior](gesture_detector-properties-drag-start-behavior.md))
 -   cannot be null
--   defined in: [Gesture Detector](gesture_detector-properties-drag-start-behavior.md "https&#x3A;//legytma.com.br/schema/drag_start_behavior.schema.json#/properties/dragStartBehavior")
+-   defined in: [Gesture Detector](gesture_detector-properties-drag-start-behavior.md)
 
 ### dragStartBehavior Type
 
@@ -156,7 +156,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/behavior")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### behavior Type
 
@@ -175,7 +175,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Gesture Detector](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/excludeFromSemantics")
+-   defined in: [Gesture Detector](button_bar_theme_data-properties-boolean.md)
 
 ### excludeFromSemantics Type
 
@@ -213,7 +213,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onDoubleTap")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onDoubleTap Type
 
@@ -233,7 +233,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onForcePressEnd")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onForcePressEnd Type
 
@@ -253,7 +253,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onForcePressPeak")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onForcePressPeak Type
 
@@ -273,7 +273,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onForcePressStart")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onForcePressStart Type
 
@@ -293,7 +293,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onForcePressUpdate")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onForcePressUpdate Type
 
@@ -313,7 +313,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragCancel")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onHorizontalDragCancel Type
 
@@ -333,7 +333,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragDown")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onHorizontalDragDown Type
 
@@ -353,7 +353,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragEnd")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onHorizontalDragEnd Type
 
@@ -373,7 +373,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragStart")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onHorizontalDragStart Type
 
@@ -393,7 +393,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onHorizontalDragUpdate")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onHorizontalDragUpdate Type
 
@@ -413,7 +413,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPress")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onLongPress Type
 
@@ -433,7 +433,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPressEnd")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onLongPressEnd Type
 
@@ -453,7 +453,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPressMoveUpdate")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onLongPressMoveUpdate Type
 
@@ -473,7 +473,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPressStart")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onLongPressStart Type
 
@@ -493,7 +493,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPressUp")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onLongPressUp Type
 
@@ -513,7 +513,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanCancel")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onPanCancel Type
 
@@ -533,7 +533,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanDown")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onPanDown Type
 
@@ -553,7 +553,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanEnd")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onPanEnd Type
 
@@ -573,7 +573,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanStart")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onPanStart Type
 
@@ -593,7 +593,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPanUpdate")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onPanUpdate Type
 
@@ -613,7 +613,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onScaleEnd")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onScaleEnd Type
 
@@ -633,7 +633,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onScaleStart")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onScaleStart Type
 
@@ -653,7 +653,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onScaleUpdate")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onScaleUpdate Type
 
@@ -673,7 +673,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSecondaryTapCancel")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onSecondaryTapCancel Type
 
@@ -693,7 +693,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSecondaryTapDown")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onSecondaryTapDown Type
 
@@ -713,7 +713,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSecondaryTapUp")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onSecondaryTapUp Type
 
@@ -733,7 +733,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTap")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onTap Type
 
@@ -753,7 +753,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTapCancel")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onTapCancel Type
 
@@ -773,7 +773,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTapDown")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onTapDown Type
 
@@ -793,7 +793,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTapUp")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onTapUp Type
 
@@ -813,7 +813,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragCancel")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onVerticalDragCancel Type
 
@@ -833,7 +833,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragDown")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onVerticalDragDown Type
 
@@ -853,7 +853,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragEnd")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onVerticalDragEnd Type
 
@@ -873,7 +873,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragStart")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onVerticalDragStart Type
 
@@ -893,7 +893,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onVerticalDragUpdate")
+-   defined in: [Gesture Detector](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onVerticalDragUpdate Type
 
@@ -912,7 +912,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Gesture Detector](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Gesture Detector](input_decoration-properties-widget-5.md)
 
 ### child Type
 

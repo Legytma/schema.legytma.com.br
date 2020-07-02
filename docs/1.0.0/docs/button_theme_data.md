@@ -13,7 +13,7 @@ https://legytma.com.br/schema/button_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [button_theme_data.schema.json](../schema/button_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [button_theme_data.schema.json](../schema/button_theme_data.schema.json) |
 
 ## Button Theme Data Type
 
@@ -23,21 +23,21 @@ https://legytma.com.br/schema/button_theme_data.schema.json
 
 | Property                                        | Type         | Required | Nullable       | Defined by                                                                                                                                                                                 |
 | :---------------------------------------------- | ------------ | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [layoutBehavior](#layoutBehavior)               | `string`     | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-button-bar-layout-behavior.md "https&#x3A;//legytma.com.br/schema/button_bar_layout_behavior.schema.json#/properties/layoutBehavior") |
-| [shape](#shape)                                 | Unknown Type | Optional | can be null    | [Button Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")                                                 |
-| [padding](#padding)                             | Unknown Type | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")                    |
-| [textTheme](#textTheme)                         | `string`     | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-button-text-theme.md "https&#x3A;//legytma.com.br/schema/button_text_theme.schema.json#/properties/textTheme")                        |
-| [height](#height)                               | `string`     | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-button-text-theme.md "https&#x3A;//legytma.com.br/schema/button_text_theme.schema.json#/properties/height")                           |
-| [splashColor](#splashColor)                     | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")                                                      |
-| [materialTapTargetSize](#materialTapTargetSize) | `string`     | Optional | cannot be null | [Button Theme Data](button_theme_data-properties-material-tap-target-size.md "https&#x3A;//legytma.com.br/schema/material_tap_target_size.schema.json#/properties/materialTapTargetSize")  |
-| [hoverColor](#hoverColor)                       | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")                                                       |
-| [highlightColor](#highlightColor)               | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")                                                   |
-| [focusColor](#focusColor)                       | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")                                                       |
-| [disabledColor](#disabledColor)                 | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")                                                    |
-| [colorScheme](#colorScheme)                     | `object`     | Optional | cannot be null | [Button Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/colorScheme")                                    |
-| [buttonColor](#buttonColor)                     | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/buttonColor")                                                      |
-| [alignedDropdown](#alignedDropdown)             | `boolean`    | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/alignedDropdown")                                         |
-| [minWidth](#minWidth)                           | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/minWidth")                                                       |
+| [layoutBehavior](#layoutBehavior)               | `string`     | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-button-bar-layout-behavior.md) |
+| [shape](#shape)                                 | Unknown Type | Optional | can be null    | [Button Theme Data](bottom_app_bar_theme-properties-dynamic.md)                                                 |
+| [padding](#padding)                             | Unknown Type | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md)                    |
+| [textTheme](#textTheme)                         | `string`     | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-button-text-theme.md)                        |
+| [height](#height)                               | `string`     | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-button-text-theme.md)                           |
+| [splashColor](#splashColor)                     | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md)                                                      |
+| [materialTapTargetSize](#materialTapTargetSize) | `string`     | Optional | cannot be null | [Button Theme Data](button_theme_data-properties-material-tap-target-size.md)  |
+| [hoverColor](#hoverColor)                       | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md)                                                       |
+| [highlightColor](#highlightColor)               | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md)                                                   |
+| [focusColor](#focusColor)                       | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md)                                                       |
+| [disabledColor](#disabledColor)                 | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md)                                                    |
+| [colorScheme](#colorScheme)                     | `object`     | Optional | cannot be null | [Button Theme Data](button_theme_data-properties-color-scheme.md)                                    |
+| [buttonColor](#buttonColor)                     | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-color.md)                                                      |
+| [alignedDropdown](#alignedDropdown)             | `boolean`    | Optional | cannot be null | [Button Theme Data](button_bar_theme_data-properties-boolean.md)                                         |
+| [minWidth](#minWidth)                           | Merged       | Optional | cannot be null | [Button Theme Data](app_bar_theme-properties-double.md)                                                       |
 
 ## layoutBehavior
 
@@ -49,7 +49,7 @@ https://legytma.com.br/schema/button_theme_data.schema.json
 -   is optional
 -   Type: `string` ([Button Bar Layout Behavior](button_bar_theme_data-properties-button-bar-layout-behavior.md))
 -   cannot be null
--   defined in: [Button Theme Data](button_bar_theme_data-properties-button-bar-layout-behavior.md "https&#x3A;//legytma.com.br/schema/button_bar_layout_behavior.schema.json#/properties/layoutBehavior")
+-   defined in: [Button Theme Data](button_bar_theme_data-properties-button-bar-layout-behavior.md)
 
 ### layoutBehavior Type
 
@@ -96,7 +96,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Button Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Button Theme Data](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -116,7 +116,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Button Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [Button Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### padding Type
 
@@ -143,7 +143,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Button Text Theme](button_bar_theme_data-properties-button-text-theme.md))
 -   cannot be null
--   defined in: [Button Theme Data](button_bar_theme_data-properties-button-text-theme.md "https&#x3A;//legytma.com.br/schema/button_text_theme.schema.json#/properties/textTheme")
+-   defined in: [Button Theme Data](button_bar_theme_data-properties-button-text-theme.md)
 
 ### textTheme Type
 
@@ -191,7 +191,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Button Text Theme](button_bar_theme_data-properties-button-text-theme.md))
 -   cannot be null
--   defined in: [Button Theme Data](button_bar_theme_data-properties-button-text-theme.md "https&#x3A;//legytma.com.br/schema/button_text_theme.schema.json#/properties/height")
+-   defined in: [Button Theme Data](button_bar_theme_data-properties-button-text-theme.md)
 
 ### height Type
 
@@ -242,7 +242,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")
+-   defined in: [Button Theme Data](app_bar_theme-properties-color.md)
 
 ### splashColor Type
 
@@ -250,7 +250,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### splashColor Default Value
 
@@ -288,7 +288,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Material Tap Target Size](button_theme_data-properties-material-tap-target-size.md))
 -   cannot be null
--   defined in: [Button Theme Data](button_theme_data-properties-material-tap-target-size.md "https&#x3A;//legytma.com.br/schema/material_tap_target_size.schema.json#/properties/materialTapTargetSize")
+-   defined in: [Button Theme Data](button_theme_data-properties-material-tap-target-size.md)
 
 ### materialTapTargetSize Type
 
@@ -326,7 +326,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")
+-   defined in: [Button Theme Data](app_bar_theme-properties-color.md)
 
 ### hoverColor Type
 
@@ -334,7 +334,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hoverColor Default Value
 
@@ -375,7 +375,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")
+-   defined in: [Button Theme Data](app_bar_theme-properties-color.md)
 
 ### highlightColor Type
 
@@ -383,7 +383,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### highlightColor Default Value
 
@@ -424,7 +424,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")
+-   defined in: [Button Theme Data](app_bar_theme-properties-color.md)
 
 ### focusColor Type
 
@@ -432,7 +432,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### focusColor Default Value
 
@@ -473,7 +473,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")
+-   defined in: [Button Theme Data](app_bar_theme-properties-color.md)
 
 ### disabledColor Type
 
@@ -481,7 +481,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### disabledColor Default Value
 
@@ -519,7 +519,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Button Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/colorScheme")
+-   defined in: [Button Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### colorScheme Type
 
@@ -538,7 +538,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/buttonColor")
+-   defined in: [Button Theme Data](app_bar_theme-properties-color.md)
 
 ### buttonColor Type
 
@@ -546,7 +546,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### buttonColor Default Value
 
@@ -587,7 +587,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Button Theme Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/alignedDropdown")
+-   defined in: [Button Theme Data](button_bar_theme_data-properties-boolean.md)
 
 ### alignedDropdown Type
 
@@ -624,7 +624,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/minWidth")
+-   defined in: [Button Theme Data](app_bar_theme-properties-double.md)
 
 ### minWidth Type
 
@@ -632,9 +632,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### minWidth Constraints
 

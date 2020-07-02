@@ -13,7 +13,7 @@ https://legytma.com.br/schema/typography.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [typography.schema.json](../schema/typography.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [typography.schema.json](../schema/typography.schema.json) |
 
 ## Typography Type
 
@@ -23,12 +23,12 @@ https://legytma.com.br/schema/typography.schema.json
 
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                   |
 | :-------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
-| [platform](#platform)       | `string` | Optional | cannot be null | [Typography](theme_data-properties-target-platform.md "https&#x3A;//legytma.com.br/schema/target_platform.schema.json#/properties/platform") |
-| [black](#black)             | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/black")           |
-| [dense](#dense)             | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/dense")           |
-| [englishLike](#englishLike) | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/englishLike")     |
-| [tall](#tall)               | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/tall")            |
-| [white](#white)             | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/white")           |
+| [platform](#platform)       | `string` | Optional | cannot be null | [Typography](theme_data-properties-target-platform.md) |
+| [black](#black)             | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md)           |
+| [dense](#dense)             | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md)           |
+| [englishLike](#englishLike) | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md)     |
+| [tall](#tall)               | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md)            |
+| [white](#white)             | `object` | Optional | cannot be null | [Typography](app_bar_theme-properties-text-theme.md)           |
 
 ## platform
 
@@ -40,7 +40,7 @@ Determine the target platform
 -   is optional
 -   Type: `string` ([Target Platform](theme_data-properties-target-platform.md))
 -   cannot be null
--   defined in: [Typography](theme_data-properties-target-platform.md "https&#x3A;//legytma.com.br/schema/target_platform.schema.json#/properties/platform")
+-   defined in: [Typography](theme_data-properties-target-platform.md)
 
 ### platform Type
 
@@ -91,7 +91,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/black")
+-   defined in: [Typography](app_bar_theme-properties-text-theme.md)
 
 ### black Type
 
@@ -110,7 +110,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/dense")
+-   defined in: [Typography](app_bar_theme-properties-text-theme.md)
 
 ### dense Type
 
@@ -129,7 +129,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/englishLike")
+-   defined in: [Typography](app_bar_theme-properties-text-theme.md)
 
 ### englishLike Type
 
@@ -148,7 +148,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/tall")
+-   defined in: [Typography](app_bar_theme-properties-text-theme.md)
 
 ### tall Type
 
@@ -167,7 +167,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](app_bar_theme-properties-text-theme.md))
 -   cannot be null
--   defined in: [Typography](app_bar_theme-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/white")
+-   defined in: [Typography](app_bar_theme-properties-text-theme.md)
 
 ### white Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/circle_avatar.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                     |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [circle_avatar.schema.json](../schema/widget/circle_avatar.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [circle_avatar.schema.json](../schema/widget/circle_avatar.schema.json) |
 
 ## Circle Avatar Type
 
@@ -21,20 +21,20 @@ https://legytma.com.br/schema/widget/circle_avatar.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Circle Avatar Properties
 
 | Property                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                 |
 | :---------------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                       | `string` | Optional | cannot be null | [Circle Avatar](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/circle_avatar.schema.json#/properties/type")                                         |
-| [child](#child)                     | `object` | Optional | cannot be null | [Circle Avatar](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                         |
-| [backgroundColor](#backgroundColor) | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")                                      |
-| [backgroundImage](#backgroundImage) | `object` | Optional | cannot be null | [Circle Avatar](decoration_image-properties-image-provider-dynamic.md "https&#x3A;//legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/backgroundImage") |
-| [foregroundColor](#foregroundColor) | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/foregroundColor")                                      |
-| [maxRadius](#maxRadius)             | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/maxRadius")                                          |
-| [minRadius](#minRadius)             | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/minRadius")                                          |
-| [radius](#radius)                   | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/radius")                                             |
+| [type](#type)                       | `string` | Optional | cannot be null | [Circle Avatar](widget-definitions-type.md)                                         |
+| [child](#child)                     | `object` | Optional | cannot be null | [Circle Avatar](input_decoration-properties-widget-5.md)                                         |
+| [backgroundColor](#backgroundColor) | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-color.md)                                      |
+| [backgroundImage](#backgroundImage) | `object` | Optional | cannot be null | [Circle Avatar](decoration_image-properties-image-provider-dynamic.md) |
+| [foregroundColor](#foregroundColor) | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-color.md)                                      |
+| [maxRadius](#maxRadius)             | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-double.md)                                          |
+| [minRadius](#minRadius)             | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-double.md)                                          |
+| [radius](#radius)                   | Merged   | Optional | cannot be null | [Circle Avatar](app_bar_theme-properties-double.md)                                             |
 
 ## type
 
@@ -49,7 +49,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Circle Avatar](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/circle_avatar.schema.json#/properties/type")
+-   defined in: [Circle Avatar](widget-definitions-type.md)
 
 ### type Type
 
@@ -76,7 +76,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Circle Avatar](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Circle Avatar](input_decoration-properties-widget-5.md)
 
 ### child Type
 
@@ -95,7 +95,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Circle Avatar](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Circle Avatar](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -103,7 +103,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -145,7 +145,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Image Provider Dynamic](decoration_image-properties-image-provider-dynamic.md))
 -   cannot be null
--   defined in: [Circle Avatar](decoration_image-properties-image-provider-dynamic.md "https&#x3A;//legytma.com.br/schema/image_provider_dynamic.schema.json#/properties/backgroundImage")
+-   defined in: [Circle Avatar](decoration_image-properties-image-provider-dynamic.md)
 
 ### backgroundImage Type
 
@@ -164,7 +164,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Circle Avatar](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/foregroundColor")
+-   defined in: [Circle Avatar](app_bar_theme-properties-color.md)
 
 ### foregroundColor Type
 
@@ -172,7 +172,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### foregroundColor Default Value
 
@@ -213,7 +213,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Circle Avatar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/maxRadius")
+-   defined in: [Circle Avatar](app_bar_theme-properties-double.md)
 
 ### maxRadius Type
 
@@ -221,9 +221,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### maxRadius Constraints
 
@@ -252,7 +252,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Circle Avatar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/minRadius")
+-   defined in: [Circle Avatar](app_bar_theme-properties-double.md)
 
 ### minRadius Type
 
@@ -260,9 +260,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### minRadius Constraints
 
@@ -291,7 +291,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Circle Avatar](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/radius")
+-   defined in: [Circle Avatar](app_bar_theme-properties-double.md)
 
 ### radius Type
 
@@ -299,9 +299,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### radius Constraints
 

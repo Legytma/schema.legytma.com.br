@@ -13,7 +13,7 @@ https://legytma.com.br/schema/filter_quality.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [filter_quality.schema.json](../schema/filter_quality.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [filter_quality.schema.json](../schema/filter_quality.schema.json) |
 
 ## Filter Quality Type
 

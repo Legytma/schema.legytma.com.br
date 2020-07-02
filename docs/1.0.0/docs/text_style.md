@@ -12,7 +12,7 @@ Identify the widget type
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                        |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_style.schema.json](../schema/text_style.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_style.schema.json](../schema/text_style.schema.json) |
 
 ## Text Style Type
 
@@ -22,29 +22,29 @@ Identify the widget type
 
 | Property                                    | Type         | Required | Nullable       | Defined by                                                                                                                                                      |
 | :------------------------------------------ | ------------ | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [color](#color)                             | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                                        |
-| [debugLabel](#debugLabel)                   | `string`     | Optional | cannot be null | [Text Style](text_style-properties-debug-label.md "https&#x3A;//legytma.com.br/schema/debug_label.schema.json#/properties/debugLabel")                          |
-| [decoration](#decoration)                   | `string`     | Optional | cannot be null | [Text Style](text_style-properties-text-decoration.md "https&#x3A;//legytma.com.br/schema/text_decoration.schema.json#/properties/decoration")                  |
-| [fontSize](#fontSize)                       | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/fontSize")                                   |
-| [fontFamily](#fontFamily)                   | `string`     | Optional | cannot be null | [Text Style](text_style-properties-font-family.md "https&#x3A;//legytma.com.br/schema/font_family.schema.json#/properties/fontFamily")                          |
-| [fontStyle](#fontStyle)                     | `string`     | Optional | cannot be null | [Text Style](text_style-properties-font-style.md "https&#x3A;//legytma.com.br/schema/font_style.schema.json#/properties/fontStyle")                             |
-| [fontWeight](#fontWeight)                   | `string`     | Optional | cannot be null | [Text Style](text_style-properties-font-weight.md "https&#x3A;//legytma.com.br/schema/font_weight.schema.json#/properties/fontWeight")                          |
-| [backgroundColor](#backgroundColor)         | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")                              |
-| [background](#background)                   | Unknown Type | Optional | can be null    | [Text Style](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/background")                        |
-| [decorationColor](#decorationColor)         | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/decorationColor")                              |
-| [decorationStyle](#decorationStyle)         | `string`     | Optional | cannot be null | [Text Style](text_style-properties-text-decoration-style.md "https&#x3A;//legytma.com.br/schema/text_decoration_style.schema.json#/properties/decorationStyle") |
-| [decorationThickness](#decorationThickness) | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/decorationThickness")                        |
-| [fontFamilyFallback](#fontFamilyFallback)   | `array`      | Optional | cannot be null | [Text Style](text_style-properties-list-of-font-family.md "https&#x3A;//legytma.com.br/schema/list_font_family.schema.json#/properties/fontFamilyFallback")     |
-| [fontFeatures](#fontFeatures)               | `array`      | Optional | cannot be null | [Text Style](text_style-properties-list-of-font-feature.md "https&#x3A;//legytma.com.br/schema/list_font_feature.schema.json#/properties/fontFeatures")         |
-| [foreground](#foreground)                   | Unknown Type | Optional | can be null    | [Text Style](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/foreground")                        |
-| [height](#height)                           | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")                                     |
-| [inherit](#inherit)                         | `boolean`    | Optional | cannot be null | [Text Style](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/inherit")                             |
-| [letterSpacing](#letterSpacing)             | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/letterSpacing")                              |
-| [locale](#locale)                           | `object`     | Optional | cannot be null | [Text Style](text_style-properties-locale.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/locale")                                        |
-| [package](#package)                         | `string`     | Optional | cannot be null | [Text Style](text_style-properties-package.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/package")                                  |
-| [shadows](#shadows)                         | `array`      | Optional | cannot be null | [Text Style](text_style-properties-list-of-shadow.md "https&#x3A;//legytma.com.br/schema/list_shadow.schema.json#/properties/shadows")                          |
-| [textBaseline](#textBaseline)               | `string`     | Optional | cannot be null | [Text Style](text_style-properties-text-baseline.md "https&#x3A;//legytma.com.br/schema/text_baseline.schema.json#/properties/textBaseline")                    |
-| [wordSpacing](#wordSpacing)                 | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/wordSpacing")                                |
+| [color](#color)                             | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-color.md)                                        |
+| [debugLabel](#debugLabel)                   | `string`     | Optional | cannot be null | [Text Style](text_style-properties-debug-label.md)                          |
+| [decoration](#decoration)                   | `string`     | Optional | cannot be null | [Text Style](text_style-properties-text-decoration.md)                  |
+| [fontSize](#fontSize)                       | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md)                                   |
+| [fontFamily](#fontFamily)                   | `string`     | Optional | cannot be null | [Text Style](text_style-properties-font-family.md)                          |
+| [fontStyle](#fontStyle)                     | `string`     | Optional | cannot be null | [Text Style](text_style-properties-font-style.md)                             |
+| [fontWeight](#fontWeight)                   | `string`     | Optional | cannot be null | [Text Style](text_style-properties-font-weight.md)                          |
+| [backgroundColor](#backgroundColor)         | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-color.md)                              |
+| [background](#background)                   | Unknown Type | Optional | can be null    | [Text Style](bottom_app_bar_theme-properties-dynamic.md)                        |
+| [decorationColor](#decorationColor)         | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-color.md)                              |
+| [decorationStyle](#decorationStyle)         | `string`     | Optional | cannot be null | [Text Style](text_style-properties-text-decoration-style.md) |
+| [decorationThickness](#decorationThickness) | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md)                        |
+| [fontFamilyFallback](#fontFamilyFallback)   | `array`      | Optional | cannot be null | [Text Style](text_style-properties-list-of-font-family.md)     |
+| [fontFeatures](#fontFeatures)               | `array`      | Optional | cannot be null | [Text Style](text_style-properties-list-of-font-feature.md)         |
+| [foreground](#foreground)                   | Unknown Type | Optional | can be null    | [Text Style](bottom_app_bar_theme-properties-dynamic.md)                        |
+| [height](#height)                           | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md)                                     |
+| [inherit](#inherit)                         | `boolean`    | Optional | cannot be null | [Text Style](button_bar_theme_data-properties-boolean.md)                             |
+| [letterSpacing](#letterSpacing)             | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md)                              |
+| [locale](#locale)                           | `object`     | Optional | cannot be null | [Text Style](text_style-properties-locale.md)                                        |
+| [package](#package)                         | `string`     | Optional | cannot be null | [Text Style](text_style-properties-package.md)                                  |
+| [shadows](#shadows)                         | `array`      | Optional | cannot be null | [Text Style](text_style-properties-list-of-shadow.md)                          |
+| [textBaseline](#textBaseline)               | `string`     | Optional | cannot be null | [Text Style](text_style-properties-text-baseline.md)                    |
+| [wordSpacing](#wordSpacing)                 | Merged       | Optional | cannot be null | [Text Style](app_bar_theme-properties-double.md)                                |
 
 ## color
 
@@ -59,7 +59,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Text Style](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Text Style](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -67,7 +67,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -108,7 +108,7 @@ Used to identify during debug
 -   is optional
 -   Type: `string` ([Debug Label](text_style-properties-debug-label.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-debug-label.md "https&#x3A;//legytma.com.br/schema/debug_label.schema.json#/properties/debugLabel")
+-   defined in: [Text Style](text_style-properties-debug-label.md)
 
 ### debugLabel Type
 
@@ -127,7 +127,7 @@ Determine the text decoration
 -   is optional
 -   Type: `string` ([Text Decoration](text_style-properties-text-decoration.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-text-decoration.md "https&#x3A;//legytma.com.br/schema/text_decoration.schema.json#/properties/decoration")
+-   defined in: [Text Style](text_style-properties-text-decoration.md)
 
 ### decoration Type
 
@@ -175,7 +175,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/fontSize")
+-   defined in: [Text Style](app_bar_theme-properties-double.md)
 
 ### fontSize Type
 
@@ -183,9 +183,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### fontSize Constraints
 
@@ -214,7 +214,7 @@ Font family
 -   is optional
 -   Type: `string` ([Font Family](text_style-properties-font-family.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-font-family.md "https&#x3A;//legytma.com.br/schema/font_family.schema.json#/properties/fontFamily")
+-   defined in: [Text Style](text_style-properties-font-family.md)
 
 ### fontFamily Type
 
@@ -234,7 +234,7 @@ Font family
 -   is optional
 -   Type: `string` ([Font Style](text_style-properties-font-style.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-font-style.md "https&#x3A;//legytma.com.br/schema/font_style.schema.json#/properties/fontStyle")
+-   defined in: [Text Style](text_style-properties-font-style.md)
 
 ### fontStyle Type
 
@@ -272,7 +272,7 @@ Define the font weight
 -   is optional
 -   Type: `string` ([Font Weight](text_style-properties-font-weight.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-font-weight.md "https&#x3A;//legytma.com.br/schema/font_weight.schema.json#/properties/fontWeight")
+-   defined in: [Text Style](text_style-properties-font-weight.md)
 
 ### fontWeight Type
 
@@ -355,7 +355,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Text Style](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Text Style](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -363,7 +363,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -405,7 +405,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Style](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/background")
+-   defined in: [Text Style](bottom_app_bar_theme-properties-dynamic.md)
 
 ### background Type
 
@@ -424,7 +424,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Text Style](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/decorationColor")
+-   defined in: [Text Style](app_bar_theme-properties-color.md)
 
 ### decorationColor Type
 
@@ -432,7 +432,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### decorationColor Default Value
 
@@ -473,7 +473,7 @@ Text decoration style
 -   is optional
 -   Type: `string` ([Text Decoration Style](text_style-properties-text-decoration-style.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-text-decoration-style.md "https&#x3A;//legytma.com.br/schema/text_decoration_style.schema.json#/properties/decorationStyle")
+-   defined in: [Text Style](text_style-properties-text-decoration-style.md)
 
 ### decorationStyle Type
 
@@ -526,7 +526,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/decorationThickness")
+-   defined in: [Text Style](app_bar_theme-properties-double.md)
 
 ### decorationThickness Type
 
@@ -534,9 +534,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### decorationThickness Constraints
 
@@ -565,7 +565,7 @@ List of font family
 -   is optional
 -   Type: `string[]` ([Font Family](list_font_family-font-family.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-list-of-font-family.md "https&#x3A;//legytma.com.br/schema/list_font_family.schema.json#/properties/fontFamilyFallback")
+-   defined in: [Text Style](text_style-properties-list-of-font-family.md)
 
 ### fontFamilyFallback Type
 
@@ -584,7 +584,7 @@ Font features list
 -   is optional
 -   Type: unknown\[] ([Font Feature](list_font_feature-font-feature.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-list-of-font-feature.md "https&#x3A;//legytma.com.br/schema/list_font_feature.schema.json#/properties/fontFeatures")
+-   defined in: [Text Style](text_style-properties-list-of-font-feature.md)
 
 ### fontFeatures Type
 
@@ -604,7 +604,7 @@ unknown\[] ([Font Feature](list_font_feature-font-feature.md))
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Style](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/foreground")
+-   defined in: [Text Style](bottom_app_bar_theme-properties-dynamic.md)
 
 ### foreground Type
 
@@ -623,7 +623,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Text Style](app_bar_theme-properties-double.md)
 
 ### height Type
 
@@ -631,9 +631,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### height Constraints
 
@@ -662,7 +662,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Style](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/inherit")
+-   defined in: [Text Style](button_bar_theme_data-properties-boolean.md)
 
 ### inherit Type
 
@@ -699,7 +699,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/letterSpacing")
+-   defined in: [Text Style](app_bar_theme-properties-double.md)
 
 ### letterSpacing Type
 
@@ -707,9 +707,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### letterSpacing Constraints
 
@@ -738,7 +738,7 @@ Locale.
 -   is optional
 -   Type: `object` ([Locale](text_style-properties-locale.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-locale.md "https&#x3A;//legytma.com.br/schema/locale.schema.json#/properties/locale")
+-   defined in: [Text Style](text_style-properties-locale.md)
 
 ### locale Type
 
@@ -754,7 +754,7 @@ Locale.
 -   is optional
 -   Type: `string` ([Package](text_style-properties-package.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-package.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/package")
+-   defined in: [Text Style](text_style-properties-package.md)
 
 ### package Type
 
@@ -773,7 +773,7 @@ Shadow list
 -   is optional
 -   Type: unknown\[] ([Shadow](list_shadow-shadow.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-list-of-shadow.md "https&#x3A;//legytma.com.br/schema/list_shadow.schema.json#/properties/shadows")
+-   defined in: [Text Style](text_style-properties-list-of-shadow.md)
 
 ### shadows Type
 
@@ -793,7 +793,7 @@ unknown\[] ([Shadow](list_shadow-shadow.md))
 -   is optional
 -   Type: `string` ([Text Baseline](text_style-properties-text-baseline.md))
 -   cannot be null
--   defined in: [Text Style](text_style-properties-text-baseline.md "https&#x3A;//legytma.com.br/schema/text_baseline.schema.json#/properties/textBaseline")
+-   defined in: [Text Style](text_style-properties-text-baseline.md)
 
 ### textBaseline Type
 
@@ -821,7 +821,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Text Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/wordSpacing")
+-   defined in: [Text Style](app_bar_theme-properties-double.md)
 
 ### wordSpacing Type
 
@@ -829,9 +829,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### wordSpacing Constraints
 

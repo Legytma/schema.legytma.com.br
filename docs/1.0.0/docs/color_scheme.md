@@ -9,7 +9,7 @@ https://legytma.com.br/schema/color_scheme.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [color_scheme.schema.json](../schema/color_scheme.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [color_scheme.schema.json](../schema/color_scheme.schema.json) |
 
 ## Color Scheme Type
 
@@ -19,19 +19,19 @@ https://legytma.com.br/schema/color_scheme.schema.json
 
 | Property                              | Type     | Required | Nullable       | Defined by                                                                                                                                |
 | :------------------------------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| [primary](#primary)                   | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primary")              |
-| [primaryVariant](#primaryVariant)     | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryVariant")       |
-| [secondary](#secondary)               | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/secondary")            |
-| [secondaryVariant](#secondaryVariant) | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/secondaryVariant")     |
-| [surface](#surface)                   | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/surface")              |
-| [background](#background)             | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/background")           |
-| [error](#error)                       | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/error")                |
-| [onPrimary](#onPrimary)               | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onPrimary")            |
-| [onSecondary](#onSecondary)           | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onSecondary")          |
-| [onSurface](#onSurface)               | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onSurface")            |
-| [onBackground](#onBackground)         | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onBackground")         |
-| [onError](#onError)                   | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onError")              |
-| [brightness](#brightness)             | `string` | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness") |
+| [primary](#primary)                   | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)              |
+| [primaryVariant](#primaryVariant)     | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)       |
+| [secondary](#secondary)               | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)            |
+| [secondaryVariant](#secondaryVariant) | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)     |
+| [surface](#surface)                   | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)              |
+| [background](#background)             | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)           |
+| [error](#error)                       | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)                |
+| [onPrimary](#onPrimary)               | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)            |
+| [onSecondary](#onSecondary)           | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)          |
+| [onSurface](#onSurface)               | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)            |
+| [onBackground](#onBackground)         | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)         |
+| [onError](#onError)                   | Merged   | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-color.md)              |
+| [brightness](#brightness)             | `string` | Optional | cannot be null | [Color Scheme](app_bar_theme-properties-brightness.md) |
 
 ## primary
 
@@ -46,7 +46,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primary")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### primary Type
 
@@ -54,7 +54,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### primary Default Value
 
@@ -95,7 +95,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryVariant")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### primaryVariant Type
 
@@ -103,7 +103,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### primaryVariant Default Value
 
@@ -144,7 +144,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/secondary")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### secondary Type
 
@@ -152,7 +152,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### secondary Default Value
 
@@ -193,7 +193,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/secondaryVariant")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### secondaryVariant Type
 
@@ -201,7 +201,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### secondaryVariant Default Value
 
@@ -242,7 +242,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/surface")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### surface Type
 
@@ -250,7 +250,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### surface Default Value
 
@@ -291,7 +291,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/background")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### background Type
 
@@ -299,7 +299,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### background Default Value
 
@@ -340,7 +340,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/error")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### error Type
 
@@ -348,7 +348,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### error Default Value
 
@@ -389,7 +389,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onPrimary")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### onPrimary Type
 
@@ -397,7 +397,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### onPrimary Default Value
 
@@ -438,7 +438,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onSecondary")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### onSecondary Type
 
@@ -446,7 +446,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### onSecondary Default Value
 
@@ -487,7 +487,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onSurface")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### onSurface Type
 
@@ -495,7 +495,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### onSurface Default Value
 
@@ -536,7 +536,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onBackground")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### onBackground Type
 
@@ -544,7 +544,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### onBackground Default Value
 
@@ -585,7 +585,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/onError")
+-   defined in: [Color Scheme](app_bar_theme-properties-color.md)
 
 ### onError Type
 
@@ -593,7 +593,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### onError Default Value
 
@@ -635,7 +635,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [Color Scheme](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")
+-   defined in: [Color Scheme](app_bar_theme-properties-brightness.md)
 
 ### brightness Type
 

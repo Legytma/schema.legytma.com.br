@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/google_map.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                               |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [google_map.schema.json](../schema/widget/google_map.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [google_map.schema.json](../schema/widget/google_map.schema.json) |
 
 ## Google Map Type
 
@@ -21,41 +21,41 @@ https://legytma.com.br/schema/widget/google_map.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Google Map Properties
 
 | Property                                            | Type         | Required | Nullable       | Defined by                                                                                                                                                |
 | :-------------------------------------------------- | ------------ | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                                       | `string`     | Optional | cannot be null | [Google Map](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/google_map.schema.json#/properties/type")                              |
-| [initialCameraPosition](#initialCameraPosition)     | `object`     | Required | cannot be null | [Google Map](google_map-properties-camera-position.md "https&#x3A;//legytma.com.br/schema/camera_position.schema.json#/properties/initialCameraPosition") |
-| [myLocationEnabled](#myLocationEnabled)             | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/myLocationEnabled")             |
-| [mapType](#mapType)                                 | `string`     | Optional | cannot be null | [Google Map](google_map-properties-map-type.md "https&#x3A;//legytma.com.br/schema/map_type.schema.json#/properties/mapType")                             |
-| [compassEnabled](#compassEnabled)                   | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/compassEnabled")                |
-| [onTap](#onTap)                                     | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTap")                       |
-| [padding](#padding)                                 | Merged       | Optional | cannot be null | [Google Map](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/padding")               |
-| [onLongPress](#onLongPress)                         | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPress")                 |
-| [buildingsEnabled](#buildingsEnabled)               | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/buildingsEnabled")              |
-| [cameraTargetBounds](#cameraTargetBounds)           | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/cameraTargetBounds")          |
-| [circles](#circles)                                 | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/circles")                     |
-| [gestureRecognizers](#gestureRecognizers)           | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/gestureRecognizers")          |
-| [indoorViewEnabled](#indoorViewEnabled)             | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/indoorViewEnabled")             |
-| [mapToolbarEnabled](#mapToolbarEnabled)             | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/mapToolbarEnabled")             |
-| [markers](#markers)                                 | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/markers")                     |
-| [minMaxZoomPreference](#minMaxZoomPreference)       | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/minMaxZoomPreference")        |
-| [myLocationButtonEnabled](#myLocationButtonEnabled) | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/myLocationButtonEnabled")       |
-| [onCameraIdle](#onCameraIdle)                       | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onCameraIdle")                |
-| [onCameraMove](#onCameraMove)                       | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onCameraMove")                |
-| [onCameraMoveStarted](#onCameraMoveStarted)         | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onCameraMoveStarted")         |
-| [onMapCreated](#onMapCreated)                       | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onMapCreated")                |
-| [polygons](#polygons)                               | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/polygons")                    |
-| [polylines](#polylines)                             | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/polylines")                   |
-| [rotateGesturesEnabled](#rotateGesturesEnabled)     | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/rotateGesturesEnabled")         |
-| [scrollGesturesEnabled](#scrollGesturesEnabled)     | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/scrollGesturesEnabled")         |
-| [tiltGesturesEnabled](#tiltGesturesEnabled)         | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/tiltGesturesEnabled")           |
-| [trafficEnabled](#trafficEnabled)                   | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/trafficEnabled")                |
-| [zoomControlsEnabled](#zoomControlsEnabled)         | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/zoomControlsEnabled")           |
-| [zoomGesturesEnabled](#zoomGesturesEnabled)         | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/zoomGesturesEnabled")           |
+| [type](#type)                                       | `string`     | Optional | cannot be null | [Google Map](widget-definitions-type.md)                              |
+| [initialCameraPosition](#initialCameraPosition)     | `object`     | Required | cannot be null | [Google Map](google_map-properties-camera-position.md) |
+| [myLocationEnabled](#myLocationEnabled)             | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)             |
+| [mapType](#mapType)                                 | `string`     | Optional | cannot be null | [Google Map](google_map-properties-map-type.md)                             |
+| [compassEnabled](#compassEnabled)                   | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)                |
+| [onTap](#onTap)                                     | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                       |
+| [padding](#padding)                                 | Merged       | Optional | cannot be null | [Google Map](edge_insets_lerp-properties-edge-insets-1.md)               |
+| [onLongPress](#onLongPress)                         | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                 |
+| [buildingsEnabled](#buildingsEnabled)               | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)              |
+| [cameraTargetBounds](#cameraTargetBounds)           | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)          |
+| [circles](#circles)                                 | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                     |
+| [gestureRecognizers](#gestureRecognizers)           | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)          |
+| [indoorViewEnabled](#indoorViewEnabled)             | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)             |
+| [mapToolbarEnabled](#mapToolbarEnabled)             | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)             |
+| [markers](#markers)                                 | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                     |
+| [minMaxZoomPreference](#minMaxZoomPreference)       | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)        |
+| [myLocationButtonEnabled](#myLocationButtonEnabled) | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)       |
+| [onCameraIdle](#onCameraIdle)                       | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                |
+| [onCameraMove](#onCameraMove)                       | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                |
+| [onCameraMoveStarted](#onCameraMoveStarted)         | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)         |
+| [onMapCreated](#onMapCreated)                       | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                |
+| [polygons](#polygons)                               | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                    |
+| [polylines](#polylines)                             | Unknown Type | Optional | can be null    | [Google Map](bottom_app_bar_theme-properties-dynamic.md)                   |
+| [rotateGesturesEnabled](#rotateGesturesEnabled)     | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)         |
+| [scrollGesturesEnabled](#scrollGesturesEnabled)     | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)         |
+| [tiltGesturesEnabled](#tiltGesturesEnabled)         | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)           |
+| [trafficEnabled](#trafficEnabled)                   | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)                |
+| [zoomControlsEnabled](#zoomControlsEnabled)         | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)           |
+| [zoomGesturesEnabled](#zoomGesturesEnabled)         | `boolean`    | Optional | cannot be null | [Google Map](button_bar_theme_data-properties-boolean.md)           |
 
 ## type
 
@@ -70,7 +70,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Google Map](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/google_map.schema.json#/properties/type")
+-   defined in: [Google Map](widget-definitions-type.md)
 
 ### type Type
 
@@ -98,7 +98,7 @@ Identify the widget type
 -   is required
 -   Type: `object` ([Camera Position](google_map-properties-camera-position.md))
 -   cannot be null
--   defined in: [Google Map](google_map-properties-camera-position.md "https&#x3A;//legytma.com.br/schema/camera_position.schema.json#/properties/initialCameraPosition")
+-   defined in: [Google Map](google_map-properties-camera-position.md)
 
 ### initialCameraPosition Type
 
@@ -117,7 +117,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/myLocationEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### myLocationEnabled Type
 
@@ -155,7 +155,7 @@ false
 -   is optional
 -   Type: `string` ([Map Type](google_map-properties-map-type.md))
 -   cannot be null
--   defined in: [Google Map](google_map-properties-map-type.md "https&#x3A;//legytma.com.br/schema/map_type.schema.json#/properties/mapType")
+-   defined in: [Google Map](google_map-properties-map-type.md)
 
 ### mapType Type
 
@@ -194,7 +194,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/compassEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### compassEnabled Type
 
@@ -232,7 +232,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTap")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onTap Type
 
@@ -260,7 +260,7 @@ The default value is:
 -   is optional
 -   Type: merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 -   cannot be null
--   defined in: [Google Map](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/padding")
+-   defined in: [Google Map](edge_insets_lerp-properties-edge-insets-1.md)
 
 ### padding Type
 
@@ -268,8 +268,8 @@ merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 
 one (and only one) of
 
--   [Edge Insets String](edge_insets-oneof-edge-insets-string.md "check type definition")
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets String](edge_insets-oneof-edge-insets-string.md)
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 ### padding Default Value
 
@@ -293,7 +293,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onLongPress")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onLongPress Type
 
@@ -320,7 +320,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/buildingsEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### buildingsEnabled Type
 
@@ -358,7 +358,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/cameraTargetBounds")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### cameraTargetBounds Type
 
@@ -386,7 +386,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/circles")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### circles Type
 
@@ -414,7 +414,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/gestureRecognizers")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### gestureRecognizers Type
 
@@ -441,7 +441,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/indoorViewEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### indoorViewEnabled Type
 
@@ -478,7 +478,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/mapToolbarEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### mapToolbarEnabled Type
 
@@ -516,7 +516,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/markers")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### markers Type
 
@@ -544,7 +544,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/minMaxZoomPreference")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### minMaxZoomPreference Type
 
@@ -571,7 +571,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/myLocationButtonEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### myLocationButtonEnabled Type
 
@@ -609,7 +609,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onCameraIdle")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onCameraIdle Type
 
@@ -637,7 +637,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onCameraMove")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onCameraMove Type
 
@@ -665,7 +665,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onCameraMoveStarted")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onCameraMoveStarted Type
 
@@ -693,7 +693,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onMapCreated")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onMapCreated Type
 
@@ -721,7 +721,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/polygons")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### polygons Type
 
@@ -749,7 +749,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/polylines")
+-   defined in: [Google Map](bottom_app_bar_theme-properties-dynamic.md)
 
 ### polylines Type
 
@@ -776,7 +776,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/rotateGesturesEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### rotateGesturesEnabled Type
 
@@ -813,7 +813,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/scrollGesturesEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### scrollGesturesEnabled Type
 
@@ -850,7 +850,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/tiltGesturesEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### tiltGesturesEnabled Type
 
@@ -887,7 +887,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/trafficEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### trafficEnabled Type
 
@@ -924,7 +924,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/zoomControlsEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### zoomControlsEnabled Type
 
@@ -961,7 +961,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Google Map](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/zoomGesturesEnabled")
+-   defined in: [Google Map](button_bar_theme_data-properties-boolean.md)
 
 ### zoomGesturesEnabled Type
 

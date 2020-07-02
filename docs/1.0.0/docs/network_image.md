@@ -13,7 +13,7 @@ https://legytma.com.br/schema/network_image.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [network_image.schema.json](../schema/network_image.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [network_image.schema.json](../schema/network_image.schema.json) |
 
 ## Network Image Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/network_image.schema.json
 
 all of
 
--   [Image Provider Dynamic](decoration_image-properties-image-provider-dynamic.md "check type definition")
+-   [Image Provider Dynamic](decoration_image-properties-image-provider-dynamic.md)
 
 # Network Image Properties
 
 | Property            | Type     | Required | Nullable       | Defined by                                                                                                                              |
 | :------------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)       | `string` | Optional | cannot be null | [Network Image](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/network_image.schema.json#/properties/type")             |
-| [url](#url)         | `string` | Required | cannot be null | [Network Image](list_view_params-properties-url.md "https&#x3A;//legytma.com.br/schema/url.schema.json#/properties/url")                |
-| [headers](#headers) | `object` | Optional | cannot be null | [Network Image](network_image-properties-headers.md "https&#x3A;//legytma.com.br/schema/network_image.schema.json#/properties/headers") |
-| [scale](#scale)     | Merged   | Optional | cannot be null | [Network Image](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/scale")           |
+| [type](#type)       | `string` | Optional | cannot be null | [Network Image](widget-definitions-type.md)             |
+| [url](#url)         | `string` | Required | cannot be null | [Network Image](list_view_params-properties-url.md)                |
+| [headers](#headers) | `object` | Optional | cannot be null | [Network Image](network_image-properties-headers.md) |
+| [scale](#scale)     | Merged   | Optional | cannot be null | [Network Image](app_bar_theme-properties-double.md)           |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Network Image](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/network_image.schema.json#/properties/type")
+-   defined in: [Network Image](widget-definitions-type.md)
 
 ### type Type
 
@@ -79,7 +79,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Url](list_view_params-properties-url.md))
 -   cannot be null
--   defined in: [Network Image](list_view_params-properties-url.md "https&#x3A;//legytma.com.br/schema/url.schema.json#/properties/url")
+-   defined in: [Network Image](list_view_params-properties-url.md)
 
 ### url Type
 
@@ -87,7 +87,7 @@ Identify the widget type
 
 ### url Constraints
 
-**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc4291 "check the specification")
+**URI**: the string must be a URI, according to [RFC 3986](https://tools.ietf.org/html/rfc4291)
 
 ## headers
 
@@ -99,7 +99,7 @@ Http headers
 -   is optional
 -   Type: `object` ([Headers](network_image-properties-headers.md))
 -   cannot be null
--   defined in: [Network Image](network_image-properties-headers.md "https&#x3A;//legytma.com.br/schema/network_image.schema.json#/properties/headers")
+-   defined in: [Network Image](network_image-properties-headers.md)
 
 ### headers Type
 
@@ -118,7 +118,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Network Image](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/scale")
+-   defined in: [Network Image](app_bar_theme-properties-double.md)
 
 ### scale Type
 
@@ -126,9 +126,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### scale Constraints
 

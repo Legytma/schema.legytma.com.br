@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/sized_box.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                             |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [sized_box.schema.json](../schema/widget/sized_box.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [sized_box.schema.json](../schema/widget/sized_box.schema.json) |
 
 ## Sized Box Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/widget/sized_box.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Sized Box Properties
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                     |
 | :---------------------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                 | `string` | Optional | cannot be null | [Sized Box](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box.schema.json#/properties/type")                     |
-| [sizedBoxType](#sizedBoxType) | `string` | Required | cannot be null | [Sized Box](sized_box-properties-sized-box-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box.schema.json#/properties/sizedBoxType") |
-| [child](#child)               | `object` | Optional | cannot be null | [Sized Box](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                 |
+| [type](#type)                 | `string` | Optional | cannot be null | [Sized Box](widget-definitions-type.md)                     |
+| [sizedBoxType](#sizedBoxType) | `string` | Required | cannot be null | [Sized Box](sized_box-properties-sized-box-type.md) |
+| [child](#child)               | `object` | Optional | cannot be null | [Sized Box](input_decoration-properties-widget-5.md)                 |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Sized Box](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box.schema.json#/properties/type")
+-   defined in: [Sized Box](widget-definitions-type.md)
 
 ### type Type
 
@@ -68,7 +68,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Sized Box Type](sized_box-properties-sized-box-type.md))
 -   cannot be null
--   defined in: [Sized Box](sized_box-properties-sized-box-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box.schema.json#/properties/sizedBoxType")
+-   defined in: [Sized Box](sized_box-properties-sized-box-type.md)
 
 ### sizedBoxType Type
 
@@ -98,7 +98,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Sized Box](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Sized Box](input_decoration-properties-widget-5.md)
 
 ### child Type
 
@@ -122,7 +122,7 @@ Reference this group by using
 -   is optional
 -   Type: `string` ([Sized Box Type](sized_box-definitions-sized-box-type.md))
 -   cannot be null
--   defined in: [Sized Box](sized_box-definitions-sized-box-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box.schema.json#/definitions/sizedBoxType")
+-   defined in: [Sized Box](sized_box-definitions-sized-box-type.md)
 
 ### sizedBoxType Type
 

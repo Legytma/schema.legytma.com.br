@@ -1,7 +1,7 @@
 'use strict';
 
 const path = require('path');
-const { spawn } = require( 'child_process' );
+const { spawn } = require('child_process');
 
 const isWin = process.platform === "win32";
 const version = require('./package.json').version;
@@ -25,7 +25,7 @@ function showCommandResult(command) {
 		command.stdout.on('data', data => console.log(data.toString()));
 	}
 
-	command.on('close', code => console.log(`child process exited with code ${code}`));
+	command.on('close', (code) => console.log(`child process exited with code ${code}`));
 	command.on('exit', (code, signal) => console.log(`child process exited by signal ${signal} with code ${code}`));
-	command.on('error', err => console.error(`error: $err`));
+	command.on('error', (err) => console.error(`error: $err`));
 }

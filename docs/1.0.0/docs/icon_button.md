@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/icon_button.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                 |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [icon_button.schema.json](../schema/widget/icon_button.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [icon_button.schema.json](../schema/widget/icon_button.schema.json) |
 
 ## Icon Button Type
 
@@ -21,28 +21,28 @@ https://legytma.com.br/schema/widget/icon_button.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Icon Button Properties
 
 | Property                          | Type         | Required | Nullable       | Defined by                                                                                                                                                        |
 | :-------------------------------- | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                     | `string`     | Optional | cannot be null | [Icon Button](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/icon_button.schema.json#/properties/type")                                    |
-| [icon](#icon)                     | `object`     | Optional | cannot be null | [Icon Button](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/icon")                                   |
-| [onPressed](#onPressed)           | Unknown Type | Optional | can be null    | [Icon Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPressed")                          |
-| [padding](#padding)               | Unknown Type | Optional | cannot be null | [Icon Button](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding") |
-| [focusNode](#focusNode)           | `object`     | Optional | cannot be null | [Icon Button](floating_action_button-properties-focus-node.md "https&#x3A;//legytma.com.br/schema/focus_node.schema.json#/properties/focusNode")                  |
-| [autofocus](#autofocus)           | `boolean`    | Optional | cannot be null | [Icon Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autofocus")                            |
-| [alignment](#alignment)           | Unknown Type | Optional | can be null    | [Icon Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/alignment")                          |
-| [color](#color)                   | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                                         |
-| [disabledColor](#disabledColor)   | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")                                 |
-| [enableFeedback](#enableFeedback) | `boolean`    | Optional | cannot be null | [Icon Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/enableFeedback")                       |
-| [focusColor](#focusColor)         | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")                                    |
-| [highlightColor](#highlightColor) | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")                                |
-| [hoverColor](#hoverColor)         | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")                                    |
-| [iconSize](#iconSize)             | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/iconSize")                                    |
-| [splashColor](#splashColor)       | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")                                   |
-| [tooltip](#tooltip)               | `string`     | Optional | cannot be null | [Icon Button](icon_button-properties-tooltip.md "https&#x3A;//legytma.com.br/schema/widget/icon_button.schema.json#/properties/tooltip")                          |
+| [type](#type)                     | `string`     | Optional | cannot be null | [Icon Button](widget-definitions-type.md)                                    |
+| [icon](#icon)                     | `object`     | Optional | cannot be null | [Icon Button](input_decoration-properties-widget-5.md)                                   |
+| [onPressed](#onPressed)           | Unknown Type | Optional | can be null    | [Icon Button](bottom_app_bar_theme-properties-dynamic.md)                          |
+| [padding](#padding)               | Unknown Type | Optional | cannot be null | [Icon Button](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [focusNode](#focusNode)           | `object`     | Optional | cannot be null | [Icon Button](floating_action_button-properties-focus-node.md)                  |
+| [autofocus](#autofocus)           | `boolean`    | Optional | cannot be null | [Icon Button](button_bar_theme_data-properties-boolean.md)                            |
+| [alignment](#alignment)           | Unknown Type | Optional | can be null    | [Icon Button](bottom_app_bar_theme-properties-dynamic.md)                          |
+| [color](#color)                   | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md)                                         |
+| [disabledColor](#disabledColor)   | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md)                                 |
+| [enableFeedback](#enableFeedback) | `boolean`    | Optional | cannot be null | [Icon Button](button_bar_theme_data-properties-boolean.md)                       |
+| [focusColor](#focusColor)         | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md)                                    |
+| [highlightColor](#highlightColor) | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md)                                |
+| [hoverColor](#hoverColor)         | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md)                                    |
+| [iconSize](#iconSize)             | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-double.md)                                    |
+| [splashColor](#splashColor)       | Merged       | Optional | cannot be null | [Icon Button](app_bar_theme-properties-color.md)                                   |
+| [tooltip](#tooltip)               | `string`     | Optional | cannot be null | [Icon Button](icon_button-properties-tooltip.md)                          |
 
 ## type
 
@@ -57,7 +57,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Icon Button](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/icon_button.schema.json#/properties/type")
+-   defined in: [Icon Button](widget-definitions-type.md)
 
 ### type Type
 
@@ -84,7 +84,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Icon Button](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/icon")
+-   defined in: [Icon Button](input_decoration-properties-widget-5.md)
 
 ### icon Type
 
@@ -104,7 +104,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Icon Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onPressed")
+-   defined in: [Icon Button](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onPressed Type
 
@@ -132,7 +132,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Icon Button](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [Icon Button](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### padding Type
 
@@ -163,7 +163,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Focus Node](floating_action_button-properties-focus-node.md))
 -   cannot be null
--   defined in: [Icon Button](floating_action_button-properties-focus-node.md "https&#x3A;//legytma.com.br/schema/focus_node.schema.json#/properties/focusNode")
+-   defined in: [Icon Button](floating_action_button-properties-focus-node.md)
 
 ### focusNode Type
 
@@ -182,7 +182,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Icon Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autofocus")
+-   defined in: [Icon Button](button_bar_theme_data-properties-boolean.md)
 
 ### autofocus Type
 
@@ -220,7 +220,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Icon Button](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/alignment")
+-   defined in: [Icon Button](bottom_app_bar_theme-properties-dynamic.md)
 
 ### alignment Type
 
@@ -247,7 +247,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Icon Button](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -255,7 +255,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -296,7 +296,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")
+-   defined in: [Icon Button](app_bar_theme-properties-color.md)
 
 ### disabledColor Type
 
@@ -304,7 +304,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### disabledColor Default Value
 
@@ -345,7 +345,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Icon Button](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/enableFeedback")
+-   defined in: [Icon Button](button_bar_theme_data-properties-boolean.md)
 
 ### enableFeedback Type
 
@@ -382,7 +382,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")
+-   defined in: [Icon Button](app_bar_theme-properties-color.md)
 
 ### focusColor Type
 
@@ -390,7 +390,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### focusColor Default Value
 
@@ -431,7 +431,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")
+-   defined in: [Icon Button](app_bar_theme-properties-color.md)
 
 ### highlightColor Type
 
@@ -439,7 +439,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### highlightColor Default Value
 
@@ -480,7 +480,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")
+-   defined in: [Icon Button](app_bar_theme-properties-color.md)
 
 ### hoverColor Type
 
@@ -488,7 +488,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hoverColor Default Value
 
@@ -529,7 +529,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Icon Button](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/iconSize")
+-   defined in: [Icon Button](app_bar_theme-properties-double.md)
 
 ### iconSize Type
 
@@ -537,9 +537,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### iconSize Constraints
 
@@ -568,7 +568,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Icon Button](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")
+-   defined in: [Icon Button](app_bar_theme-properties-color.md)
 
 ### splashColor Type
 
@@ -576,7 +576,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### splashColor Default Value
 
@@ -614,7 +614,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Tooltip](icon_button-properties-tooltip.md))
 -   cannot be null
--   defined in: [Icon Button](icon_button-properties-tooltip.md "https&#x3A;//legytma.com.br/schema/widget/icon_button.schema.json#/properties/tooltip")
+-   defined in: [Icon Button](icon_button-properties-tooltip.md)
 
 ### tooltip Type
 

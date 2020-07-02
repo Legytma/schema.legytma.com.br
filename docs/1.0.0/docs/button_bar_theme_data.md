@@ -9,7 +9,7 @@ https://legytma.com.br/schema/button_bar_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [button_bar_theme_data.schema.json](../schema/button_bar_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [button_bar_theme_data.schema.json](../schema/button_bar_theme_data.schema.json) |
 
 ## Button Bar Theme Data Type
 
@@ -19,14 +19,14 @@ https://legytma.com.br/schema/button_bar_theme_data.schema.json
 
 | Property                                        | Type         | Required | Nullable       | Defined by                                                                                                                                                                                     |
 | :---------------------------------------------- | ------------ | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [alignment](#alignment)                         | `string`     | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-main-axis-alignment.md "https&#x3A;//legytma.com.br/schema/main_axis_alignment.schema.json#/properties/alignment")                    |
-| [buttonAlignedDropdown](#buttonAlignedDropdown) | `boolean`    | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/buttonAlignedDropdown")                                   |
-| [buttonHeight](#buttonHeight)                   | Merged       | Optional | cannot be null | [Button Bar Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/buttonHeight")                                                   |
-| [buttonMinWidth](#buttonMinWidth)               | Merged       | Optional | cannot be null | [Button Bar Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/buttonMinWidth")                                                 |
-| [buttonPadding](#buttonPadding)                 | Unknown Type | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/buttonPadding")              |
-| [buttonTextTheme](#buttonTextTheme)             | `string`     | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-button-text-theme.md "https&#x3A;//legytma.com.br/schema/button_text_theme.schema.json#/properties/buttonTextTheme")                  |
-| [layoutBehavior](#layoutBehavior)               | `string`     | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-button-bar-layout-behavior.md "https&#x3A;//legytma.com.br/schema/button_bar_layout_behavior.schema.json#/properties/layoutBehavior") |
-| [mainAxisSize](#mainAxisSize)                   | `string`     | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-main-axis-size.md "https&#x3A;//legytma.com.br/schema/main_axis_size.schema.json#/properties/mainAxisSize")                           |
+| [alignment](#alignment)                         | `string`     | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-main-axis-alignment.md)                    |
+| [buttonAlignedDropdown](#buttonAlignedDropdown) | `boolean`    | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-boolean.md)                                   |
+| [buttonHeight](#buttonHeight)                   | Merged       | Optional | cannot be null | [Button Bar Theme Data](app_bar_theme-properties-double.md)                                                   |
+| [buttonMinWidth](#buttonMinWidth)               | Merged       | Optional | cannot be null | [Button Bar Theme Data](app_bar_theme-properties-double.md)                                                 |
+| [buttonPadding](#buttonPadding)                 | Unknown Type | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md)              |
+| [buttonTextTheme](#buttonTextTheme)             | `string`     | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-button-text-theme.md)                  |
+| [layoutBehavior](#layoutBehavior)               | `string`     | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-button-bar-layout-behavior.md) |
+| [mainAxisSize](#mainAxisSize)                   | `string`     | Optional | cannot be null | [Button Bar Theme Data](button_bar_theme_data-properties-main-axis-size.md)                           |
 
 ## alignment
 
@@ -42,7 +42,7 @@ https://legytma.com.br/schema/button_bar_theme_data.schema.json
 -   is optional
 -   Type: `string` ([Main Axis Alignment](button_bar_theme_data-properties-main-axis-alignment.md))
 -   cannot be null
--   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-main-axis-alignment.md "https&#x3A;//legytma.com.br/schema/main_axis_alignment.schema.json#/properties/alignment")
+-   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-main-axis-alignment.md)
 
 ### alignment Type
 
@@ -82,7 +82,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/buttonAlignedDropdown")
+-   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-boolean.md)
 
 ### buttonAlignedDropdown Type
 
@@ -119,7 +119,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Button Bar Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/buttonHeight")
+-   defined in: [Button Bar Theme Data](app_bar_theme-properties-double.md)
 
 ### buttonHeight Type
 
@@ -127,9 +127,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### buttonHeight Constraints
 
@@ -158,7 +158,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Button Bar Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/buttonMinWidth")
+-   defined in: [Button Bar Theme Data](app_bar_theme-properties-double.md)
 
 ### buttonMinWidth Type
 
@@ -166,9 +166,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### buttonMinWidth Constraints
 
@@ -198,7 +198,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/buttonPadding")
+-   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### buttonPadding Type
 
@@ -225,7 +225,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Button Text Theme](button_bar_theme_data-properties-button-text-theme.md))
 -   cannot be null
--   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-button-text-theme.md "https&#x3A;//legytma.com.br/schema/button_text_theme.schema.json#/properties/buttonTextTheme")
+-   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-button-text-theme.md)
 
 ### buttonTextTheme Type
 
@@ -273,7 +273,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Button Bar Layout Behavior](button_bar_theme_data-properties-button-bar-layout-behavior.md))
 -   cannot be null
--   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-button-bar-layout-behavior.md "https&#x3A;//legytma.com.br/schema/button_bar_layout_behavior.schema.json#/properties/layoutBehavior")
+-   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-button-bar-layout-behavior.md)
 
 ### layoutBehavior Type
 
@@ -320,7 +320,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Main Axis Size](button_bar_theme_data-properties-main-axis-size.md))
 -   cannot be null
--   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-main-axis-size.md "https&#x3A;//legytma.com.br/schema/main_axis_size.schema.json#/properties/mainAxisSize")
+-   defined in: [Button Bar Theme Data](button_bar_theme_data-properties-main-axis-size.md)
 
 ### mainAxisSize Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/image_file.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                               |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [image_file.schema.json](../schema/widget/image_file.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [image_file.schema.json](../schema/widget/image_file.schema.json) |
 
 ## Image File Type
 
@@ -23,17 +23,17 @@ all of
 
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Image File Properties
 
 | Property                    | Type         | Required | Nullable       | Defined by                                                                                                                             |
 | :-------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
-| [imageType](#imageType)     | `string`     | Required | cannot be null | [Image File](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image_file.schema.json#/properties/imageType") |
-| [file](#file)               | `string`     | Required | cannot be null | [Image File](image_file-properties-file.md "https&#x3A;//legytma.com.br/schema/widget/image_file.schema.json#/properties/file")        |
-| [cacheHeight](#cacheHeight) | Unknown Type | Optional | cannot be null | [Image File](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheHeight")                      |
-| [cacheWidth](#cacheWidth)   | Unknown Type | Optional | cannot be null | [Image File](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheWidth")                       |
-| [scale](#scale)             | Merged       | Optional | cannot be null | [Image File](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/scale")             |
+| [imageType](#imageType)     | `string`     | Required | cannot be null | [Image File](image-definitions-image-type.md) |
+| [file](#file)               | `string`     | Required | cannot be null | [Image File](image_file-properties-file.md)        |
+| [cacheHeight](#cacheHeight) | Unknown Type | Optional | cannot be null | [Image File](color-allof-integer.md)                      |
+| [cacheWidth](#cacheWidth)   | Unknown Type | Optional | cannot be null | [Image File](color-allof-integer.md)                       |
+| [scale](#scale)             | Merged       | Optional | cannot be null | [Image File](app_bar_theme-properties-double.md)             |
 
 ## imageType
 
@@ -45,7 +45,7 @@ all of
 -   is required
 -   Type: `string` ([Image Type](image-definitions-image-type.md))
 -   cannot be null
--   defined in: [Image File](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image_file.schema.json#/properties/imageType")
+-   defined in: [Image File](image-definitions-image-type.md)
 
 ### imageType Type
 
@@ -79,7 +79,7 @@ all of
 -   is required
 -   Type: `string` ([File](image_file-properties-file.md))
 -   cannot be null
--   defined in: [Image File](image_file-properties-file.md "https&#x3A;//legytma.com.br/schema/widget/image_file.schema.json#/properties/file")
+-   defined in: [Image File](image_file-properties-file.md)
 
 ### file Type
 
@@ -98,7 +98,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Image File](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheHeight")
+-   defined in: [Image File](color-allof-integer.md)
 
 ### cacheHeight Type
 
@@ -151,7 +151,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Image File](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/cacheWidth")
+-   defined in: [Image File](color-allof-integer.md)
 
 ### cacheWidth Type
 
@@ -204,7 +204,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Image File](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/scale")
+-   defined in: [Image File](app_bar_theme-properties-double.md)
 
 ### scale Type
 
@@ -212,9 +212,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### scale Constraints
 

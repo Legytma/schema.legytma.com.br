@@ -9,7 +9,7 @@ https://legytma.com.br/schema/box_constraints_tightForFinite.schema.json#/proper
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [box_constraints_tightForFinite.schema.json\*](../schema/box_constraints_tightForFinite.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [box_constraints_tightForFinite.schema.json\*](../schema/box_constraints_tightForFinite.schema.json) |
 
 ## properties Type
 

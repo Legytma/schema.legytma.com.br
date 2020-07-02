@@ -13,7 +13,7 @@ https://legytma.com.br/schema/range_slider_tick_mark_shape.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                            |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [range_slider_tick_mark_shape.schema.json](../schema/range_slider_tick_mark_shape.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [range_slider_tick_mark_shape.schema.json](../schema/range_slider_tick_mark_shape.schema.json) |
 
 ## Range Slider Tick Mark Shape Type
 

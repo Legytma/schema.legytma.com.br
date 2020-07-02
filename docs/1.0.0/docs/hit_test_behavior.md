@@ -13,7 +13,7 @@ https://legytma.com.br/schema/hit_test_behavior.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                      |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [hit_test_behavior.schema.json](../schema/hit_test_behavior.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [hit_test_behavior.schema.json](../schema/hit_test_behavior.schema.json) |
 
 ## Hit Test Behavior Type
 

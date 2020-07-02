@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/safe_area.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                             |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [safe_area.schema.json](../schema/widget/safe_area.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [safe_area.schema.json](../schema/widget/safe_area.schema.json) |
 
 ## Safe Area Type
 
@@ -21,20 +21,20 @@ https://legytma.com.br/schema/widget/safe_area.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Safe Area Properties
 
 | Property                                                | Type      | Required | Nullable       | Defined by                                                                                                                                           |
 | :------------------------------------------------------ | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                                           | `string`  | Optional | cannot be null | [Safe Area](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/safe_area.schema.json#/properties/type")                           |
-| [left](#left)                                           | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/left")                      |
-| [right](#right)                                         | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/right")                     |
-| [top](#top)                                             | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/top")                       |
-| [bottom](#bottom)                                       | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/bottom")                    |
-| [minimum](#minimum)                                     | Merged    | Optional | cannot be null | [Safe Area](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/minimum")           |
-| [maintainBottomViewPadding](#maintainBottomViewPadding) | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/maintainBottomViewPadding") |
-| [child](#child)                                         | `object`  | Optional | cannot be null | [Safe Area](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                       |
+| [type](#type)                                           | `string`  | Optional | cannot be null | [Safe Area](widget-definitions-type.md)                           |
+| [left](#left)                                           | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md)                      |
+| [right](#right)                                         | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md)                     |
+| [top](#top)                                             | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md)                       |
+| [bottom](#bottom)                                       | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md)                    |
+| [minimum](#minimum)                                     | Merged    | Optional | cannot be null | [Safe Area](edge_insets_lerp-properties-edge-insets-1.md)           |
+| [maintainBottomViewPadding](#maintainBottomViewPadding) | `boolean` | Optional | cannot be null | [Safe Area](button_bar_theme_data-properties-boolean.md) |
+| [child](#child)                                         | `object`  | Optional | cannot be null | [Safe Area](input_decoration-properties-widget-5.md)                       |
 
 ## type
 
@@ -49,7 +49,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Safe Area](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/safe_area.schema.json#/properties/type")
+-   defined in: [Safe Area](widget-definitions-type.md)
 
 ### type Type
 
@@ -76,7 +76,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/left")
+-   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md)
 
 ### left Type
 
@@ -113,7 +113,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/right")
+-   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md)
 
 ### right Type
 
@@ -150,7 +150,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/top")
+-   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md)
 
 ### top Type
 
@@ -187,7 +187,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/bottom")
+-   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md)
 
 ### bottom Type
 
@@ -225,7 +225,7 @@ false
 -   is optional
 -   Type: merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 -   cannot be null
--   defined in: [Safe Area](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/minimum")
+-   defined in: [Safe Area](edge_insets_lerp-properties-edge-insets-1.md)
 
 ### minimum Type
 
@@ -233,8 +233,8 @@ merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 
 one (and only one) of
 
--   [Edge Insets String](edge_insets-oneof-edge-insets-string.md "check type definition")
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets String](edge_insets-oneof-edge-insets-string.md)
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 ### minimum Default Value
 
@@ -257,7 +257,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/maintainBottomViewPadding")
+-   defined in: [Safe Area](button_bar_theme_data-properties-boolean.md)
 
 ### maintainBottomViewPadding Type
 
@@ -294,7 +294,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Safe Area](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Safe Area](input_decoration-properties-widget-5.md)
 
 ### child Type
 

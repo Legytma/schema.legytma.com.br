@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/fitted_box.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                               |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [fitted_box.schema.json](../schema/widget/fitted_box.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [fitted_box.schema.json](../schema/widget/fitted_box.schema.json) |
 
 ## Fitted Box Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/widget/fitted_box.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Fitted Box Properties
 
 | Property                | Type         | Required | Nullable       | Defined by                                                                                                                      |
 | :---------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)           | `string`     | Optional | cannot be null | [Fitted Box](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/fitted_box.schema.json#/properties/type")    |
-| [alignment](#alignment) | Unknown Type | Optional | cannot be null | [Fitted Box](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/alignment")                 |
-| [fit](#fit)             | `string`     | Optional | cannot be null | [Fitted Box](decoration_image-properties-box-fit.md "https&#x3A;//legytma.com.br/schema/box_fit.schema.json#/properties/fit")   |
-| [child](#child)         | `object`     | Optional | cannot be null | [Fitted Box](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child") |
+| [type](#type)           | `string`     | Optional | cannot be null | [Fitted Box](widget-definitions-type.md)    |
+| [alignment](#alignment) | Unknown Type | Optional | cannot be null | [Fitted Box](color-allof-integer.md)                 |
+| [fit](#fit)             | `string`     | Optional | cannot be null | [Fitted Box](decoration_image-properties-box-fit.md)   |
+| [child](#child)         | `object`     | Optional | cannot be null | [Fitted Box](input_decoration-properties-widget-5.md) |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Fitted Box](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/fitted_box.schema.json#/properties/type")
+-   defined in: [Fitted Box](widget-definitions-type.md)
 
 ### type Type
 
@@ -72,7 +72,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Fitted Box](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/alignment")
+-   defined in: [Fitted Box](color-allof-integer.md)
 
 ### alignment Type
 
@@ -126,7 +126,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Box Fit](decoration_image-properties-box-fit.md))
 -   cannot be null
--   defined in: [Fitted Box](decoration_image-properties-box-fit.md "https&#x3A;//legytma.com.br/schema/box_fit.schema.json#/properties/fit")
+-   defined in: [Fitted Box](decoration_image-properties-box-fit.md)
 
 ### fit Type
 
@@ -167,7 +167,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Fitted Box](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Fitted Box](input_decoration-properties-widget-5.md)
 
 ### child Type
 

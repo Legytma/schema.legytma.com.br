@@ -13,7 +13,7 @@ https://legytma.com.br/schema/gesture_recognizer.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [gesture_recognizer.schema.json](../schema/gesture_recognizer.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [gesture_recognizer.schema.json](../schema/gesture_recognizer.schema.json) |
 
 ## Gesture Recognizer Type
 

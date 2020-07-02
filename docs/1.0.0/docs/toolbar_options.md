@@ -13,7 +13,7 @@ https://legytma.com.br/schema/toolbar_options.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [toolbar_options.schema.json](../schema/toolbar_options.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [toolbar_options.schema.json](../schema/toolbar_options.schema.json) |
 
 ## Toolbar Options Type
 
@@ -23,10 +23,10 @@ https://legytma.com.br/schema/toolbar_options.schema.json
 
 | Property                | Type      | Required | Nullable       | Defined by                                                                                                                                 |
 | :---------------------- | --------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| [copy](#copy)           | `boolean` | Optional | cannot be null | [Toolbar Options](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/copy")      |
-| [cut](#cut)             | `boolean` | Optional | cannot be null | [Toolbar Options](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/cut")       |
-| [paste](#paste)         | `boolean` | Optional | cannot be null | [Toolbar Options](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/paste")     |
-| [selectAll](#selectAll) | `boolean` | Optional | cannot be null | [Toolbar Options](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/selectAll") |
+| [copy](#copy)           | `boolean` | Optional | cannot be null | [Toolbar Options](button_bar_theme_data-properties-boolean.md)      |
+| [cut](#cut)             | `boolean` | Optional | cannot be null | [Toolbar Options](button_bar_theme_data-properties-boolean.md)       |
+| [paste](#paste)         | `boolean` | Optional | cannot be null | [Toolbar Options](button_bar_theme_data-properties-boolean.md)     |
+| [selectAll](#selectAll) | `boolean` | Optional | cannot be null | [Toolbar Options](button_bar_theme_data-properties-boolean.md) |
 
 ## copy
 
@@ -41,7 +41,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Toolbar Options](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/copy")
+-   defined in: [Toolbar Options](button_bar_theme_data-properties-boolean.md)
 
 ### copy Type
 
@@ -78,7 +78,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Toolbar Options](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/cut")
+-   defined in: [Toolbar Options](button_bar_theme_data-properties-boolean.md)
 
 ### cut Type
 
@@ -115,7 +115,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Toolbar Options](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/paste")
+-   defined in: [Toolbar Options](button_bar_theme_data-properties-boolean.md)
 
 ### paste Type
 
@@ -152,7 +152,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Toolbar Options](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/selectAll")
+-   defined in: [Toolbar Options](button_bar_theme_data-properties-boolean.md)
 
 ### selectAll Type
 

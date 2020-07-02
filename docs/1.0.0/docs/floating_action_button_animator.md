@@ -13,7 +13,7 @@ https://legytma.com.br/schema/floating_action_button_animator.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [floating_action_button_animator.schema.json](../schema/floating_action_button_animator.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [floating_action_button_animator.schema.json](../schema/floating_action_button_animator.schema.json) |
 
 ## Floating Action Button Animator Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/floating_action_button_animator.schema.json
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                                              |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Floating Action Button Animator](floating_action_button_animator-properties-type.md "https&#x3A;//legytma.com.br/schema/floating_action_button_animator.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Floating Action Button Animator](floating_action_button_animator-properties-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](floating_action_button_animator-properties-type.md))
 -   cannot be null
--   defined in: [Floating Action Button Animator](floating_action_button_animator-properties-type.md "https&#x3A;//legytma.com.br/schema/floating_action_button_animator.schema.json#/properties/type")
+-   defined in: [Floating Action Button Animator](floating_action_button_animator-properties-type.md)
 
 ### type Type
 

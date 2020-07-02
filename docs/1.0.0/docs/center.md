@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/center.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                       |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [center.schema.json](../schema/widget/center.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [center.schema.json](../schema/widget/center.schema.json) |
 
 ## Center Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/widget/center.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Center Properties
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                    |
 | :---------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                 | `string` | Optional | cannot be null | [Center](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/center.schema.json#/properties/type")          |
-| [widthFactor](#widthFactor)   | Merged   | Optional | cannot be null | [Center](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/widthFactor")  |
-| [heightFactor](#heightFactor) | Merged   | Optional | cannot be null | [Center](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/heightFactor") |
-| [child](#child)               | `object` | Optional | cannot be null | [Center](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")   |
+| [type](#type)                 | `string` | Optional | cannot be null | [Center](widget-definitions-type.md)          |
+| [widthFactor](#widthFactor)   | Merged   | Optional | cannot be null | [Center](app_bar_theme-properties-double.md)  |
+| [heightFactor](#heightFactor) | Merged   | Optional | cannot be null | [Center](app_bar_theme-properties-double.md) |
+| [child](#child)               | `object` | Optional | cannot be null | [Center](input_decoration-properties-widget-5.md)   |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Center](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/center.schema.json#/properties/type")
+-   defined in: [Center](widget-definitions-type.md)
 
 ### type Type
 
@@ -72,7 +72,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Center](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/widthFactor")
+-   defined in: [Center](app_bar_theme-properties-double.md)
 
 ### widthFactor Type
 
@@ -80,9 +80,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### widthFactor Constraints
 
@@ -111,7 +111,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Center](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/heightFactor")
+-   defined in: [Center](app_bar_theme-properties-double.md)
 
 ### heightFactor Type
 
@@ -119,9 +119,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### heightFactor Constraints
 
@@ -150,7 +150,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Center](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Center](input_decoration-properties-widget-5.md)
 
 ### child Type
 

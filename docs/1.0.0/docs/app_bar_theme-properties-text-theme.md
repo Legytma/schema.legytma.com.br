@@ -12,7 +12,7 @@ Text theme
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [app_bar_theme.schema.json\*](../schema/app_bar_theme.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [app_bar_theme.schema.json\*](../schema/app_bar_theme.schema.json) |
 
 ## textTheme Type
 
@@ -22,19 +22,19 @@ Text theme
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                                            |
 | :-------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| [body1](#body1)       | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/body1")       |
-| [body2](#body2)       | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/body2")     |
-| [button](#button)     | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-2.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/button")    |
-| [caption](#caption)   | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-3.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/caption")   |
-| [display1](#display1) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-4.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/display1")  |
-| [display2](#display2) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-5.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/display2")  |
-| [display3](#display3) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-6.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/display3")  |
-| [display4](#display4) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-7.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/display4")  |
-| [headline](#headline) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-8.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/headline")  |
-| [overline](#overline) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-9.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/overline")  |
-| [subhead](#subhead)   | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-10.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/subhead")  |
-| [subtitle](#subtitle) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-11.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/subtitle") |
-| [title](#title)       | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-12.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/title")    |
+| [body1](#body1)       | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style.md)       |
+| [body2](#body2)       | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-1.md)     |
+| [button](#button)     | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-2.md)    |
+| [caption](#caption)   | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-3.md)   |
+| [display1](#display1) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-4.md)  |
+| [display2](#display2) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-5.md)  |
+| [display3](#display3) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-6.md)  |
+| [display4](#display4) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-7.md)  |
+| [headline](#headline) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-8.md)  |
+| [overline](#overline) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-9.md)  |
+| [subhead](#subhead)   | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-10.md)  |
+| [subtitle](#subtitle) | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-11.md) |
+| [title](#title)       | `object` | Optional | cannot be null | [Text Theme](text_theme-properties-text-style-12.md)    |
 
 ## body1
 
@@ -49,7 +49,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/body1")
+-   defined in: [Text Theme](text_theme-properties-text-style.md)
 
 ### body1 Type
 
@@ -68,7 +68,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/body2")
+-   defined in: [Text Theme](text_theme-properties-text-style-1.md)
 
 ### body2 Type
 
@@ -87,7 +87,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-2.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-2.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/button")
+-   defined in: [Text Theme](text_theme-properties-text-style-2.md)
 
 ### button Type
 
@@ -106,7 +106,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-3.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-3.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/caption")
+-   defined in: [Text Theme](text_theme-properties-text-style-3.md)
 
 ### caption Type
 
@@ -125,7 +125,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-4.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-4.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/display1")
+-   defined in: [Text Theme](text_theme-properties-text-style-4.md)
 
 ### display1 Type
 
@@ -144,7 +144,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-5.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-5.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/display2")
+-   defined in: [Text Theme](text_theme-properties-text-style-5.md)
 
 ### display2 Type
 
@@ -163,7 +163,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-6.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-6.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/display3")
+-   defined in: [Text Theme](text_theme-properties-text-style-6.md)
 
 ### display3 Type
 
@@ -182,7 +182,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-7.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-7.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/display4")
+-   defined in: [Text Theme](text_theme-properties-text-style-7.md)
 
 ### display4 Type
 
@@ -201,7 +201,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-8.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-8.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/headline")
+-   defined in: [Text Theme](text_theme-properties-text-style-8.md)
 
 ### headline Type
 
@@ -220,7 +220,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-9.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-9.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/overline")
+-   defined in: [Text Theme](text_theme-properties-text-style-9.md)
 
 ### overline Type
 
@@ -239,7 +239,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-10.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-10.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/subhead")
+-   defined in: [Text Theme](text_theme-properties-text-style-10.md)
 
 ### subhead Type
 
@@ -258,7 +258,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-11.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-11.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/subtitle")
+-   defined in: [Text Theme](text_theme-properties-text-style-11.md)
 
 ### subtitle Type
 
@@ -277,7 +277,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](text_theme-properties-text-style-12.md))
 -   cannot be null
--   defined in: [Text Theme](text_theme-properties-text-style-12.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/title")
+-   defined in: [Text Theme](text_theme-properties-text-style-12.md)
 
 ### title Type
 

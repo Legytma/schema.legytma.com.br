@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/sized_box_fromSize.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                               |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [sized_box_fromSize.schema.json](../schema/widget/sized_box_fromSize.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [sized_box_fromSize.schema.json](../schema/widget/sized_box_fromSize.schema.json) |
 
 ## Sized Box Fromsize Type
 
@@ -23,14 +23,14 @@ all of
 
 -   all of
 
-    -   [Widget](input_decoration-properties-widget-5.md "check type definition")
+    -   [Widget](input_decoration-properties-widget-5.md)
 
 # Sized Box Fromsize Properties
 
 | Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                        |
 | :---------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [sizedBoxType](#sizedBoxType) | `string` | Optional | cannot be null | [Sized Box Fromsize](sized_box-definitions-sized-box-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box_fromSize.schema.json#/properties/sizedBoxType") |
-| [size](#size)                 | `object` | Optional | cannot be null | [Sized Box Fromsize](box_constraints_loose-properties-size.md "https&#x3A;//legytma.com.br/schema/size.schema.json#/properties/size")                             |
+| [sizedBoxType](#sizedBoxType) | `string` | Optional | cannot be null | [Sized Box Fromsize](sized_box-definitions-sized-box-type.md) |
+| [size](#size)                 | `object` | Optional | cannot be null | [Sized Box Fromsize](box_constraints_loose-properties-size.md)                             |
 
 ## sizedBoxType
 
@@ -42,7 +42,7 @@ all of
 -   is optional
 -   Type: `string` ([Sized Box Type](sized_box-definitions-sized-box-type.md))
 -   cannot be null
--   defined in: [Sized Box Fromsize](sized_box-definitions-sized-box-type.md "https&#x3A;//legytma.com.br/schema/widget/sized_box_fromSize.schema.json#/properties/sizedBoxType")
+-   defined in: [Sized Box Fromsize](sized_box-definitions-sized-box-type.md)
 
 ### sizedBoxType Type
 
@@ -79,7 +79,7 @@ all of
 -   is optional
 -   Type: `object` ([Size](box_constraints_loose-properties-size.md))
 -   cannot be null
--   defined in: [Sized Box Fromsize](box_constraints_loose-properties-size.md "https&#x3A;//legytma.com.br/schema/size.schema.json#/properties/size")
+-   defined in: [Sized Box Fromsize](box_constraints_loose-properties-size.md)
 
 ### size Type
 

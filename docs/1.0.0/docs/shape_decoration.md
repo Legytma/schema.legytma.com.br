@@ -13,7 +13,7 @@ https://legytma.com.br/schema/shape_decoration.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [shape_decoration.schema.json](../schema/shape_decoration.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [shape_decoration.schema.json](../schema/shape_decoration.schema.json) |
 
 ## Shape Decoration Type
 
@@ -21,18 +21,18 @@ https://legytma.com.br/schema/shape_decoration.schema.json
 
 any of
 
--   [Decoration](box_decoration-anyof-decoration.md "check type definition")
+-   [Decoration](box_decoration-anyof-decoration.md)
 
 # Shape Decoration Properties
 
 | Property              | Type         | Required | Nullable       | Defined by                                                                                                                                            |
 | :-------------------- | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)         | `string`     | Optional | cannot be null | [Shape Decoration](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/shape_decoration.schema.json#/properties/type")                     |
-| [shape](#shape)       | Unknown Type | Optional | can be null    | [Shape Decoration](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")             |
-| [color](#color)       | Merged       | Optional | cannot be null | [Shape Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                        |
-| [image](#image)       | `object`     | Optional | cannot be null | [Shape Decoration](box_decoration-properties-decoration-image.md "https&#x3A;//legytma.com.br/schema/decoration_image.schema.json#/properties/image") |
-| [gradient](#gradient) | Unknown Type | Optional | can be null    | [Shape Decoration](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/gradient")          |
-| [shadows](#shadows)   | `array`      | Optional | cannot be null | [Shape Decoration](box_decoration-properties-list-box-shadow.md "https&#x3A;//legytma.com.br/schema/list_box_shadow.schema.json#/properties/shadows") |
+| [type](#type)         | `string`     | Optional | cannot be null | [Shape Decoration](widget-definitions-type.md)                     |
+| [shape](#shape)       | Unknown Type | Optional | can be null    | [Shape Decoration](bottom_app_bar_theme-properties-dynamic.md)             |
+| [color](#color)       | Merged       | Optional | cannot be null | [Shape Decoration](app_bar_theme-properties-color.md)                        |
+| [image](#image)       | `object`     | Optional | cannot be null | [Shape Decoration](box_decoration-properties-decoration-image.md) |
+| [gradient](#gradient) | Unknown Type | Optional | can be null    | [Shape Decoration](bottom_app_bar_theme-properties-dynamic.md)          |
+| [shadows](#shadows)   | `array`      | Optional | cannot be null | [Shape Decoration](box_decoration-properties-list-box-shadow.md) |
 
 ## type
 
@@ -47,7 +47,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Shape Decoration](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/shape_decoration.schema.json#/properties/type")
+-   defined in: [Shape Decoration](widget-definitions-type.md)
 
 ### type Type
 
@@ -102,7 +102,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Shape Decoration](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Shape Decoration](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -121,7 +121,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Shape Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Shape Decoration](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -129,7 +129,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -171,7 +171,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Decoration Image](box_decoration-properties-decoration-image.md))
 -   cannot be null
--   defined in: [Shape Decoration](box_decoration-properties-decoration-image.md "https&#x3A;//legytma.com.br/schema/decoration_image.schema.json#/properties/image")
+-   defined in: [Shape Decoration](box_decoration-properties-decoration-image.md)
 
 ### image Type
 
@@ -191,7 +191,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Shape Decoration](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/gradient")
+-   defined in: [Shape Decoration](bottom_app_bar_theme-properties-dynamic.md)
 
 ### gradient Type
 
@@ -211,7 +211,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: `object[]` ([Box Shadow](list_box_shadow-box-shadow.md))
 -   cannot be null
--   defined in: [Shape Decoration](box_decoration-properties-list-box-shadow.md "https&#x3A;//legytma.com.br/schema/list_box_shadow.schema.json#/properties/shadows")
+-   defined in: [Shape Decoration](box_decoration-properties-list-box-shadow.md)
 
 ### shadows Type
 

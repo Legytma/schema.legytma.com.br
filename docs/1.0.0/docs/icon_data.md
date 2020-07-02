@@ -13,7 +13,7 @@ https://legytma.com.br/schema/icon_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [icon_data.schema.json](../schema/icon_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [icon_data.schema.json](../schema/icon_data.schema.json) |
 
 ## Icon Data Type
 
@@ -23,10 +23,10 @@ https://legytma.com.br/schema/icon_data.schema.json
 
 | Property                                  | Type         | Required | Nullable       | Defined by                                                                                                                                    |
 | :---------------------------------------- | ------------ | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- |
-| [codePoint](#codePoint)                   | Unknown Type | Optional | cannot be null | [Icon Data](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/codePoint")                                |
-| [fontFamily](#fontFamily)                 | `string`     | Optional | cannot be null | [Icon Data](icon_data-properties-font-family.md "https&#x3A;//legytma.com.br/schema/icon_data.schema.json#/properties/fontFamily")            |
-| [fontPackage](#fontPackage)               | `string`     | Optional | cannot be null | [Icon Data](icon_data-properties-font-package.md "https&#x3A;//legytma.com.br/schema/icon_data.schema.json#/properties/fontPackage")          |
-| [matchTextDirection](#matchTextDirection) | `boolean`    | Optional | cannot be null | [Icon Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/matchTextDirection") |
+| [codePoint](#codePoint)                   | Unknown Type | Optional | cannot be null | [Icon Data](color-allof-integer.md)                                |
+| [fontFamily](#fontFamily)                 | `string`     | Optional | cannot be null | [Icon Data](icon_data-properties-font-family.md)            |
+| [fontPackage](#fontPackage)               | `string`     | Optional | cannot be null | [Icon Data](icon_data-properties-font-package.md)          |
+| [matchTextDirection](#matchTextDirection) | `boolean`    | Optional | cannot be null | [Icon Data](button_bar_theme_data-properties-boolean.md) |
 
 ## codePoint
 
@@ -41,7 +41,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Icon Data](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/codePoint")
+-   defined in: [Icon Data](color-allof-integer.md)
 
 ### codePoint Type
 
@@ -91,7 +91,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Font Family](icon_data-properties-font-family.md))
 -   cannot be null
--   defined in: [Icon Data](icon_data-properties-font-family.md "https&#x3A;//legytma.com.br/schema/icon_data.schema.json#/properties/fontFamily")
+-   defined in: [Icon Data](icon_data-properties-font-family.md)
 
 ### fontFamily Type
 
@@ -107,7 +107,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Font Package](icon_data-properties-font-package.md))
 -   cannot be null
--   defined in: [Icon Data](icon_data-properties-font-package.md "https&#x3A;//legytma.com.br/schema/icon_data.schema.json#/properties/fontPackage")
+-   defined in: [Icon Data](icon_data-properties-font-package.md)
 
 ### fontPackage Type
 
@@ -126,7 +126,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Icon Data](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/matchTextDirection")
+-   defined in: [Icon Data](button_bar_theme_data-properties-boolean.md)
 
 ### matchTextDirection Type
 

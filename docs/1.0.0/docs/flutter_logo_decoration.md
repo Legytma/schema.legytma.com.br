@@ -13,7 +13,7 @@ https://legytma.com.br/schema/flutter_logo_decoration.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [flutter_logo_decoration.schema.json](../schema/flutter_logo_decoration.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [flutter_logo_decoration.schema.json](../schema/flutter_logo_decoration.schema.json) |
 
 ## Flutter Logo Decoration Type
 
@@ -21,18 +21,18 @@ https://legytma.com.br/schema/flutter_logo_decoration.schema.json
 
 any of
 
--   [Decoration](box_decoration-anyof-decoration.md "check type definition")
+-   [Decoration](box_decoration-anyof-decoration.md)
 
 # Flutter Logo Decoration Properties
 
 | Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                |
 | :------------------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)             | `string` | Optional | cannot be null | [Flutter Logo Decoration](flutter_logo_decoration-properties-type.md "https&#x3A;//legytma.com.br/schema/flutter_logo_decoration.schema.json#/properties/type")           |
-| [style](#style)           | `string` | Optional | cannot be null | [Flutter Logo Decoration](flutter_logo_decoration-properties-flutter-logo-style.md "https&#x3A;//legytma.com.br/schema/flutter_logo_style.schema.json#/properties/style") |
-| [margin](#margin)         | Merged   | Optional | cannot be null | [Flutter Logo Decoration](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/margin")                   |
-| [darkColor](#darkColor)   | Merged   | Optional | cannot be null | [Flutter Logo Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/darkColor")                                 |
-| [lightColor](#lightColor) | Merged   | Optional | cannot be null | [Flutter Logo Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/lightColor")                                |
-| [textColor](#textColor)   | Merged   | Optional | cannot be null | [Flutter Logo Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/textColor")                                 |
+| [type](#type)             | `string` | Optional | cannot be null | [Flutter Logo Decoration](flutter_logo_decoration-properties-type.md)           |
+| [style](#style)           | `string` | Optional | cannot be null | [Flutter Logo Decoration](flutter_logo_decoration-properties-flutter-logo-style.md) |
+| [margin](#margin)         | Merged   | Optional | cannot be null | [Flutter Logo Decoration](edge_insets_lerp-properties-edge-insets-1.md)                   |
+| [darkColor](#darkColor)   | Merged   | Optional | cannot be null | [Flutter Logo Decoration](app_bar_theme-properties-color.md)                                 |
+| [lightColor](#lightColor) | Merged   | Optional | cannot be null | [Flutter Logo Decoration](app_bar_theme-properties-color.md)                                |
+| [textColor](#textColor)   | Merged   | Optional | cannot be null | [Flutter Logo Decoration](app_bar_theme-properties-color.md)                                 |
 
 ## type
 
@@ -47,7 +47,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](flutter_logo_decoration-properties-type.md))
 -   cannot be null
--   defined in: [Flutter Logo Decoration](flutter_logo_decoration-properties-type.md "https&#x3A;//legytma.com.br/schema/flutter_logo_decoration.schema.json#/properties/type")
+-   defined in: [Flutter Logo Decoration](flutter_logo_decoration-properties-type.md)
 
 ### type Type
 
@@ -102,7 +102,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Flutter Logo Style](flutter_logo_decoration-properties-flutter-logo-style.md))
 -   cannot be null
--   defined in: [Flutter Logo Decoration](flutter_logo_decoration-properties-flutter-logo-style.md "https&#x3A;//legytma.com.br/schema/flutter_logo_style.schema.json#/properties/style")
+-   defined in: [Flutter Logo Decoration](flutter_logo_decoration-properties-flutter-logo-style.md)
 
 ### style Type
 
@@ -154,7 +154,7 @@ The default value is:
 -   is optional
 -   Type: merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 -   cannot be null
--   defined in: [Flutter Logo Decoration](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/margin")
+-   defined in: [Flutter Logo Decoration](edge_insets_lerp-properties-edge-insets-1.md)
 
 ### margin Type
 
@@ -162,8 +162,8 @@ merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 
 one (and only one) of
 
--   [Edge Insets String](edge_insets-oneof-edge-insets-string.md "check type definition")
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets String](edge_insets-oneof-edge-insets-string.md)
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 ### margin Default Value
 
@@ -186,7 +186,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Flutter Logo Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/darkColor")
+-   defined in: [Flutter Logo Decoration](app_bar_theme-properties-color.md)
 
 ### darkColor Type
 
@@ -194,7 +194,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### darkColor Default Value
 
@@ -235,7 +235,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Flutter Logo Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/lightColor")
+-   defined in: [Flutter Logo Decoration](app_bar_theme-properties-color.md)
 
 ### lightColor Type
 
@@ -243,7 +243,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### lightColor Default Value
 
@@ -284,7 +284,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Flutter Logo Decoration](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/textColor")
+-   defined in: [Flutter Logo Decoration](app_bar_theme-properties-color.md)
 
 ### textColor Type
 
@@ -292,7 +292,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### textColor Default Value
 

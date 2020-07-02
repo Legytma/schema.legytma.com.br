@@ -13,7 +13,7 @@ https://legytma.com.br/schema/offset_default.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [offset_default.schema.json](../schema/offset_default.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [offset_default.schema.json](../schema/offset_default.schema.json) |
 
 ## Offset Default Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/offset_default.schema.json
 
 all of
 
--   [Offset](box_shadow-properties-offset.md "check type definition")
+-   [Offset](box_shadow-properties-offset.md)
 
 # Offset Default Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                    |
 | :------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Offset Default](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset_default.schema.json#/properties/type") |
-| [dx](#dx)     | Merged   | Optional | cannot be null | [Offset Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/dx")   |
-| [dy](#dy)     | Merged   | Optional | cannot be null | [Offset Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/dy")   |
+| [type](#type) | `string` | Optional | cannot be null | [Offset Default](widget-definitions-type.md) |
+| [dx](#dx)     | Merged   | Optional | cannot be null | [Offset Default](app_bar_theme-properties-double.md)   |
+| [dy](#dy)     | Merged   | Optional | cannot be null | [Offset Default](app_bar_theme-properties-double.md)   |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Offset Default](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset_default.schema.json#/properties/type")
+-   defined in: [Offset Default](widget-definitions-type.md)
 
 ### type Type
 
@@ -81,7 +81,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Offset Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/dx")
+-   defined in: [Offset Default](app_bar_theme-properties-double.md)
 
 ### dx Type
 
@@ -89,9 +89,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### dx Constraints
 
@@ -120,7 +120,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Offset Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/dy")
+-   defined in: [Offset Default](app_bar_theme-properties-double.md)
 
 ### dy Type
 
@@ -128,9 +128,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### dy Constraints
 

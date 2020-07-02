@@ -13,7 +13,7 @@ https://legytma.com.br/schema/typography.schema.json#/properties/typography
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [theme_data.schema.json\*](../schema/theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [theme_data.schema.json\*](../schema/theme_data.schema.json) |
 
 ## typography Type
 
@@ -23,12 +23,12 @@ https://legytma.com.br/schema/typography.schema.json#/properties/typography
 
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                                   |
 | :-------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
-| [platform](#platform)       | `string` | Optional | cannot be null | [Typography](typography-properties-target-platform.md "https&#x3A;//legytma.com.br/schema/target_platform.schema.json#/properties/platform") |
-| [black](#black)             | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/black")              |
-| [dense](#dense)             | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme-1.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/dense")            |
-| [englishLike](#englishLike) | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme-2.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/englishLike")      |
-| [tall](#tall)               | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme-3.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/tall")             |
-| [white](#white)             | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme-4.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/white")            |
+| [platform](#platform)       | `string` | Optional | cannot be null | [Typography](typography-properties-target-platform.md) |
+| [black](#black)             | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme.md)              |
+| [dense](#dense)             | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme-1.md)            |
+| [englishLike](#englishLike) | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme-2.md)      |
+| [tall](#tall)               | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme-3.md)             |
+| [white](#white)             | `object` | Optional | cannot be null | [Typography](typography-properties-text-theme-4.md)            |
 
 ## platform
 
@@ -40,7 +40,7 @@ Determine the target platform
 -   is optional
 -   Type: `string` ([Target Platform](typography-properties-target-platform.md))
 -   cannot be null
--   defined in: [Typography](typography-properties-target-platform.md "https&#x3A;//legytma.com.br/schema/target_platform.schema.json#/properties/platform")
+-   defined in: [Typography](typography-properties-target-platform.md)
 
 ### platform Type
 
@@ -91,7 +91,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](typography-properties-text-theme.md))
 -   cannot be null
--   defined in: [Typography](typography-properties-text-theme.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/black")
+-   defined in: [Typography](typography-properties-text-theme.md)
 
 ### black Type
 
@@ -110,7 +110,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](typography-properties-text-theme-1.md))
 -   cannot be null
--   defined in: [Typography](typography-properties-text-theme-1.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/dense")
+-   defined in: [Typography](typography-properties-text-theme-1.md)
 
 ### dense Type
 
@@ -129,7 +129,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](typography-properties-text-theme-2.md))
 -   cannot be null
--   defined in: [Typography](typography-properties-text-theme-2.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/englishLike")
+-   defined in: [Typography](typography-properties-text-theme-2.md)
 
 ### englishLike Type
 
@@ -148,7 +148,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](typography-properties-text-theme-3.md))
 -   cannot be null
--   defined in: [Typography](typography-properties-text-theme-3.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/tall")
+-   defined in: [Typography](typography-properties-text-theme-3.md)
 
 ### tall Type
 
@@ -167,7 +167,7 @@ Text theme
 -   is optional
 -   Type: `object` ([Text Theme](typography-properties-text-theme-4.md))
 -   cannot be null
--   defined in: [Typography](typography-properties-text-theme-4.md "https&#x3A;//legytma.com.br/schema/text_theme.schema.json#/properties/white")
+-   defined in: [Typography](typography-properties-text-theme-4.md)
 
 ### white Type
 

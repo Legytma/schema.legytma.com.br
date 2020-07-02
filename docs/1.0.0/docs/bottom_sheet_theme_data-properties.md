@@ -9,7 +9,7 @@ https://legytma.com.br/schema/bottom_sheet_theme_data.schema.json#/properties
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                    |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [bottom_sheet_theme_data.schema.json\*](../schema/bottom_sheet_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [bottom_sheet_theme_data.schema.json\*](../schema/bottom_sheet_theme_data.schema.json) |
 
 ## properties Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/rect.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [rect.schema.json](../schema/rect.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [rect.schema.json](../schema/rect.schema.json) |
 
 ## Rect Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/rect.schema.json
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Rect](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Rect](widget-definitions-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Rect](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/properties/type")
+-   defined in: [Rect](widget-definitions-type.md)
 
 ### type Type
 
@@ -80,7 +80,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Rect](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/definitions/type")
+-   defined in: [Rect](widget-definitions-type.md)
 
 ### type Type
 

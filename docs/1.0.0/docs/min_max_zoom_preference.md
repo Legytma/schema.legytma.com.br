@@ -13,7 +13,7 @@ https://legytma.com.br/schema/min_max_zoom_preference.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [min_max_zoom_preference.schema.json](../schema/min_max_zoom_preference.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [min_max_zoom_preference.schema.json](../schema/min_max_zoom_preference.schema.json) |
 
 ## Min Max Zoom Preference Type
 

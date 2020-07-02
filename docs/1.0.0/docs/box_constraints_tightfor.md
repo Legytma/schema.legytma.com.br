@@ -13,7 +13,7 @@ https://legytma.com.br/schema/box_constraints_tightFor.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [box_constraints_tightFor.schema.json](../schema/box_constraints_tightFor.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [box_constraints_tightFor.schema.json](../schema/box_constraints_tightFor.schema.json) |
 
 ## Box Constraints Tight For Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/box_constraints_tightFor.schema.json
 
 any of
 
--   [Box Constraints](box_constraints_default-anyof-box-constraints.md "check type definition")
+-   [Box Constraints](box_constraints_default-anyof-box-constraints.md)
 
 # Box Constraints Tight For Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                          |
 | :---------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)     | `string` | Optional | cannot be null | [Box Constraints Tight For](box_constraints_tightfor-properties-type.md "https&#x3A;//legytma.com.br/schema/box_constraints_tightFor.schema.json#/properties/type") |
-| [width](#width)   | Merged   | Optional | cannot be null | [Box Constraints Tight For](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")                           |
-| [height](#height) | Merged   | Optional | cannot be null | [Box Constraints Tight For](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")                          |
+| [type](#type)     | `string` | Optional | cannot be null | [Box Constraints Tight For](box_constraints_tightfor-properties-type.md) |
+| [width](#width)   | Merged   | Optional | cannot be null | [Box Constraints Tight For](app_bar_theme-properties-double.md)                           |
+| [height](#height) | Merged   | Optional | cannot be null | [Box Constraints Tight For](app_bar_theme-properties-double.md)                          |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](box_constraints_tightfor-properties-type.md))
 -   cannot be null
--   defined in: [Box Constraints Tight For](box_constraints_tightfor-properties-type.md "https&#x3A;//legytma.com.br/schema/box_constraints_tightFor.schema.json#/properties/type")
+-   defined in: [Box Constraints Tight For](box_constraints_tightfor-properties-type.md)
 
 ### type Type
 
@@ -82,7 +82,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Box Constraints Tight For](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")
+-   defined in: [Box Constraints Tight For](app_bar_theme-properties-double.md)
 
 ### width Type
 
@@ -90,9 +90,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### width Constraints
 
@@ -121,7 +121,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Box Constraints Tight For](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Box Constraints Tight For](app_bar_theme-properties-double.md)
 
 ### height Type
 
@@ -129,9 +129,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### height Constraints
 

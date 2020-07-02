@@ -13,7 +13,7 @@ https://legytma.com.br/schema/lat_lng.schema.json#/properties/target
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [camera_position.schema.json\*](../schema/camera_position.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [camera_position.schema.json\*](../schema/camera_position.schema.json) |
 
 ## target Type
 
@@ -23,8 +23,8 @@ https://legytma.com.br/schema/lat_lng.schema.json#/properties/target
 
 | Property                | Type   | Required | Nullable       | Defined by                                                                                                              |
 | :---------------------- | ------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------- |
-| [latitude](#latitude)   | Merged | Required | cannot be null | [Lat Lng](lat_lng-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/latitude")    |
-| [longitude](#longitude) | Merged | Required | cannot be null | [Lat Lng](lat_lng-properties-double-1.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/longitude") |
+| [latitude](#latitude)   | Merged | Required | cannot be null | [Lat Lng](lat_lng-properties-double.md)    |
+| [longitude](#longitude) | Merged | Required | cannot be null | [Lat Lng](lat_lng-properties-double-1.md) |
 
 ## latitude
 
@@ -39,7 +39,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](lat_lng-properties-double.md))
 -   cannot be null
--   defined in: [Lat Lng](lat_lng-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/latitude")
+-   defined in: [Lat Lng](lat_lng-properties-double.md)
 
 ### latitude Type
 
@@ -47,9 +47,9 @@ merged type ([Double](lat_lng-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### latitude Default Value
 
@@ -72,7 +72,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](lat_lng-properties-double-1.md))
 -   cannot be null
--   defined in: [Lat Lng](lat_lng-properties-double-1.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/longitude")
+-   defined in: [Lat Lng](lat_lng-properties-double-1.md)
 
 ### longitude Type
 
@@ -80,9 +80,9 @@ merged type ([Double](lat_lng-properties-double-1.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### longitude Default Value
 

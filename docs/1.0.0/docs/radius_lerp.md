@@ -13,7 +13,7 @@ https://legytma.com.br/schema/radius_lerp.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_lerp.schema.json](../schema/radius_lerp.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [radius_lerp.schema.json](../schema/radius_lerp.schema.json) |
 
 ## Radius Lerp Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/radius_lerp.schema.json
 
 all of
 
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+-   [Radius Object](radius-oneof-radius-object.md)
 
 # Radius Lerp Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                  |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Radius Lerp](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_lerp.schema.json#/properties/type")     |
-| [a](#a)       | Merged   | Required | cannot be null | [Radius Lerp](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/a") |
-| [b](#b)       | Merged   | Required | cannot be null | [Radius Lerp](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/b") |
-| [t](#t)       | Merged   | Required | cannot be null | [Radius Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")     |
+| [type](#type) | `string` | Optional | cannot be null | [Radius Lerp](widget-definitions-type.md)     |
+| [a](#a)       | Merged   | Required | cannot be null | [Radius Lerp](border_radius_all-properties-radius.md) |
+| [b](#b)       | Merged   | Required | cannot be null | [Radius Lerp](border_radius_all-properties-radius.md) |
+| [t](#t)       | Merged   | Required | cannot be null | [Radius Lerp](app_bar_theme-properties-double.md)     |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Radius Lerp](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/radius_lerp.schema.json#/properties/type")
+-   defined in: [Radius Lerp](widget-definitions-type.md)
 
 ### type Type
 
@@ -83,7 +83,7 @@ Identify the widget type
 -   is required
 -   Type: merged type ([Radius](border_radius_all-properties-radius.md))
 -   cannot be null
--   defined in: [Radius Lerp](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/a")
+-   defined in: [Radius Lerp](border_radius_all-properties-radius.md)
 
 ### a Type
 
@@ -95,10 +95,10 @@ one (and only one) of
 
     -   one (and only one) of
 
-        -   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
-        -   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
-        -   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+        -   [Untitled number in Double](double-definitions-doublenumber.md)
+        -   [Untitled string in Double](double-definitions-doublestring.md)
+        -   [Untitled string in Double](double-definitions-doubleenum.md)
+-   [Radius Object](radius-oneof-radius-object.md)
 
 ## b
 
@@ -114,7 +114,7 @@ one (and only one) of
 -   is required
 -   Type: merged type ([Radius](border_radius_all-properties-radius.md))
 -   cannot be null
--   defined in: [Radius Lerp](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/b")
+-   defined in: [Radius Lerp](border_radius_all-properties-radius.md)
 
 ### b Type
 
@@ -126,10 +126,10 @@ one (and only one) of
 
     -   one (and only one) of
 
-        -   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
-        -   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
-        -   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+        -   [Untitled number in Double](double-definitions-doublenumber.md)
+        -   [Untitled string in Double](double-definitions-doublestring.md)
+        -   [Untitled string in Double](double-definitions-doubleenum.md)
+-   [Radius Object](radius-oneof-radius-object.md)
 
 ## t
 
@@ -144,7 +144,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Radius Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")
+-   defined in: [Radius Lerp](app_bar_theme-properties-double.md)
 
 ### t Type
 
@@ -152,9 +152,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### t Constraints
 

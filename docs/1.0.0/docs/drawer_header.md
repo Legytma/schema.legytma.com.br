@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/drawer_header.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                     |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [drawer_header.schema.json](../schema/widget/drawer_header.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [drawer_header.schema.json](../schema/widget/drawer_header.schema.json) |
 
 ## Drawer Header Type
 
@@ -21,19 +21,19 @@ https://legytma.com.br/schema/widget/drawer_header.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Drawer Header Properties
 
 | Property                  | Type         | Required | Nullable       | Defined by                                                                                                                                                          |
 | :------------------------ | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)             | `string`     | Optional | cannot be null | [Drawer Header](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/drawer_header.schema.json#/properties/type")                                  |
-| [child](#child)           | `object`     | Optional | cannot be null | [Drawer Header](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                  |
-| [decoration](#decoration) | `object`     | Optional | cannot be null | [Drawer Header](box_decoration-anyof-decoration.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/properties/decoration")                              |
-| [margin](#margin)         | Unknown Type | Optional | cannot be null | [Drawer Header](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/margin")  |
-| [padding](#padding)       | Unknown Type | Optional | cannot be null | [Drawer Header](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding") |
-| [curve](#curve)           | `string`     | Optional | cannot be null | [Drawer Header](drawer_header-properties-curve.md "https&#x3A;//legytma.com.br/schema/curve.schema.json#/properties/curve")                                         |
-| [duration](#duration)     | `object`     | Optional | cannot be null | [Drawer Header](tooltip_theme_data-properties-duration.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/duration")                           |
+| [type](#type)             | `string`     | Optional | cannot be null | [Drawer Header](widget-definitions-type.md)                                  |
+| [child](#child)           | `object`     | Optional | cannot be null | [Drawer Header](input_decoration-properties-widget-5.md)                                  |
+| [decoration](#decoration) | `object`     | Optional | cannot be null | [Drawer Header](box_decoration-anyof-decoration.md)                              |
+| [margin](#margin)         | Unknown Type | Optional | cannot be null | [Drawer Header](button_bar_theme_data-properties-edge-insets-geometry.md)  |
+| [padding](#padding)       | Unknown Type | Optional | cannot be null | [Drawer Header](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [curve](#curve)           | `string`     | Optional | cannot be null | [Drawer Header](drawer_header-properties-curve.md)                                         |
+| [duration](#duration)     | `object`     | Optional | cannot be null | [Drawer Header](tooltip_theme_data-properties-duration.md)                           |
 
 ## type
 
@@ -48,7 +48,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Drawer Header](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/drawer_header.schema.json#/properties/type")
+-   defined in: [Drawer Header](widget-definitions-type.md)
 
 ### type Type
 
@@ -75,7 +75,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Drawer Header](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Drawer Header](input_decoration-properties-widget-5.md)
 
 ### child Type
 
@@ -95,7 +95,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Decoration](box_decoration-anyof-decoration.md))
 -   cannot be null
--   defined in: [Drawer Header](box_decoration-anyof-decoration.md "https&#x3A;//legytma.com.br/schema/decoration.schema.json#/properties/decoration")
+-   defined in: [Drawer Header](box_decoration-anyof-decoration.md)
 
 ### decoration Type
 
@@ -115,7 +115,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Drawer Header](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/margin")
+-   defined in: [Drawer Header](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### margin Type
 
@@ -146,7 +146,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Drawer Header](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [Drawer Header](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### padding Type
 
@@ -177,7 +177,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Curve](drawer_header-properties-curve.md))
 -   cannot be null
--   defined in: [Drawer Header](drawer_header-properties-curve.md "https&#x3A;//legytma.com.br/schema/curve.schema.json#/properties/curve")
+-   defined in: [Drawer Header](drawer_header-properties-curve.md)
 
 ### curve Type
 
@@ -253,7 +253,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Duration](tooltip_theme_data-properties-duration.md))
 -   cannot be null
--   defined in: [Drawer Header](tooltip_theme_data-properties-duration.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/duration")
+-   defined in: [Drawer Header](tooltip_theme_data-properties-duration.md)
 
 ### duration Type
 

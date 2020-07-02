@@ -13,7 +13,7 @@ https://legytma.com.br/schema/slider_track_shape.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [slider_track_shape.schema.json](../schema/slider_track_shape.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [slider_track_shape.schema.json](../schema/slider_track_shape.schema.json) |
 
 ## Slider Track Shape Type
 

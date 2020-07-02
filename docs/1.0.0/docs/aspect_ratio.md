@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/aspect_ratio.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [aspect_ratio.schema.json](../schema/widget/aspect_ratio.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [aspect_ratio.schema.json](../schema/widget/aspect_ratio.schema.json) |
 
 ## Aspect Ratio Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/widget/aspect_ratio.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Aspect Ratio Properties
 
 | Property                    | Type     | Required | Nullable       | Defined by                                                                                                                         |
 | :-------------------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)               | `string` | Required | cannot be null | [Aspect Ratio](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/aspect_ratio.schema.json#/properties/type")   |
-| [aspectRatio](#aspectRatio) | Merged   | Required | cannot be null | [Aspect Ratio](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/aspectRatio") |
-| [child](#child)             | `object` | Optional | cannot be null | [Aspect Ratio](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")  |
+| [type](#type)               | `string` | Required | cannot be null | [Aspect Ratio](widget-definitions-type.md)   |
+| [aspectRatio](#aspectRatio) | Merged   | Required | cannot be null | [Aspect Ratio](app_bar_theme-properties-double.md) |
+| [child](#child)             | `object` | Optional | cannot be null | [Aspect Ratio](input_decoration-properties-widget-5.md)  |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Aspect Ratio](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/aspect_ratio.schema.json#/properties/type")
+-   defined in: [Aspect Ratio](widget-definitions-type.md)
 
 ### type Type
 
@@ -71,7 +71,7 @@ Define the representation of double acceptable.
 -   is required
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Aspect Ratio](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/aspectRatio")
+-   defined in: [Aspect Ratio](app_bar_theme-properties-double.md)
 
 ### aspectRatio Type
 
@@ -79,9 +79,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### aspectRatio Constraints
 
@@ -110,7 +110,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Aspect Ratio](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Aspect Ratio](input_decoration-properties-widget-5.md)
 
 ### child Type
 

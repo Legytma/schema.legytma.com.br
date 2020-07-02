@@ -9,7 +9,7 @@ https://legytma.com.br/schema/material_tap_target_size.schema.json#/properties/m
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [button_theme_data.schema.json\*](../schema/button_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [button_theme_data.schema.json\*](../schema/button_theme_data.schema.json) |
 
 ## materialTapTargetSize Type
 

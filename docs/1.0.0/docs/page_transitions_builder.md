@@ -13,7 +13,7 @@ https://legytma.com.br/schema/page_transitions_builder.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                    |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [page_transitions_builder.schema.json](../schema/page_transitions_builder.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [page_transitions_builder.schema.json](../schema/page_transitions_builder.schema.json) |
 
 ## Page Transitions Builder Type
 

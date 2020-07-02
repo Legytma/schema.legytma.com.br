@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/clip_r_rect.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                 |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [clip_r_rect.schema.json](../schema/widget/clip_r_rect.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [clip_r_rect.schema.json](../schema/widget/clip_r_rect.schema.json) |
 
 ## Clip R Rect Type
 
@@ -21,17 +21,17 @@ https://legytma.com.br/schema/widget/clip_r_rect.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Clip R Rect Properties
 
 | Property                      | Type         | Required | Nullable       | Defined by                                                                                                                                              |
 | :---------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                 | `string`     | Optional | cannot be null | [Clip R Rect](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/clip_r_rect.schema.json#/properties/type")                          |
-| [clipper](#clipper)           | Unknown Type | Optional | can be null    | [Clip R Rect](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/clipper")                  |
-| [borderRadius](#borderRadius) | Merged       | Required | cannot be null | [Clip R Rect](border_radius_lerp-properties-border-radius-1.md "https&#x3A;//legytma.com.br/schema/border_radius.schema.json#/properties/borderRadius") |
-| [clipBehavior](#clipBehavior) | `string`     | Optional | cannot be null | [Clip R Rect](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")                |
-| [child](#child)               | `object`     | Optional | cannot be null | [Clip R Rect](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                        |
+| [type](#type)                 | `string`     | Optional | cannot be null | [Clip R Rect](widget-definitions-type.md)                          |
+| [clipper](#clipper)           | Unknown Type | Optional | can be null    | [Clip R Rect](bottom_app_bar_theme-properties-dynamic.md)                  |
+| [borderRadius](#borderRadius) | Merged       | Required | cannot be null | [Clip R Rect](border_radius_lerp-properties-border-radius-1.md) |
+| [clipBehavior](#clipBehavior) | `string`     | Optional | cannot be null | [Clip R Rect](bottom_sheet_theme_data-properties-clip.md)                |
+| [child](#child)               | `object`     | Optional | cannot be null | [Clip R Rect](input_decoration-properties-widget-5.md)                        |
 
 ## type
 
@@ -46,7 +46,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Clip R Rect](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/clip_r_rect.schema.json#/properties/type")
+-   defined in: [Clip R Rect](widget-definitions-type.md)
 
 ### type Type
 
@@ -74,7 +74,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Clip R Rect](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/clipper")
+-   defined in: [Clip R Rect](bottom_app_bar_theme-properties-dynamic.md)
 
 ### clipper Type
 
@@ -94,7 +94,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is required
 -   Type: merged type ([Border Radius](border_radius_lerp-properties-border-radius-1.md))
 -   cannot be null
--   defined in: [Clip R Rect](border_radius_lerp-properties-border-radius-1.md "https&#x3A;//legytma.com.br/schema/border_radius.schema.json#/properties/borderRadius")
+-   defined in: [Clip R Rect](border_radius_lerp-properties-border-radius-1.md)
 
 ### borderRadius Type
 
@@ -102,8 +102,8 @@ merged type ([Border Radius](border_radius_lerp-properties-border-radius-1.md))
 
 one (and only one) of
 
--   [Border Radius Object](border_radius-oneof-border-radius-object.md "check type definition")
--   [Border Radius String](border_radius-oneof-border-radius-string.md "check type definition")
+-   [Border Radius Object](border_radius-oneof-border-radius-object.md)
+-   [Border Radius String](border_radius-oneof-border-radius-string.md)
 
 ## clipBehavior
 
@@ -119,7 +119,7 @@ one (and only one) of
 -   is optional
 -   Type: `string` ([Clip](bottom_sheet_theme_data-properties-clip.md))
 -   cannot be null
--   defined in: [Clip R Rect](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")
+-   defined in: [Clip R Rect](bottom_sheet_theme_data-properties-clip.md)
 
 ### clipBehavior Type
 
@@ -157,7 +157,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Clip R Rect](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Clip R Rect](input_decoration-properties-widget-5.md)
 
 ### child Type
 

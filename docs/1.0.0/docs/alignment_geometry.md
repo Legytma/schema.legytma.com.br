@@ -13,7 +13,7 @@ https://legytma.com.br/schema/alignment_geometry.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [alignment_geometry.schema.json](../schema/alignment_geometry.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [alignment_geometry.schema.json](../schema/alignment_geometry.schema.json) |
 
 ## Alignment Geometry Type
 

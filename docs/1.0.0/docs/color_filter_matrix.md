@@ -13,7 +13,7 @@ https://legytma.com.br/schema/color_filter_matrix.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [color_filter_matrix.schema.json](../schema/color_filter_matrix.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [color_filter_matrix.schema.json](../schema/color_filter_matrix.schema.json) |
 
 ## Color Filter Matrix Type
 
@@ -21,14 +21,14 @@ https://legytma.com.br/schema/color_filter_matrix.schema.json
 
 all of
 
--   [Color Filter](color_filter_linear_to_srgb_gamma-allof-color-filter.md "check type definition")
+-   [Color Filter](color_filter_linear_to_srgb_gamma-allof-color-filter.md)
 
 # Color Filter Matrix Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                           |
 | :---------------- | -------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)     | `string` | Optional | cannot be null | [Color Filter Matrix](color_filter_matrix-properties-type.md "https&#x3A;//legytma.com.br/schema/color_filter_matrix.schema.json#/properties/type")  |
-| [matrix](#matrix) | `array`  | Optional | cannot be null | [Color Filter Matrix](color_filter_matrix-properties-list-double.md "https&#x3A;//legytma.com.br/schema/list_double.schema.json#/properties/matrix") |
+| [type](#type)     | `string` | Optional | cannot be null | [Color Filter Matrix](color_filter_matrix-properties-type.md)  |
+| [matrix](#matrix) | `array`  | Optional | cannot be null | [Color Filter Matrix](color_filter_matrix-properties-list-double.md) |
 
 ## type
 
@@ -43,7 +43,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](color_filter_matrix-properties-type.md))
 -   cannot be null
--   defined in: [Color Filter Matrix](color_filter_matrix-properties-type.md "https&#x3A;//legytma.com.br/schema/color_filter_matrix.schema.json#/properties/type")
+-   defined in: [Color Filter Matrix](color_filter_matrix-properties-type.md)
 
 ### type Type
 
@@ -98,7 +98,7 @@ Identify the widget type
 -   is optional
 -   Type: an array of merged types ([Double](list_double-double.md))
 -   cannot be null
--   defined in: [Color Filter Matrix](color_filter_matrix-properties-list-double.md "https&#x3A;//legytma.com.br/schema/list_double.schema.json#/properties/matrix")
+-   defined in: [Color Filter Matrix](color_filter_matrix-properties-list-double.md)
 
 ### matrix Type
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_default.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_default.schema.json](../schema/border_default.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_default.schema.json](../schema/border_default.schema.json) |
 
 ## Border Default Type
 
@@ -23,17 +23,17 @@ all of
 
 -   all of
 
-    -   [Box Border](border-allof-box-border.md "check type definition")
+    -   [Box Border](border-allof-box-border.md)
 
 # Border Default Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                 |
 | :---------------- | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)     | `string` | Optional | cannot be null | [Border Default](border_default-properties-type.md "https&#x3A;//legytma.com.br/schema/border_default.schema.json#/properties/type")       |
-| [top](#top)       | `object` | Optional | cannot be null | [Border Default](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/top")    |
-| [bottom](#bottom) | `object` | Optional | cannot be null | [Border Default](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/bottom") |
-| [left](#left)     | `object` | Optional | cannot be null | [Border Default](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/left")   |
-| [right](#right)   | `object` | Optional | cannot be null | [Border Default](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/right")  |
+| [type](#type)     | `string` | Optional | cannot be null | [Border Default](border_default-properties-type.md)       |
+| [top](#top)       | `object` | Optional | cannot be null | [Border Default](border_default-properties-border-side.md)    |
+| [bottom](#bottom) | `object` | Optional | cannot be null | [Border Default](border_default-properties-border-side.md) |
+| [left](#left)     | `object` | Optional | cannot be null | [Border Default](border_default-properties-border-side.md)   |
+| [right](#right)   | `object` | Optional | cannot be null | [Border Default](border_default-properties-border-side.md)  |
 
 ## type
 
@@ -48,7 +48,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](border_default-properties-type.md))
 -   cannot be null
--   defined in: [Border Default](border_default-properties-type.md "https&#x3A;//legytma.com.br/schema/border_default.schema.json#/properties/type")
+-   defined in: [Border Default](border_default-properties-type.md)
 
 ### type Type
 
@@ -86,7 +86,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Border Side](border_default-properties-border-side.md))
 -   cannot be null
--   defined in: [Border Default](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/top")
+-   defined in: [Border Default](border_default-properties-border-side.md)
 
 ### top Type
 
@@ -114,7 +114,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Border Side](border_default-properties-border-side.md))
 -   cannot be null
--   defined in: [Border Default](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/bottom")
+-   defined in: [Border Default](border_default-properties-border-side.md)
 
 ### bottom Type
 
@@ -142,7 +142,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Border Side](border_default-properties-border-side.md))
 -   cannot be null
--   defined in: [Border Default](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/left")
+-   defined in: [Border Default](border_default-properties-border-side.md)
 
 ### left Type
 
@@ -170,7 +170,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Border Side](border_default-properties-border-side.md))
 -   cannot be null
--   defined in: [Border Default](border_default-properties-border-side.md "https&#x3A;//legytma.com.br/schema/border_side.schema.json#/properties/right")
+-   defined in: [Border Default](border_default-properties-border-side.md)
 
 ### right Type
 

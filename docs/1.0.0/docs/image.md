@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/image.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                     |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------ |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [image.schema.json](../schema/widget/image.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [image.schema.json](../schema/widget/image.schema.json) |
 
 ## Image Type
 
@@ -21,28 +21,28 @@ https://legytma.com.br/schema/widget/image.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Image Properties
 
 | Property                                      | Type         | Required | Nullable       | Defined by                                                                                                                                  |
 | :-------------------------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                                 | `string`     | Optional | cannot be null | [Image](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/image.schema.json#/properties/type")                          |
-| [imageType](#imageType)                       | `string`     | Required | cannot be null | [Image](image-properties-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image.schema.json#/properties/imageType")                 |
-| [frameBuilder](#frameBuilder)                 | Unknown Type | Optional | can be null    | [Image](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/frameBuilder")       |
-| [semanticLabel](#semanticLabel)               | `string`     | Optional | cannot be null | [Image](image-properties-semantic-label.md "https&#x3A;//legytma.com.br/schema/widget/image.schema.json#/properties/semanticLabel")         |
-| [excludeFromSemantics](#excludeFromSemantics) | `boolean`    | Optional | cannot be null | [Image](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/excludeFromSemantics") |
-| [width](#width)                               | Merged       | Optional | cannot be null | [Image](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")                       |
-| [height](#height)                             | Merged       | Optional | cannot be null | [Image](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")                      |
-| [color](#color)                               | Merged       | Optional | cannot be null | [Image](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                         |
-| [blendMode](#blendMode)                       | `string`     | Optional | cannot be null | [Image](box_decoration-properties-blend-mode.md "https&#x3A;//legytma.com.br/schema/blend_mode.schema.json#/properties/blendMode")          |
-| [boxFit](#boxFit)                             | `string`     | Optional | cannot be null | [Image](decoration_image-properties-box-fit.md "https&#x3A;//legytma.com.br/schema/box_fit.schema.json#/properties/boxFit")                 |
-| [alignment](#alignment)                       | Unknown Type | Optional | can be null    | [Image](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/alignment")          |
-| [repeat](#repeat)                             | `string`     | Optional | cannot be null | [Image](decoration_image-properties-image-repeat.md "https&#x3A;//legytma.com.br/schema/image_repeat.schema.json#/properties/repeat")       |
-| [centerSlice](#centerSlice)                   | `object`     | Optional | cannot be null | [Image](decoration_image-properties-rect.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/properties/centerSlice")                  |
-| [matchTextDirection](#matchTextDirection)     | `boolean`    | Optional | cannot be null | [Image](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/matchTextDirection")   |
-| [gaplessPlayback](#gaplessPlayback)           | `boolean`    | Optional | cannot be null | [Image](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/gaplessPlayback")      |
-| [filterQuality](#filterQuality)               | `string`     | Optional | cannot be null | [Image](image-properties-filter-quality.md "https&#x3A;//legytma.com.br/schema/filter_quality.schema.json#/properties/filterQuality")       |
+| [type](#type)                                 | `string`     | Optional | cannot be null | [Image](widget-definitions-type.md)                          |
+| [imageType](#imageType)                       | `string`     | Required | cannot be null | [Image](image-properties-image-type.md)                 |
+| [frameBuilder](#frameBuilder)                 | Unknown Type | Optional | can be null    | [Image](bottom_app_bar_theme-properties-dynamic.md)       |
+| [semanticLabel](#semanticLabel)               | `string`     | Optional | cannot be null | [Image](image-properties-semantic-label.md)         |
+| [excludeFromSemantics](#excludeFromSemantics) | `boolean`    | Optional | cannot be null | [Image](button_bar_theme_data-properties-boolean.md) |
+| [width](#width)                               | Merged       | Optional | cannot be null | [Image](app_bar_theme-properties-double.md)                       |
+| [height](#height)                             | Merged       | Optional | cannot be null | [Image](app_bar_theme-properties-double.md)                      |
+| [color](#color)                               | Merged       | Optional | cannot be null | [Image](app_bar_theme-properties-color.md)                         |
+| [blendMode](#blendMode)                       | `string`     | Optional | cannot be null | [Image](box_decoration-properties-blend-mode.md)          |
+| [boxFit](#boxFit)                             | `string`     | Optional | cannot be null | [Image](decoration_image-properties-box-fit.md)                 |
+| [alignment](#alignment)                       | Unknown Type | Optional | can be null    | [Image](bottom_app_bar_theme-properties-dynamic.md)          |
+| [repeat](#repeat)                             | `string`     | Optional | cannot be null | [Image](decoration_image-properties-image-repeat.md)       |
+| [centerSlice](#centerSlice)                   | `object`     | Optional | cannot be null | [Image](decoration_image-properties-rect.md)                  |
+| [matchTextDirection](#matchTextDirection)     | `boolean`    | Optional | cannot be null | [Image](button_bar_theme_data-properties-boolean.md)   |
+| [gaplessPlayback](#gaplessPlayback)           | `boolean`    | Optional | cannot be null | [Image](button_bar_theme_data-properties-boolean.md)      |
+| [filterQuality](#filterQuality)               | `string`     | Optional | cannot be null | [Image](image-properties-filter-quality.md)       |
 
 ## type
 
@@ -57,7 +57,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Image](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/image.schema.json#/properties/type")
+-   defined in: [Image](widget-definitions-type.md)
 
 ### type Type
 
@@ -81,7 +81,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Image Type](image-properties-image-type.md))
 -   cannot be null
--   defined in: [Image](image-properties-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image.schema.json#/properties/imageType")
+-   defined in: [Image](image-properties-image-type.md)
 
 ### imageType Type
 
@@ -113,7 +113,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Image](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/frameBuilder")
+-   defined in: [Image](bottom_app_bar_theme-properties-dynamic.md)
 
 ### frameBuilder Type
 
@@ -137,7 +137,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Semantic Label](image-properties-semantic-label.md))
 -   cannot be null
--   defined in: [Image](image-properties-semantic-label.md "https&#x3A;//legytma.com.br/schema/widget/image.schema.json#/properties/semanticLabel")
+-   defined in: [Image](image-properties-semantic-label.md)
 
 ### semanticLabel Type
 
@@ -156,7 +156,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Image](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/excludeFromSemantics")
+-   defined in: [Image](button_bar_theme_data-properties-boolean.md)
 
 ### excludeFromSemantics Type
 
@@ -193,7 +193,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Image](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")
+-   defined in: [Image](app_bar_theme-properties-double.md)
 
 ### width Type
 
@@ -201,9 +201,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### width Constraints
 
@@ -232,7 +232,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Image](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Image](app_bar_theme-properties-double.md)
 
 ### height Type
 
@@ -240,9 +240,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### height Constraints
 
@@ -271,7 +271,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Image](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Image](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -279,7 +279,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -321,7 +321,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Blend Mode](box_decoration-properties-blend-mode.md))
 -   cannot be null
--   defined in: [Image](box_decoration-properties-blend-mode.md "https&#x3A;//legytma.com.br/schema/blend_mode.schema.json#/properties/blendMode")
+-   defined in: [Image](box_decoration-properties-blend-mode.md)
 
 ### blendMode Type
 
@@ -366,7 +366,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Box Fit](decoration_image-properties-box-fit.md))
 -   cannot be null
--   defined in: [Image](decoration_image-properties-box-fit.md "https&#x3A;//legytma.com.br/schema/box_fit.schema.json#/properties/boxFit")
+-   defined in: [Image](decoration_image-properties-box-fit.md)
 
 ### boxFit Type
 
@@ -408,7 +408,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Image](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/alignment")
+-   defined in: [Image](bottom_app_bar_theme-properties-dynamic.md)
 
 ### alignment Type
 
@@ -436,7 +436,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Image Repeat](decoration_image-properties-image-repeat.md))
 -   cannot be null
--   defined in: [Image](decoration_image-properties-image-repeat.md "https&#x3A;//legytma.com.br/schema/image_repeat.schema.json#/properties/repeat")
+-   defined in: [Image](decoration_image-properties-image-repeat.md)
 
 ### repeat Type
 
@@ -475,7 +475,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Rect](decoration_image-properties-rect.md))
 -   cannot be null
--   defined in: [Image](decoration_image-properties-rect.md "https&#x3A;//legytma.com.br/schema/rect.schema.json#/properties/centerSlice")
+-   defined in: [Image](decoration_image-properties-rect.md)
 
 ### centerSlice Type
 
@@ -494,7 +494,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Image](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/matchTextDirection")
+-   defined in: [Image](button_bar_theme_data-properties-boolean.md)
 
 ### matchTextDirection Type
 
@@ -531,7 +531,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Image](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/gaplessPlayback")
+-   defined in: [Image](button_bar_theme_data-properties-boolean.md)
 
 ### gaplessPlayback Type
 
@@ -569,7 +569,7 @@ false
 -   is optional
 -   Type: `string` ([Filter Quality](image-properties-filter-quality.md))
 -   cannot be null
--   defined in: [Image](image-properties-filter-quality.md "https&#x3A;//legytma.com.br/schema/filter_quality.schema.json#/properties/filterQuality")
+-   defined in: [Image](image-properties-filter-quality.md)
 
 ### filterQuality Type
 
@@ -612,7 +612,7 @@ Reference this group by using
 -   is optional
 -   Type: `string` ([Image Type](image-definitions-image-type.md))
 -   cannot be null
--   defined in: [Image](image-definitions-image-type.md "https&#x3A;//legytma.com.br/schema/widget/image.schema.json#/definitions/imageType")
+-   defined in: [Image](image-definitions-image-type.md)
 
 ### imageType Type
 

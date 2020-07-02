@@ -9,7 +9,7 @@ https://legytma.com.br/schema/bottom_sheet_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [bottom_sheet_theme_data.schema.json](../schema/bottom_sheet_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [bottom_sheet_theme_data.schema.json](../schema/bottom_sheet_theme_data.schema.json) |
 
 ## Bottom Sheet Theme Data Type
 
@@ -19,12 +19,12 @@ https://legytma.com.br/schema/bottom_sheet_theme_data.schema.json
 
 | Property                                      | Type         | Required | Nullable       | Defined by                                                                                                                                           |
 | :-------------------------------------------- | ------------ | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [shape](#shape)                               | Unknown Type | Optional | can be null    | [Bottom Sheet Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")     |
-| [elevation](#elevation)                       | Merged       | Optional | cannot be null | [Bottom Sheet Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")          |
-| [backgroundColor](#backgroundColor)           | Merged       | Optional | cannot be null | [Bottom Sheet Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")      |
-| [clipBehavior](#clipBehavior)                 | `string`     | Optional | cannot be null | [Bottom Sheet Theme Data](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior") |
-| [modalBackgroundColor](#modalBackgroundColor) | Merged       | Optional | cannot be null | [Bottom Sheet Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/modalBackgroundColor") |
-| [modalElevation](#modalElevation)             | Merged       | Optional | cannot be null | [Bottom Sheet Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/modalElevation")     |
+| [shape](#shape)                               | Unknown Type | Optional | can be null    | [Bottom Sheet Theme Data](bottom_app_bar_theme-properties-dynamic.md)     |
+| [elevation](#elevation)                       | Merged       | Optional | cannot be null | [Bottom Sheet Theme Data](app_bar_theme-properties-double.md)          |
+| [backgroundColor](#backgroundColor)           | Merged       | Optional | cannot be null | [Bottom Sheet Theme Data](app_bar_theme-properties-color.md)      |
+| [clipBehavior](#clipBehavior)                 | `string`     | Optional | cannot be null | [Bottom Sheet Theme Data](bottom_sheet_theme_data-properties-clip.md) |
+| [modalBackgroundColor](#modalBackgroundColor) | Merged       | Optional | cannot be null | [Bottom Sheet Theme Data](app_bar_theme-properties-color.md) |
+| [modalElevation](#modalElevation)             | Merged       | Optional | cannot be null | [Bottom Sheet Theme Data](app_bar_theme-properties-double.md)     |
 
 ## shape
 
@@ -40,7 +40,7 @@ https://legytma.com.br/schema/bottom_sheet_theme_data.schema.json
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Bottom Sheet Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Bottom Sheet Theme Data](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -59,7 +59,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Bottom Sheet Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Bottom Sheet Theme Data](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -67,9 +67,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### elevation Constraints
 
@@ -98,7 +98,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Bottom Sheet Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Bottom Sheet Theme Data](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -106,7 +106,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -148,7 +148,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Clip](bottom_sheet_theme_data-properties-clip.md))
 -   cannot be null
--   defined in: [Bottom Sheet Theme Data](bottom_sheet_theme_data-properties-clip.md "https&#x3A;//legytma.com.br/schema/clip.schema.json#/properties/clipBehavior")
+-   defined in: [Bottom Sheet Theme Data](bottom_sheet_theme_data-properties-clip.md)
 
 ### clipBehavior Type
 
@@ -186,7 +186,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Bottom Sheet Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/modalBackgroundColor")
+-   defined in: [Bottom Sheet Theme Data](app_bar_theme-properties-color.md)
 
 ### modalBackgroundColor Type
 
@@ -194,7 +194,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### modalBackgroundColor Default Value
 
@@ -235,7 +235,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Bottom Sheet Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/modalElevation")
+-   defined in: [Bottom Sheet Theme Data](app_bar_theme-properties-double.md)
 
 ### modalElevation Type
 
@@ -243,9 +243,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### modalElevation Constraints
 

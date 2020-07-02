@@ -13,7 +13,7 @@ https://legytma.com.br/schema/duration.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [duration.schema.json](../schema/duration.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [duration.schema.json](../schema/duration.schema.json) |
 
 ## Duration Type
 
@@ -23,12 +23,12 @@ https://legytma.com.br/schema/duration.schema.json
 
 | Property                      | Type      | Required | Nullable       | Defined by                                                                                                                         |
 | :---------------------------- | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| [days](#days)                 | `integer` | Optional | cannot be null | [Duration](duration-properties-days.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/days")                 |
-| [hours](#hours)               | `integer` | Optional | cannot be null | [Duration](duration-properties-hours.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/hours")               |
-| [minutes](#minutes)           | `integer` | Optional | cannot be null | [Duration](duration-properties-minutes.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/minutes")           |
-| [seconds](#seconds)           | `integer` | Optional | cannot be null | [Duration](duration-properties-seconds.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/seconds")           |
-| [milliseconds](#milliseconds) | `integer` | Optional | cannot be null | [Duration](duration-properties-milliseconds.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/milliseconds") |
-| [microseconds](#microseconds) | `integer` | Optional | cannot be null | [Duration](duration-properties-microseconds.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/microseconds") |
+| [days](#days)                 | `integer` | Optional | cannot be null | [Duration](duration-properties-days.md)                 |
+| [hours](#hours)               | `integer` | Optional | cannot be null | [Duration](duration-properties-hours.md)               |
+| [minutes](#minutes)           | `integer` | Optional | cannot be null | [Duration](duration-properties-minutes.md)           |
+| [seconds](#seconds)           | `integer` | Optional | cannot be null | [Duration](duration-properties-seconds.md)           |
+| [milliseconds](#milliseconds) | `integer` | Optional | cannot be null | [Duration](duration-properties-milliseconds.md) |
+| [microseconds](#microseconds) | `integer` | Optional | cannot be null | [Duration](duration-properties-microseconds.md) |
 
 ## days
 
@@ -40,7 +40,7 @@ Number of days
 -   is optional
 -   Type: `integer` ([Days](duration-properties-days.md))
 -   cannot be null
--   defined in: [Duration](duration-properties-days.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/days")
+-   defined in: [Duration](duration-properties-days.md)
 
 ### days Type
 
@@ -56,7 +56,7 @@ Number of hours
 -   is optional
 -   Type: `integer` ([Hours](duration-properties-hours.md))
 -   cannot be null
--   defined in: [Duration](duration-properties-hours.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/hours")
+-   defined in: [Duration](duration-properties-hours.md)
 
 ### hours Type
 
@@ -72,7 +72,7 @@ Number of minutes
 -   is optional
 -   Type: `integer` ([Minutes](duration-properties-minutes.md))
 -   cannot be null
--   defined in: [Duration](duration-properties-minutes.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/minutes")
+-   defined in: [Duration](duration-properties-minutes.md)
 
 ### minutes Type
 
@@ -88,7 +88,7 @@ Number of seconds
 -   is optional
 -   Type: `integer` ([Seconds](duration-properties-seconds.md))
 -   cannot be null
--   defined in: [Duration](duration-properties-seconds.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/seconds")
+-   defined in: [Duration](duration-properties-seconds.md)
 
 ### seconds Type
 
@@ -104,7 +104,7 @@ Number of milliseconds
 -   is optional
 -   Type: `integer` ([Milliseconds](duration-properties-milliseconds.md))
 -   cannot be null
--   defined in: [Duration](duration-properties-milliseconds.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/milliseconds")
+-   defined in: [Duration](duration-properties-milliseconds.md)
 
 ### milliseconds Type
 
@@ -120,7 +120,7 @@ Number of microseconds
 -   is optional
 -   Type: `integer` ([Microseconds](duration-properties-microseconds.md))
 -   cannot be null
--   defined in: [Duration](duration-properties-microseconds.md "https&#x3A;//legytma.com.br/schema/duration.schema.json#/properties/microseconds")
+-   defined in: [Duration](duration-properties-microseconds.md)
 
 ### microseconds Type
 

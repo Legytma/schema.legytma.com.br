@@ -13,7 +13,7 @@ https://legytma.com.br/schema/offset_lerp.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [offset_lerp.schema.json](../schema/offset_lerp.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [offset_lerp.schema.json](../schema/offset_lerp.schema.json) |
 
 ## Offset Lerp Type
 
@@ -21,16 +21,16 @@ https://legytma.com.br/schema/offset_lerp.schema.json
 
 all of
 
--   [Offset](box_shadow-properties-offset.md "check type definition")
+-   [Offset](box_shadow-properties-offset.md)
 
 # Offset Lerp Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                              |
 | :------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Offset Lerp](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset_lerp.schema.json#/properties/type") |
-| [a](#a)       | `object` | Optional | cannot be null | [Offset Lerp](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/a")    |
-| [b](#b)       | `object` | Optional | cannot be null | [Offset Lerp](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/b")    |
-| [t](#t)       | Merged   | Optional | cannot be null | [Offset Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t") |
+| [type](#type) | `string` | Optional | cannot be null | [Offset Lerp](widget-definitions-type.md) |
+| [a](#a)       | `object` | Optional | cannot be null | [Offset Lerp](box_shadow-properties-offset.md)    |
+| [b](#b)       | `object` | Optional | cannot be null | [Offset Lerp](box_shadow-properties-offset.md)    |
+| [t](#t)       | Merged   | Optional | cannot be null | [Offset Lerp](app_bar_theme-properties-double.md) |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Offset Lerp](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset_lerp.schema.json#/properties/type")
+-   defined in: [Offset Lerp](widget-definitions-type.md)
 
 ### type Type
 
@@ -83,7 +83,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Offset](box_shadow-properties-offset.md))
 -   cannot be null
--   defined in: [Offset Lerp](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/a")
+-   defined in: [Offset Lerp](box_shadow-properties-offset.md)
 
 ### a Type
 
@@ -111,7 +111,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Offset](box_shadow-properties-offset.md))
 -   cannot be null
--   defined in: [Offset Lerp](box_shadow-properties-offset.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/b")
+-   defined in: [Offset Lerp](box_shadow-properties-offset.md)
 
 ### b Type
 
@@ -138,7 +138,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Offset Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")
+-   defined in: [Offset Lerp](app_bar_theme-properties-double.md)
 
 ### t Type
 
@@ -146,9 +146,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### t Constraints
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/edge_insets_symmetric.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                              |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets_symmetric.schema.json](../schema/edge_insets_symmetric.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets_symmetric.schema.json](../schema/edge_insets_symmetric.schema.json) |
 
 ## Edge Insets Symmetric Type
 
@@ -21,15 +21,15 @@ any of the folllowing: `string` or `object` ([Edge Insets Symmetric](edge_insets
 
 all of
 
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 # Edge Insets Symmetric Properties
 
 | Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                |
 | :------------------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)             | `string` | Optional | cannot be null | [Edge Insets Symmetric](edge_insets_symmetric-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_symmetric.schema.json#/properties/type") |
-| [horizontal](#horizontal) | Merged   | Optional | cannot be null | [Edge Insets Symmetric](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/horizontal")                |
-| [vertical](#vertical)     | Merged   | Optional | cannot be null | [Edge Insets Symmetric](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/vertical")                  |
+| [type](#type)             | `string` | Optional | cannot be null | [Edge Insets Symmetric](edge_insets_symmetric-properties-type.md) |
+| [horizontal](#horizontal) | Merged   | Optional | cannot be null | [Edge Insets Symmetric](app_bar_theme-properties-double.md)                |
+| [vertical](#vertical)     | Merged   | Optional | cannot be null | [Edge Insets Symmetric](app_bar_theme-properties-double.md)                  |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](edge_insets_symmetric-properties-type.md))
 -   cannot be null
--   defined in: [Edge Insets Symmetric](edge_insets_symmetric-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_symmetric.schema.json#/properties/type")
+-   defined in: [Edge Insets Symmetric](edge_insets_symmetric-properties-type.md)
 
 ### type Type
 
@@ -84,7 +84,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Edge Insets Symmetric](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/horizontal")
+-   defined in: [Edge Insets Symmetric](app_bar_theme-properties-double.md)
 
 ### horizontal Type
 
@@ -92,9 +92,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### horizontal Constraints
 
@@ -123,7 +123,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Edge Insets Symmetric](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/vertical")
+-   defined in: [Edge Insets Symmetric](app_bar_theme-properties-double.md)
 
 ### vertical Type
 
@@ -131,9 +131,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### vertical Constraints
 

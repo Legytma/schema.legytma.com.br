@@ -13,7 +13,7 @@ https://legytma.com.br/schema/cupertino_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [cupertino_theme_data.schema.json](../schema/cupertino_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [cupertino_theme_data.schema.json](../schema/cupertino_theme_data.schema.json) |
 
 ## Cupertino Theme Data Type
 
@@ -23,12 +23,12 @@ https://legytma.com.br/schema/cupertino_theme_data.schema.json
 
 | Property                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                                            |
 | :-------------------------------------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [textTheme](#textTheme)                             | `object` | Optional | cannot be null | [Cupertino Theme Data](cupertino_theme_data-properties-cupertino-text-theme-data.md "https&#x3A;//legytma.com.br/schema/cupertino_text_theme_data.schema.json#/properties/textTheme") |
-| [brightness](#brightness)                           | `string` | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")                                     |
-| [scaffoldBackgroundColor](#scaffoldBackgroundColor) | Merged   | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/scaffoldBackgroundColor")                                  |
-| [primaryColor](#primaryColor)                       | Merged   | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryColor")                                             |
-| [barBackgroundColor](#barBackgroundColor)           | Merged   | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/barBackgroundColor")                                       |
-| [primaryContrastingColor](#primaryContrastingColor) | Merged   | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryContrastingColor")                                  |
+| [textTheme](#textTheme)                             | `object` | Optional | cannot be null | [Cupertino Theme Data](cupertino_theme_data-properties-cupertino-text-theme-data.md) |
+| [brightness](#brightness)                           | `string` | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-brightness.md)                                     |
+| [scaffoldBackgroundColor](#scaffoldBackgroundColor) | Merged   | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-color.md)                                  |
+| [primaryColor](#primaryColor)                       | Merged   | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-color.md)                                             |
+| [barBackgroundColor](#barBackgroundColor)           | Merged   | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-color.md)                                       |
+| [primaryContrastingColor](#primaryContrastingColor) | Merged   | Optional | cannot be null | [Cupertino Theme Data](app_bar_theme-properties-color.md)                                  |
 
 ## textTheme
 
@@ -44,7 +44,7 @@ https://legytma.com.br/schema/cupertino_theme_data.schema.json
 -   is optional
 -   Type: `object` ([Cupertino Text Theme Data](cupertino_theme_data-properties-cupertino-text-theme-data.md))
 -   cannot be null
--   defined in: [Cupertino Theme Data](cupertino_theme_data-properties-cupertino-text-theme-data.md "https&#x3A;//legytma.com.br/schema/cupertino_text_theme_data.schema.json#/properties/textTheme")
+-   defined in: [Cupertino Theme Data](cupertino_theme_data-properties-cupertino-text-theme-data.md)
 
 ### textTheme Type
 
@@ -64,7 +64,7 @@ https://legytma.com.br/schema/cupertino_theme_data.schema.json
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [Cupertino Theme Data](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/brightness")
+-   defined in: [Cupertino Theme Data](app_bar_theme-properties-brightness.md)
 
 ### brightness Type
 
@@ -92,7 +92,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Cupertino Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/scaffoldBackgroundColor")
+-   defined in: [Cupertino Theme Data](app_bar_theme-properties-color.md)
 
 ### scaffoldBackgroundColor Type
 
@@ -100,7 +100,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### scaffoldBackgroundColor Default Value
 
@@ -141,7 +141,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Cupertino Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryColor")
+-   defined in: [Cupertino Theme Data](app_bar_theme-properties-color.md)
 
 ### primaryColor Type
 
@@ -149,7 +149,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### primaryColor Default Value
 
@@ -190,7 +190,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Cupertino Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/barBackgroundColor")
+-   defined in: [Cupertino Theme Data](app_bar_theme-properties-color.md)
 
 ### barBackgroundColor Type
 
@@ -198,7 +198,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### barBackgroundColor Default Value
 
@@ -239,7 +239,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Cupertino Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/primaryContrastingColor")
+-   defined in: [Cupertino Theme Data](app_bar_theme-properties-color.md)
 
 ### primaryContrastingColor Type
 
@@ -247,7 +247,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### primaryContrastingColor Default Value
 

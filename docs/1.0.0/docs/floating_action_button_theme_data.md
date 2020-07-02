@@ -13,7 +13,7 @@ https://legytma.com.br/schema/floating_action_button_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [floating_action_button_theme_data.schema.json](../schema/floating_action_button_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [floating_action_button_theme_data.schema.json](../schema/floating_action_button_theme_data.schema.json) |
 
 ## Floating Action Button Theme Data Type
 
@@ -23,17 +23,17 @@ https://legytma.com.br/schema/floating_action_button_theme_data.schema.json
 
 | Property                                  | Type         | Required | Nullable       | Defined by                                                                                                                                                     |
 | :---------------------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [backgroundColor](#backgroundColor)       | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")      |
-| [shape](#shape)                           | Unknown Type | Optional | can be null    | [Floating Action Button Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")     |
-| [elevation](#elevation)                   | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")          |
-| [focusColor](#focusColor)                 | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")           |
-| [hoverColor](#hoverColor)                 | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")           |
-| [splashColor](#splashColor)               | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")          |
-| [disabledElevation](#disabledElevation)   | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/disabledElevation")  |
-| [focusElevation](#focusElevation)         | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/focusElevation")     |
-| [foregroundColor](#foregroundColor)       | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/foregroundColor")      |
-| [highlightElevation](#highlightElevation) | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/highlightElevation") |
-| [hoverElevation](#hoverElevation)         | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/hoverElevation")     |
+| [backgroundColor](#backgroundColor)       | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md)      |
+| [shape](#shape)                           | Unknown Type | Optional | can be null    | [Floating Action Button Theme Data](bottom_app_bar_theme-properties-dynamic.md)     |
+| [elevation](#elevation)                   | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md)          |
+| [focusColor](#focusColor)                 | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md)           |
+| [hoverColor](#hoverColor)                 | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md)           |
+| [splashColor](#splashColor)               | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md)          |
+| [disabledElevation](#disabledElevation)   | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md)  |
+| [focusElevation](#focusElevation)         | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md)     |
+| [foregroundColor](#foregroundColor)       | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-color.md)      |
+| [highlightElevation](#highlightElevation) | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md) |
+| [hoverElevation](#hoverElevation)         | Merged       | Optional | cannot be null | [Floating Action Button Theme Data](app_bar_theme-properties-double.md)     |
 
 ## backgroundColor
 
@@ -48,7 +48,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/backgroundColor")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md)
 
 ### backgroundColor Type
 
@@ -56,7 +56,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### backgroundColor Default Value
 
@@ -98,7 +98,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Floating Action Button Theme Data](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/shape")
+-   defined in: [Floating Action Button Theme Data](bottom_app_bar_theme-properties-dynamic.md)
 
 ### shape Type
 
@@ -117,7 +117,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/elevation")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md)
 
 ### elevation Type
 
@@ -125,9 +125,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### elevation Constraints
 
@@ -156,7 +156,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md)
 
 ### focusColor Type
 
@@ -164,7 +164,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### focusColor Default Value
 
@@ -205,7 +205,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md)
 
 ### hoverColor Type
 
@@ -213,7 +213,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hoverColor Default Value
 
@@ -254,7 +254,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md)
 
 ### splashColor Type
 
@@ -262,7 +262,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### splashColor Default Value
 
@@ -303,7 +303,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/disabledElevation")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md)
 
 ### disabledElevation Type
 
@@ -311,9 +311,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### disabledElevation Constraints
 
@@ -342,7 +342,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/focusElevation")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md)
 
 ### focusElevation Type
 
@@ -350,9 +350,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### focusElevation Constraints
 
@@ -381,7 +381,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/foregroundColor")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-color.md)
 
 ### foregroundColor Type
 
@@ -389,7 +389,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### foregroundColor Default Value
 
@@ -430,7 +430,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/highlightElevation")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md)
 
 ### highlightElevation Type
 
@@ -438,9 +438,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### highlightElevation Constraints
 
@@ -469,7 +469,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/hoverElevation")
+-   defined in: [Floating Action Button Theme Data](app_bar_theme-properties-double.md)
 
 ### hoverElevation Type
 
@@ -477,9 +477,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### hoverElevation Constraints
 

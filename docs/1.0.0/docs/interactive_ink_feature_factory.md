@@ -13,7 +13,7 @@ https://legytma.com.br/schema/interactive_ink_feature_factory.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                  |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [interactive_ink_feature_factory.schema.json](../schema/interactive_ink_feature_factory.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [interactive_ink_feature_factory.schema.json](../schema/interactive_ink_feature_factory.schema.json) |
 
 ## Interactive Ink Feature Factory Type
 

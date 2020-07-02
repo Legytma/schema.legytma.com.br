@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/indexed_stack.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                     |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [indexed_stack.schema.json](../schema/widget/indexed_stack.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [indexed_stack.schema.json](../schema/widget/indexed_stack.schema.json) |
 
 ## Indexed Stack Type
 
@@ -21,18 +21,18 @@ https://legytma.com.br/schema/widget/indexed_stack.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Indexed Stack Properties
 
 | Property                        | Type         | Required | Nullable       | Defined by                                                                                                                                        |
 | :------------------------------ | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                   | `string`     | Optional | cannot be null | [Indexed Stack](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/indexed_stack.schema.json#/properties/type")                |
-| [sizing](#sizing)               | `string`     | Optional | cannot be null | [Indexed Stack](indexed_stack-properties-stack-fit.md "https&#x3A;//legytma.com.br/schema/stack_fit.schema.json#/properties/sizing")              |
-| [index](#index)                 | Unknown Type | Optional | cannot be null | [Indexed Stack](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/index")                                    |
-| [alignment](#alignment)         | Unknown Type | Optional | can be null    | [Indexed Stack](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/alignment")        |
-| [textDirection](#textDirection) | `string`     | Optional | cannot be null | [Indexed Stack](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")    |
-| [children](#children)           | `array`      | Optional | cannot be null | [Indexed Stack](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children") |
+| [type](#type)                   | `string`     | Optional | cannot be null | [Indexed Stack](widget-definitions-type.md)                |
+| [sizing](#sizing)               | `string`     | Optional | cannot be null | [Indexed Stack](indexed_stack-properties-stack-fit.md)              |
+| [index](#index)                 | Unknown Type | Optional | cannot be null | [Indexed Stack](color-allof-integer.md)                                    |
+| [alignment](#alignment)         | Unknown Type | Optional | can be null    | [Indexed Stack](bottom_app_bar_theme-properties-dynamic.md)        |
+| [textDirection](#textDirection) | `string`     | Optional | cannot be null | [Indexed Stack](column-properties-text-direction.md)    |
+| [children](#children)           | `array`      | Optional | cannot be null | [Indexed Stack](grid_view_params-properties-list-of-widgets.md) |
 
 ## type
 
@@ -47,7 +47,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Indexed Stack](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/indexed_stack.schema.json#/properties/type")
+-   defined in: [Indexed Stack](widget-definitions-type.md)
 
 ### type Type
 
@@ -75,7 +75,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Stack Fit](indexed_stack-properties-stack-fit.md))
 -   cannot be null
--   defined in: [Indexed Stack](indexed_stack-properties-stack-fit.md "https&#x3A;//legytma.com.br/schema/stack_fit.schema.json#/properties/sizing")
+-   defined in: [Indexed Stack](indexed_stack-properties-stack-fit.md)
 
 ### sizing Type
 
@@ -112,7 +112,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Indexed Stack](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/index")
+-   defined in: [Indexed Stack](color-allof-integer.md)
 
 ### index Type
 
@@ -166,7 +166,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Indexed Stack](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/alignment")
+-   defined in: [Indexed Stack](bottom_app_bar_theme-properties-dynamic.md)
 
 ### alignment Type
 
@@ -193,7 +193,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Text Direction](column-properties-text-direction.md))
 -   cannot be null
--   defined in: [Indexed Stack](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")
+-   defined in: [Indexed Stack](column-properties-text-direction.md)
 
 ### textDirection Type
 
@@ -231,7 +231,7 @@ List of Schema to validation of JSON used to parse Widgets.
 -   is optional
 -   Type: `object[]` ([Widget](list_widget-widget.md))
 -   cannot be null
--   defined in: [Indexed Stack](grid_view_params-properties-list-of-widgets.md "https&#x3A;//legytma.com.br/schema/list_widget.schema.json#/properties/children")
+-   defined in: [Indexed Stack](grid_view_params-properties-list-of-widgets.md)
 
 ### children Type
 

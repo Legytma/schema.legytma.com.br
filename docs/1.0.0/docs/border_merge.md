@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_merge.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_merge.schema.json](../schema/border_merge.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_merge.schema.json](../schema/border_merge.schema.json) |
 
 ## Border Merge Type
 
@@ -23,15 +23,15 @@ all of
 
 -   all of
 
-    -   [Box Border](border-allof-box-border.md "check type definition")
+    -   [Box Border](border-allof-box-border.md)
 
 # Border Merge Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                     |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Border Merge](border_merge-properties-type.md "https&#x3A;//legytma.com.br/schema/border_merge.schema.json#/properties/type") |
-| [a](#a)       | Merged   | Optional | cannot be null | [Border Merge](border_lerp-properties-border-1.md "https&#x3A;//legytma.com.br/schema/border.schema.json#/properties/a")       |
-| [b](#b)       | Merged   | Optional | cannot be null | [Border Merge](border_lerp-properties-border-1.md "https&#x3A;//legytma.com.br/schema/border.schema.json#/properties/b")       |
+| [type](#type) | `string` | Optional | cannot be null | [Border Merge](border_merge-properties-type.md) |
+| [a](#a)       | Merged   | Optional | cannot be null | [Border Merge](border_lerp-properties-border-1.md)       |
+| [b](#b)       | Merged   | Optional | cannot be null | [Border Merge](border_lerp-properties-border-1.md)       |
 
 ## type
 
@@ -46,7 +46,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](border_merge-properties-type.md))
 -   cannot be null
--   defined in: [Border Merge](border_merge-properties-type.md "https&#x3A;//legytma.com.br/schema/border_merge.schema.json#/properties/type")
+-   defined in: [Border Merge](border_merge-properties-type.md)
 
 ### type Type
 
@@ -84,7 +84,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Border](border_lerp-properties-border-1.md))
 -   cannot be null
--   defined in: [Border Merge](border_lerp-properties-border-1.md "https&#x3A;//legytma.com.br/schema/border.schema.json#/properties/a")
+-   defined in: [Border Merge](border_lerp-properties-border-1.md)
 
 ### a Type
 
@@ -92,7 +92,7 @@ Identify the widget type
 
 all of
 
--   [Box Border](border-allof-box-border.md "check type definition")
+-   [Box Border](border-allof-box-border.md)
 
 ## b
 
@@ -108,7 +108,7 @@ all of
 -   is optional
 -   Type: `object` ([Border](border_lerp-properties-border-1.md))
 -   cannot be null
--   defined in: [Border Merge](border_lerp-properties-border-1.md "https&#x3A;//legytma.com.br/schema/border.schema.json#/properties/b")
+-   defined in: [Border Merge](border_lerp-properties-border-1.md)
 
 ### b Type
 
@@ -116,4 +116,4 @@ all of
 
 all of
 
--   [Box Border](border-allof-box-border.md "check type definition")
+-   [Box Border](border-allof-box-border.md)

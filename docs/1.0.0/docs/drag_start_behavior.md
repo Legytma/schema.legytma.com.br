@@ -13,7 +13,7 @@ https://legytma.com.br/schema/drag_start_behavior.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                          |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [drag_start_behavior.schema.json](../schema/drag_start_behavior.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [drag_start_behavior.schema.json](../schema/drag_start_behavior.schema.json) |
 
 ## Drag Start Behavior Type
 

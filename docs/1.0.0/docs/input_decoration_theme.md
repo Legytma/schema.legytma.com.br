@@ -13,7 +13,7 @@ https://legytma.com.br/schema/input_decoration_theme.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [input_decoration_theme.schema.json](../schema/input_decoration_theme.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [input_decoration_theme.schema.json](../schema/input_decoration_theme.schema.json) |
 
 ## Input Decoration Theme Type
 
@@ -23,30 +23,30 @@ https://legytma.com.br/schema/input_decoration_theme.schema.json
 
 | Property                                          | Type         | Required | Nullable       | Defined by                                                                                                                                                                          |
 | :------------------------------------------------ | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [hoverColor](#hoverColor)                         | Merged       | Optional | cannot be null | [Input Decoration Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")                                           |
-| [focusColor](#focusColor)                         | Merged       | Optional | cannot be null | [Input Decoration Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")                                           |
-| [contentPadding](#contentPadding)                 | Unknown Type | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/contentPadding") |
-| [isDense](#isDense)                               | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/isDense")                                     |
-| [errorStyle](#errorStyle)                         | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/errorStyle")                             |
-| [alignLabelWithHint](#alignLabelWithHint)         | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/alignLabelWithHint")                          |
-| [border](#border)                                 | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/border")                                    |
-| [counterStyle](#counterStyle)                     | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/counterStyle")                           |
-| [disabledBorder](#disabledBorder)                 | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/disabledBorder")                            |
-| [enabledBorder](#enabledBorder)                   | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/enabledBorder")                             |
-| [errorBorder](#errorBorder)                       | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/errorBorder")                               |
-| [errorMaxLines](#errorMaxLines)                   | Unknown Type | Optional | cannot be null | [Input Decoration Theme](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/errorMaxLines")                                                     |
-| [fillColor](#fillColor)                           | Merged       | Optional | cannot be null | [Input Decoration Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/fillColor")                                            |
-| [filled](#filled)                                 | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/filled")                                      |
-| [focusedBorder](#focusedBorder)                   | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/focusedBorder")                             |
-| [focusedErrorBorder](#focusedErrorBorder)         | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/focusedErrorBorder")                        |
-| [hasFloatingPlaceholder](#hasFloatingPlaceholder) | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/hasFloatingPlaceholder")                      |
-| [helperMaxLines](#helperMaxLines)                 | Unknown Type | Optional | cannot be null | [Input Decoration Theme](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/helperMaxLines")                                                    |
-| [helperStyle](#helperStyle)                       | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/helperStyle")                            |
-| [hintStyle](#hintStyle)                           | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/hintStyle")                              |
-| [isCollapsed](#isCollapsed)                       | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/isCollapsed")                                 |
-| [labelStyle](#labelStyle)                         | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/labelStyle")                             |
-| [prefixStyle](#prefixStyle)                       | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/prefixStyle")                            |
-| [suffixStyle](#suffixStyle)                       | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/suffixStyle")                            |
+| [hoverColor](#hoverColor)                         | Merged       | Optional | cannot be null | [Input Decoration Theme](app_bar_theme-properties-color.md)                                           |
+| [focusColor](#focusColor)                         | Merged       | Optional | cannot be null | [Input Decoration Theme](app_bar_theme-properties-color.md)                                           |
+| [contentPadding](#contentPadding)                 | Unknown Type | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [isDense](#isDense)                               | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)                                     |
+| [errorStyle](#errorStyle)                         | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)                             |
+| [alignLabelWithHint](#alignLabelWithHint)         | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)                          |
+| [border](#border)                                 | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)                                    |
+| [counterStyle](#counterStyle)                     | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)                           |
+| [disabledBorder](#disabledBorder)                 | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)                            |
+| [enabledBorder](#enabledBorder)                   | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)                             |
+| [errorBorder](#errorBorder)                       | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)                               |
+| [errorMaxLines](#errorMaxLines)                   | Unknown Type | Optional | cannot be null | [Input Decoration Theme](color-allof-integer.md)                                                     |
+| [fillColor](#fillColor)                           | Merged       | Optional | cannot be null | [Input Decoration Theme](app_bar_theme-properties-color.md)                                            |
+| [filled](#filled)                                 | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)                                      |
+| [focusedBorder](#focusedBorder)                   | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)                             |
+| [focusedErrorBorder](#focusedErrorBorder)         | Unknown Type | Optional | can be null    | [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)                        |
+| [hasFloatingPlaceholder](#hasFloatingPlaceholder) | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)                      |
+| [helperMaxLines](#helperMaxLines)                 | Unknown Type | Optional | cannot be null | [Input Decoration Theme](color-allof-integer.md)                                                    |
+| [helperStyle](#helperStyle)                       | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)                            |
+| [hintStyle](#hintStyle)                           | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)                              |
+| [isCollapsed](#isCollapsed)                       | `boolean`    | Optional | cannot be null | [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)                                 |
+| [labelStyle](#labelStyle)                         | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)                             |
+| [prefixStyle](#prefixStyle)                       | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)                            |
+| [suffixStyle](#suffixStyle)                       | `object`     | Optional | cannot be null | [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)                            |
 
 ## hoverColor
 
@@ -61,7 +61,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")
+-   defined in: [Input Decoration Theme](app_bar_theme-properties-color.md)
 
 ### hoverColor Type
 
@@ -69,7 +69,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hoverColor Default Value
 
@@ -110,7 +110,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")
+-   defined in: [Input Decoration Theme](app_bar_theme-properties-color.md)
 
 ### focusColor Type
 
@@ -118,7 +118,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### focusColor Default Value
 
@@ -160,7 +160,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/contentPadding")
+-   defined in: [Input Decoration Theme](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### contentPadding Type
 
@@ -190,7 +190,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/isDense")
+-   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)
 
 ### isDense Type
 
@@ -227,7 +227,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/errorStyle")
+-   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)
 
 ### errorStyle Type
 
@@ -246,7 +246,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/alignLabelWithHint")
+-   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)
 
 ### alignLabelWithHint Type
 
@@ -284,7 +284,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/border")
+-   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### border Type
 
@@ -303,7 +303,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/counterStyle")
+-   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)
 
 ### counterStyle Type
 
@@ -323,7 +323,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/disabledBorder")
+-   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### disabledBorder Type
 
@@ -343,7 +343,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/enabledBorder")
+-   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### enabledBorder Type
 
@@ -363,7 +363,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/errorBorder")
+-   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### errorBorder Type
 
@@ -382,7 +382,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/errorMaxLines")
+-   defined in: [Input Decoration Theme](color-allof-integer.md)
 
 ### errorMaxLines Type
 
@@ -435,7 +435,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/fillColor")
+-   defined in: [Input Decoration Theme](app_bar_theme-properties-color.md)
 
 ### fillColor Type
 
@@ -443,7 +443,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### fillColor Default Value
 
@@ -484,7 +484,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/filled")
+-   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)
 
 ### filled Type
 
@@ -522,7 +522,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/focusedBorder")
+-   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### focusedBorder Type
 
@@ -542,7 +542,7 @@ any of the folllowing: `array` or `boolean` or `integer` or `number` or `object`
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/focusedErrorBorder")
+-   defined in: [Input Decoration Theme](bottom_app_bar_theme-properties-dynamic.md)
 
 ### focusedErrorBorder Type
 
@@ -561,7 +561,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/hasFloatingPlaceholder")
+-   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)
 
 ### hasFloatingPlaceholder Type
 
@@ -598,7 +598,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/helperMaxLines")
+-   defined in: [Input Decoration Theme](color-allof-integer.md)
 
 ### helperMaxLines Type
 
@@ -651,7 +651,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/helperStyle")
+-   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)
 
 ### helperStyle Type
 
@@ -670,7 +670,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/hintStyle")
+-   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)
 
 ### hintStyle Type
 
@@ -689,7 +689,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/isCollapsed")
+-   defined in: [Input Decoration Theme](button_bar_theme_data-properties-boolean.md)
 
 ### isCollapsed Type
 
@@ -726,7 +726,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/labelStyle")
+-   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)
 
 ### labelStyle Type
 
@@ -745,7 +745,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/prefixStyle")
+-   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)
 
 ### prefixStyle Type
 
@@ -764,7 +764,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/suffixStyle")
+-   defined in: [Input Decoration Theme](chip_theme_data-properties-text-style-1.md)
 
 ### suffixStyle Type
 

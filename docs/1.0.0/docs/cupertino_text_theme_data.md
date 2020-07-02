@@ -13,7 +13,7 @@ https://legytma.com.br/schema/cupertino_text_theme_data.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                      |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [cupertino_text_theme_data.schema.json](../schema/cupertino_text_theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [cupertino_text_theme_data.schema.json](../schema/cupertino_text_theme_data.schema.json) |
 
 ## Cupertino Text Theme Data Type
 
@@ -23,15 +23,15 @@ https://legytma.com.br/schema/cupertino_text_theme_data.schema.json
 
 | Property                                            | Type     | Required | Nullable       | Defined by                                                                                                                                                              |
 | :-------------------------------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [primaryColor](#primaryColor)                       | `object` | Optional | cannot be null | [Cupertino Text Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/primaryColor")        |
-| [actionTextStyle](#actionTextStyle)                 | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/actionTextStyle")         |
-| [dateTimePickerTextStyle](#dateTimePickerTextStyle) | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/dateTimePickerTextStyle") |
-| [navActionTextStyle](#navActionTextStyle)           | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/navActionTextStyle")      |
-| [navLargeTitleTextStyle](#navLargeTitleTextStyle)   | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/navLargeTitleTextStyle")  |
-| [navTitleTextStyle](#navTitleTextStyle)             | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/navTitleTextStyle")       |
-| [pickerTextStyle](#pickerTextStyle)                 | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/pickerTextStyle")         |
-| [tabLabelTextStyle](#tabLabelTextStyle)             | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/tabLabelTextStyle")       |
-| [textStyle](#textStyle)                             | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/textStyle")               |
+| [primaryColor](#primaryColor)                       | `object` | Optional | cannot be null | [Cupertino Text Theme Data](button_theme_data-properties-color-scheme.md)        |
+| [actionTextStyle](#actionTextStyle)                 | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)         |
+| [dateTimePickerTextStyle](#dateTimePickerTextStyle) | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md) |
+| [navActionTextStyle](#navActionTextStyle)           | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)      |
+| [navLargeTitleTextStyle](#navLargeTitleTextStyle)   | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)  |
+| [navTitleTextStyle](#navTitleTextStyle)             | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)       |
+| [pickerTextStyle](#pickerTextStyle)                 | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)         |
+| [tabLabelTextStyle](#tabLabelTextStyle)             | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)       |
+| [textStyle](#textStyle)                             | `object` | Optional | cannot be null | [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)               |
 
 ## primaryColor
 
@@ -43,7 +43,7 @@ https://legytma.com.br/schema/cupertino_text_theme_data.schema.json
 -   is optional
 -   Type: `object` ([Color Scheme](button_theme_data-properties-color-scheme.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](button_theme_data-properties-color-scheme.md "https&#x3A;//legytma.com.br/schema/color_scheme.schema.json#/properties/primaryColor")
+-   defined in: [Cupertino Text Theme Data](button_theme_data-properties-color-scheme.md)
 
 ### primaryColor Type
 
@@ -62,7 +62,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/actionTextStyle")
+-   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### actionTextStyle Type
 
@@ -81,7 +81,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/dateTimePickerTextStyle")
+-   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### dateTimePickerTextStyle Type
 
@@ -100,7 +100,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/navActionTextStyle")
+-   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### navActionTextStyle Type
 
@@ -119,7 +119,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/navLargeTitleTextStyle")
+-   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### navLargeTitleTextStyle Type
 
@@ -138,7 +138,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/navTitleTextStyle")
+-   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### navTitleTextStyle Type
 
@@ -157,7 +157,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/pickerTextStyle")
+-   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### pickerTextStyle Type
 
@@ -176,7 +176,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/tabLabelTextStyle")
+-   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### tabLabelTextStyle Type
 
@@ -195,7 +195,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/textStyle")
+-   defined in: [Cupertino Text Theme Data](chip_theme_data-properties-text-style-1.md)
 
 ### textStyle Type
 

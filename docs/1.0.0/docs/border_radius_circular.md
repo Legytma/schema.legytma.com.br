@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_radius_circular.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_radius_circular.schema.json](../schema/border_radius_circular.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_radius_circular.schema.json](../schema/border_radius_circular.schema.json) |
 
 ## Border Radius Circular Type
 
@@ -21,14 +21,14 @@ https://legytma.com.br/schema/border_radius_circular.schema.json
 
 all of
 
--   [Border Radius Object](border_radius-oneof-border-radius-object.md "check type definition")
+-   [Border Radius Object](border_radius-oneof-border-radius-object.md)
 
 # Border Radius Circular Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                                                   |
 | :---------------- | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)     | `string` | Optional | cannot be null | [Border Radius Circular](border_radius_circular-properties-type.md "https&#x3A;//legytma.com.br/schema/border_radius_circular.schema.json#/properties/type") |
-| [radius](#radius) | Merged   | Optional | cannot be null | [Border Radius Circular](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/radius")                      |
+| [type](#type)     | `string` | Optional | cannot be null | [Border Radius Circular](border_radius_circular-properties-type.md) |
+| [radius](#radius) | Merged   | Optional | cannot be null | [Border Radius Circular](app_bar_theme-properties-double.md)                      |
 
 ## type
 
@@ -40,7 +40,7 @@ Define o tipo de Border Radius
 -   is optional
 -   Type: `string` ([Type](border_radius_circular-properties-type.md))
 -   cannot be null
--   defined in: [Border Radius Circular](border_radius_circular-properties-type.md "https&#x3A;//legytma.com.br/schema/border_radius_circular.schema.json#/properties/type")
+-   defined in: [Border Radius Circular](border_radius_circular-properties-type.md)
 
 ### type Type
 
@@ -80,7 +80,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Border Radius Circular](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/radius")
+-   defined in: [Border Radius Circular](app_bar_theme-properties-double.md)
 
 ### radius Type
 
@@ -88,9 +88,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### radius Constraints
 

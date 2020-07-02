@@ -13,7 +13,7 @@ https://legytma.com.br/schema/size_default.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [size_default.schema.json](../schema/size_default.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [size_default.schema.json](../schema/size_default.schema.json) |
 
 ## Size Default Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/size_default.schema.json
 
 any of
 
--   [Size](box_constraints_loose-properties-size.md "check type definition")
+-   [Size](box_constraints_loose-properties-size.md)
 
 # Size Default Properties
 
 | Property          | Type     | Required | Nullable       | Defined by                                                                                                                    |
 | :---------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)     | `string` | Optional | cannot be null | [Size Default](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/size_default.schema.json#/properties/type")     |
-| [width](#width)   | Merged   | Optional | cannot be null | [Size Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")  |
-| [height](#height) | Merged   | Optional | cannot be null | [Size Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height") |
+| [type](#type)     | `string` | Optional | cannot be null | [Size Default](widget-definitions-type.md)     |
+| [width](#width)   | Merged   | Optional | cannot be null | [Size Default](app_bar_theme-properties-double.md)  |
+| [height](#height) | Merged   | Optional | cannot be null | [Size Default](app_bar_theme-properties-double.md) |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Size Default](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/size_default.schema.json#/properties/type")
+-   defined in: [Size Default](widget-definitions-type.md)
 
 ### type Type
 
@@ -83,7 +83,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Size Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/width")
+-   defined in: [Size Default](app_bar_theme-properties-double.md)
 
 ### width Type
 
@@ -91,9 +91,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### width Constraints
 
@@ -122,7 +122,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Size Default](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Size Default](app_bar_theme-properties-double.md)
 
 ### height Type
 
@@ -130,9 +130,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### height Constraints
 

@@ -13,7 +13,7 @@ https://legytma.com.br/schema/offset.schema.json#/properties/offset
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [box_shadow.schema.json\*](../schema/box_shadow.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [box_shadow.schema.json\*](../schema/box_shadow.schema.json) |
 
 ## offset Type
 
@@ -31,7 +31,7 @@ The default value is:
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                   |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Offset](offset-properties-type.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Offset](offset-properties-type.md) |
 
 ## type
 
@@ -46,7 +46,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](offset-properties-type.md))
 -   cannot be null
--   defined in: [Offset](offset-properties-type.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/properties/type")
+-   defined in: [Offset](offset-properties-type.md)
 
 ### type Type
 
@@ -85,7 +85,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](offset-definitions-type.md))
 -   cannot be null
--   defined in: [Offset](offset-definitions-type.md "https&#x3A;//legytma.com.br/schema/offset.schema.json#/definitions/type")
+-   defined in: [Offset](offset-definitions-type.md)
 
 ### type Type
 

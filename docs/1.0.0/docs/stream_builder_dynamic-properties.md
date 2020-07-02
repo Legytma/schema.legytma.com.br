@@ -9,7 +9,7 @@ https://legytma.com.br/schema/widget/stream_builder_dynamic.schema.json#/propert
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                         |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [stream_builder_dynamic.schema.json\*](../schema/widget/stream_builder_dynamic.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [stream_builder_dynamic.schema.json\*](../schema/widget/stream_builder_dynamic.schema.json) |
 
 ## properties Type
 

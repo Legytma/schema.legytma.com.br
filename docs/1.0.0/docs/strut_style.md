@@ -13,7 +13,7 @@ https://legytma.com.br/schema/strut_style.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [strut_style.schema.json](../schema/strut_style.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [strut_style.schema.json](../schema/strut_style.schema.json) |
 
 ## Strut Style Type
 
@@ -23,16 +23,16 @@ https://legytma.com.br/schema/strut_style.schema.json
 
 | Property                                  | Type      | Required | Nullable       | Defined by                                                                                                                                                |
 | :---------------------------------------- | --------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [debugLabel](#debugLabel)                 | `string`  | Optional | cannot be null | [Strut Style](text_style-properties-debug-label.md "https&#x3A;//legytma.com.br/schema/debug_label.schema.json#/properties/debugLabel")                   |
-| [height](#height)                         | Merged    | Optional | cannot be null | [Strut Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")                              |
-| [package](#package)                       | `string`  | Optional | cannot be null | [Strut Style](strut_style-properties-package.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/package")                         |
-| [fontFamilyFallback](#fontFamilyFallback) | `array`   | Optional | cannot be null | [Strut Style](strut_style-properties-font-family-fallback.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/fontFamilyFallback") |
-| [fontFamily](#fontFamily)                 | `string`  | Optional | cannot be null | [Strut Style](strut_style-properties-font-family.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/fontFamily")                  |
-| [fontSize](#fontSize)                     | Merged    | Optional | cannot be null | [Strut Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/fontSize")                            |
-| [fontStyle](#fontStyle)                   | `string`  | Optional | cannot be null | [Strut Style](text_style-properties-font-style.md "https&#x3A;//legytma.com.br/schema/font_style.schema.json#/properties/fontStyle")                      |
-| [fontWeight](#fontWeight)                 | `string`  | Optional | cannot be null | [Strut Style](text_style-properties-font-weight.md "https&#x3A;//legytma.com.br/schema/font_weight.schema.json#/properties/fontWeight")                   |
-| [forceStrutHeight](#forceStrutHeight)     | `boolean` | Optional | cannot be null | [Strut Style](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/forceStrutHeight")             |
-| [leading](#leading)                       | Merged    | Optional | cannot be null | [Strut Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/leading")                             |
+| [debugLabel](#debugLabel)                 | `string`  | Optional | cannot be null | [Strut Style](text_style-properties-debug-label.md)                   |
+| [height](#height)                         | Merged    | Optional | cannot be null | [Strut Style](app_bar_theme-properties-double.md)                              |
+| [package](#package)                       | `string`  | Optional | cannot be null | [Strut Style](strut_style-properties-package.md)                         |
+| [fontFamilyFallback](#fontFamilyFallback) | `array`   | Optional | cannot be null | [Strut Style](strut_style-properties-font-family-fallback.md) |
+| [fontFamily](#fontFamily)                 | `string`  | Optional | cannot be null | [Strut Style](strut_style-properties-font-family.md)                  |
+| [fontSize](#fontSize)                     | Merged    | Optional | cannot be null | [Strut Style](app_bar_theme-properties-double.md)                            |
+| [fontStyle](#fontStyle)                   | `string`  | Optional | cannot be null | [Strut Style](text_style-properties-font-style.md)                      |
+| [fontWeight](#fontWeight)                 | `string`  | Optional | cannot be null | [Strut Style](text_style-properties-font-weight.md)                   |
+| [forceStrutHeight](#forceStrutHeight)     | `boolean` | Optional | cannot be null | [Strut Style](button_bar_theme_data-properties-boolean.md)             |
+| [leading](#leading)                       | Merged    | Optional | cannot be null | [Strut Style](app_bar_theme-properties-double.md)                             |
 
 ## debugLabel
 
@@ -47,7 +47,7 @@ Used to identify during debug
 -   is optional
 -   Type: `string` ([Debug Label](text_style-properties-debug-label.md))
 -   cannot be null
--   defined in: [Strut Style](text_style-properties-debug-label.md "https&#x3A;//legytma.com.br/schema/debug_label.schema.json#/properties/debugLabel")
+-   defined in: [Strut Style](text_style-properties-debug-label.md)
 
 ### debugLabel Type
 
@@ -66,7 +66,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Strut Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/height")
+-   defined in: [Strut Style](app_bar_theme-properties-double.md)
 
 ### height Type
 
@@ -74,9 +74,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### height Constraints
 
@@ -102,7 +102,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Package](strut_style-properties-package.md))
 -   cannot be null
--   defined in: [Strut Style](strut_style-properties-package.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/package")
+-   defined in: [Strut Style](strut_style-properties-package.md)
 
 ### package Type
 
@@ -118,15 +118,15 @@ List of alternative font families
 -   is optional
 -   Type: an array where each item follows the corresponding schema in the following list:
 
-    1.  [Font Family](strut_style-properties-font-family-fallback-items-font-family.md "check type definition")
+    1.  [Font Family](strut_style-properties-font-family-fallback-items-font-family.md)
 -   cannot be null
--   defined in: [Strut Style](strut_style-properties-font-family-fallback.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/fontFamilyFallback")
+-   defined in: [Strut Style](strut_style-properties-font-family-fallback.md)
 
 ### fontFamilyFallback Type
 
 an array where each item follows the corresponding schema in the following list:
 
-1.  [Font Family](strut_style-properties-font-family-fallback-items-font-family.md "check type definition")
+1.  [Font Family](strut_style-properties-font-family-fallback-items-font-family.md)
 
 ## fontFamily
 
@@ -138,7 +138,7 @@ an array where each item follows the corresponding schema in the following list:
 -   is optional
 -   Type: `string` ([Font Family](strut_style-properties-font-family.md))
 -   cannot be null
--   defined in: [Strut Style](strut_style-properties-font-family.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/fontFamily")
+-   defined in: [Strut Style](strut_style-properties-font-family.md)
 
 ### fontFamily Type
 
@@ -157,7 +157,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Strut Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/fontSize")
+-   defined in: [Strut Style](app_bar_theme-properties-double.md)
 
 ### fontSize Type
 
@@ -165,9 +165,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### fontSize Constraints
 
@@ -197,7 +197,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Font Style](text_style-properties-font-style.md))
 -   cannot be null
--   defined in: [Strut Style](text_style-properties-font-style.md "https&#x3A;//legytma.com.br/schema/font_style.schema.json#/properties/fontStyle")
+-   defined in: [Strut Style](text_style-properties-font-style.md)
 
 ### fontStyle Type
 
@@ -235,7 +235,7 @@ Define the font weight
 -   is optional
 -   Type: `string` ([Font Weight](text_style-properties-font-weight.md))
 -   cannot be null
--   defined in: [Strut Style](text_style-properties-font-weight.md "https&#x3A;//legytma.com.br/schema/font_weight.schema.json#/properties/fontWeight")
+-   defined in: [Strut Style](text_style-properties-font-weight.md)
 
 ### fontWeight Type
 
@@ -318,7 +318,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Strut Style](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/forceStrutHeight")
+-   defined in: [Strut Style](button_bar_theme_data-properties-boolean.md)
 
 ### forceStrutHeight Type
 
@@ -355,7 +355,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Strut Style](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/leading")
+-   defined in: [Strut Style](app_bar_theme-properties-double.md)
 
 ### leading Type
 
@@ -363,9 +363,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### leading Constraints
 
@@ -399,7 +399,7 @@ Reference this group by using
 -   is optional
 -   Type: `string` ([Font Family](strut_style-definitions-font-family.md))
 -   cannot be null
--   defined in: [Strut Style](strut_style-definitions-font-family.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/definitions/fontFamily")
+-   defined in: [Strut Style](strut_style-definitions-font-family.md)
 
 ### fontFamily Type
 

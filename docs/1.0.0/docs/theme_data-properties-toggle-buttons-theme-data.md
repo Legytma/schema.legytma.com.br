@@ -13,7 +13,7 @@ https://legytma.com.br/schema/toggle_buttons_theme_data.schema.json#/properties/
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [theme_data.schema.json\*](../schema/theme_data.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [theme_data.schema.json\*](../schema/theme_data.schema.json) |
 
 ## toggleButtonsTheme Type
 
@@ -23,21 +23,21 @@ https://legytma.com.br/schema/toggle_buttons_theme_data.schema.json#/properties/
 
 | Property                                    | Type     | Required | Nullable       | Defined by                                                                                                                                                                    |
 | :------------------------------------------ | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [splashColor](#splashColor)                 | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")                     |
-| [hoverColor](#hoverColor)                   | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-1.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")                    |
-| [highlightColor](#highlightColor)           | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-2.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")                |
-| [focusColor](#focusColor)                   | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-3.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")                    |
-| [disabledColor](#disabledColor)             | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-4.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")                 |
-| [color](#color)                             | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-5.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                         |
-| [textStyle](#textStyle)                     | `object` | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-text-style.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/textStyle")             |
-| [borderColor](#borderColor)                 | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-6.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/borderColor")                   |
-| [borderRadius](#borderRadius)               | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-border-radius.md "https&#x3A;//legytma.com.br/schema/border_radius.schema.json#/properties/borderRadius")    |
-| [borderWidth](#borderWidth)                 | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/borderWidth")                   |
-| [constraints](#constraints)                 | `object` | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-box-constraints.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/properties/constraints") |
-| [disabledBorderColor](#disabledBorderColor) | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-7.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledBorderColor")           |
-| [fillColor](#fillColor)                     | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-8.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/fillColor")                     |
-| [selectedBorderColor](#selectedBorderColor) | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-9.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/selectedBorderColor")           |
-| [selectedColor](#selectedColor)             | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-10.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/selectedColor")                |
+| [splashColor](#splashColor)                 | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color.md)                     |
+| [hoverColor](#hoverColor)                   | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-1.md)                    |
+| [highlightColor](#highlightColor)           | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-2.md)                |
+| [focusColor](#focusColor)                   | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-3.md)                    |
+| [disabledColor](#disabledColor)             | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-4.md)                 |
+| [color](#color)                             | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-5.md)                         |
+| [textStyle](#textStyle)                     | `object` | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-text-style.md)             |
+| [borderColor](#borderColor)                 | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-6.md)                   |
+| [borderRadius](#borderRadius)               | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-border-radius.md)    |
+| [borderWidth](#borderWidth)                 | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-double.md)                   |
+| [constraints](#constraints)                 | `object` | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-box-constraints.md) |
+| [disabledBorderColor](#disabledBorderColor) | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-7.md)           |
+| [fillColor](#fillColor)                     | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-8.md)                     |
+| [selectedBorderColor](#selectedBorderColor) | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-9.md)           |
+| [selectedColor](#selectedColor)             | Merged   | Optional | cannot be null | [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-10.md)                |
 
 ## splashColor
 
@@ -52,7 +52,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/splashColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color.md)
 
 ### splashColor Type
 
@@ -60,7 +60,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### splashColor Default Value
 
@@ -101,7 +101,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-1.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-1.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/hoverColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-1.md)
 
 ### hoverColor Type
 
@@ -109,7 +109,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-1.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### hoverColor Default Value
 
@@ -150,7 +150,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-2.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-2.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/highlightColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-2.md)
 
 ### highlightColor Type
 
@@ -158,7 +158,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-2.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### highlightColor Default Value
 
@@ -199,7 +199,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-3.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-3.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/focusColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-3.md)
 
 ### focusColor Type
 
@@ -207,7 +207,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-3.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### focusColor Default Value
 
@@ -248,7 +248,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-4.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-4.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-4.md)
 
 ### disabledColor Type
 
@@ -256,7 +256,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-4.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### disabledColor Default Value
 
@@ -297,7 +297,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-5.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-5.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-5.md)
 
 ### color Type
 
@@ -305,7 +305,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-5.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -346,7 +346,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](toggle_buttons_theme_data-properties-text-style.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-text-style.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/textStyle")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-text-style.md)
 
 ### textStyle Type
 
@@ -365,7 +365,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-6.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-6.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/borderColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-6.md)
 
 ### borderColor Type
 
@@ -373,7 +373,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-6.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### borderColor Default Value
 
@@ -415,7 +415,7 @@ The default value is:
 -   is optional
 -   Type: merged type ([Border Radius](toggle_buttons_theme_data-properties-border-radius.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-border-radius.md "https&#x3A;//legytma.com.br/schema/border_radius.schema.json#/properties/borderRadius")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-border-radius.md)
 
 ### borderRadius Type
 
@@ -423,8 +423,8 @@ merged type ([Border Radius](toggle_buttons_theme_data-properties-border-radius.
 
 one (and only one) of
 
--   [Border Radius Object](border_radius-oneof-border-radius-object.md "check type definition")
--   [Border Radius String](border_radius-oneof-border-radius-string.md "check type definition")
+-   [Border Radius Object](border_radius-oneof-border-radius-object.md)
+-   [Border Radius String](border_radius-oneof-border-radius-string.md)
 
 ## borderWidth
 
@@ -439,7 +439,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](toggle_buttons_theme_data-properties-double.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/borderWidth")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-double.md)
 
 ### borderWidth Type
 
@@ -447,9 +447,9 @@ merged type ([Double](toggle_buttons_theme_data-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### borderWidth Default Value
 
@@ -473,7 +473,7 @@ The default value is:
 -   is optional
 -   Type: `object` ([Box Constraints](toggle_buttons_theme_data-properties-box-constraints.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-box-constraints.md "https&#x3A;//legytma.com.br/schema/box_constraints.schema.json#/properties/constraints")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-box-constraints.md)
 
 ### constraints Type
 
@@ -492,7 +492,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-7.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-7.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/disabledBorderColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-7.md)
 
 ### disabledBorderColor Type
 
@@ -500,7 +500,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-7.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### disabledBorderColor Default Value
 
@@ -541,7 +541,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-8.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-8.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/fillColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-8.md)
 
 ### fillColor Type
 
@@ -549,7 +549,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-8.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### fillColor Default Value
 
@@ -590,7 +590,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-9.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-9.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/selectedBorderColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-9.md)
 
 ### selectedBorderColor Type
 
@@ -598,7 +598,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-9.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### selectedBorderColor Default Value
 
@@ -639,7 +639,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](toggle_buttons_theme_data-properties-color-10.md))
 -   cannot be null
--   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-10.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/selectedColor")
+-   defined in: [Toggle Buttons Theme Data](toggle_buttons_theme_data-properties-color-10.md)
 
 ### selectedColor Type
 
@@ -647,7 +647,7 @@ merged type ([Color](toggle_buttons_theme_data-properties-color-10.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### selectedColor Default Value
 

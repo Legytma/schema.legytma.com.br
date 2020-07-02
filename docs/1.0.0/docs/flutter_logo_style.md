@@ -13,7 +13,7 @@ https://legytma.com.br/schema/flutter_logo_style.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [flutter_logo_style.schema.json](../schema/flutter_logo_style.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [flutter_logo_style.schema.json](../schema/flutter_logo_style.schema.json) |
 
 ## Flutter Logo Style Type
 

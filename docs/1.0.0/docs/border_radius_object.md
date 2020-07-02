@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_radius_object.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [border_radius_object.schema.json](../schema/border_radius_object.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [border_radius_object.schema.json](../schema/border_radius_object.schema.json) |
 
 ## Border Radius Object Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/border_radius_object.schema.json
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Required | cannot be null | [Border Radius Object](border_radius_geometry-definitions-type.md "https&#x3A;//legytma.com.br/schema/border_radius_object.schema.json#/properties/type") |
+| [type](#type) | `string` | Required | cannot be null | [Border Radius Object](border_radius_geometry-definitions-type.md) |
 
 ## type
 
@@ -35,7 +35,7 @@ Define o tipo de Border Radius
 -   is required
 -   Type: `string` ([Type](border_radius_geometry-definitions-type.md))
 -   cannot be null
--   defined in: [Border Radius Object](border_radius_geometry-definitions-type.md "https&#x3A;//legytma.com.br/schema/border_radius_object.schema.json#/properties/type")
+-   defined in: [Border Radius Object](border_radius_geometry-definitions-type.md)
 
 ### type Type
 
@@ -74,7 +74,7 @@ Define o tipo de Border Radius
 -   is optional
 -   Type: `string` ([Type](border_radius_geometry-definitions-type.md))
 -   cannot be null
--   defined in: [Border Radius Object](border_radius_geometry-definitions-type.md "https&#x3A;//legytma.com.br/schema/border_radius_object.schema.json#/definitions/type")
+-   defined in: [Border Radius Object](border_radius_geometry-definitions-type.md)
 
 ### type Type
 

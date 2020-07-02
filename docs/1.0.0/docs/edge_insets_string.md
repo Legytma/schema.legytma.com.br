@@ -13,7 +13,7 @@ https://legytma.com.br/schema/edge_insets_string.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                        |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [edge_insets_string.schema.json](../schema/edge_insets_string.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [edge_insets_string.schema.json](../schema/edge_insets_string.schema.json) |
 
 ## Edge Insets String Type
 
@@ -27,4 +27,4 @@ https://legytma.com.br/schema/edge_insets_string.schema.json
 ^(-?\d+(\.\d+)?,){3}-?\d+(\.\d+)?$
 ```
 
-[try pattern](https://regexr.com/?expression=%5E(-%3F%5Cd%2B(%5C.%5Cd%2B)%3F%2C)%7B3%7D-%3F%5Cd%2B(%5C.%5Cd%2B)%3F%24 "try regular expression with regexr.com")
+[try pattern](https://regexr.com/?expression=%5E(-%3F%5Cd%2B(%5C.%5Cd%2B)%3F%2C)%7B3%7D-%3F%5Cd%2B(%5C.%5Cd%2B)%3F%24)

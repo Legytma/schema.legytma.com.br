@@ -12,7 +12,7 @@ Schema to validation of JSON used to parse Widget.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                               |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [animated_container.schema.json](../schema/widget/animated_container.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [animated_container.schema.json](../schema/widget/animated_container.schema.json) |
 
 ## Animated Container Widget Type
 
@@ -20,20 +20,20 @@ Schema to validation of JSON used to parse Widget.
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Animated Container Widget Properties
 
 | Property                      | Type         | Required | Nullable       | Defined by                                                                                                                                                                      |
 | :---------------------------- | ------------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                 | `string`     | Required | cannot be null | [Animated Container Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/animated_container.schema.json#/properties/type")                             |
-| [alignment](#alignment)       | `string`     | Optional | cannot be null | [Animated Container Widget](decoration_image-properties-alignment.md "https&#x3A;//legytma.com.br/schema/alignment.schema.json#/properties/alignment")                          |
-| [padding](#padding)           | Unknown Type | Optional | cannot be null | [Animated Container Widget](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding") |
-| [color](#color)               | Merged       | Optional | cannot be null | [Animated Container Widget](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                                         |
-| [margin](#margin)             | Merged       | Optional | cannot be null | [Animated Container Widget](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/margin")                                        |
-| [widthFactor](#widthFactor)   | Merged       | Optional | cannot be null | [Animated Container Widget](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/widthFactor")                                 |
-| [heightFactor](#heightFactor) | Merged       | Optional | cannot be null | [Animated Container Widget](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/heightFactor")                                |
-| [child](#child)               | `object`     | Optional | cannot be null | [Animated Container Widget](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")                                  |
+| [type](#type)                 | `string`     | Required | cannot be null | [Animated Container Widget](widget-definitions-type.md)                             |
+| [alignment](#alignment)       | `string`     | Optional | cannot be null | [Animated Container Widget](decoration_image-properties-alignment.md)                          |
+| [padding](#padding)           | Unknown Type | Optional | cannot be null | [Animated Container Widget](button_bar_theme_data-properties-edge-insets-geometry.md) |
+| [color](#color)               | Merged       | Optional | cannot be null | [Animated Container Widget](app_bar_theme-properties-color.md)                                         |
+| [margin](#margin)             | Merged       | Optional | cannot be null | [Animated Container Widget](app_bar_theme-properties-color.md)                                        |
+| [widthFactor](#widthFactor)   | Merged       | Optional | cannot be null | [Animated Container Widget](app_bar_theme-properties-double.md)                                 |
+| [heightFactor](#heightFactor) | Merged       | Optional | cannot be null | [Animated Container Widget](app_bar_theme-properties-double.md)                                |
+| [child](#child)               | `object`     | Optional | cannot be null | [Animated Container Widget](input_decoration-properties-widget-5.md)                                  |
 
 ## type
 
@@ -48,7 +48,7 @@ Identify the widget type
 -   is required
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Animated Container Widget](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/animated_container.schema.json#/properties/type")
+-   defined in: [Animated Container Widget](widget-definitions-type.md)
 
 ### type Type
 
@@ -75,7 +75,7 @@ Determine the alignment
 -   is optional
 -   Type: `string` ([Alignment](decoration_image-properties-alignment.md))
 -   cannot be null
--   defined in: [Animated Container Widget](decoration_image-properties-alignment.md "https&#x3A;//legytma.com.br/schema/alignment.schema.json#/properties/alignment")
+-   defined in: [Animated Container Widget](decoration_image-properties-alignment.md)
 
 ### alignment Type
 
@@ -157,7 +157,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `string` or `object` ([Edge Insets Geometry](button_bar_theme_data-properties-edge-insets-geometry.md))
 -   cannot be null
--   defined in: [Animated Container Widget](button_bar_theme_data-properties-edge-insets-geometry.md "https&#x3A;//legytma.com.br/schema/edge_insets_geometry.schema.json#/properties/padding")
+-   defined in: [Animated Container Widget](button_bar_theme_data-properties-edge-insets-geometry.md)
 
 ### padding Type
 
@@ -187,7 +187,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Animated Container Widget](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Animated Container Widget](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -195,7 +195,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -236,7 +236,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Animated Container Widget](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/margin")
+-   defined in: [Animated Container Widget](app_bar_theme-properties-color.md)
 
 ### margin Type
 
@@ -244,7 +244,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### margin Default Value
 
@@ -285,7 +285,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Animated Container Widget](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/widthFactor")
+-   defined in: [Animated Container Widget](app_bar_theme-properties-double.md)
 
 ### widthFactor Type
 
@@ -293,9 +293,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### widthFactor Constraints
 
@@ -324,7 +324,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Animated Container Widget](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/heightFactor")
+-   defined in: [Animated Container Widget](app_bar_theme-properties-double.md)
 
 ### heightFactor Type
 
@@ -332,9 +332,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### heightFactor Constraints
 
@@ -363,7 +363,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Animated Container Widget](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Animated Container Widget](input_decoration-properties-widget-5.md)
 
 ### child Type
 

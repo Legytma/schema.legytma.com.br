@@ -9,7 +9,7 @@ Swatch colors
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [material_color.schema.json\*](../schema/material_color.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [material_color.schema.json\*](../schema/material_color.schema.json) |
 
 ## swatch Type
 
@@ -36,16 +36,16 @@ Swatch colors
 
 | Property    | Type   | Required | Nullable       | Defined by                                                                                                                                   |
 | :---------- | ------ | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
-| [50](#50)   | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/50")  |
-| [100](#100) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/100") |
-| [200](#200) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/200") |
-| [300](#300) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/300") |
-| [400](#400) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/400") |
-| [500](#500) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/500") |
-| [600](#600) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/600") |
-| [700](#700) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/700") |
-| [800](#800) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/800") |
-| [900](#900) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/900") |
+| [50](#50)   | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md)  |
+| [100](#100) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
+| [200](#200) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
+| [300](#300) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
+| [400](#400) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
+| [500](#500) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
+| [600](#600) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
+| [700](#700) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
+| [800](#800) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
+| [900](#900) | Merged | Optional | cannot be null | [Material Color](app_bar_theme-properties-color.md) |
 
 ## 50
 
@@ -60,7 +60,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/50")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 50 Type
 
@@ -68,7 +68,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 50 Default Value
 
@@ -109,7 +109,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/100")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 100 Type
 
@@ -117,7 +117,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 100 Default Value
 
@@ -158,7 +158,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/200")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 200 Type
 
@@ -166,7 +166,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 200 Default Value
 
@@ -207,7 +207,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/300")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 300 Type
 
@@ -215,7 +215,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 300 Default Value
 
@@ -256,7 +256,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/400")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 400 Type
 
@@ -264,7 +264,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 400 Default Value
 
@@ -305,7 +305,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/500")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 500 Type
 
@@ -313,7 +313,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 500 Default Value
 
@@ -354,7 +354,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/600")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 600 Type
 
@@ -362,7 +362,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 600 Default Value
 
@@ -403,7 +403,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/700")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 700 Type
 
@@ -411,7 +411,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 700 Default Value
 
@@ -452,7 +452,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/800")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 800 Type
 
@@ -460,7 +460,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 800 Default Value
 
@@ -501,7 +501,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Material Color](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/swatch/properties/900")
+-   defined in: [Material Color](app_bar_theme-properties-color.md)
 
 ### 900 Type
 
@@ -509,7 +509,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### 900 Default Value
 

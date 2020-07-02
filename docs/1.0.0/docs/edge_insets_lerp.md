@@ -13,7 +13,7 @@ https://legytma.com.br/schema/edge_insets_lerp.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                    |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets_lerp.schema.json](../schema/edge_insets_lerp.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [edge_insets_lerp.schema.json](../schema/edge_insets_lerp.schema.json) |
 
 ## Edge Insets Lerp Type
 
@@ -21,16 +21,16 @@ any of the folllowing: `string` or `object` ([Edge Insets Lerp](edge_insets_lerp
 
 all of
 
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 # Edge Insets Lerp Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                                  |
 | :------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type) | `string` | Optional | cannot be null | [Edge Insets Lerp](edge_insets_lerp-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_lerp.schema.json#/properties/type")  |
-| [a](#a)       | Merged   | Optional | cannot be null | [Edge Insets Lerp](edge_insets_lerp-properties-edge-insets.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/a")   |
-| [b](#b)       | Merged   | Optional | cannot be null | [Edge Insets Lerp](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/b") |
-| [t](#t)       | Merged   | Optional | cannot be null | [Edge Insets Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")                |
+| [type](#type) | `string` | Optional | cannot be null | [Edge Insets Lerp](edge_insets_lerp-properties-type.md)  |
+| [a](#a)       | Merged   | Optional | cannot be null | [Edge Insets Lerp](edge_insets_lerp-properties-edge-insets.md)   |
+| [b](#b)       | Merged   | Optional | cannot be null | [Edge Insets Lerp](edge_insets_lerp-properties-edge-insets-1.md) |
+| [t](#t)       | Merged   | Optional | cannot be null | [Edge Insets Lerp](app_bar_theme-properties-double.md)                |
 
 ## type
 
@@ -45,7 +45,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](edge_insets_lerp-properties-type.md))
 -   cannot be null
--   defined in: [Edge Insets Lerp](edge_insets_lerp-properties-type.md "https&#x3A;//legytma.com.br/schema/edge_insets_lerp.schema.json#/properties/type")
+-   defined in: [Edge Insets Lerp](edge_insets_lerp-properties-type.md)
 
 ### type Type
 
@@ -86,7 +86,7 @@ Identify the widget type
 -   is optional
 -   Type: merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 -   cannot be null
--   defined in: [Edge Insets Lerp](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/a")
+-   defined in: [Edge Insets Lerp](edge_insets_lerp-properties-edge-insets-1.md)
 
 ### a Type
 
@@ -94,8 +94,8 @@ merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 
 one (and only one) of
 
--   [Edge Insets String](edge_insets-oneof-edge-insets-string.md "check type definition")
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets String](edge_insets-oneof-edge-insets-string.md)
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 ### a Default Value
 
@@ -119,7 +119,7 @@ The default value is:
 -   is optional
 -   Type: merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 -   cannot be null
--   defined in: [Edge Insets Lerp](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/b")
+-   defined in: [Edge Insets Lerp](edge_insets_lerp-properties-edge-insets-1.md)
 
 ### b Type
 
@@ -127,8 +127,8 @@ merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 
 one (and only one) of
 
--   [Edge Insets String](edge_insets-oneof-edge-insets-string.md "check type definition")
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets String](edge_insets-oneof-edge-insets-string.md)
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 ### b Default Value
 
@@ -151,7 +151,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Edge Insets Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")
+-   defined in: [Edge Insets Lerp](app_bar_theme-properties-double.md)
 
 ### t Type
 
@@ -159,9 +159,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### t Constraints
 

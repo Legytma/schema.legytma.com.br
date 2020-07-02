@@ -13,7 +13,7 @@ https://legytma.com.br/schema/form_field_setter_string.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                    |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [form_field_setter_string.schema.json](../schema/form_field_setter_string.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [form_field_setter_string.schema.json](../schema/form_field_setter_string.schema.json) |
 
 ## Form Field Setter String Type
 

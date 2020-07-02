@@ -13,7 +13,7 @@ https://legytma.com.br/schema/border_lerp.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_lerp.schema.json](../schema/border_lerp.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [border_lerp.schema.json](../schema/border_lerp.schema.json) |
 
 ## Border Lerp Type
 
@@ -23,16 +23,16 @@ all of
 
 -   all of
 
-    -   [Box Border](border-allof-box-border.md "check type definition")
+    -   [Box Border](border-allof-box-border.md)
 
 # Border Lerp Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                  |
 | :------------ | -------- | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Border Lerp](border_lerp-properties-type.md "https&#x3A;//legytma.com.br/schema/border_lerp.schema.json#/properties/type") |
-| [a](#a)       | Merged   | Optional | cannot be null | [Border Lerp](border_lerp-properties-border.md "https&#x3A;//legytma.com.br/schema/border.schema.json#/properties/a")       |
-| [b](#b)       | Merged   | Optional | cannot be null | [Border Lerp](border_lerp-properties-border-1.md "https&#x3A;//legytma.com.br/schema/border.schema.json#/properties/b")     |
-| [t](#t)       | Merged   | Optional | cannot be null | [Border Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")     |
+| [type](#type) | `string` | Optional | cannot be null | [Border Lerp](border_lerp-properties-type.md) |
+| [a](#a)       | Merged   | Optional | cannot be null | [Border Lerp](border_lerp-properties-border.md)       |
+| [b](#b)       | Merged   | Optional | cannot be null | [Border Lerp](border_lerp-properties-border-1.md)     |
+| [t](#t)       | Merged   | Optional | cannot be null | [Border Lerp](app_bar_theme-properties-double.md)     |
 
 ## type
 
@@ -47,7 +47,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](border_lerp-properties-type.md))
 -   cannot be null
--   defined in: [Border Lerp](border_lerp-properties-type.md "https&#x3A;//legytma.com.br/schema/border_lerp.schema.json#/properties/type")
+-   defined in: [Border Lerp](border_lerp-properties-type.md)
 
 ### type Type
 
@@ -85,7 +85,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Border](border_lerp-properties-border-1.md))
 -   cannot be null
--   defined in: [Border Lerp](border_lerp-properties-border-1.md "https&#x3A;//legytma.com.br/schema/border.schema.json#/properties/a")
+-   defined in: [Border Lerp](border_lerp-properties-border-1.md)
 
 ### a Type
 
@@ -93,7 +93,7 @@ Identify the widget type
 
 all of
 
--   [Box Border](border-allof-box-border.md "check type definition")
+-   [Box Border](border-allof-box-border.md)
 
 ## b
 
@@ -109,7 +109,7 @@ all of
 -   is optional
 -   Type: `object` ([Border](border_lerp-properties-border-1.md))
 -   cannot be null
--   defined in: [Border Lerp](border_lerp-properties-border-1.md "https&#x3A;//legytma.com.br/schema/border.schema.json#/properties/b")
+-   defined in: [Border Lerp](border_lerp-properties-border-1.md)
 
 ### b Type
 
@@ -117,7 +117,7 @@ all of
 
 all of
 
--   [Box Border](border-allof-box-border.md "check type definition")
+-   [Box Border](border-allof-box-border.md)
 
 ## t
 
@@ -132,7 +132,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Border Lerp](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/t")
+-   defined in: [Border Lerp](app_bar_theme-properties-double.md)
 
 ### t Type
 
@@ -140,9 +140,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-oneof-0.md "check type definition")
--   [Untitled string in Double](double-oneof-1.md "check type definition")
--   [Untitled string in Double](double-oneof-2.md "check type definition")
+-   [Untitled number in Double](double-oneof-0.md)
+-   [Untitled string in Double](double-oneof-1.md)
+-   [Untitled string in Double](double-oneof-2.md)
 
 ### t Constraints
 

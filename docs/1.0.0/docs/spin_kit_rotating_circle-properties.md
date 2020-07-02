@@ -9,7 +9,7 @@ https://legytma.com.br/schema/widget/spin_kit_rotating_circle.schema.json#/prope
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                             |
 | :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [spin_kit_rotating_circle.schema.json\*](../schema/widget/spin_kit_rotating_circle.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [spin_kit_rotating_circle.schema.json\*](../schema/widget/spin_kit_rotating_circle.schema.json) |
 
 ## properties Type
 

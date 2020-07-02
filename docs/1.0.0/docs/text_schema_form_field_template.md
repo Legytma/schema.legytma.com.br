@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/text_schema_form_field_template.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                                         |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_schema_form_field_template.schema.json](../schema/widget/text_schema_form_field_template.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [text_schema_form_field_template.schema.json](../schema/widget/text_schema_form_field_template.schema.json) |
 
 ## Text Schema Form Field Template Type
 
@@ -21,56 +21,56 @@ https://legytma.com.br/schema/widget/text_schema_form_field_template.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Text Schema Form Field Template Properties
 
 | Property                                                  | Type         | Required | Nullable       | Defined by                                                                                                                                                                                                      |
 | :-------------------------------------------------------- | ------------ | -------- | -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)                                             | `string`     | Optional | cannot be null | [Text Schema Form Field Template](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_template.schema.json#/properties/type")                                          |
-| [fieldName](#fieldName)                                   | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-field-name.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_template.schema.json#/properties/fieldName")       |
-| [onChanged](#onChanged)                                   | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onChanged")                                                    |
-| [autovalidate](#autovalidate)                             | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autovalidate")                                                   |
-| [autofocus](#autofocus)                                   | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autofocus")                                                      |
-| [focusNode](#focusNode)                                   | `object`     | Optional | cannot be null | [Text Schema Form Field Template](floating_action_button-properties-focus-node.md "https&#x3A;//legytma.com.br/schema/focus_node.schema.json#/properties/focusNode")                                            |
-| [keyboardAppearance](#keyboardAppearance)                 | `string`     | Optional | cannot be null | [Text Schema Form Field Template](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/keyboardAppearance")                                            |
-| [keyboardType](#keyboardType)                             | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-text-input-type.md "https&#x3A;//legytma.com.br/schema/text_input_type.schema.json#/properties/keyboardType")                      |
-| [controller](#controller)                                 | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/controller")                                                   |
-| [pickerType](#pickerType)                                 | `object`     | Optional | cannot be null | [Text Schema Form Field Template](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/pickerType")                                                       |
-| [onTap](#onTap)                                           | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTap")                                                        |
-| [enabled](#enabled)                                       | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/enabled")                                                        |
-| [decoration](#decoration)                                 | `object`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-input-decoration.md "https&#x3A;//legytma.com.br/schema/input_decoration.schema.json#/properties/decoration")                      |
-| [initialValue](#initialValue)                             | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-initial-value.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_template.schema.json#/properties/initialValue") |
-| [onSaved](#onSaved)                                       | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSaved")                                                      |
-| [validator](#validator)                                   | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/validator")                                                    |
-| [textAlign](#textAlign)                                   | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text-properties-text-align.md "https&#x3A;//legytma.com.br/schema/text_align.schema.json#/properties/textAlign")                                                              |
-| [strutStyle](#strutStyle)                                 | `object`     | Optional | cannot be null | [Text Schema Form Field Template](text-properties-strut-style.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/strutStyle")                                                           |
-| [toolbarOptions](#toolbarOptions)                         | `object`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-toolbar-options.md "https&#x3A;//legytma.com.br/schema/toolbar_options.schema.json#/properties/toolbarOptions")                    |
-| [textInputAction](#textInputAction)                       | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-text-input-action.md "https&#x3A;//legytma.com.br/schema/text_input_action.schema.json#/properties/textInputAction")               |
-| [textCapitalization](#textCapitalization)                 | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-text-capitalization.md "https&#x3A;//legytma.com.br/schema/text_capitalization.schema.json#/properties/textCapitalization")        |
-| [textAlignVertical](#textAlignVertical)                   | Unknown Type | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-text-align-vertical.md "https&#x3A;//legytma.com.br/schema/text_align_vertical.schema.json#/properties/textAlignVertical")         |
-| [showCursor](#showCursor)                                 | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/showCursor")                                                     |
-| [scrollPadding](#scrollPadding)                           | Merged       | Optional | cannot be null | [Text Schema Form Field Template](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/scrollPadding")                                          |
-| [readOnly](#readOnly)                                     | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/readOnly")                                                       |
-| [onFieldSubmitted](#onFieldSubmitted)                     | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onFieldSubmitted")                                             |
-| [onEditingComplete](#onEditingComplete)                   | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onEditingComplete")                                            |
-| [obscureText](#obscureText)                               | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/obscureText")                                                    |
-| [maxLengthEnforced](#maxLengthEnforced)                   | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/maxLengthEnforced")                                              |
-| [minLines](#minLines)                                     | Unknown Type | Optional | cannot be null | [Text Schema Form Field Template](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/minLines")                                                                             |
-| [maxLength](#maxLength)                                   | Unknown Type | Optional | cannot be null | [Text Schema Form Field Template](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/maxLength")                                                                            |
-| [inputFormatters](#inputFormatters)                       | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/inputFormatters")                                              |
-| [expands](#expands)                                       | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/expands")                                                        |
-| [enableSuggestions](#enableSuggestions)                   | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/enableSuggestions")                                              |
-| [enableInteractiveSelection](#enableInteractiveSelection) | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/enableInteractiveSelection")                                     |
-| [cursorWidth](#cursorWidth)                               | Merged       | Optional | cannot be null | [Text Schema Form Field Template](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/cursorWidth")                                                           |
-| [cursorRadius](#cursorRadius)                             | Merged       | Optional | cannot be null | [Text Schema Form Field Template](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/cursorRadius")                                                      |
-| [cursorColor](#cursorColor)                               | Merged       | Optional | cannot be null | [Text Schema Form Field Template](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/cursorColor")                                                             |
-| [buildCounter](#buildCounter)                             | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/buildCounter")                                                 |
-| [autocorrect](#autocorrect)                               | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autocorrect")                                                    |
-| [textDirection](#textDirection)                           | `string`     | Optional | cannot be null | [Text Schema Form Field Template](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")                                                |
-| [maxLines](#maxLines)                                     | Unknown Type | Optional | cannot be null | [Text Schema Form Field Template](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/maxLines")                                                                             |
-| [style](#style)                                           | `object`     | Optional | cannot be null | [Text Schema Form Field Template](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/style")                                                     |
-| [dateFormat](#dateFormat)                                 | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-date-format.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_template.schema.json#/properties/dateFormat")     |
+| [type](#type)                                             | `string`     | Optional | cannot be null | [Text Schema Form Field Template](widget-definitions-type.md)                                          |
+| [fieldName](#fieldName)                                   | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-field-name.md)       |
+| [onChanged](#onChanged)                                   | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                                    |
+| [autovalidate](#autovalidate)                             | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                                   |
+| [autofocus](#autofocus)                                   | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                                      |
+| [focusNode](#focusNode)                                   | `object`     | Optional | cannot be null | [Text Schema Form Field Template](floating_action_button-properties-focus-node.md)                                            |
+| [keyboardAppearance](#keyboardAppearance)                 | `string`     | Optional | cannot be null | [Text Schema Form Field Template](app_bar_theme-properties-brightness.md)                                            |
+| [keyboardType](#keyboardType)                             | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-text-input-type.md)                      |
+| [controller](#controller)                                 | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                                   |
+| [pickerType](#pickerType)                                 | `object`     | Optional | cannot be null | [Text Schema Form Field Template](input_decoration-properties-widget-5.md)                                                       |
+| [onTap](#onTap)                                           | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                                        |
+| [enabled](#enabled)                                       | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                                        |
+| [decoration](#decoration)                                 | `object`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-input-decoration.md)                      |
+| [initialValue](#initialValue)                             | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-initial-value.md) |
+| [onSaved](#onSaved)                                       | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                                      |
+| [validator](#validator)                                   | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                                    |
+| [textAlign](#textAlign)                                   | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text-properties-text-align.md)                                                              |
+| [strutStyle](#strutStyle)                                 | `object`     | Optional | cannot be null | [Text Schema Form Field Template](text-properties-strut-style.md)                                                           |
+| [toolbarOptions](#toolbarOptions)                         | `object`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-toolbar-options.md)                    |
+| [textInputAction](#textInputAction)                       | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-text-input-action.md)               |
+| [textCapitalization](#textCapitalization)                 | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-text-capitalization.md)        |
+| [textAlignVertical](#textAlignVertical)                   | Unknown Type | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-text-align-vertical.md)         |
+| [showCursor](#showCursor)                                 | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                                     |
+| [scrollPadding](#scrollPadding)                           | Merged       | Optional | cannot be null | [Text Schema Form Field Template](edge_insets_lerp-properties-edge-insets-1.md)                                          |
+| [readOnly](#readOnly)                                     | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                                       |
+| [onFieldSubmitted](#onFieldSubmitted)                     | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                             |
+| [onEditingComplete](#onEditingComplete)                   | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                            |
+| [obscureText](#obscureText)                               | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                                    |
+| [maxLengthEnforced](#maxLengthEnforced)                   | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                              |
+| [minLines](#minLines)                                     | Unknown Type | Optional | cannot be null | [Text Schema Form Field Template](color-allof-integer.md)                                                                             |
+| [maxLength](#maxLength)                                   | Unknown Type | Optional | cannot be null | [Text Schema Form Field Template](color-allof-integer.md)                                                                            |
+| [inputFormatters](#inputFormatters)                       | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                              |
+| [expands](#expands)                                       | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                                        |
+| [enableSuggestions](#enableSuggestions)                   | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                              |
+| [enableInteractiveSelection](#enableInteractiveSelection) | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                     |
+| [cursorWidth](#cursorWidth)                               | Merged       | Optional | cannot be null | [Text Schema Form Field Template](app_bar_theme-properties-double.md)                                                           |
+| [cursorRadius](#cursorRadius)                             | Merged       | Optional | cannot be null | [Text Schema Form Field Template](border_radius_all-properties-radius.md)                                                      |
+| [cursorColor](#cursorColor)                               | Merged       | Optional | cannot be null | [Text Schema Form Field Template](app_bar_theme-properties-color.md)                                                             |
+| [buildCounter](#buildCounter)                             | Unknown Type | Optional | can be null    | [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)                                                 |
+| [autocorrect](#autocorrect)                               | `boolean`    | Optional | cannot be null | [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)                                                    |
+| [textDirection](#textDirection)                           | `string`     | Optional | cannot be null | [Text Schema Form Field Template](column-properties-text-direction.md)                                                |
+| [maxLines](#maxLines)                                     | Unknown Type | Optional | cannot be null | [Text Schema Form Field Template](color-allof-integer.md)                                                                             |
+| [style](#style)                                           | `object`     | Optional | cannot be null | [Text Schema Form Field Template](chip_theme_data-properties-text-style-1.md)                                                     |
+| [dateFormat](#dateFormat)                                 | `string`     | Optional | cannot be null | [Text Schema Form Field Template](text_schema_form_field_template-properties-date-format.md)     |
 
 ## type
 
@@ -85,7 +85,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_template.schema.json#/properties/type")
+-   defined in: [Text Schema Form Field Template](widget-definitions-type.md)
 
 ### type Type
 
@@ -109,7 +109,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Field Name](text_schema_form_field_template-properties-field-name.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-field-name.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_template.schema.json#/properties/fieldName")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-field-name.md)
 
 ### fieldName Type
 
@@ -129,7 +129,7 @@ Identify the widget type
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onChanged")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onChanged Type
 
@@ -156,7 +156,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autovalidate")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### autovalidate Type
 
@@ -193,7 +193,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autofocus")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### autofocus Type
 
@@ -231,7 +231,7 @@ false
 -   is optional
 -   Type: `object` ([Focus Node](floating_action_button-properties-focus-node.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](floating_action_button-properties-focus-node.md "https&#x3A;//legytma.com.br/schema/focus_node.schema.json#/properties/focusNode")
+-   defined in: [Text Schema Form Field Template](floating_action_button-properties-focus-node.md)
 
 ### focusNode Type
 
@@ -251,7 +251,7 @@ false
 -   is optional
 -   Type: `string` ([Brightness](app_bar_theme-properties-brightness.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](app_bar_theme-properties-brightness.md "https&#x3A;//legytma.com.br/schema/brightness.schema.json#/properties/keyboardAppearance")
+-   defined in: [Text Schema Form Field Template](app_bar_theme-properties-brightness.md)
 
 ### keyboardAppearance Type
 
@@ -280,7 +280,7 @@ false
 -   is optional
 -   Type: `string` ([Text Input Type](text_schema_form_field_template-properties-text-input-type.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-text-input-type.md "https&#x3A;//legytma.com.br/schema/text_input_type.schema.json#/properties/keyboardType")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-text-input-type.md)
 
 ### keyboardType Type
 
@@ -319,7 +319,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/controller")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### controller Type
 
@@ -346,7 +346,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/pickerType")
+-   defined in: [Text Schema Form Field Template](input_decoration-properties-widget-5.md)
 
 ### pickerType Type
 
@@ -366,7 +366,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onTap")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onTap Type
 
@@ -393,7 +393,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/enabled")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### enabled Type
 
@@ -431,7 +431,7 @@ false
 -   is optional
 -   Type: `object` ([Input Decoration](text_schema_form_field_template-properties-input-decoration.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-input-decoration.md "https&#x3A;//legytma.com.br/schema/input_decoration.schema.json#/properties/decoration")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-input-decoration.md)
 
 ### decoration Type
 
@@ -447,7 +447,7 @@ false
 -   is optional
 -   Type: `string` ([Initial Value](text_schema_form_field_template-properties-initial-value.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-initial-value.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_template.schema.json#/properties/initialValue")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-initial-value.md)
 
 ### initialValue Type
 
@@ -467,7 +467,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onSaved")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onSaved Type
 
@@ -495,7 +495,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/validator")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### validator Type
 
@@ -522,7 +522,7 @@ Determine the text alignment
 -   is optional
 -   Type: `string` ([Text Align](text-properties-text-align.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text-properties-text-align.md "https&#x3A;//legytma.com.br/schema/text_align.schema.json#/properties/textAlign")
+-   defined in: [Text Schema Form Field Template](text-properties-text-align.md)
 
 ### textAlign Type
 
@@ -581,7 +581,7 @@ Determine the text alignment
 -   is optional
 -   Type: `object` ([Strut Style](text-properties-strut-style.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text-properties-strut-style.md "https&#x3A;//legytma.com.br/schema/strut_style.schema.json#/properties/strutStyle")
+-   defined in: [Text Schema Form Field Template](text-properties-strut-style.md)
 
 ### strutStyle Type
 
@@ -601,7 +601,7 @@ Determine the text alignment
 -   is optional
 -   Type: `object` ([Toolbar Options](text_schema_form_field_template-properties-toolbar-options.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-toolbar-options.md "https&#x3A;//legytma.com.br/schema/toolbar_options.schema.json#/properties/toolbarOptions")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-toolbar-options.md)
 
 ### toolbarOptions Type
 
@@ -621,7 +621,7 @@ Determine the text alignment
 -   is optional
 -   Type: `string` ([Text Input Action](text_schema_form_field_template-properties-text-input-action.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-text-input-action.md "https&#x3A;//legytma.com.br/schema/text_input_action.schema.json#/properties/textInputAction")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-text-input-action.md)
 
 ### textInputAction Type
 
@@ -661,7 +661,7 @@ Determine the text alignment
 -   is optional
 -   Type: `string` ([Text Capitalization](text_schema_form_field_template-properties-text-capitalization.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-text-capitalization.md "https&#x3A;//legytma.com.br/schema/text_capitalization.schema.json#/properties/textCapitalization")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-text-capitalization.md)
 
 ### textCapitalization Type
 
@@ -692,7 +692,7 @@ Determine the text alignment
 -   is optional
 -   Type: any of the folllowing: `string` or `number` ([Text Align Vertical](text_schema_form_field_template-properties-text-align-vertical.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-text-align-vertical.md "https&#x3A;//legytma.com.br/schema/text_align_vertical.schema.json#/properties/textAlignVertical")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-text-align-vertical.md)
 
 ### textAlignVertical Type
 
@@ -711,7 +711,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/showCursor")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### showCursor Type
 
@@ -749,7 +749,7 @@ false
 -   is optional
 -   Type: merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](edge_insets_lerp-properties-edge-insets-1.md "https&#x3A;//legytma.com.br/schema/edge_insets.schema.json#/properties/scrollPadding")
+-   defined in: [Text Schema Form Field Template](edge_insets_lerp-properties-edge-insets-1.md)
 
 ### scrollPadding Type
 
@@ -757,8 +757,8 @@ merged type ([Edge Insets](edge_insets_lerp-properties-edge-insets-1.md))
 
 one (and only one) of
 
--   [Edge Insets String](edge_insets-oneof-edge-insets-string.md "check type definition")
--   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md "check type definition")
+-   [Edge Insets String](edge_insets-oneof-edge-insets-string.md)
+-   [Edge Insets Object](edge_insets-oneof-edge-insets-object.md)
 
 ### scrollPadding Default Value
 
@@ -781,7 +781,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/readOnly")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### readOnly Type
 
@@ -819,7 +819,7 @@ false
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onFieldSubmitted")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onFieldSubmitted Type
 
@@ -847,7 +847,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/onEditingComplete")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### onEditingComplete Type
 
@@ -874,7 +874,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/obscureText")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### obscureText Type
 
@@ -911,7 +911,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/maxLengthEnforced")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### maxLengthEnforced Type
 
@@ -948,7 +948,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/minLines")
+-   defined in: [Text Schema Form Field Template](color-allof-integer.md)
 
 ### minLines Type
 
@@ -1001,7 +1001,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/maxLength")
+-   defined in: [Text Schema Form Field Template](color-allof-integer.md)
 
 ### maxLength Type
 
@@ -1055,7 +1055,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/inputFormatters")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### inputFormatters Type
 
@@ -1082,7 +1082,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/expands")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### expands Type
 
@@ -1119,7 +1119,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/enableSuggestions")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### enableSuggestions Type
 
@@ -1156,7 +1156,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/enableInteractiveSelection")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### enableInteractiveSelection Type
 
@@ -1193,7 +1193,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/cursorWidth")
+-   defined in: [Text Schema Form Field Template](app_bar_theme-properties-double.md)
 
 ### cursorWidth Type
 
@@ -1201,9 +1201,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### cursorWidth Constraints
 
@@ -1233,7 +1233,7 @@ The default value is:
 -   is optional
 -   Type: merged type ([Radius](border_radius_all-properties-radius.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](border_radius_all-properties-radius.md "https&#x3A;//legytma.com.br/schema/radius.schema.json#/properties/cursorRadius")
+-   defined in: [Text Schema Form Field Template](border_radius_all-properties-radius.md)
 
 ### cursorRadius Type
 
@@ -1245,10 +1245,10 @@ one (and only one) of
 
     -   one (and only one) of
 
-        -   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
-        -   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
-        -   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
--   [Radius Object](radius-oneof-radius-object.md "check type definition")
+        -   [Untitled number in Double](double-definitions-doublenumber.md)
+        -   [Untitled string in Double](double-definitions-doublestring.md)
+        -   [Untitled string in Double](double-definitions-doubleenum.md)
+-   [Radius Object](radius-oneof-radius-object.md)
 
 ## cursorColor
 
@@ -1263,7 +1263,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/cursorColor")
+-   defined in: [Text Schema Form Field Template](app_bar_theme-properties-color.md)
 
 ### cursorColor Type
 
@@ -1271,7 +1271,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### cursorColor Default Value
 
@@ -1313,7 +1313,7 @@ The default value is:
 -   is optional
 -   Type: any of the folllowing: `array` or `boolean` or `integer` or `number` or `object` or `string` ([Dynamic](bottom_app_bar_theme-properties-dynamic.md))
 -   can be null
--   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md "https&#x3A;//legytma.com.br/schema/dynamic.schema.json#/properties/buildCounter")
+-   defined in: [Text Schema Form Field Template](bottom_app_bar_theme-properties-dynamic.md)
 
 ### buildCounter Type
 
@@ -1340,7 +1340,7 @@ Define the representation of boolean acceptable.
 -   is optional
 -   Type: `boolean` ([Boolean](button_bar_theme_data-properties-boolean.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md "https&#x3A;//legytma.com.br/schema/bool.schema.json#/properties/autocorrect")
+-   defined in: [Text Schema Form Field Template](button_bar_theme_data-properties-boolean.md)
 
 ### autocorrect Type
 
@@ -1377,7 +1377,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Text Direction](column-properties-text-direction.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")
+-   defined in: [Text Schema Form Field Template](column-properties-text-direction.md)
 
 ### textDirection Type
 
@@ -1415,7 +1415,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/maxLines")
+-   defined in: [Text Schema Form Field Template](color-allof-integer.md)
 
 ### maxLines Type
 
@@ -1468,7 +1468,7 @@ Identify the widget type
 -   is optional
 -   Type: `object` ([Text Style](chip_theme_data-properties-text-style-1.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](chip_theme_data-properties-text-style-1.md "https&#x3A;//legytma.com.br/schema/text_style.schema.json#/properties/style")
+-   defined in: [Text Schema Form Field Template](chip_theme_data-properties-text-style-1.md)
 
 ### style Type
 
@@ -1484,7 +1484,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Date Format](text_schema_form_field_template-properties-date-format.md))
 -   cannot be null
--   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-date-format.md "https&#x3A;//legytma.com.br/schema/widget/text_schema_form_field_template.schema.json#/properties/dateFormat")
+-   defined in: [Text Schema Form Field Template](text_schema_form_field_template-properties-date-format.md)
 
 ### dateFormat Type
 

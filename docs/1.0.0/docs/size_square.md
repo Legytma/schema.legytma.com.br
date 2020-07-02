@@ -13,7 +13,7 @@ https://legytma.com.br/schema/size_square.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                          |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [size_square.schema.json](../schema/size_square.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [size_square.schema.json](../schema/size_square.schema.json) |
 
 ## Size Square Type
 
@@ -21,14 +21,14 @@ https://legytma.com.br/schema/size_square.schema.json
 
 any of
 
--   [Size](box_constraints_loose-properties-size.md "check type definition")
+-   [Size](box_constraints_loose-properties-size.md)
 
 # Size Square Properties
 
 | Property                | Type     | Required | Nullable       | Defined by                                                                                                                      |
 | :---------------------- | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)           | `string` | Optional | cannot be null | [Size Square](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/size_square.schema.json#/properties/type")         |
-| [dimension](#dimension) | Merged   | Optional | cannot be null | [Size Square](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/dimension") |
+| [type](#type)           | `string` | Optional | cannot be null | [Size Square](widget-definitions-type.md)         |
+| [dimension](#dimension) | Merged   | Optional | cannot be null | [Size Square](app_bar_theme-properties-double.md) |
 
 ## type
 
@@ -43,7 +43,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Size Square](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/size_square.schema.json#/properties/type")
+-   defined in: [Size Square](widget-definitions-type.md)
 
 ### type Type
 
@@ -82,7 +82,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Size Square](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/dimension")
+-   defined in: [Size Square](app_bar_theme-properties-double.md)
 
 ### dimension Type
 
@@ -90,9 +90,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### dimension Constraints
 

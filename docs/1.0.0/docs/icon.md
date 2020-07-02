@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/icon.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                   |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ---------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [icon.schema.json](../schema/widget/icon.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [icon.schema.json](../schema/widget/icon.schema.json) |
 
 ## Icon Type
 
@@ -21,18 +21,18 @@ https://legytma.com.br/schema/widget/icon.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Icon Properties
 
 | Property                        | Type     | Required | Nullable       | Defined by                                                                                                                            |
 | :------------------------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type)                   | `string` | Optional | cannot be null | [Icon](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/icon.schema.json#/properties/type")                      |
-| [icon](#icon)                   | `object` | Required | cannot be null | [Icon](icon-properties-icon-data.md "https&#x3A;//legytma.com.br/schema/icon_data.schema.json#/properties/icon")                      |
-| [color](#color)                 | Merged   | Optional | cannot be null | [Icon](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")                    |
-| [semanticLabel](#semanticLabel) | `string` | Optional | cannot be null | [Icon](icon-properties-semantic-label.md "https&#x3A;//legytma.com.br/schema/widget/icon.schema.json#/properties/semanticLabel")      |
-| [size](#size)                   | Merged   | Optional | cannot be null | [Icon](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/size")                   |
-| [textDirection](#textDirection) | `string` | Optional | cannot be null | [Icon](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection") |
+| [type](#type)                   | `string` | Optional | cannot be null | [Icon](widget-definitions-type.md)                      |
+| [icon](#icon)                   | `object` | Required | cannot be null | [Icon](icon-properties-icon-data.md)                      |
+| [color](#color)                 | Merged   | Optional | cannot be null | [Icon](app_bar_theme-properties-color.md)                    |
+| [semanticLabel](#semanticLabel) | `string` | Optional | cannot be null | [Icon](icon-properties-semantic-label.md)      |
+| [size](#size)                   | Merged   | Optional | cannot be null | [Icon](app_bar_theme-properties-double.md)                   |
+| [textDirection](#textDirection) | `string` | Optional | cannot be null | [Icon](column-properties-text-direction.md) |
 
 ## type
 
@@ -47,7 +47,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Icon](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/icon.schema.json#/properties/type")
+-   defined in: [Icon](widget-definitions-type.md)
 
 ### type Type
 
@@ -75,7 +75,7 @@ Identify the widget type
 -   is required
 -   Type: `object` ([Icon Data](icon-properties-icon-data.md))
 -   cannot be null
--   defined in: [Icon](icon-properties-icon-data.md "https&#x3A;//legytma.com.br/schema/icon_data.schema.json#/properties/icon")
+-   defined in: [Icon](icon-properties-icon-data.md)
 
 ### icon Type
 
@@ -94,7 +94,7 @@ A number in format string or integer
 -   is optional
 -   Type: merged type ([Color](app_bar_theme-properties-color.md))
 -   cannot be null
--   defined in: [Icon](app_bar_theme-properties-color.md "https&#x3A;//legytma.com.br/schema/color.schema.json#/properties/color")
+-   defined in: [Icon](app_bar_theme-properties-color.md)
 
 ### color Type
 
@@ -102,7 +102,7 @@ merged type ([Color](app_bar_theme-properties-color.md))
 
 all of
 
--   [Integer](color-allof-integer.md "check type definition")
+-   [Integer](color-allof-integer.md)
 
 ### color Default Value
 
@@ -140,7 +140,7 @@ The default value is:
 -   is optional
 -   Type: `string` ([Semantic Label](icon-properties-semantic-label.md))
 -   cannot be null
--   defined in: [Icon](icon-properties-semantic-label.md "https&#x3A;//legytma.com.br/schema/widget/icon.schema.json#/properties/semanticLabel")
+-   defined in: [Icon](icon-properties-semantic-label.md)
 
 ### semanticLabel Type
 
@@ -159,7 +159,7 @@ Define the representation of double acceptable.
 -   is optional
 -   Type: merged type ([Double](app_bar_theme-properties-double.md))
 -   cannot be null
--   defined in: [Icon](app_bar_theme-properties-double.md "https&#x3A;//legytma.com.br/schema/double.schema.json#/properties/size")
+-   defined in: [Icon](app_bar_theme-properties-double.md)
 
 ### size Type
 
@@ -167,9 +167,9 @@ merged type ([Double](app_bar_theme-properties-double.md))
 
 one (and only one) of
 
--   [Untitled number in Double](double-definitions-doublenumber.md "check type definition")
--   [Untitled string in Double](double-definitions-doublestring.md "check type definition")
--   [Untitled string in Double](double-definitions-doubleenum.md "check type definition")
+-   [Untitled number in Double](double-definitions-doublenumber.md)
+-   [Untitled string in Double](double-definitions-doublestring.md)
+-   [Untitled string in Double](double-definitions-doubleenum.md)
 
 ### size Constraints
 
@@ -198,7 +198,7 @@ Determine the text direction.
 -   is optional
 -   Type: `string` ([Text Direction](column-properties-text-direction.md))
 -   cannot be null
--   defined in: [Icon](column-properties-text-direction.md "https&#x3A;//legytma.com.br/schema/text_direction.schema.json#/properties/textDirection")
+-   defined in: [Icon](column-properties-text-direction.md)
 
 ### textDirection Type
 

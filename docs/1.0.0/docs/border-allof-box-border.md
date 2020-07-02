@@ -13,7 +13,7 @@ https://legytma.com.br/schema/box_border.schema.json#/allOf/0
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                  |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | --------------------------------------------------------------------------- |
-| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [border.schema.json\*](../schema/border.schema.json "open original schema") |
+| Can be instantiated | Yes        | Unknown status | No           | Forbidden         | Allowed               | none                | [border.schema.json\*](../schema/border.schema.json) |
 
 ## 0 Type
 
@@ -23,7 +23,7 @@ https://legytma.com.br/schema/box_border.schema.json#/allOf/0
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                               |
 | :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Optional | cannot be null | [Box Border](box_border-properties-type.md "https&#x3A;//legytma.com.br/schema/box_border.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Box Border](box_border-properties-type.md) |
 
 ## type
 
@@ -38,7 +38,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](box_border-properties-type.md))
 -   cannot be null
--   defined in: [Box Border](box_border-properties-type.md "https&#x3A;//legytma.com.br/schema/box_border.schema.json#/properties/type")
+-   defined in: [Box Border](box_border-properties-type.md)
 
 ### type Type
 
@@ -65,7 +65,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](box_border-definitions-type.md))
 -   cannot be null
--   defined in: [Box Border](box_border-definitions-type.md "https&#x3A;//legytma.com.br/schema/box_border.schema.json#/definitions/type")
+-   defined in: [Box Border](box_border-definitions-type.md)
 
 ### type Type
 

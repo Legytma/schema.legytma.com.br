@@ -13,7 +13,7 @@ https://legytma.com.br/schema/widget/expanded.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                           |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------ |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [expanded.schema.json](../schema/widget/expanded.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [expanded.schema.json](../schema/widget/expanded.schema.json) |
 
 ## Expanded Type
 
@@ -21,15 +21,15 @@ https://legytma.com.br/schema/widget/expanded.schema.json
 
 all of
 
--   [Widget](input_decoration-properties-widget-5.md "check type definition")
+-   [Widget](input_decoration-properties-widget-5.md)
 
 # Expanded Properties
 
 | Property        | Type         | Required | Nullable       | Defined by                                                                                                                    |
 | :-------------- | ------------ | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)   | `string`     | Optional | cannot be null | [Expanded](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/expanded.schema.json#/properties/type")      |
-| [child](#child) | `object`     | Optional | cannot be null | [Expanded](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child") |
-| [flex](#flex)   | Unknown Type | Optional | cannot be null | [Expanded](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/flex")                      |
+| [type](#type)   | `string`     | Optional | cannot be null | [Expanded](widget-definitions-type.md)      |
+| [child](#child) | `object`     | Optional | cannot be null | [Expanded](input_decoration-properties-widget-5.md) |
+| [flex](#flex)   | Unknown Type | Optional | cannot be null | [Expanded](color-allof-integer.md)                      |
 
 ## type
 
@@ -44,7 +44,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Expanded](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/widget/expanded.schema.json#/properties/type")
+-   defined in: [Expanded](widget-definitions-type.md)
 
 ### type Type
 
@@ -71,7 +71,7 @@ Schema to validation of JSON used to parse Widget.
 -   is optional
 -   Type: `object` ([Widget](input_decoration-properties-widget-5.md))
 -   cannot be null
--   defined in: [Expanded](input_decoration-properties-widget-5.md "https&#x3A;//legytma.com.br/schema/widget.schema.json#/properties/child")
+-   defined in: [Expanded](input_decoration-properties-widget-5.md)
 
 ### child Type
 
@@ -90,7 +90,7 @@ Define the representation of integer acceptable.
 -   is optional
 -   Type: any of the folllowing: `string` or `integer` ([Integer](color-allof-integer.md))
 -   cannot be null
--   defined in: [Expanded](color-allof-integer.md "https&#x3A;//legytma.com.br/schema/int.schema.json#/properties/flex")
+-   defined in: [Expanded](color-allof-integer.md)
 
 ### flex Type
 

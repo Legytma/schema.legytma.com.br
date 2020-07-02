@@ -13,7 +13,7 @@ https://legytma.com.br/schema/rect_largest.schema.json
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                            |
 | :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------------------------- |
-| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [rect_largest.schema.json](../schema/rect_largest.schema.json "open original schema") |
+| Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [rect_largest.schema.json](../schema/rect_largest.schema.json) |
 
 ## Rect Largest Type
 
@@ -21,13 +21,13 @@ https://legytma.com.br/schema/rect_largest.schema.json
 
 all of
 
--   [Rect](decoration_image-properties-rect.md "check type definition")
+-   [Rect](decoration_image-properties-rect.md)
 
 # Rect Largest Properties
 
 | Property      | Type     | Required | Nullable       | Defined by                                                                                                                |
 | :------------ | -------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------------ |
-| [type](#type) | `string` | Optional | cannot be null | [Rect Largest](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect_largest.schema.json#/properties/type") |
+| [type](#type) | `string` | Optional | cannot be null | [Rect Largest](widget-definitions-type.md) |
 
 ## type
 
@@ -42,7 +42,7 @@ Identify the widget type
 -   is optional
 -   Type: `string` ([Type](widget-definitions-type.md))
 -   cannot be null
--   defined in: [Rect Largest](widget-definitions-type.md "https&#x3A;//legytma.com.br/schema/rect_largest.schema.json#/properties/type")
+-   defined in: [Rect Largest](widget-definitions-type.md)
 
 ### type Type
 

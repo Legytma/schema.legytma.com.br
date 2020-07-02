@@ -9,11 +9,17 @@ del /f /s /q %rootPath%
 
 rmdir /s /q %rootPath%
 
-rem npm install -g @adobe/jsonschema2md
+rem call install_dependencies.bat
 
 echo Building schema documentation...
 
 call jsonschema2md -d %sourcePath% -o %docsPath% -x %schemaPath%
+
+rem ****************************************************************************
+rem * Workaround for issue https://github.com/benbalter/jekyll-relative-links/issues/63
+rem ****************************************************************************
+call replace-in-file %docsPath%\**\*.md --configFile=replaceOptions.js --verbose
+rem ****************************************************************************
 
 git add %rootPath%
 git commit -m "build: automated documentation generation %1"
