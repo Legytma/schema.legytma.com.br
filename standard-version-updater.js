@@ -40,8 +40,4 @@ function showCommandResult(command) {
 	if (command.error) {
 		console.error(command.error);
 	}
-
-	command.on('close', (code) => console.log(`child process exited with code ${code}`));
-	command.on('exit', (code, signal) => console.log(`child process exited by signal ${signal} with code ${code}`));
-	command.on('error', (err) => console.error(`error: $err`));
 }
