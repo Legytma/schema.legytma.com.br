@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/Legytma/LegytmaSchemas/compare/1.1.0...1.1.1) (2020-07-02)
+
+
+### Bug Fixes
+
+* documentation generation and some optimizations ([d880bea](https://github.com/Legytma/LegytmaSchemas/commit/d880bea45b8702df86e159a78230e9b49bec7799))
+
 ## [1.1.0](https://github.com/Legytma/LegytmaSchemas/compare/1.0.0...1.1.0) (2020-07-02)
 
 
