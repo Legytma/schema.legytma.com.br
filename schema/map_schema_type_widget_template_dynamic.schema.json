@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/map_schema_type_widget_template_dynamic.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/map_schema_type_widget_template_dynamic.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Map Schema Type Widget Template Dynamic",
   "description": "",

@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/list_view_widget.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/list_view_widget.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "List View Widget",
   "description": "",
@@ -7,15 +7,15 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "ListViewWidget"
     },
-    "params": {"$ref": "https://legytma.com.br/schema/list_view_params.schema.json"}
+    "params": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/list_view_params.schema.json"}
   },
   "required": ["params"]
 }

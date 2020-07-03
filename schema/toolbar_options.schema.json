@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/toolbar_options.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/toolbar_options.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Toolbar Options",
   "description": "",
@@ -7,19 +7,19 @@
   "type": "object",
   "properties": {
     "copy": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
     "cut": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
     "paste": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
     "selectAll": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     }
   }

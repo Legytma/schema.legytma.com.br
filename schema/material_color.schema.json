@@ -1,27 +1,27 @@
 {
-  "$id": "https://legytma.com.br/schema/material_color.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/material_color.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "$comment": "Used to identify parser. Every parser can permit only one type",
   "title": "Material Color",
   "description": "Identify the widget type",
   "type": "object",
   "properties": {
-    "primary": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
+    "primary": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
     "swatch": {
       "title": "Swatch",
       "description": "Swatch colors",
       "type": "object",
       "properties": {
-        "50": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "100": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "200": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "300": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "400": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "500": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "600": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "700": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "800": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-        "900": {"$ref": "https://legytma.com.br/schema/color.schema.json"}
+        "50": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "100": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "200": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "300": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "400": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "500": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "600": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "700": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "800": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+        "900": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"}
       },
       "examples": [{
         "50": "0xFF0000FF",

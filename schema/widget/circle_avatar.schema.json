@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/circle_avatar.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/circle_avatar.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Circle Avatar",
   "description": "",
@@ -7,21 +7,21 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "CircleAvatar"
     },
-    "child": {"$ref": "https://legytma.com.br/schema/widget.schema.json"},
-    "backgroundColor": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-    "backgroundImage": {"$ref": "https://legytma.com.br/schema/image_provider_dynamic.schema.json"},
-    "foregroundColor": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-    "maxRadius": {"$ref": "https://legytma.com.br/schema/double.schema.json"},
-    "minRadius": {"$ref": "https://legytma.com.br/schema/double.schema.json"},
-    "radius": {"$ref": "https://legytma.com.br/schema/double.schema.json"}
+    "child": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"},
+    "backgroundColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+    "backgroundImage": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/image_provider_dynamic.schema.json"},
+    "foregroundColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+    "maxRadius": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
+    "minRadius": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
+    "radius": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"}
   }
 }
 

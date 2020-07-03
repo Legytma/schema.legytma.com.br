@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/tab_bar_indicator_size.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/tab_bar_indicator_size.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Tab Bar Indicator Size",
   "description": "",

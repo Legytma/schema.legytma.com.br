@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/card.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/card.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Card",
   "description": "",
@@ -7,26 +7,26 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "Card"
     },
-    "color": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
-    "child": {"$ref": "https://legytma.com.br/schema/widget.schema.json"},
-    "shape": {"$ref": "https://legytma.com.br/schema/shape_border.schema.json"},
-    "elevation": {"$ref": "https://legytma.com.br/schema/double.schema.json"},
+    "color": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+    "child": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"},
+    "shape": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/shape_border.schema.json"},
+    "elevation": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
     "borderOnForeground": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     },
-    "clipBehavior": {"$ref": "https://legytma.com.br/schema/clip.schema.json"},
-    "margin": {"$ref": "https://legytma.com.br/schema/edge_insets_geometry.schema.json"},
+    "clipBehavior": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/clip.schema.json"},
+    "margin": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/edge_insets_geometry.schema.json"},
     "semanticContainer": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     }
   }

@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/center.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/center.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Center",
   "description": "",
@@ -7,17 +7,17 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "Center"
     },
-    "widthFactor": {"$ref": "https://legytma.com.br/schema/double.schema.json"},
-    "heightFactor": {"$ref": "https://legytma.com.br/schema/double.schema.json"},
-    "child": {"$ref": "https://legytma.com.br/schema/widget.schema.json"}
+    "widthFactor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
+    "heightFactor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
+    "child": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"}
   }
 }
 

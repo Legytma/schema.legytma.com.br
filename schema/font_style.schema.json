@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/font_style.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/font_style.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Font Style",
   "description": "",

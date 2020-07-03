@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/place_holder.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/place_holder.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Place Holder",
   "description": "",
@@ -7,28 +7,28 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "PlaceHolder"
     },
     "color": {
-      "$ref": "https://legytma.com.br/schema/color.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json",
       "default": "0xFF455A64"
     },
     "strokeWidth": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "default": 2.0
     },
     "fallbackWidth": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "default": 400.0
     },
     "fallbackHeight": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "default": 400.0
     }
   }

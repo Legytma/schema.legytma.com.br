@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/column.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/column.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Column",
   "description": "",
@@ -7,33 +7,33 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "Column"
     },
     "crossAxisAlignment": {
-      "$ref": "https://legytma.com.br/schema/cross_axis_alignment.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/cross_axis_alignment.schema.json",
       "default": "center"
     },
     "mainAxisAlignment": {
-      "$ref": "https://legytma.com.br/schema/main_axis_alignment.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/main_axis_alignment.schema.json",
       "default": "start"
     },
     "mainAxisSize": {
-      "$ref": "https://legytma.com.br/schema/main_axis_size.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/main_axis_size.schema.json",
       "default": "max"
     },
-    "textBaseline": {"$ref": "https://legytma.com.br/schema/text_baseline.schema.json"},
-    "textDirection": {"$ref": "https://legytma.com.br/schema/text_direction.schema.json"},
+    "textBaseline": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_baseline.schema.json"},
+    "textDirection": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_direction.schema.json"},
     "verticalDirection": {
-      "$ref": "https://legytma.com.br/schema/vertical_direction.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/vertical_direction.schema.json",
       "default": "down"
     },
-    "children": {"$ref": "https://legytma.com.br/schema/list_widget.schema.json"}
+    "children": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/list_widget.schema.json"}
   }
 }
 

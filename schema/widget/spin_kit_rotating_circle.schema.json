@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/spin_kit_rotating_circle.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/spin_kit_rotating_circle.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Spin Kit Rotating Circle",
   "description": "",
@@ -7,25 +7,25 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "SpinKitRotatingCircle"
     },
-    "controller": {"$ref": "https://legytma.com.br/schema/animation_controller.schema.json"},
+    "controller": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/animation_controller.schema.json"},
     "duration": {
-      "$ref": "https://legytma.com.br/schema/duration.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/duration.schema.json",
       "default": {
         "milliseconds": 1200
       }
     },
-    "itemBuilder": {"$ref": "https://legytma.com.br/schema/indexed_widget_builder.schema.json"},
-    "color": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
+    "itemBuilder": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/indexed_widget_builder.schema.json"},
+    "color": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
     "size": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "default": 50.0
     }
   },

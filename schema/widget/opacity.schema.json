@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/opacity.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/opacity.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Opacity",
   "description": "",
@@ -7,25 +7,25 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "Opacity"
     },
     "opacity": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "minimum": 0.0,
       "maximum": 1.0,
       "default": 0.0
     },
     "alwaysIncludeSemantics": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
-    "child": {"$ref": "https://legytma.com.br/schema/widget.schema.json"}
+    "child": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"}
   },
   "required": ["opacity"]
 }

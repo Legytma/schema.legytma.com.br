@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/text.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/text.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Text",
   "description": "",
@@ -7,37 +7,37 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "Text"
     },
-    "style": {"$ref": "https://legytma.com.br/schema/text_style.schema.json"},
-    "maxLines": {"$ref": "https://legytma.com.br/schema/int.schema.json"},
-    "textDirection": {"$ref": "https://legytma.com.br/schema/text_direction.schema.json"},
-    "strutStyle": {"$ref": "https://legytma.com.br/schema/strut_style.schema.json"},
-    "textAlign": {"$ref": "https://legytma.com.br/schema/text_align.schema.json"},
-    "locale": {"$ref": "https://legytma.com.br/schema/locale.schema.json"},
-    "overflow": {"$ref": "https://legytma.com.br/schema/text_overflow.schema.json"},
+    "style": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "maxLines": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/int.schema.json"},
+    "textDirection": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_direction.schema.json"},
+    "strutStyle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/strut_style.schema.json"},
+    "textAlign": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_align.schema.json"},
+    "locale": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/locale.schema.json"},
+    "overflow": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_overflow.schema.json"},
     "semanticsLabel": {
       "title": "Semantics Label",
       "description": "",
       "$comment": "",
       "type": "string"
     },
-    "softWrap": {"$ref": "https://legytma.com.br/schema/bool.schema.json"},
+    "softWrap": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json"},
     "semanticsLabel": {
       "title": "Semantics Label",
       "description": "",
       "$comment": "",
       "type": "string"
     },
-    "softWrap": {"$ref": "https://legytma.com.br/schema/bool.schema.json"},
-    "textScaleFactor": {"$ref": "https://legytma.com.br/schema/double.schema.json"},
-    "textWidthBasis": {"$ref": "https://legytma.com.br/schema/text_width_basis.schema.json"}
+    "softWrap": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json"},
+    "textScaleFactor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
+    "textWidthBasis": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_width_basis.schema.json"}
   }
 }
 

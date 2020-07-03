@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/image_asset.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/image_asset.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Image Asset",
   "description": "",
@@ -7,12 +7,12 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget/image.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/image.schema.json"
     }
   ],
   "properties": {
     "imageType": {
-      "$ref": "https://legytma.com.br/schema/widget/image.schema.json#/definitions/imageType",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/image.schema.json#/definitions/imageType",
       "const": "asset"
     },
     "name": {
@@ -27,8 +27,8 @@
       "$comment": "",
       "type": "string"
     },
-    "cacheHeight": {"$ref": "https://legytma.com.br/schema/int.schema.json"},
-    "cacheWidth": {"$ref": "https://legytma.com.br/schema/int.schema.json"}
+    "cacheHeight": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/int.schema.json"},
+    "cacheWidth": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/int.schema.json"}
   },
   "required": ["imageType", "name"]
 }

@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/material_app.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/material_app.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Material App",
   "description": "",
@@ -7,15 +7,15 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "MaterialApp"
     },
-    "locale": {"$ref": "https://legytma.com.br/schema/locale.schema.json"},
+    "locale": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/locale.schema.json"},
     "title": {
       "title": "Title",
       "description": "",
@@ -23,9 +23,9 @@
       "type": "string",
       "default": ""
     },
-    "home": {"$ref": "https://legytma.com.br/schema/widget.schema.json"},
-    "theme": {"$ref": "https://legytma.com.br/schema/theme_data.schema.json"},
-    "color": {"$ref": "https://legytma.com.br/schema/color.schema.json"},
+    "home": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"},
+    "theme": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/theme_data.schema.json"},
+    "color": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
     "routes": {
       "title": "Routes",
       "description": "",
@@ -33,9 +33,9 @@
       "type": "object",
       "default": {}
     },
-    "onUnknownRoute": {"$ref": "https://legytma.com.br/schema/route_factory.schema.json"},
-    "onGenerateTitle": {"$ref": "https://legytma.com.br/schema/generate_app_title.schema.json"},
-    "onGenerateRoute": {"$ref": "https://legytma.com.br/schema/route_factory.schema.json"},
+    "onUnknownRoute": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/route_factory.schema.json"},
+    "onGenerateTitle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/generate_app_title.schema.json"},
+    "onGenerateRoute": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/route_factory.schema.json"},
     "initialRoute": {
       "title": "Initial Route",
       "description": "",
@@ -43,48 +43,48 @@
       "type": "string"
     },
     "navigatorObservers": {
-      "$ref": "https://legytma.com.br/schema/list_navigator_observer.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/list_navigator_observer.schema.json",
       "default": []
     },
-    "navigatorKey": {"$ref": "https://legytma.com.br/schema/global_key_navigator_state.schema.json"},
-    "builder": {"$ref": "https://legytma.com.br/schema/transition_builder.schema.json"},
+    "navigatorKey": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/global_key_navigator_state.schema.json"},
+    "builder": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/transition_builder.schema.json"},
     "checkerboardOffscreenLayers": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
     "checkerboardRasterCacheImages": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
-    "darkTheme": {"$ref": "https://legytma.com.br/schema/theme_data.schema.json"},
+    "darkTheme": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/theme_data.schema.json"},
     "debugShowCheckedModeBanner": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     },
     "debugShowMaterialGrid": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
-    "localeListResolutionCallback": {"$ref": "https://legytma.com.br/schema/locale_list_resolution_callback.schema.json"},
-    "localeResolutionCallback": {"$ref": "https://legytma.com.br/schema/locale_resolution_callback.schema.json"},
-    "localizationsDelegates": {"$ref": "https://legytma.com.br/schema/iterable_localizations_delegate_dynamic.schema.json"},
+    "localeListResolutionCallback": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/locale_list_resolution_callback.schema.json"},
+    "localeResolutionCallback": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/locale_resolution_callback.schema.json"},
+    "localizationsDelegates": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/iterable_localizations_delegate_dynamic.schema.json"},
     "showPerformanceOverlay": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
     "showSemanticsDebugger": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
     "supportedLocales": {
-      "$ref": "https://legytma.com.br/schema/iterable_locale.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/iterable_locale.schema.json",
       "default": {
         "languageCode": "en",
         "countryCode": "US"
       }
     },
     "themeMode": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "default": "system"
     }
   },

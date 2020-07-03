@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/safe_area.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/safe_area.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Safe Area",
   "description": "",
@@ -7,40 +7,40 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "SafeArea"
     },
     "left": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     },
     "right": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     },
     "top": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     },
     "bottom": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     },
     "minimum": {
-      "$ref": "https://legytma.com.br/schema/edge_insets.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/edge_insets.schema.json",
       "default": {
         "type": "zero"
       }
     },
     "maintainBottomViewPadding": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": false
     },
-    "child": {"$ref": "https://legytma.com.br/schema/widget.schema.json"}
+    "child": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"}
   }
 }

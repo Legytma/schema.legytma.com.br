@@ -1,14 +1,14 @@
 {
-  "$id": "https://legytma.com.br/schema/border.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/border.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Border",
   "description": "",
   "$comment": "Created by Windol <windol@legytma.com.br> at 28/04/2020.\nCopyright (c) 2020 Legytma Soluções Inteligentes (https://legytma.com.br). All rights reserved.",
   "type": "object",
-  "allOf": [{"$ref": "https://legytma.com.br/schema/box_border.schema.json"}],
+  "allOf": [{"$ref": "https://schema.legytma.com.br/1.1.2/schema/box_border.schema.json"}],
   "definitions": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/box_border.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/box_border.schema.json#/definitions/type",
       "enum": ["default", "all", "fromBorderSide", "lerp", "merge"]
     }
   },

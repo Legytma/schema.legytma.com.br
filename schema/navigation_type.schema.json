@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/navigation_type.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/navigation_type.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Navigation Type",
   "description": "",

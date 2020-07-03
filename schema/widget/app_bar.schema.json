@@ -1,5 +1,5 @@
 {
-  "$id": "https://legytma.com.br/schema/widget/app_bar.schema.json",
+  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/app_bar.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "App Bar",
   "description": "",
@@ -7,45 +7,45 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://legytma.com.br/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
       "const": "AppBar"
     },
-    "title": {"$ref": "https://legytma.com.br/schema/widget.schema.json"},
+    "title": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"},
     "primary": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     },
-    "actions": {"$ref": "https://legytma.com.br/schema/list_widget.schema.json"},
-    "actionsIconTheme": {"$ref": "https://legytma.com.br/schema/icon_theme_data.schema.json"},
+    "actions": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/list_widget.schema.json"},
+    "actionsIconTheme": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/icon_theme_data.schema.json"},
     "automaticallyImplyLeading": {
-      "$ref": "https://legytma.com.br/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
       "default": true
     },
-    "backgroundColor": {"$ref": "https://legytma.com.br/schema/icon_theme_data.schema.json"},
-    "bottom": {"$ref": "https://legytma.com.br/schema/preferred_size_widget.schema.json"},
+    "backgroundColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/icon_theme_data.schema.json"},
+    "bottom": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/preferred_size_widget.schema.json"},
     "bottomOpacity": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "default": 1.0
     },
-    "brightness": {"$ref": "https://legytma.com.br/schema/brightness.schema.json"},
-    "centerTitle": {"$ref": "https://legytma.com.br/schema/bool.schema.json"},
-    "elevation": {"$ref": "https://legytma.com.br/schema/double.schema.json"},
-    "flexibleSpace": {"$ref": "https://legytma.com.br/schema/widget.schema.json"},
-    "iconTheme": {"$ref": "https://legytma.com.br/schema/icon_theme_data.schema.json"},
-    "leading": {"$ref": "https://legytma.com.br/schema/widget.schema.json"},
-    "shape": {"$ref": "https://legytma.com.br/schema/shape_border.schema.json"},
-    "textTheme": {"$ref": "https://legytma.com.br/schema/text_theme.schema.json"},
+    "brightness": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/brightness.schema.json"},
+    "centerTitle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json"},
+    "elevation": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
+    "flexibleSpace": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"},
+    "iconTheme": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/icon_theme_data.schema.json"},
+    "leading": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"},
+    "shape": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/shape_border.schema.json"},
+    "textTheme": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_theme.schema.json"},
     "titleSpacing": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "default": 16.0
     },
     "toolbarOpacity": {
-      "$ref": "https://legytma.com.br/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
       "default": 1.0
     }
   }
