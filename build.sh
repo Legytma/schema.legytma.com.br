@@ -16,8 +16,9 @@ jsonschema2md -d $SOURCE_PATH -o $DOCS_PATH -x $SCHEMA_PATH
 # ******************************************************************************
 # * Workaround for issue https://github.com/benbalter/jekyll-relative-links/issues/63
 # ******************************************************************************
-replace-in-file $DOCS_PATH/**/*.md --configFile=replaceOptions.js --verbose
+replace-in-file $DOCS_PATH/**/*.md --configFile=markdownUrlReplaceOptions.js --verbose
 # ******************************************************************************
 
+git add $SOURCE_PATH
 git add $ROOT_PATH
 git commit -m "build: automated documentation generation $1"
