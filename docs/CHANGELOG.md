@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/Legytma/LegytmaSchemas/compare/1.1.1...1.1.2) (2020-07-03)
+
+
+### Bug Fixes
+
+* replace json schema ids with new version number ([d2f1abf](https://github.com/Legytma/LegytmaSchemas/commit/d2f1abf440f76038664e4ca1ab6d942a291bc1e9))
+
 ### [1.1.1](https://github.com/Legytma/LegytmaSchemas/compare/1.1.0...1.1.1) (2020-07-02)
 
 
