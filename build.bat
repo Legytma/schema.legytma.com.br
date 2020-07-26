@@ -23,4 +23,4 @@ rem ****************************************************************************
 
 git add %sourcePath%
 git add %rootPath%
-git commit -m "build: automated documentation generation %1"
+git commit -s -m "build: automatically generated documentation %1" -m "Automatically generated documentation."

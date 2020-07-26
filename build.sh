@@ -21,4 +21,4 @@ replace-in-file $DOCS_PATH/**/*.md --configFile=markdownUrlReplaceOptions.js --v
 
 git add $SOURCE_PATH
 git add $ROOT_PATH
-git commit -m "build: automated documentation generation $1"
+git commit -s -m "build: automatically generated documentation %1" -m "Automatically generated documentation."
