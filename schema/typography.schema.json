@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/typography.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/typography.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Typography",
   "description": "",
@@ -7,14 +7,14 @@
   "type": "object",
   "properties": {
     "platform": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/target_platform.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/target_platform.schema.json",
       "default": "android"
     },
-    "black": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_theme.schema.json"},
-    "dense": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_theme.schema.json"},
-    "englishLike": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_theme.schema.json"},
-    "tall": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_theme.schema.json"},
-    "white": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_theme.schema.json"}
+    "black": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/text_theme.schema.json"},
+    "dense": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/text_theme.schema.json"},
+    "englishLike": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/text_theme.schema.json"},
+    "tall": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/text_theme.schema.json"},
+    "white": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/text_theme.schema.json"}
   }
 }
 

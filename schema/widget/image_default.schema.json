@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/image_default.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/widget/image_default.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Image Default",
   "description": "",
@@ -7,16 +7,16 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/image.schema.json"
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget/image.schema.json"
     }
   ],
   "properties": {
     "imageType": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/image.schema.json#/definitions/imageType",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget/image.schema.json#/definitions/imageType",
       "const": "default"
     },
-    "image": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/image_provider_dynamic.schema.json"},
-    "loadingBuilder": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/image_loading_builder.schema.json"}
+    "image": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/image_provider_dynamic.schema.json"},
+    "loadingBuilder": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/image_loading_builder.schema.json"}
   },
   "required": ["imageType", "image"]
 }

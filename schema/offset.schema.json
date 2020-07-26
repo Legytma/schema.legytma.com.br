@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/offset.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/offset.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Offset",
   "description": "",
@@ -7,7 +7,7 @@
   "type": "object",
   "definitions": {
     "type": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json#/definitions/type",
       "enum": ["default", "fromDirection", "infinite", "lerp", "zero"]
     }
   },

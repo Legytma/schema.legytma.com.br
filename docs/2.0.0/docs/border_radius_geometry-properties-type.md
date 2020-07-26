@@ -1,0 +1,16 @@
+# Type Schema
+
+```txt
+https://schema.legytma.com.br/2.0.0/schema/border_radius_geometry.schema.json#/properties/type
+```
+
+Define o tipo de Border Radius
+
+
+| Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                                                  |
+| :------------------ | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Can be instantiated | No         | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [border_radius_geometry.schema.json\*](../schema/border_radius_geometry.schema.json) |
+
+## type Type
+
+`string` ([Type](border_radius_geometry-properties-type.md))

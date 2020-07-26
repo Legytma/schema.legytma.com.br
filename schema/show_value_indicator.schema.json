@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/show_value_indicator.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/show_value_indicator.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Show Value Indicator",
   "description": "",

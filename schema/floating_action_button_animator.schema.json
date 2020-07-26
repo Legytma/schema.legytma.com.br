@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/floating_action_button_animator.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/floating_action_button_animator.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Floating Action Button Animator",
   "description": "",
@@ -7,7 +7,7 @@
   "type": "object",
   "properties": {
     "type": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json#/definitions/type",
       "enum": ["scaling"]
     }
   }

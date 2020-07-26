@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/sized_box_default.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/widget/sized_box_default.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Sized Box Default",
   "description": "",
@@ -7,16 +7,16 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/sized_box.schema.json"
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget/sized_box.schema.json"
     }
   ],
   "properties": {
     "sizedBoxType": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/sized_box.schema.json#/definitions/sizedBoxType",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget/sized_box.schema.json#/definitions/sizedBoxType",
       "const": "default"
     },
-    "height": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
-    "width": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"}
+    "height": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/double.schema.json"},
+    "width": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/double.schema.json"}
   }
 }
 

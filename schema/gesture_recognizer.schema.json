@@ -1,9 +1,9 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/gesture_recognizer.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/gesture_recognizer.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Gesture Recognizer",
   "description": "",
   "$comment": "Created by Windol <windol@legytma.com.br> at 15/05/2020.\nCopyright (c) 2020 Legytma Soluções Inteligentes (https://legytma.com.br). All rights reserved.",
-  "$ref": "https://schema.legytma.com.br/1.1.2/schema/dynamic.schema.json"
+  "$ref": "https://schema.legytma.com.br/2.0.0/schema/dynamic.schema.json"
 }
 

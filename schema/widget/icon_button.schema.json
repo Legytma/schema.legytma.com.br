@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/icon_button.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/widget/icon_button.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Icon Button",
   "description": "",
@@ -7,46 +7,46 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json#/definitions/type",
       "const": "IconButton"
     },
-    "icon": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"},
-    "onPressed": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/void_callback.schema.json"},
+    "icon": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json"},
+    "onPressed": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/void_callback.schema.json"},
     "padding": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/edge_insets_geometry.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/edge_insets_geometry.schema.json",
       "default": {
         "type": "all",
         "all": 8.0
       }
     },
-    "focusNode": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/focus_node.schema.json"},
+    "focusNode": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/focus_node.schema.json"},
     "autofocus": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/bool.schema.json",
       "default": false
     },
     "alignment": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/alignment_geometry.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/alignment_geometry.schema.json",
       "default": "center"
     },
-    "color": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
-    "disabledColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+    "color": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/color.schema.json"},
+    "disabledColor": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/color.schema.json"},
     "enableFeedback": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/bool.schema.json",
       "default": true
     },
-    "focusColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
-    "highlightColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
-    "hoverColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+    "focusColor": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/color.schema.json"},
+    "highlightColor": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/color.schema.json"},
+    "hoverColor": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/color.schema.json"},
     "iconSize": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/double.schema.json",
       "default": 24.0
     },
-    "splashColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},
+    "splashColor": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/color.schema.json"},
     "tooltip": {
       "title": "Tooltip",
       "description": "",

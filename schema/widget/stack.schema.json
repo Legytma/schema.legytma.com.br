@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/stack.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/widget/stack.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Stack",
   "description": "",
@@ -7,29 +7,29 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json#/definitions/type",
       "const": "Stack"
     },
     "alignment": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/alignment_geometry.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/alignment_geometry.schema.json",
       "default": "topStart"
     },
-    "textDirection": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_direction.schema.json"},
+    "textDirection": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/text_direction.schema.json"},
     "fit": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/stack_fit.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/stack_fit.schema.json",
       "default": "loose"
     },
     "overflow": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/overflow.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/overflow.schema.json",
       "default": "clip"
     },
     "children": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/list_widget.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/list_widget.schema.json",
       "default": []
     }
   }

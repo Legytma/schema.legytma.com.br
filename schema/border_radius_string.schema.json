@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/border_radius_string.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/border_radius_string.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Border Radius String",
   "description": "",

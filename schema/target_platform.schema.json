@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/target_platform.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/target_platform.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Target Platform",
   "description": "Determine the target platform",

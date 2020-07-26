@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/strut_style.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/strut_style.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Strut Style",
   "description": "",
@@ -14,8 +14,8 @@
     }
   },
   "properties": {
-    "debugLabel": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/debug_label.schema.json"},
-    "height": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
+    "debugLabel": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/debug_label.schema.json"},
+    "height": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/double.schema.json"},
     "package": {
       "title": "Package",
       "description": "",
@@ -32,11 +32,11 @@
     "fontFamily": {
       "$ref": "#/definitions/fontFamily"
     },
-    "fontSize": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"},
-    "fontStyle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/font_style.schema.json"},
-    "fontWeight": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/font_weight.schema.json"},
-    "forceStrutHeight": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json"},
-    "leading": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json"}
+    "fontSize": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/double.schema.json"},
+    "fontStyle": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/font_style.schema.json"},
+    "fontWeight": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/font_weight.schema.json"},
+    "forceStrutHeight": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/bool.schema.json"},
+    "leading": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/double.schema.json"}
   }
 }
 

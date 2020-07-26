@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/text_schema_form_field_widget.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/widget/text_schema_form_field_widget.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Text Schema Form Field Widget",
   "description": "",
@@ -7,15 +7,15 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json"
     },
     {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/text_schema_form_field_template.schema.json"
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget/text_schema_form_field_template.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json#/definitions/type",
       "const": "TextSchemaFormFieldWidget"
     }
   },

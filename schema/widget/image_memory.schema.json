@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/image_memory.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/widget/image_memory.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Image Memory",
   "description": "",
@@ -7,12 +7,12 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/image.schema.json"
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget/image.schema.json"
     }
   ],
   "properties": {
     "imageType": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget/image.schema.json#/definitions/imageType",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget/image.schema.json#/definitions/imageType",
       "const": "memory"
     },
     "bytes": {
@@ -22,10 +22,10 @@
       "type": "array",
       "items": [{"type": "integer", "minimum": 0, "maximum": 255}]
     },
-    "cacheHeight": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/int.schema.json"},
-    "cacheWidth": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/int.schema.json"},
+    "cacheHeight": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/int.schema.json"},
+    "cacheWidth": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/int.schema.json"},
     "scale": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/double.schema.json",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/double.schema.json",
       "default": 1.0
     }
   },

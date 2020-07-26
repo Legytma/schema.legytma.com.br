@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/blend_mode.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/blend_mode.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Blend Mode",
   "description": "",

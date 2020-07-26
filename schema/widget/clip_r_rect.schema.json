@@ -1,5 +1,5 @@
 {
-  "$id": "https://schema.legytma.com.br/1.1.2/schema/widget/clip_r_rect.schema.json",
+  "$id": "https://schema.legytma.com.br/2.0.0/schema/widget/clip_r_rect.schema.json",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "title": "Clip R Rect",
   "description": "",
@@ -7,18 +7,18 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json"
     }
   ],
   "properties": {
     "type": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json#/definitions/type",
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json#/definitions/type",
       "const": "ClipRRect"
     },
-    "clipper": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/custom_clipper_r_rect.schema.json"},
-    "borderRadius": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/border_radius.schema.json"},
-    "clipBehavior": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/clip.schema.json"},
-    "child": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/widget.schema.json"}
+    "clipper": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/custom_clipper_r_rect.schema.json"},
+    "borderRadius": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/border_radius.schema.json"},
+    "clipBehavior": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/clip.schema.json"},
+    "child": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/widget.schema.json"}
   },
   "required": ["borderRadius"]
 }
