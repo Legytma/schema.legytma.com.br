@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/Legytma/LegytmaSchemas/compare/1.1.2...2.0.0) (2020-07-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* No more support some keywords prior of Material Design 2014 pattern.
+
+Signed-off-by: Alex Manoel Ferreira Silva <alex@legytma.com.br>
+
+### Features
+
+* add commit message hook ([f23abf1](https://github.com/Legytma/LegytmaSchemas/commit/f23abf111e665db92d7503499665a99dc4fa8829))
+* change support to material 2014 ([e8715c3](https://github.com/Legytma/LegytmaSchemas/commit/e8715c3311021bea12a1a6e0f68fb1d820fea347))
+
+
+### Bug Fixes
+
+* apply fix for issue jekyll-relative-links [#63](https://github.com/Legytma/LegytmaSchemas/issues/63) ([530e398](https://github.com/Legytma/LegytmaSchemas/commit/530e39862c1f5b9d1cf3f41b9818c109ec49e686))
+
+
+### Code changes that improves performance
+
+* add lefthook support ([e933ec3](https://github.com/Legytma/LegytmaSchemas/commit/e933ec3f369d71d5426e897239e856a3b565751b))
+* add title of links ([cb87bdb](https://github.com/Legytma/LegytmaSchemas/commit/cb87bdb3e3b5619cc7f78d5f68cdab9e7c0979c6))
+
+
+### Code change that neither fixes a bug nor adds a feature
+
+* preferred_size_widget.schema.json inheritance changed to widget.schema.json ([f6e6de2](https://github.com/Legytma/LegytmaSchemas/commit/f6e6de236907d526844a3a05295582cd50beb4c8))
+* upgrade standard-version to 8.0.2 ([fe2c238](https://github.com/Legytma/LegytmaSchemas/commit/fe2c2388cd88f677476492f0641176548739d5ae))
+
+
+### Changes that do not affect the meaning of the code
+
+* add support to eslint ([2346d5a](https://github.com/Legytma/LegytmaSchemas/commit/2346d5a2520e8d4ba9ae6bf7e56fa89b560518b3))
+
 ### [1.1.2](https://github.com/Legytma/LegytmaSchemas/compare/1.1.1...1.1.2) (2020-07-03)
 
 
