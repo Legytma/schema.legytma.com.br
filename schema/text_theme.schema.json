@@ -6,19 +6,19 @@
   "description": "Text theme",
   "type": "object",
   "properties": {
-    "body1": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "body2": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "bodyText1": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "bodyText2": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
     "button": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
     "caption": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "display1": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "display2": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "display3": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "display4": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "headline": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "headline1": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "headline2": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "headline3": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "headline4": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "headline5": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "headline6": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
     "overline": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "subhead": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "subtitle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
-    "title": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"}
+    "subtitle1": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
+    "subtitle2": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"}
   }
 }
 

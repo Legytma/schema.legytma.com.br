@@ -12,10 +12,9 @@
     "hintStyle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
     "helperStyle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
     "helperMaxLines": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/int.schema.json"},
-    "hasFloatingPlaceholder": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
-      "default": true
-    },
+    "floatingLabelBehavior": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/floating_label_behavior.schema.json"},
+    "prefixIconConstraints": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/box_constraints.schema.json"},
+    "suffixIconConstraints": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/box_constraints.schema.json"},
     "focusedErrorBorder": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/input_border.schema.json"},
     "focusedBorder": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/input_border.schema.json"},
     "fillColor": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/color.schema.json"},

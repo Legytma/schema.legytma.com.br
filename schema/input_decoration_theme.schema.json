@@ -31,10 +31,7 @@
     },
     "focusedBorder": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/input_border.schema.json"},
     "focusedErrorBorder": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/input_border.schema.json"},
-    "hasFloatingPlaceholder": {
-      "$ref": "https://schema.legytma.com.br/1.1.2/schema/bool.schema.json",
-      "default": true
-    },
+    "floatingLabelBehavior": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/floating_label_behavior.schema.json"},
     "helperMaxLines": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/int.schema.json"},
     "helperStyle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
     "hintStyle": {"$ref": "https://schema.legytma.com.br/1.1.2/schema/text_style.schema.json"},
