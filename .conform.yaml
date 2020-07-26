@@ -28,6 +28,7 @@ policies:
           - "test"
         scopes:
           - "release"
+          - "lefthook"
         descriptionLength: 72
   - type: license
     spec:

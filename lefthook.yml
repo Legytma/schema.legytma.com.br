@@ -8,7 +8,6 @@ pre-commit:
     "eslint.sh":
       runner: bash
 
-
 post-merge:
   scripts:
     "npm-install.sh":
