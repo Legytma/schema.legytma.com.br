@@ -16,7 +16,7 @@ jsonschema2md -d $SOURCE_PATH -o $DOCS_PATH -x $SCHEMA_PATH
 # ******************************************************************************
 # * Workaround for issue https://github.com/benbalter/jekyll-relative-links/issues/63
 # ******************************************************************************
-replace-in-file $DOCS_PATH/**/*.md --configFile=markdownUrlReplaceOptions.js --verbose
+#replace-in-file $DOCS_PATH/**/*.md --configFile=markdownUrlReplaceOptions.js --verbose
 # ******************************************************************************
 
 git add $SOURCE_PATH
