@@ -22,11 +22,14 @@
   },
   "homepage": "https://github.com/Legytma/LegytmaSchemas#readme",
   "devDependencies": {
-    "jsonschema2md": "github:Legytma/jsonschema2md#fix-recursive-resolutions",
     "@commitlint/cli": "^9.1.2",
-    "eslint": "^7.5.0",
+    "eslint": "^7.6.0",
     "eslint-config-google": "^0.14.0",
+    "jsonschema2md": "github:Legytma/jsonschema2md#fairtracks-with-recursive-resolutions",
     "replace-in-file": "^6.1.0",
     "standard-version": "^8.0.2"
+  },
+  "dependencies": {
+    "@adobe/jsonschema2md": "github:Legytma/jsonschema2md#fairtracks-with-recursive-resolutions"
   }
 }
