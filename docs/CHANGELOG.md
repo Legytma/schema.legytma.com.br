@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/Legytma/LegytmaSchemas/compare/2.0.0...3.0.0) (2020-09-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* flutter_logo_decoration.schema.json will be incompatible with previous version.
+
+Signed-off-by: Alex Manoel Ferreira Silva <alex@legytma.com.br>
+
+### Features
+
+* add default in cameraTargetBounds ([b3216c3](https://github.com/Legytma/LegytmaSchemas/commit/b3216c3b85b03ad66d4ae914489bcd48e15646ed))
+* add liteModeEnabled to google_map schema ([8d4d32e](https://github.com/Legytma/LegytmaSchemas/commit/8d4d32eaca1ebcdaaf59d0006119f0bed217284c))
+
+
+### Code changes that improves performance
+
+* **lefthook:** remove empty line ([07faf66](https://github.com/Legytma/LegytmaSchemas/commit/07faf66e21d763007a985dfc4b87a77b91a408a4))
+
+
+### Code change that neither fixes a bug nor adds a feature
+
+* add schema submodule ([21f21ef](https://github.com/Legytma/LegytmaSchemas/commit/21f21efe196316db063c220f2874eb1e369e5f1f))
+* change flutter_logo_decoration ([5cd018b](https://github.com/Legytma/LegytmaSchemas/commit/5cd018b3a8f3fe125a73efde45c9653a121e4364))
+* remove schema directory ([132aabc](https://github.com/Legytma/LegytmaSchemas/commit/132aabc2b8b81b9e3a16233b7da56c2ad6852f24))
+
 ## [2.0.0](https://github.com/Legytma/LegytmaSchemas/compare/1.1.2...2.0.0) (2020-07-26)
 
 
