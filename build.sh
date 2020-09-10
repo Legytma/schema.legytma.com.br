@@ -19,6 +19,14 @@ jsonschema2md -d $SOURCE_PATH -o $DOCS_PATH -x $SCHEMA_PATH
 replace-in-file $DOCS_PATH/**/*.md --configFile=markdownUrlReplaceOptions.js --verbose
 # ******************************************************************************
 
+cd $SOURCE_PATH
+
+git add .
+git commit -s -m "build: automatically version incremented to $1" -m "Automatically version update."
+git tag $1 HEAD
+
+cd ..
+
 git add $SOURCE_PATH
 git add $ROOT_PATH
-git commit -s -m "build: automatically generated documentation %1" -m "Automatically generated documentation."
+git commit -s -m "build: automatically generated documentation $1" -m "Automatically generated documentation."

@@ -21,6 +21,14 @@ rem ****************************************************************************
 call replace-in-file %docsPath%\**\*.md --configFile=markdownUrlReplaceOptions.js --verbose
 rem ****************************************************************************
 
+cd %sourcePath%
+
+git add .
+git commit -s -m "build: automatically version incremented to %1" -m "Automatically version update."
+git tag %1 HEAD
+
+cd ..
+
 git add %sourcePath%
 git add %rootPath%
 git commit -s -m "build: automatically generated documentation %1" -m "Automatically generated documentation."
